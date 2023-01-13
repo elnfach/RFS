@@ -941,7 +941,7 @@ The circuit board has two modes: 'Link' switches all devices on or off; 'Toggle'
     <RecordThing>
       <Key>ItemAreaPowerControl</Key>
       <Value>ИБП</Value>
-      <Description>This kit places a {THING:StructureAreaPowerControl} (APC) on any support structure. The APC kit has two options, selecting which direction you would like the APC power to flow.</Description>
+      <Description>Этот набор содержит {THING:StructureAreaPowerControl} (ИБП) и устанавливается на любую опорную конструкцию. Набор ИБП имеет два варианта, выбирая, в каком направлении должен течь ток.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemBatteryCell</Key>
@@ -1799,7 +1799,7 @@ It also incorporates a lock/unlock feature to avoid accidental opening, as well 
     </RecordThing>
     <RecordThing>
       <Key>StructureAreaPowerControl</Key>
-      <Value>ИБП</Value>
+      <Value>ИБП (Тип 1)</Value>
       <Description>Источник безперебойного питания (ИБП) нужен для трех целей:
 Его основная цель - регулировать поток энергии, обеспечивая бесперебойную работу устройств и механизмов, особенно с непостоянной мощностью.
 ИБП также создают подсети, так как никакие устройства на дальней стороне ИБП не видны в основной сети.
@@ -1808,7 +1808,7 @@ It also incorporates a lock/unlock feature to avoid accidental opening, as well 
     </RecordThing>
     <RecordThing>
       <Key>StructureAreaPowerControlReversed</Key>
-      <Value>ИБП</Value>
+      <Value>ИБП (Тип 2)</Value>
       <Description>Источник безперебойного питания (ИБП) нужен для трех целей:
 Его основная цель - регулировать поток энергии, обеспечивая бесперебойную работу устройств и механизмов, особенно с непостоянной мощностью.
 ИБП также создают подсети, так как никакие устройства на дальней стороне ИБП не видны в основной сети.
@@ -2290,7 +2290,7 @@ The ProKompile can stack a wide variety of things such as {LINK:IngotPage;ingots
     </RecordThing>
     <RecordThing>
       <Key>StructureStairs4x2</Key>
-      <Value>Stairs</Value>
+      <Value>Лестницы</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureStellarAnchor</Key>
@@ -2488,17 +2488,17 @@ The ProKompile can stack a wide variety of things such as {LINK:IngotPage;ingots
     </RecordThing>
     <RecordThing>
       <Key>StructureTransformer</Key>
-      <Value>Transformer (Large)</Value>
-      <Description>The large {LINK:Norsec;Norsec} transformer is a critical component of extended {LINK:ElectronicPage;electrical} networks, controlling the maximum power that will flow down a cable. To prevent overloading, output can be set from 0 to 50,000W. 
-Note that transformers operate as data isolators, preventing data flowing into any network beyond it.</Description>
+      <Value>Большой трансформатор</Value>
+      <Description>Большой трансформатор {LINK:Norsec;Norsec} является важным компонентом расширенных {LINK:ElectronicPage;электрических} сетей, контролируя максимальную мощность, которая будет передаваться по кабелю. Для предотвращения перегрузки мощность может быть установлена в диапазоне от 0 до 50 000 Вт.
+Обратите внимание, что преобразователи работают как изоляторы данных, предотвращая поток данных в любую сеть за ее пределами.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitTransformer</Key>
-      <Value>Большой преобразователь</Value>
+      <Value>Большой трансформатор</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureTransformerSmall</Key>
-      <Value>Небольшой преобразователь</Value>
+      <Value>Небольшой трансформатор</Value>
       <Description>Transformers control the maximum power that will flow down a cable subnetwork, to prevent overloading {LINK:ElectronicPage;electrical} systems. Output on small transformers can be set from 0 to 5000W.
 Note that transformers operate as data isolators, preventing data flowing into any network beyond it.</Description>
     </RecordThing>
@@ -2514,7 +2514,13 @@ Note that transformers operate as data isolators, preventing data flowing into a
     <RecordThing>
       <Key>StructureArcFurnace</Key>
       <Value>Дуговая печь</Value>
-      <Description>Печь для плавки металлов, работающая на электричестве. Позволяет выплавлять из руды только чистые металлы, не годится для сплавов. Допускает подключение к информационной сети для управления с компьютера и установку в поточную линию с помощью конвейеров.
+      <Description>Самая простая плавильная печь, доступная в среднем {LINK:Stationeers;Stationeer}, дуговая печь {LINK:Recurso;Recurso} была выкована в недрах Солнечной системы, чтобы помочь геологам-исследователям определить чистоту целей добычи астероидов.
+Кооптированный {LINK:ODA;ODA}, он теперь предоставляет Stationeer возможность производить чистые слитки различных ресурсов.
+В процессе плавки также наблюдаются ряды побочных {LINK:GasPage;газов}, особенно {GAS:Nitrogen}, {GAS:CarbonDioxide}, {GAS:Volatiles} и {GAS:Oxygen} в различных случаях. Они могут быть повторно уловлены из атмосферы путем фильтрации, но также представляют опасность для дуговой печи в закрытых помещениях.
+В отличие от более продвинутой {THING:StructureFurnace}, дуговая печь не может создавать {LINK:IngotPage;сплавы}.
+
+{HEADER:ПОДРОБНОЕ ОПИСАНИЕ}
+Печь для плавки металлов, работающая на электричестве. Позволяет выплавлять из руды только чистые металлы, не годится для сплавов. Допускает подключение к информационной сети для управления с компьютера и установку в поточную линию с помощью конвейеров.
 
 Не герметична, побочные вещества, содержащиеся в руде, при работе дуговой печи выбрасываются наружу, поэтому в помещении необходимо обеспечить вентиляцию и очистку воздуха от вредных примесей.
 
@@ -2695,7 +2701,7 @@ Note that transformers operate as data isolators, preventing data flowing into a
     </RecordThing>
     <RecordThing>
       <Key>ItemKitTransformerSmall</Key>
-      <Value>Преобразователь</Value>
+      <Value>Трансформатор</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitSuitStorage</Key>
@@ -2783,7 +2789,7 @@ Note that transformers operate as data isolators, preventing data flowing into a
     </RecordThing>
     <RecordThing>
       <Key>StructureTransformerSmallReversed</Key>
-      <Value>Небольшой преобразователь</Value>
+      <Value>Небольшой трансформатор</Value>
       <Description>Transformers control the maximum power that will flow down a cable subnetwork, to prevent overloading {LINK:ElectronicPage;electrical} systems. Output on small transformers can be set from 0 to 5000W.
 Note that transformers operate as data isolators, preventing data flowing into any network beyond it.</Description>
     </RecordThing>
@@ -2798,6 +2804,12 @@ Note that transformers operate as data isolators, preventing data flowing into a
     <RecordThing>
       <Key>StructureLogicReader</Key>
       <Value>Чтение</Value>
+	  <Description>Считывает один параметр из одного указанного устройства во входной сети. Значение доступно другим чипам в выходной сети.
+
+{HEADER:НАСТРОЙКА}
+IN - выбор устройства, параметр которого нужно получать
+VAR - сам параметр
+	  </Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureLogicMemory</Key>
@@ -2806,39 +2818,64 @@ Note that transformers operate as data isolators, preventing data flowing into a
     <RecordThing>
       <Key>StructureLogicMath</Key>
       <Value>Арифметика</Value>
-	  <Description>Состояния:
-0. Сложение
-1. Вычитание
-2. Умножение
-3. Разделение
-4. Деление по модулю
-5. Артангенс
-6. Возведение в ступень
-7. Логарифм
+	  <Description>Выполняет математические операции с двумя аргументами. Внимание! Тригонометрическая функция Atan2 выдаёт результат в радианах.
+
+{HEADER:НАСТРОЙКА}
+1 - выбор чипа на первом входе
+2 - выбор чипа на втором входе
+OUT - выбор операции, результат которой будет на выходе
+
+{HEADER:ОПЕРАЦИИ}
+0. Add - сложение, out = in1 + in2
+1. Subtract - вычитание, out = in1 - in2
+2. Multiply - умножение, out = in1 * in2
+3. Divide - деление, out = in1 / in2, при делении на ноль выдаёт NaN
+4. Mod - остаток от деления, out = in1 % in2, при делении на ноль выдаёт NaN
+5. Atan2 - арктангенс, out = atan2(in2, in1) = atan(in1 / in2), но корректно работает при in2 = 0
+6. Pow - возведение в степень, out = pow(in1, in2)
+7. Log - логарифм, out = log(in2, in1)
 </Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureLogicWriter</Key>
       <Value>Запись</Value>
+	  <Description>Получает значение от другого чипа и записывает его как определённый параметр в один выбранный прибор или механизм.
+
+{HEADER:НАСТРОЙКА}
+IN - чип, с выхода которого читается значение.
+OUT - устройство, параметром которого нужно управлять
+OUT VAR - параметр, передаваемый устройству
+	  </Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureLogicSelect</Key>
       <Value>Выбор</Value>
-	  <Description>Состояния:
-0. Равно
-1. Больше
-2. Меньше
-3. Не равно
+	  <Description>Выбирает значение одного из входов данных в зависимости от значения на входе выбора, совмещённом с разъёмом питания.
+	  
+{HEADER:НАСТРОЙКА}
+SELECT - выбор чипа на входе выбора
+0 - выбор чипа на первом входе
+без маркировки - выбор чипа на втором входе
+
+{HEADER:ОПЕРАЦИИ}
+Одна операция, если (select &lt; 1) то (out = in1) иначе (out = in2)
 	  </Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureLogicCompare</Key>
       <Value>Сравнение</Value>
-	  <Description>Состояния:
-0. Равно
-1. Больше
-2. Меньше
-3. Не равно
+	  <Description>Сравнивает два значения и формирует логический результат сравнения. 1 - истина, 0 - ложь.
+	  
+{HEADER:НАСТРОЙКА}
+1 - выбор чипа на первом входе
+2 - выбор чипа на втором входе
+OUT - выбор операции, результат которой будет на выходе
+
+{HEADER:ОПЕРАЦИИ}
+0. Equals - равенство, out = (in1 == in2)
+1. Greater - больше, out = (in1 &gt; in2)
+2. Less - меньше, out = (in1 &lt; in2)
+3. NotEquials - не равно, out = (in1 != in2)
 </Description>
     </RecordThing>
     <RecordThing>
@@ -2864,9 +2901,15 @@ Note that transformers operate as data isolators, preventing data flowing into a
     <RecordThing>
       <Key>StructureLogicMinMax</Key>
       <Value>Мин/Макс</Value>
-	  <Description>Состояния:
-0. Больше
-1. Меньше
+	  <Description>Выбирает минимальное или максимальное значение из двух
+{HEADER:НАСТРОЙКА}
+1 - выбор чипа на первом входе
+2 - выбор чипа на втором входе
+OPR - выбор операции, результат которой будет на выходе
+
+{HEADER:ОПЕРАЦИИ}
+0. Greater - максимальное, out = max(in1, in2)
+1. Less - минимальное, out = min(in1, in2)
 	  </Description>
     </RecordThing>
     <RecordThing>
@@ -2883,11 +2926,11 @@ Note that transformers operate as data isolators, preventing data flowing into a
     </RecordThing>
     <RecordThing>
       <Key>StructureSign1x1</Key>
-      <Value>Sign 1x1</Value>
+      <Value>Табличка 1x1</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureSign2x1</Key>
-      <Value>Sign 2x1</Value>
+      <Value>Табличка 2x1</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureConsoleLED5Large</Key>
@@ -2901,6 +2944,13 @@ Note that transformers operate as data isolators, preventing data flowing into a
     <RecordThing>
       <Key>StructureLogicBatchWriter</Key>
       <Value>Множественная запись</Value>
+	  <Description>Получает значение от другого чипа и записывает его как определённый параметр во все приборы или механизмы выбранного типа.
+
+{HEADER:НАСТРОЙКА}
+IN - чип, с выхода которого читается значение
+OUT TYPE - тип устройств, параметром которых нужно управлять
+OUT VAR - параметр, передаваемый устройству
+	  </Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureLogicButton</Key>
@@ -2913,22 +2963,27 @@ Note that transformers operate as data isolators, preventing data flowing into a
     <RecordThing>
       <Key>StructureLogicMathUnary</Key>
       <Value>Унарные операции</Value>
-	  <Description>Состояния:
-0. Ceil - Округление в большую сторону
-1. Floor - Округление до ближайшего целого в меньшую сторону.
-2. Abs - Модуль
-3. Log - Логорифм
-4. Exp - Экспонента
-5. Round - Округляет значение вещественного типа до значения целочисленного типа
-6. Rand - Возвращает случайное число
-7. Sqrt - Корень
-8. Sin - Синус
-9. Cos - Косинус
-10. Tan - Тангенс
-11. Asin - Арксинус
-12. Acos - Арккосинус
-13. Atan - Арктангенс
-14. 
+	  <Description>Выполняет операции с одним аргументом. Внимание! Тригонометрические функции Sin, Cos и Tan принимают аргумент в радианах, Asin, Acos и Atan выдают результат в радианах
+
+{HEADER:НАСТРОЙКА}:
+IN - выбор чипа на входе
+OUT - выбор операции, результат которой будет на выходе
+
+{HEADER:ОПЕРАЦИИ}:
+0. Ceil - округление вверх, возвращает ближайшее большее целое число, ceil(0.5) = 1, ceil(-0.5) = 0
+1. Floor - округление вниз, возвращает ближайшее меньшее целое число, floor(0.5) = 0, floor(-0.5) = -1
+2. Abs - абсолютная величина, модуль числа, out = |in|
+3. Log - натуральный логарифм, out = loge(in)
+4. Exp - экспонента, out = ein
+5. Round - округление до ближайшего целого числа, если дробная часть равна 0.5, то округляется до ближайшего чётного целого
+6. Rand - выдаёт случайное число в диапазоне от 0 до входного значения
+7. Sqrt - квадратный корень, out = √in
+8. Sin - синус, out = sin(in)
+9. Cos - косинус, out = cos(in)
+10. Tan - тангенс, out = tg(in)
+11. Asin - арксинус, out = arcsin(in)
+12. Acos - арккосинус, out = arccos(in)
+13. Atan - арктангенс, out = arctg(in)
 	  </Description>
     </RecordThing>
     <RecordThing>
@@ -3358,27 +3413,27 @@ Insert a cartridge or color scanner into the tablet, then press the activate but
     </RecordThing>
     <RecordThing>
       <Key>StructureWallPaddedArch</Key>
-      <Value>Wall (Padded Arch)</Value>
+      <Value>Сайдинг (Тип 2)</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureWallPaddedArchLightsFittings</Key>
-      <Value>Wall (Padded Arch Lights Fittings)</Value>
+      <Value>Сайдинг (Тип 4)</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureWallPadding</Key>
-      <Value>Wall (Padding)</Value>
+      <Value>Сайдинг (Тип 1)</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureWallPaddingArchVent</Key>
-      <Value>Wall (Padding Arch Vent)</Value>
+      <Value>Сайдинг (Тип 5)</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureWallPaddingLightFitting</Key>
-      <Value>Wall (Padding Light Fitting)</Value>
+      <Value>Сайдинг (Тип 3)</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureWallPaddingThin</Key>
-      <Value>Wall (Padding Thin)</Value>
+      <Value>Сайдинг (Тип 8)</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureWallPlating</Key>
@@ -3430,7 +3485,7 @@ Insert a cartridge or color scanner into the tablet, then press the activate but
     </RecordThing>
     <RecordThing>
       <Key>ItemKitWallPadded</Key>
-      <Value>Мягкая стена</Value>
+      <Value>Сайдинг</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureLadder</Key>
@@ -3586,6 +3641,11 @@ Insert a cartridge or color scanner into the tablet, then press the activate but
     <RecordThing>
       <Key>StructureLogicMirror</Key>
       <Value>Повторитель</Value>
+	  <Description>Служит для развязки информационных сетей. Полностью дублирует в выходной сети один элемент входной сети, прозрачно давая доступ ко всем его параметрам как на чтение, так и на запись.
+
+{HEADER:НАСТРОЙКА}
+IN - чип, с выхода которого читается значение.
+	  </Description>
     </RecordThing>
     <RecordThing>
       <Key>CircuitboardHashDisplay</Key>
@@ -3650,15 +3710,44 @@ Insert a cartridge or color scanner into the tablet, then press the activate but
     </RecordThing>
     <RecordThing>
       <Key>StructureLogicSlotReader</Key>
-      <Value>Чтение слотов</Value>
+      <Value>Чтение слота</Value>
+	  <Description>Читает данные одного слота.
+
+{HEADER:НАСТРОЙКА}
+IN - выбор устройства, слот которого надо опрашивать
+SLOT - выбор слота на устройстве
+VAR - читаемый параметр
+	  </Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureLogicBatchReader</Key>
       <Value>Множественное чтение</Value>
+	  <Description>Читает один параметр у нескольких однотипных устройств и вычисляет сумму, среднее арифметическое, минимум или максимум.
+
+{HEADER:НАСТРОЙКА}
+TYPE - тип устройств, с выходов которых читается значение.
+VAR - читаемый параметр
+MTHD - функция группировки:
+    ● Average - среднее арифметические
+    ● Sum - сумма значений
+    ● Minimum - минимальное значение
+    ● Maximum - максимальное значение
+	  </Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureLogicReagentReader</Key>
       <Value>Чтение реагента</Value>
+      <Description>Читает количество ингредиентов в выбранном рецепте, количество их в бункере станка и недостающее количество.
+
+{HEADER:НАСТРОЙКА}
+IN - выбор опрашиваемого устройства
+MODE - группа чтения
+
+    ● Content - содержимое бункера станка или рабочей камеры печи/утилизатора
+    ● Recipe - выбранный рецепт
+    ● Required - недостающее количество для рецепта
+    ● RGT - ингредиент
+	  </Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemHardSuit</Key>
@@ -3730,6 +3819,19 @@ Insert a cartridge or color scanner into the tablet, then press the activate but
     <RecordThing>
       <Key>StructureLogicBatchSlotReader</Key>
       <Value>Множественное чтение слотов</Value>
+	  <Description>Читает один параметр одного слота у нескольких однотипных устройств и вычисляет сумму, среднее арифметическое, минимум или максимум.
+
+{HEADER:НАСТРОЙКА}
+IN - тип устройств, у слота которых читается значение
+SLOT - слот, у которого читается значение
+VAR - читаемый параметр
+MTHD - функция группировки:
+
+    ● Average - среднее арифметические
+    ● Sum - сумма значений
+    ● Minimum - минимальное значение
+    ● Maximum - максимальное значение
+	  </Description>
     </RecordThing>
     <RecordThing>
       <Key>CircuitboardAdvAirlockControl</Key>
@@ -3918,7 +4020,13 @@ Insert a cartridge or color scanner into the tablet, then press the activate but
     </RecordThing>
     <RecordThing>
       <Key>StructureLogicWriterSwitch</Key>
-      <Value>Переключатель</Value>
+      <Value>Выключатель</Value>
+	  <Description>Чип записи с интегрированным переключателем. Записывает в выбранный параметр 0, когда переключатель переводится в "выключено" (Off) и 1 при переводе его во "включено", (On).
+
+{HEADER:НАСТРОЙКА}
+OUT - устройство, параметром которого нужно управлять
+OUT VAR - параметр, передаваемый устройству
+	  </Description>
     </RecordThing>
     <RecordThing>
       <Key>MotherboardProgrammableChip</Key>
@@ -4236,21 +4344,21 @@ RobotMode.None = 6 = автоматически назначенное сост�
     </RecordThing>
     <RecordThing>
       <Key>StructureTransformerMedium</Key>
-      <Value>Transformer (Medium)</Value>
+      <Value>Средний трансформатор</Value>
       <Description>Transformers control the maximum power that will flow down a sub-network of cables, to prevent overloading {LINK:ElectronicPage;electrical} systems. 
 Medium transformers are used in larger setups where more than 5000W is required, with output that can be set to a maximum of 25000W.
 Note that transformers also operate as data isolators, preventing data flowing into any network beyond it.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureTransformerMediumReversed</Key>
-      <Value>Transformer Reversed (Medium)</Value>
+      <Value>Средний обратный трансформатор</Value>
       <Description>Transformers control the maximum power that will flow down a sub-network of cables, to prevent overloading {LINK:ElectronicPage;electrical} systems. 
 Medium transformers are used in larger setups where more than 5000W is required, with output that can be set to a maximum of 25000W.
 Note that transformers also operate as data isolators, preventing data flowing into any network beyond it.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureTransformerMedium(Reversed)</Key>
-      <Value>Transformer Reversed (Medium)</Value>
+      <Value>Средний обратный трансформатор</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemJetpackBasic</Key>
@@ -4660,43 +4768,43 @@ Note that transformers also operate as data isolators, preventing data flowing i
     </RecordThing>
     <RecordThing>
       <Key>StructureWallPaddedArchLightFittingTop</Key>
-      <Value>Wall (Padded Arch Light Fitting Top)</Value>
+      <Value>Сайдинг (Тип 5)</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureWallPaddedNoBorder</Key>
-      <Value>Wall (Padded No Border)</Value>
+      <Value>Сайдинг (Тип 7)</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureWallPaddedThinNoBorder</Key>
-      <Value>Wall (Padded Thin No Border)</Value>
+      <Value>Сайдинг (Тип 9)</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureWallPaddedWindowThin</Key>
-      <Value>Wall (Padded Window Thin)</Value>
+      <Value>Сайдинг (Тип 11)</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureWallPaddedThinNoBorderCorner</Key>
-      <Value>Wall (Padded Thin No Border Corner)</Value>
+      <Value>Сайдинг (Тип 16)</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureWallPaddedNoBorderCorner</Key>
-      <Value>Wall (Padded No Border Corner)</Value>
+      <Value>Сайдинг (Тип 15)</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureWallPaddedCorner</Key>
-      <Value>Wall (Padded Corner)</Value>
+      <Value>Сайдинг (Тип 13)</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureWallPaddedCornerThin</Key>
-      <Value>Wall (Padded Corner Thin)</Value>
+      <Value>Сайдинг (Тип 14)</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureWallPaddedArchCorner</Key>
-      <Value>Wall (Padded Arch Corner)</Value>
+      <Value>Сайдинг (Тип 12)</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureWallPaddedWindow</Key>
-      <Value>Wall (Padded Window)</Value>
+      <Value>Сайдинг (Тип 10)</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructurePipeOrgan</Key>
@@ -4948,12 +5056,12 @@ Note that transformers also operate as data isolators, preventing data flowing i
       <Description>1 x 1 модульная дверная деталь для строительства шлюзовых ворота.</Description>
     </RecordThing>
     <RecordThing>
-      <Key>StructureMediumHangarDoor</Key>
+      <Key>StructureMediumHangerDoor</Key>
       <Value>Средние шлюзовая ворота</Value>
       <Description>1 x 2 модульная дверная деталь для строительства шлюзовых ворота.</Description>
     </RecordThing>
     <RecordThing>
-      <Key>StructureLargeHangarDoor</Key>
+      <Key>StructureLargeHangerDoor</Key>
       <Value>Большие шлюзовая ворота</Value>
       <Description>1 x 3 модульная дверная деталь для строительства шлюзовых ворота.</Description>
     </RecordThing>
@@ -6251,11 +6359,6 @@ To use on yourself: put duct tape in your active hand, hold RIGHT MOUSE BUTTON t
       <Description />
     </RecordThing>
     <RecordThing>
-      <Key>ItemKitHangerDoor</Key>
-      <Value>Шлюзовые ворота</Value>
-      <Description />
-    </RecordThing>
-    <RecordThing>
       <Key>LogicStepSequencer8</Key>
       <Value>Логический пошаговый секвенсор</Value>
       <Description>{LINK:ODA;ODA} не одобряет саундтреки и другие отвлекающие факторы.
@@ -6284,7 +6387,7 @@ To use on yourself: put duct tape in your active hand, hold RIGHT MOUSE BUTTON t
     </RecordThing>
     <RecordThing>
       <Key>DeviceStepUnit</Key>
-      <Value>Device Step Unit</Value>
+      <Value>Пошаговый блок устройства</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -6368,7 +6471,7 @@ To use on yourself: put duct tape in your active hand, hold RIGHT MOUSE BUTTON t
     </RecordThing>
     <RecordThing>
       <Key>PassiveSpeaker</Key>
-      <Value>Passive Speaker</Value>
+      <Value>Динамик</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -6917,12 +7020,12 @@ You must place the laptop down to interact with the onsreen UI.
     </RecordThing>
     <RecordThing>
       <Key>ItemPlantEndothermic_Genepool1</Key>
-      <Value>Зимнее отродье (Alpha-вариант)</Value>
+      <Value>Зимнее отродье (Alpha-штамм)</Value>
       <Description>Атмосферный биопроцессор Winterspawn {LINK:Agrizero;Agrizero} — недавнее дополнение к их каталогу генетически сплайсированных декораций окружающей среды. Используя окружающее тепло для расщепления {GAS:Water} на {Gas:Volatiles} и {GAS:Oxygen}, Зимнее отродье охлаждает свое окружение при наличии достаточного количества {GAS:Nitrogen}. Альфа-вариант имеет пиковую мощность охлаждения и электролиза 90 Вт и наиболее эффективно работает при температуре воздуха от 0 до 40 градусов Цельсия.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemPlantEndothermic_Genepool2</Key>
-      <Value>Зимнее отродье (Beta-вариант)</Value>
+      <Value>Зимнее отродье (Beta-штамм)</Value>
       <Description>Атмосферный биопроцессор Winterspawn {LINK:Agrizero;Agrizero} — недавнее дополнение к их каталогу генетически сплайсированных декораций окружающей среды. Используя окружающее тепло для разделения {GAS:Water} на {Gas:Volatiles} и {GAS:Oxygen}, Зимнее отродье охлаждает свое окружение при наличии достаточного количества {GAS:Nitrogen}. Бета-вариант имеет пиковую мощность охлаждения и электролиза 150 Вт и наиболее эффективно работает при температуре воздуха от 14 до 24 градусов Цельсия.</Description>
     </RecordThing>
     <RecordThing>
@@ -8148,6 +8251,14 @@ You must place the laptop down to interact with the onsreen UI.
       <Key>Motherboard</Key>
       <Value>Материнская плата</Value>
     </Record>
+	<Record>
+	  <Key>IncreasePower</Key>
+	  <Value>Увеличение мощности</Value>
+	</Record>
+	<Record>
+	  <Key>DecreasePower</Key>
+	  <Value>Уменьшение мощности</Value>
+	</Record>
   </Interactables>
   <Interface>
 	<Record>
@@ -8188,7 +8299,7 @@ You must place the laptop down to interact with the onsreen UI.
     </Record>
     <Record>
       <Key>RespawnConditionStationeer</Key>
-      <Value>Хардкорный</Value>
+      <Value>Сложный</Value>
     </Record>
     <Record>
       <Key>Rpm</Key>
@@ -8196,11 +8307,11 @@ You must place the laptop down to interact with the onsreen UI.
     </Record>
     <Record>
       <Key>Stress</Key>
-      <Value>Stress</Value>
+      <Value>Стресс</Value>
     </Record>
     <Record>
       <Key>SlotKey</Key>
-      <Value>Slot</Value>
+      <Value>Слот</Value>
     </Record>
     <Record>
       <Key>SoonTM</Key>
@@ -8312,7 +8423,7 @@ You must place the laptop down to interact with the onsreen UI.
     </Record>
     <Record>
       <Key>SlotsTitle</Key>
-      <Value>All Slots</Value>
+      <Value>Все слоты</Value>
     </Record>
     <Record>
       <Key>LogicReadersCategory</Key>
@@ -8368,19 +8479,19 @@ You must place the laptop down to interact with the onsreen UI.
     </Record>
     <Record>
       <Key>PowerTools</Key>
-      <Value>Power Tools</Value>
+      <Value>Электроинструменты</Value>
     </Record>
     <Record>
       <Key>TraderErrorConnectWires</Key>
-      <Value>The trader could not complete the trade, check your cables for any breaks!</Value>
+      <Value>Трейдер не смог завершить сделку, проверьте кабели на наличие обрывов!</Value>
     </Record>
     <Record>
       <Key>TraderErrorMissingMotherboard</Key>
-      <Value>You are missing a motherboard in your computer, you lost contact with the trader.</Value>
+      <Value>У вас отсутствует материнская плата в вашем компьютере, вы потеряли связь с трейдером.</Value>
     </Record>
     <Record>
       <Key>TraderErrorMissingVendingMachine</Key>
-      <Value>You are missing a connected empty Vending machine, the trade could not complete.</Value>
+      <Value>У вас отсутствует подключенный пустой торговый автомат, сделка не может быть завершена.</Value>
     </Record>
     <Record>
       <Key>Picture</Key>
@@ -8440,7 +8551,7 @@ You must place the laptop down to interact with the onsreen UI.
     </Record>
     <Record>
       <Key>WorldInfoTextAsteroids</Key>
-      <Value>Asteroids:</Value>
+      <Value>Астероиды:</Value>
     </Record>
     <Record>
       <Key>WorldInfoTextVersion</Key>
@@ -8456,7 +8567,7 @@ You must place the laptop down to interact with the onsreen UI.
     </Record>
     <Record>
       <Key>WorldInfoButtonDebugLoad</Key>
-      <Value>Debug Load</Value>
+      <Value>Отладочная загрузка</Value>
     </Record>
     <Record>
       <Key>LoadWorldButtonLoad</Key>
@@ -8484,15 +8595,15 @@ You must place the laptop down to interact with the onsreen UI.
     </Record>
     <Record>
       <Key>JoinMenuServerListRefreshing</Key>
-      <Value>Refreshing Server List</Value>
+      <Value>Обновление списка серверов</Value>
     </Record>
     <Record>
       <Key>CannotConnectToMetaServer</Key>
-      <Value>Cannot Connect To Meta Server</Value>
+      <Value>Не удается подключиться к метасерверу</Value>
     </Record>
     <Record>
       <Key>ServerListCannotBeRetrieved</Key>
-      <Value>Server List Cannot Be Retrieved</Value>
+      <Value>Список серверов не может быть получен</Value>
     </Record>
     <Record>
       <Key>JoinMenuInputAddressTitle</Key>
@@ -8512,7 +8623,7 @@ You must place the laptop down to interact with the onsreen UI.
     </Record>
     <Record>
       <Key>NewWorldAreaTitle</Key>
-      <Value>Starting Area</Value>
+      <Value>Стартовая зона</Value>
     </Record>
     <Record>
       <Key>NewWorldAreaSpace</Key>
@@ -8568,27 +8679,27 @@ You must place the laptop down to interact with the onsreen UI.
     </Record>
     <Record>
       <Key>Mimas</Key>
-      <Value>Mimas</Value>
+      <Value>Мимас</Value>
     </Record>
     <Record>
       <Key>NewWorldAreaEarth</Key>
-      <Value>Earth</Value>
+      <Value>Земля</Value>
     </Record>
     <Record>
       <Key>NewWorldAreaEuropa</Key>
-      <Value>Europa</Value>
+      <Value>Европа</Value>
     </Record>
     <Record>
       <Key>NewWorldAreaVulcan</Key>
-      <Value>Vulcan</Value>
+      <Value>Вулкан</Value>
     </Record>
     <Record>
       <Key>NewWorldAreaEuropa2</Key>
-      <Value>Europa</Value>
+      <Value>Европа</Value>
     </Record>
     <Record>
       <Key>NewWorldAreaVulcan2</Key>
-      <Value>Vulcan</Value>
+      <Value>Вулкан</Value>
     </Record>
     <Record>
       <Key>NewWorldEnableAwayMissions</Key>
@@ -8984,35 +9095,35 @@ You must place the laptop down to interact with the onsreen UI.
     </Record>
     <Record>
       <Key>SettingsServerMaxPlayers</Key>
-      <Value>Max Players</Value>
+      <Value>Максимум игроков</Value>
     </Record>
     <Record>
       <Key>SettingsTitleMultiplayer</Key>
-      <Value>Multiplayer Settings</Value>
+      <Value>Настройки мультиплеера</Value>
     </Record>
     <Record>
       <Key>SettingsUpdatePort</Key>
-      <Value>Update Port</Value>
+      <Value>Порт обновления</Value>
     </Record>
     <Record>
       <Key>SettingsGamePort</Key>
-      <Value>Game Port</Value>
+      <Value>Порт игры</Value>
     </Record>
     <Record>
       <Key>SettingsMusic</Key>
-      <Value>Music</Value>
+      <Value>Музыка</Value>
     </Record>
     <Record>
       <Key>TutorialFirstTimePlaying</Key>
-      <Value>First time Playing?</Value>
+      <Value>Первый раз играете?</Value>
     </Record>
     <Record>
       <Key>TutorialGetStarted</Key>
-      <Value>Get started with the tutorial</Value>
+      <Value>Начните с руководства</Value>
     </Record>
     <Record>
       <Key>TutorialSkipButton</Key>
-      <Value>Skip</Value>
+      <Value>Пропустить</Value>
     </Record>
     <Record>
       <Key>TutorialStartButton</Key>
@@ -9286,15 +9397,15 @@ You must place the laptop down to interact with the onsreen UI.
     </Record>
     <Record>
       <Key>PromptGiveUpTitle</Key>
-      <Value>Give Up</Value>
+      <Value>Возродиться</Value>
     </Record>
     <Record>
       <Key>PromptGiveUpBody</Key>
-      <Value>You are unconscious. Do you want to give up and respawn?</Value>
+      <Value>Вы без сознания. Хотите сдаться и возродиться?</Value>
     </Record>
     <Record>
       <Key>PromptGiveUpConfirm</Key>
-      <Value>Give Up</Value>
+      <Value>Возродиться</Value>
     </Record>
     <Record>
       <Key>AlertYourSaveFileIsBroken</Key>
@@ -10703,11 +10814,11 @@ You must place the laptop down to interact with the onsreen UI.
     </Record>
     <Record>
       <Key>SpinnerPannelSaving</Key>
-      <Value>Saving</Value>
+      <Value>Сохранение</Value>
     </Record>
     <Record>
       <Key>SpinnerPannelDone</Key>
-      <Value>Done</Value>
+      <Value>Готово</Value>
     </Record>
     <Record>
       <Key>IncidentsTitle</Key>
@@ -10719,27 +10830,27 @@ You must place the laptop down to interact with the onsreen UI.
     </Record>
     <Record>
       <Key>ContactsTrading</Key>
-      <Value>Contacts</Value>
+      <Value>Контакты</Value>
     </Record>
     <Record>
       <Key>TraderGoneMissing</Key>
-      <Value>Seems the contact has moved on.</Value>
+      <Value>Похоже, торговец пропал без вести.</Value>
     </Record>
     <Record>
       <Key>Trade</Key>
-      <Value>Trade</Value>
+      <Value>Торговля</Value>
     </Record>
     <Record>
       <Key>Locked</Key>
-      <Value>Locked</Value>
+      <Value>Заблокировано</Value>
     </Record>
     <Record>
       <Key>ContactEventDefault</Key>
-      <Value>There was no response.</Value>
+      <Value>Нет ответа.</Value>
     </Record>
     <Record>
       <Key>ContactTradeRequest</Key>
-      <Value>A trader has requested permission for landing.</Value>
+      <Value>Торговец просит разрешение на посадку.</Value>
     </Record>
     <Record>
       <Key>TraderInUse</Key>
@@ -10827,15 +10938,15 @@ You must place the laptop down to interact with the onsreen UI.
     </Record>
     <Record>
       <Key>TraderGas</Key>
-      <Value>GasTrade</Value>
+      <Value>Торговец газами</Value>
     </Record>
     <Record>
       <Key>TraderCustom</Key>
-      <Value>Spes'mall</Value>
+      <Value>Торговый центр Spes</Value>
     </Record>
     <Record>
       <Key>ButtonContact</Key>
-      <Value>Contact</Value>
+      <Value>Контакт</Value>
     </Record>
     <Record>
       <Key>LoadBackupsTitle</Key>
@@ -10847,11 +10958,11 @@ You must place the laptop down to interact with the onsreen UI.
     </Record>
     <Record>
       <Key>Experiments</Key>
-      <Value>Experiments</Value>
+      <Value>Эксперименты</Value>
     </Record>
     <Record>
       <Key>OcclusionTickSpeed</Key>
-      <Value>Occlusion TickSpeed</Value>
+      <Value>Скрытая скорость тика</Value>
     </Record>
     <Record>
       <Key>RoomControlTickSpeed</Key>
@@ -10879,27 +10990,27 @@ You must place the laptop down to interact with the onsreen UI.
     </Record>
     <Record>
       <Key>ButtonDepart</Key>
-      <Value>Depart</Value>
+      <Value>Попрощаться</Value>
     </Record>
     <Record>
       <Key>SettingsShowSlotTooltips</Key>
-      <Value>Show Slot Tooltips</Value>
+      <Value>Показывать подсказки слотов</Value>
     </Record>
     <Record>
       <Key>SettingsWorldOrigin</Key>
-      <Value>World Origin Rebasing</Value>
+      <Value>Перемещение Центра Мира</Value>
     </Record>
     <Record>
       <Key>GameMenuButtonPause</Key>
-      <Value>Pause</Value>
+      <Value>Приостановить</Value>
     </Record>
     <Record>
       <Key>PromptPauseTitle</Key>
-      <Value>Pause</Value>
+      <Value>Приостановить</Value>
     </Record>
     <Record>
       <Key>PromptPauseBody</Key>
-      <Value>Paused game play</Value>
+      <Value>Игра приостановлена</Value>
     </Record>
     <Record>
       <Key>PromptButtonLeave</Key>
@@ -10907,7 +11018,7 @@ You must place the laptop down to interact with the onsreen UI.
     </Record>
     <Record>
       <Key>PromptResumeButton</Key>
-      <Value>Resume</Value>
+      <Value>Продолжить</Value>
     </Record>
     <Record>
       <Key>BuildTimeMultiplier</Key>
@@ -12164,19 +12275,19 @@ You must place the laptop down to interact with the onsreen UI.
     </Record>
     <Record>
       <Key>Player</Key>
-      <Value>Player</Value>
+      <Value>Игрок</Value>
     </Record>
     <Record>
       <Key>Deceased</Key>
-      <Value>Deceased</Value>
+      <Value>Погиб</Value>
     </Record>
     <Record>
       <Key>Unconscious</Key>
-      <Value>Unconscious</Value>
+      <Value>Бессознания</Value>
     </Record>
     <Record>
       <Key>Contents</Key>
-      <Value>Contents</Value>
+      <Value>Содержание</Value>
     </Record>
     <Record>
       <Key>InputRight</Key>
@@ -12188,27 +12299,27 @@ You must place the laptop down to interact with the onsreen UI.
     </Record>
     <Record>
       <Key>Liquid</Key>
-      <Value>Liquid</Value>
+      <Value>Жидкость</Value>
     </Record>
     <Record>
       <Key>Gas</Key>
-      <Value>Gas</Value>
+      <Value>Газ</Value>
     </Record>
     <Record>
       <Key>Empty</Key>
-      <Value>Empty</Value>
+      <Value>Пустой</Value>
     </Record>
     <Record>
       <Key>Cycle</Key>
-      <Value>Cycle</Value>
+      <Value>Цикл</Value>
     </Record>
     <Record>
       <Key>BuildStateOfHash</Key>
-      <Value>{0} of {1}</Value>
+      <Value>{0} из {1}</Value>
     </Record>
     <Record>
       <Key>Stage1Contains</Key>
-      <Value>Contains {0} at {2}Stage {1}{3}</Value>
+      <Value>Содержит {0} на {2}этапе {1}{3}</Value>
     </Record>
     <Record>
       <Key>PlantWillCreate</Key>
@@ -12252,15 +12363,15 @@ You must place the laptop down to interact with the onsreen UI.
     </Record>
     <Record>
       <Key>Power</Key>
-      <Value>Power</Value>
+      <Value>Питание</Value>
     </Record>
     <Record>
       <Key>Data</Key>
-      <Value>Data</Value>
+      <Value>Данные</Value>
     </Record>
     <Record>
       <Key>Chute</Key>
-      <Value>Chute</Value>
+      <Value>Скат</Value>
     </Record>
     <Record>
       <Key>Elevator</Key>
@@ -12280,19 +12391,19 @@ You must place the laptop down to interact with the onsreen UI.
     </Record>
     <Record>
       <Key>SettingsDoubleClickDelay</Key>
-      <Value>Double Click Delay</Value>
+      <Value>Задержка двойного щелчка</Value>
     </Record>
     <Record>
       <Key>SettingsServerAdminPassword</Key>
-      <Value>Server Admin Password</Value>
+      <Value>Пароль администратора сервера</Value>
     </Record>
     <Record>
       <Key>ScoreboardPlayer</Key>
-      <Value>Player</Value>
+      <Value>Игрок</Value>
     </Record>
     <Record>
       <Key>ScoreboardTime</Key>
-      <Value>Play Time</Value>
+      <Value>Сыграно</Value>
     </Record>
     <Record>
       <Key>SettingsFirstPersonHelmet</Key>
@@ -12336,7 +12447,7 @@ You must place the laptop down to interact with the onsreen UI.
     </Record>
     <Record>
       <Key>SetSpawnTitle</Key>
-      <Value>Spawn Point</Value>
+      <Value>Точка Появления</Value>
     </Record>
     <Record>
       <Key>ControlPrimaryClick</Key>
@@ -12348,7 +12459,7 @@ You must place the laptop down to interact with the onsreen UI.
     </Record>
     <Record>
       <Key>ControlHoldPrimaryClick</Key>
-      <Value>Hold {KEY:PrimaryAction}</Value>
+      <Value>Удерживайте {KEY:PrimaryAction}</Value>
     </Record>
     <Record>
       <Key>ControlHoldPrimaryClickConstructDisc</Key>
