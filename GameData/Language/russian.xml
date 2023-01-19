@@ -1309,8 +1309,8 @@ To use on yourself: put duct tape in your active hand, hold RIGHT MOUSE BUTTON t
     </RecordThing>
     <RecordThing>
       <Key>ItemKitFabricator</Key>
-      <Value>Kit (Fabricator)</Value>
-      <Description>This kit produces a single {THING:StructureFabricator}. (Creative Mode only)</Description>
+      <Value>Фабрикатор</Value>
+      <Description>Этот набор содержит {THING:StructureFabricator}. (Только в творческом режиме)</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitFurnace</Key>
@@ -1379,23 +1379,23 @@ To use on yourself: put duct tape in your active hand, hold RIGHT MOUSE BUTTON t
     </RecordThing>
     <RecordThing>
       <Key>ItemKitTurret</Key>
-      <Value>Kit (Turret)</Value>
-      <Description>This kit produces a single {THING:StructureGunTurret}.</Description>
+      <Value>Турель</Value>
+      <Description>Этот набор содержит одиночную {THING:StructureGunTurret}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitWall</Key>
       <Value>Композитная стена</Value>
-      <Description>This kit produces a range of composite wall elements and windows.</Description>
+      <Description>Этот комплект производит ряд составных стеновых элементов и окон.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemLabeller</Key>
       <Value>Маркировщик</Value>
-      <Description>A labeller lets you set names and values on a variety of devices and structures, including {THING:StructureConsole} and {LINK:LogicPage;Logic}.</Description>
+      <Description>Маркировщик позволяет задавать имена и значения для различных устройств и структур, включая {THING:StructureConsole} и {LINK:LogicPage;логику}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemLightSword</Key>
-      <Value>Light Sword</Value>
-      <Description>A charming, if useless, pseudo-weapon. (Creative only.)</Description>
+      <Value>Световой меч</Value>
+      <Description>Очаровательное, хотя и бесполезное псевдооружие (Только в режиме креатив).</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemMilk</Key>
@@ -1426,7 +1426,7 @@ To use on yourself: put duct tape in your active hand, hold RIGHT MOUSE BUTTON t
     <RecordThing>
       <Key>ItemPickaxe</Key>
       <Value>Кирка</Value>
-      <Description>When the sun sets and the {THING:ItemMiningDrill} runs dead, its batteries drained and your {THING:StructureSolarPanel} cold and lifeless, the {THING:StructureAutolathe} empty, the way forward unclear, one thing holds back the endless night of defeat: the trusty pickaxe.</Description>
+      <Description>Когда солнце садится и {THING:ItemMiningDrill} умирает, его батареи разряжены, а ваша {THING:StructureSolarPanel} холодная и безжизненная, {THING:StructureAutolathe} пуст, путь вперед неясен, одно сдерживает бесконечную ночь поражений : надежная кирка.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemPillHeal</Key>
@@ -1547,12 +1547,12 @@ To use on yourself: put duct tape in your active hand, hold RIGHT MOUSE BUTTON t
     <RecordThing>
       <Key>ItemScanner</Key>
       <Value>Ручной сканер</Value>
-      <Description>A mysterious piece of technology, rumored to have Zrillian origins.</Description>
+      <Description>Таинственная технология, по слухам, зриллианского происхождения.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemScrewdriver</Key>
       <Value>Отвёртка</Value>
-      <Description>This standard issue frictional adherence adjustor is a top of the line, bi-rotational model with a columnated uni-grip. It's definitely not just a screwdriver. Use it for construction and deconstruction of certain kits, and setting values on {LINK:LogicUnitPage;logic} units.</Description>
+      <Description>Этот стандартный регулятор сцепления с трением представляет собой первоклассную двувращательную модель с унитарной рукояткой в виде колонны. Это точно не просто отвертка. Используйте его для создания и разборки определенных комплектов и установки значений в единицах {LINK:LogicUnitPage;logic}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemSecurityCamera</Key>
@@ -1652,12 +1652,12 @@ It also incorporates a lock/unlock feature to avoid accidental opening, as well 
     <RecordThing>
       <Key>ItemSteelSheets</Key>
       <Value>Листы стали</Value>
-      <Description>An advanced building material, {THING:ItemSteelIngot} sheets are used when constructing a {THING:StructureFrame} and several other {LINK:StructuresPage;wall} types.</Description>
+      <Description>Усовершенствованный строительный материал, листы {THING:ItemSteelIngot}, используются при строительстве {THING:StructureFrame} и нескольких других типов {LINK:StructuresPage;стены}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemSuitStorage</Key>
       <Value>Стойка для скафандра</Value>
-      <Description>This kit creates a {THING:StructureSuitStorage}.</Description>
+      <Description>Этот набор содержит {THING:StructureSuitStorage}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemTablet</Key>
@@ -1714,12 +1714,12 @@ It also incorporates a lock/unlock feature to avoid accidental opening, as well 
     <RecordThing>
       <Key>ItemWireCutters</Key>
       <Value>Кусачки</Value>
-      <Description>Wirecutters allow you to deconstruct various {LINK:StructurePage;structures}, as well as cross-lay cables when held in your non-active hand, and defuse explosives as needed. Wirecutters are stored in the {THING:ItemToolBelt}, along with other essential {LINK:ToolPage;tools}.</Description>
+      <Description>Кусачки позволяют разбирать различные {LINK:StructurePage;конструкции}, а также поперечные кабели, удерживая их в неактивной руке, и при необходимости обезвреживать взрывчатые вещества. Кусачки хранятся в {THING:ItemToolBelt} вместе с другими важными {LINK:ToolPage;инструментами}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWrench</Key>
       <Value>Гаечный ключ</Value>
-      <Description>One of humanity's enduring contributions to the cosmos, the wrench represents the essence of our species. A simple, effective and spiritually barren tool, use it to build and deconstruct a variety of {LINK:StructurePage;structures}</Description>
+      <Description>Один из непреходящих вкладов человечества в космос, гаечный ключ представляет сущность нашего вида. Простой, эффективный и духовно бесплодный инструмент. Используйте его для создания и разрушения различных {LINK:StructurePage;структур}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>MotherboardLogic</Key>
@@ -1759,13 +1759,13 @@ It also incorporates a lock/unlock feature to avoid accidental opening, as well 
     </RecordThing>
     <RecordThing>
       <Key>OrganLungs</Key>
-      <Value>Human Lungs</Value>
-      <Description>Lungs are delicate organs. Keeping them at the correct temperature and pressure is advisable.</Description>
+      <Value>Легкие человека</Value>
+      <Description>Легкие - нежный орган. Рекомендуется поддерживать их при правильной температуре и давлении.</Description>
     </RecordThing>
     <RecordThing>
       <Key>SpaceShuttle</Key>
-      <Value>Space Shuttle</Value>
-      <Description>An antiquated {LINK:Sinotai;Sinotai} transport craft, long since decommissioned.</Description>
+      <Value>Космический шаттл</Value>
+      <Description>Устаревшее транспортное судно {LINK:Sinotai;Sinotai}, давно выведенное из эксплуатации.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureActiveVent</Key>
@@ -2053,7 +2053,7 @@ An recurring {LINK:Stationeers;Stationeer} complaint focuses on the fact that ev
     <RecordThing>
       <Key>StructureDaylightSensor</Key>
       <Value>Датчик дневного света</Value>
-      <Description>Daylight sensors provide data on whether the current region of your base is in sunlight, and report the exact solar angle. Note that the orientation of the sensor alters the reported solar angle, while {LINK:LogicPage;Logic} systems can be used to offset it.</Description>
+      <Description>Датчики дневного света предоставляют данные о том, находится ли текущая область вашей базы под солнечным светом, и сообщают о точном солнечном угле. Обратите внимание, что ориентация датчика изменяет сообщаемый угол наклона солнца, а системы {LINK:LogicPage;Logic} можно использовать для его компенсации.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureDigitalValve</Key>
@@ -2062,8 +2062,8 @@ An recurring {LINK:Stationeers;Stationeer} complaint focuses on the fact that ev
     </RecordThing>
     <RecordThing>
       <Key>StructureFabricator</Key>
-      <Value>Fabricator</Value>
-      <Description>Capable of manufacturing a vast array of items, the {LINK:Norsec;Norsec} General Fabricator was considered too risky by the {LINK:ODA;ODA} for widespread use. Certainly, it has been used for purposes beyond those it was intended, including counterfeiting, terrorism, and bad art. As a result, its deployment is now heavily regulated.</Description>
+      <Value>Фабрикатор</Value>
+      <Description>Способный производить широкий спектр предметов, {LINK:Norsec;Norsec} Общий фабрикатор был сочтен {LINK:ODA;ODA} слишком рискованным для широкого использования. Конечно, он использовался для целей, выходящих за рамки тех, для которых он предназначался, включая подделку, терроризм и плохое искусство. В результате его развертывание теперь строго регламентировано.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureFiltration</Key>
@@ -2080,7 +2080,7 @@ An recurring {LINK:Stationeers;Stationeer} complaint focuses on the fact that ev
     <RecordThing>
       <Key>StructureFrame</Key>
       <Value>Стальной Каркас</Value>
-      <Description>More durable than the {THING:StructureFrameIron}, steel frames also have several variations for more complex constructions, such as the {THING:StructureFrameCorner} and {THING:StructureFrameCornerCut}. Like iron frames, they are placed then completed by welding {THING:ItemSteelSheets} to the open framework.</Description>
+      <Description>Более прочные, чем {THING:StructureFrameIron}, стальные рамы также имеют несколько вариантов для более сложных конструкций, таких как {THING:StructureFrameCorner} и {THING:StructureFrameCornerCut}. Как и железные рамы, они устанавливаются, а затем привариваются {THING:ItemSteelSheets} к открытому каркасу.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureFrameCorner</Key>
@@ -2090,8 +2090,8 @@ With a little patience and maneuvering, the corner frame's Gothic-inspired silho
     </RecordThing>
     <RecordThing>
       <Key>StructureFrameSide</Key>
-      <Value>Steel Frame (Side)</Value>
-      <Description>More durable than the {THING:StructureFrameIron}, steel frames also provide variations for more ornate constructions.</Description>
+      <Value>Стальной Каркас (Склон)</Value>
+      <Description>Более прочные, чем {THING:StructureFrameIron}, стальные рамы также позволяют создавать более изысканные конструкции.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureFurnace</Key>
@@ -2128,12 +2128,12 @@ With a little patience and maneuvering, the corner frame's Gothic-inspired silho
     </RecordThing>
     <RecordThing>
       <Key>StructureGunTurret</Key>
-      <Value>Gun Emplacement</Value>
+      <Value>Турель</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureGyroscope</Key>
-      <Value>Gyroscope</Value>
-      <Description>An element of an ancient class of spaceship, the gyroscope allowed these vehicles to rotate in at least one of the universe's most popular directions.</Description>
+      <Value>Гироскоп</Value>
+      <Description>Элемент древнего класса космических кораблей, гироскоп позволял этим кораблям вращаться, по крайней мере, в одном из самых популярных направлений во Вселенной.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureHydroponicsTray</Key>
@@ -2149,13 +2149,13 @@ With a little patience and maneuvering, the corner frame's Gothic-inspired silho
     <RecordThing>
       <Key>StructureLocker</Key>
       <Value>Шкафчик</Value>
-      <Description>If a tidy base is the sign of a ordered mind, lockers are the righteous post upon which that sign hangs.</Description>
+      <Description>Если опрятное основание — признак упорядоченного ума, то шкафчики — праведный столб, на котором висит этот знак.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureMotionSensor</Key>
       <Value>Датчик движения</Value>
-      <Description>Originally developed to monitor dance marathons, the motion sensor can also be connected to {LINK:LogicPage;Logic} systems for security purposes, automatic lighting, doors and various other applications.
-The sensor activates whenever a player enters the grid it is placed on.</Description>
+      <Description>Первоначально разработанный для наблюдения за танцевальными марафонами, датчик движения также может быть подключен к системам {LINK:LogicPage;Logic} для обеспечения безопасности, автоматического освещения, дверей и различных других приложений.
+Датчик активируется всякий раз, когда игрок входит в сетку, на которой он находится.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructurePassiveVent</Key>
@@ -2172,32 +2172,32 @@ The sensor activates whenever a player enters the grid it is placed on.</Descrip
     <RecordThing>
       <Key>StructurePipeCorner</Key>
       <Value>Труба (Тип 2)</Value>
-      <Description>The first thing a Stationeer learns, is that they are alone. The second is that pipes store gas.
-Pipes spread their contents evenly through the entire network, and can be connected to a huge range of devices and structures. Basic pipes can withstand pressures of up to 60MPa. Beyond that, things get 'interesting'.</Description>
+      <Description>Первое, что узнают канцеляристы, это то, что они одни. Во-вторых, в трубах хранится газ.
+Трубы равномерно распределяют свое содержимое по всей сети и могут быть подключены к огромному количеству устройств и структур. Базовые трубы выдерживают давление до 60 МПа. Кроме того, все становится "интересным".</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructurePipeCrossJunction</Key>
       <Value>Труба (Тип 4)</Value>
-      <Description>The first thing a Stationeer learns, is that they are alone. The second is that pipes store gas.
-Pipes spread their contents evenly through the entire network, and can be connected to a huge range of devices and structures. Basic pipes can withstand pressures of up to 60MPa. Beyond that, things get 'interesting'.</Description>
+      <Description>Первое, что узнают канцеляристы, это то, что они одни. Во-вторых, в трубах хранится газ.
+Трубы равномерно распределяют свое содержимое по всей сети и могут быть подключены к огромному количеству устройств и структур. Базовые трубы выдерживают давление до 60 МПа. Кроме того, все становится "интересным".</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructurePipeCrossJunction3</Key>
       <Value>Труба (Тип 7)</Value>
-      <Description>The first thing a Stationeer learns, is that they are alone. The second is that pipes store gas.
-Pipes spread their contents evenly through the entire network, and can be connected to a huge range of devices and structures. Basic pipes can withstand pressures of up to 60MPa. Beyond that, things get 'interesting'.</Description>
+      <Description>Первое, что узнают канцеляристы, это то, что они одни. Во-вторых, в трубах хранится газ.
+Трубы равномерно распределяют свое содержимое по всей сети и могут быть подключены к огромному количеству устройств и структур. Базовые трубы выдерживают давление до 60 МПа. Кроме того, все становится "интересным".</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructurePipeCrossJunction5</Key>
       <Value>Труба (Тип 5)</Value>
-      <Description>The first thing a Stationeer learns, is that they are alone. The second is that pipes store gas.
-Pipes spread their contents evenly through the entire network, and can be connected to a huge range of devices and structures. Basic pipes can withstand pressures of up to 60MPa. Beyond that, things get 'interesting'.</Description>
+      <Description>Первое, что узнают канцеляристы, это то, что они одни. Во-вторых, в трубах хранится газ.
+Трубы равномерно распределяют свое содержимое по всей сети и могут быть подключены к огромному количеству устройств и структур. Базовые трубы выдерживают давление до 60 МПа. Кроме того, все становится "интересным".</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructurePipeCrossJunction6</Key>
       <Value>Труба (Тип 6)</Value>
-      <Description>The first thing a Stationeer learns, is that they are alone. The second is that pipes store gas.
-Pipes spread their contents evenly through the entire network, and can be connected to a huge range of devices and structures. Basic pipes can withstand pressures of up to 60MPa. Beyond that, things get 'interesting'.</Description>
+      <Description>Первое, что узнают канцеляристы, это то, что они одни. Во-вторых, в трубах хранится газ.
+Трубы равномерно распределяют свое содержимое по всей сети и могут быть подключены к огромному количеству устройств и структур. Базовые трубы выдерживают давление до 60 МПа. Кроме того, все становится "интересным".</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructurePipeLabel</Key>
@@ -2221,15 +2221,15 @@ Pipes spread their contents evenly through the entire network, and can be connec
     <RecordThing>
       <Key>StructurePipeStraight</Key>
       <Value>Труба (Тип 1)</Value>
-      <Description>The first thing a Stationeer learns, is that they are alone. The second is that pipes store gas.
-Pipes spread their contents evenly through the entire network, and can be connected to a huge range of devices and structures. Basic pipes can withstand pressures of up to 60MPa. Beyond that, things get 'interesting'.</Description>
+      <Description>Первое, что узнают канцеляристы, это то, что они одни. Во-вторых, в трубах хранится газ.
+Трубы равномерно распределяют свое содержимое по всей сети и могут быть подключены к огромному количеству устройств и структур. Базовые трубы выдерживают давление до 60 МПа. Кроме того, все становится "интересным".</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructurePipeTJunction</Key>
       <Value>Труба (Тип 3)</Value>
-      <Description>The first thing a Stationeer learns, is that they are alone. The second is that pipes store gas.
-Pipes spread their contents evenly through the entire network, and can be connected to a huge range of devices and structures. Basic pipes can withstand pressures of up to 60MPa. Beyond that, things get 'interesting'.</Description>
-    </RecordThing>
+      <Description>Первое, что узнают канцеляристы, это то, что они одни. Во-вторых, в трубах хранится газ.
+Трубы равномерно распределяют свое содержимое по всей сети и могут быть подключены к огромному количеству устройств и структур. Базовые трубы выдерживают давление до 60 МПа. Кроме того, все становится "интересным".</Description>
+	</RecordThing>
     <RecordThing>
       <Key>StructurePowerConnector</Key>
       <Value>Разъем питания</Value>
@@ -2274,7 +2274,7 @@ Pipes spread their contents evenly through the entire network, and can be connec
     <RecordThing>
       <Key>StructureSorter</Key>
       <Value>Сортировщик</Value>
-      <Description>No amount of automation is complete without some way of moving different items to different parts of a system. The {LINK:Xigo;Xigo} A2B sorter can be programmed via a computer with a {THING:MotherboardSorter} to direct various items into different chute networks. Filtered items are always passed out the righthand side of the sorter, while non filtered items continue straight through.</Description>
+      <Description>Никакая автоматизация не будет полной без какого-либо способа перемещения различных элементов в разные части системы. Сортировщик {LINK:Xigo;Xigo} A2B можно запрограммировать через компьютер с {THING:MotherboardSorter} для направления различных предметов в разные сети желобов. Отфильтрованные элементы всегда проходят через правую часть сортировщика, в то время как неотфильтрованные элементы проходят прямо.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureStacker</Key>
@@ -10001,19 +10001,19 @@ You must place the laptop down to interact with the onsreen UI.
     </Record>
     <Record>
       <Key>ScenarioScoreboardHeading</Key>
-      <Value>Scenario Complete</Value>
+      <Value>Сценарий завершен</Value>
     </Record>
     <Record>
       <Key>ButtonCopy</Key>
-      <Value>Copy</Value>
+      <Value>Копировать</Value>
     </Record>
     <Record>
       <Key>ButtonPaste</Key>
-      <Value>Paste</Value>
+      <Value>Вставить</Value>
     </Record>
     <Record>
       <Key>ButtonHelp</Key>
-      <Value>Help</Value>
+      <Value>Помощь</Value>
     </Record>
     <Record>
       <Key>ButtonVariables</Key>
@@ -10105,123 +10105,123 @@ You must place the laptop down to interact with the onsreen UI.
     </Record>
     <Record>
       <Key>NewWorldSolarEnergy</Key>
-      <Value>Solar Energy</Value>
+      <Value>Солнечная энергия</Value>
     </Record>
     <Record>
       <Key>NewWorldSolarAngle</Key>
-      <Value>Solar Angle</Value>
+      <Value>Угол солнца</Value>
     </Record>
     <Record>
       <Key>SettingsMenuAppearance</Key>
-      <Value>Appearance</Value>
+      <Value>Внешний вид</Value>
     </Record>
     <Record>
       <Key>SettingsUserSpeakerMode</Key>
-      <Value>Speaker Mode:</Value>
+      <Value>Режим динамика:</Value>
     </Record>
     <Record>
       <Key>LogicTypeNone</Key>
-      <Value>No description</Value>
+      <Value>Нет описания</Value>
     </Record>
     <Record>
       <Key>LogicTypePower</Key>
-      <Value>Can be read to return if the device is correctly powered or not, set via the power system, return 1 if powered and 0 if not</Value>
+      <Value>Можно прочитать, чтобы вернуться, если устройство правильно запитано или нет, установить через систему питания, вернуть 1, если питание и 0, если нет</Value>
     </Record>
     <Record>
       <Key>LogicTypeOpen</Key>
-      <Value>1 if device is open, otherwise 0</Value>
+      <Value>1, если устройство открыто, иначе 0</Value>
     </Record>
     <Record>
       <Key>LogicTypeMode</Key>
-      <Value>Integer for mode state, different devices will have different mode states available to them</Value>
+      <Value>Целое число для состояния режима, разные устройства будут иметь разные состояния режима, доступные для них.</Value>
     </Record>
     <Record>
       <Key>LogicTypeError</Key>
-      <Value>1 if device is in error state, otherwise 0</Value>
+      <Value>1, если устройство находится в состоянии ошибки, иначе 0</Value>
     </Record>
     <Record>
       <Key>LogicTypeLock</Key>
-      <Value>1 if device is locked, otherwise 0, can be set in most devices and prevents the user from access the values</Value>
+      <Value>1, если устройство заблокировано, иначе 0, может быть установлено на большинстве устройств и запрещает пользователю доступ к значениям</Value>
     </Record>
     <Record>
       <Key>LogicTypePressure</Key>
-      <Value>The current pressure reading of the device</Value>
+      <Value>Текущие показания давления устройства</Value>
     </Record>
     <Record>
       <Key>LogicTypeTemperature</Key>
-      <Value>The current temperature reading of the device</Value>
+      <Value>Текущие показания температуры устройства</Value>
     </Record>
     <Record>
       <Key>LogicTypePressureInput</Key>
-      <Value>The current pressure reading of the device's Input Network</Value>
+      <Value>Текущие показания давления входной сети устройства.</Value>
     </Record>
     <Record>
       <Key>LogicTypeTemperatureInput</Key>
-      <Value>The current temperature reading of the device's Input Network</Value>
+      <Value>Текущее показание температуры входной сети устройства.</Value>
     </Record>
     <Record>
       <Key>LogicTypePressureInput2</Key>
-      <Value>The current pressure reading of the device's Input2 Network</Value>
+      <Value>Текущие показания давления в сети Input2 устройства.</Value>
     </Record>
     <Record>
       <Key>LogicTypeTemperatureInput2</Key>
-      <Value>The current temperature reading of the device's Input2 Network</Value>
+      <Value>Текущее показание температуры сети Input2 устройства.</Value>
     </Record>
     <Record>
       <Key>LogicTypePressureOutput</Key>
-      <Value>The current pressure reading of the device's Output Network</Value>
+      <Value>Текущие показания давления выходной сети устройства.</Value>
     </Record>
     <Record>
       <Key>LogicTypeTemperatureOutput</Key>
-      <Value>The current temperature reading of the device's Output Network</Value>
+      <Value>TТекущее показание температуры выходной сети устройства.</Value>
     </Record>
     <Record>
       <Key>LogicTypePressureOutput2</Key>
-      <Value>The current pressure reading of the device's Output2 Network</Value>
+      <Value>Текущие показания давления сети Output2 устройства</Value>
     </Record>
     <Record>
       <Key>LogicTypeTemperatureOutput2</Key>
-      <Value>The current temperature reading of the device's Output2 Network</Value>
+      <Value>Текущее показание температуры сети Output2 устройства</Value>
     </Record>
     <Record>
       <Key>LogicTypePressureExternal</Key>
-      <Value>Setting for external pressure safety, in KPa</Value>
+      <Value>Настройка безопасности по внешнему давлению, кПа</Value>
     </Record>
     <Record>
       <Key>LogicTypePressureInternal</Key>
-      <Value>Setting for internal pressure safety, in KPa</Value>
+      <Value>Настройка безопасности по внутреннему давлению, кПа</Value>
     </Record>
     <Record>
       <Key>LogicTypeActivate</Key>
-      <Value>1 if device is activated (usually means running), otherwise 0</Value>
+      <Value>1, если устройство активировано (обычно это означает, что оно работает), иначе 0</Value>
     </Record>
     <Record>
       <Key>LogicTypeCharge</Key>
-      <Value>The current charge the device has</Value>
+      <Value>Текущий заряд устройства</Value>
     </Record>
     <Record>
       <Key>LogicTypeSetting</Key>
-      <Value>A variable setting that can be read or written, depending on the device</Value>
+      <Value>Переменная настройка, которая может быть прочитана или записана, в зависимости от устройства</Value>
     </Record>
     <Record>
       <Key>LogicTypeReagents</Key>
-      <Value>Total number of reagents recorded by the device</Value>
+      <Value>Общее количество реагентов, зарегистрированных прибором</Value>
     </Record>
     <Record>
       <Key>LogicTypeRatioOxygen</Key>
-      <Value>The ratio of oxygen in device atmosphere</Value>
+      <Value>Соотношение кислорода в атмосфере устройства</Value>
     </Record>
     <Record>
       <Key>LogicTypeRatioCarbonDioxide</Key>
-      <Value>The ratio of {GAS:CarbonDioxide} in device atmosphere</Value>
+      <Value>Соотношение {GAS:CarbonDioxide} в атмосфере устройства</Value>
     </Record>
     <Record>
       <Key>LogicTypeRatioNitrogen</Key>
-      <Value>The ratio of nitrogen in device atmosphere</Value>
+      <Value>Соотношение азота в атмосфере устройства</Value>
     </Record>
     <Record>
       <Key>LogicTypeRatioPollutant</Key>
-      <Value>The ratio of pollutant in device atmosphere</Value>
+      <Value>Соотношение загрязняющих веществ в атмосфере устройства</Value>
     </Record>
     <Record>
       <Key>LogicTypeRatioVolatiles</Key>
@@ -10229,159 +10229,159 @@ You must place the laptop down to interact with the onsreen UI.
     </Record>
     <Record>
       <Key>LogicTypeRatioWater</Key>
-      <Value>The ratio of water in device atmosphere</Value>
+      <Value>Соотношение воды в атмосфере устройства</Value>
     </Record>
     <Record>
       <Key>LogicTypeRatioNitrousOxide</Key>
-      <Value>The ratio of {GAS:NitrousOxide} in device atmosphere</Value>
+      <Value>Соотношение {GAS:NitrousOxide} в атмосфере устройства</Value>
     </Record>
     <Record>
       <Key>LogicTypeCombustion</Key>
-      <Value>The assess atmosphere is on fire. Returns 1 if atmosphere is on fire, 0 if not.</Value>
+      <Value>Атмосферная атмосфера в огне. Возвращает 1, если атмосфера горит, и 0, если нет.</Value>
     </Record>
     <Record>
       <Key>LogicTypeRatioOxygenInput</Key>
-      <Value>The ratio of oxygen in device's input network</Value>
+      <Value>Атмосферная атмосфера в огне. Возвращает 1, если атмосфера горит, и 0, если нет.</Value>
     </Record>
     <Record>
       <Key>LogicTypeRatioCarbonDioxideInput</Key>
-      <Value>The ratio of {GAS:CarbonDioxide} in device's input network</Value>
+      <Value>Соотношение {GAS:CarbonDioxide} во входной сети устройств</Value>
     </Record>
     <Record>
       <Key>LogicTypeRatioNitrogenInput</Key>
-      <Value>The ratio of nitrogen in device's input network</Value>
+      <Value>Соотношение азота во входной сети устройства</Value>
     </Record>
     <Record>
       <Key>LogicTypeRatioPollutantInput</Key>
-      <Value>The ratio of pollutant in device's input network</Value>
+      <Value>Соотношение загрязняющих веществ во входной сети устройства</Value>
     </Record>
     <Record>
       <Key>LogicTypeRatioVolatilesInput</Key>
-      <Value>The ratio of volatiles in device's input network</Value>
+      <Value>Соотношение летучих веществ во входной сети устройства</Value>
     </Record>
     <Record>
       <Key>LogicTypeRatioWaterInput</Key>
-      <Value>The ratio of water in device's input network</Value>
+      <Value>Отношение воды во входной сети устройства </Value>
     </Record>
     <Record>
       <Key>LogicTypeRatioNitrousOxideInput</Key>
-      <Value>The ratio of {GAS:NitrousOxide} in device's input network</Value>
+      <Value>Соотношение {ГАЗ:Закись азота} во входной сети устройств </Value>
     </Record>
     <Record>
       <Key>LogicTypeCombustionInput</Key>
-      <Value>The assess atmosphere is on fire. Returns 1 if device's input network is on fire, 0 if not.</Value>
+      <Value>Атмосферная атмосфера в огне. Возвращает 1, если входная сеть устройства горит, 0, если нет.</Value>
     </Record>
     <Record>
       <Key>LogicTypeRatioOxygenInput2</Key>
-      <Value>The ratio of oxygen in device's Input2 network</Value>
+      <Value>Соотношение кислорода в сети Input2 устройства</Value>
     </Record>
     <Record>
       <Key>LogicTypeRatioCarbonDioxideInput2</Key>
-      <Value>The ratio of {GAS:CarbonDioxide} in device's Input2 network</Value>
+      <Value>Соотношение {ГАЗ:Двуокись углерода} в сети Input2 устройства </Value>
     </Record>
     <Record>
       <Key>LogicTypeRatioNitrogenInput2</Key>
-      <Value>The ratio of nitrogen in device's Input2 network</Value>
+      <Value>Соотношение азота в сети Input2 устройства</Value>
     </Record>
     <Record>
       <Key>LogicTypeRatioPollutantInput2</Key>
-      <Value>The ratio of pollutant in device's Input2 network</Value>
+      <Value>Соотношение загрязняющих веществ в сети Input2 устройства</Value>
     </Record>
     <Record>
       <Key>LogicTypeRatioVolatilesInput2</Key>
-      <Value>The ratio of volatiles in device's Input2 network</Value>
+      <Value>Соотношение летучи[ веществ в сети Input2 устройства</Value>
     </Record>
     <Record>
       <Key>LogicTypeRatioWaterInput2</Key>
-      <Value>The ratio of water in device's Input2 network</Value>
+      <Value>Соотношение воды в сети Input2 устройства</Value>
     </Record>
     <Record>
       <Key>LogicTypeRatioNitrousOxideInput2</Key>
-      <Value>The ratio of {GAS:NitrousOxide} in device's Input2 network</Value>
+      <Value>Соотношение {GAS:NitrousOxide} в сети Input2 устройства</Value>
     </Record>
     <Record>
       <Key>LogicTypeCombustionInput2</Key>
-      <Value>The assess atmosphere is on fire. Returns 1 if device's Input2 network is on fire, 0 if not.</Value>
+      <Value>Атмосферная атмосфера в огне. Возвращает 1, если сеть Input2 устройства горит, 0, если нет.</Value>
     </Record>
     <Record>
       <Key>LogicTypeRatioOxygenOutput</Key>
-      <Value>The ratio of oxygen in device's Output network</Value>
+      <Value>Соотношение кислорода в выходной сети аппарата </Value>
     </Record>
     <Record>
       <Key>LogicTypeRatioCarbonDioxideOutput</Key>
-      <Value>The ratio of {GAS:CarbonDioxide} in device's Output network</Value>
+      <Value>Соотношение {GAS:CarbonDioxide} в выходной сети устройств</Value>
     </Record>
     <Record>
       <Key>LogicTypeRatioNitrogenOutput</Key>
-      <Value>The ratio of nitrogen in device's Output network</Value>
+      <Value>Соотношение азота в выходной сети устройства</Value>
     </Record>
     <Record>
       <Key>LogicTypeRatioPollutantOutput</Key>
-      <Value>The ratio of pollutant in device's Output network</Value>
+      <Value>Соотношение загрязняющих веществ в выходной сети устройства</Value>
     </Record>
     <Record>
       <Key>LogicTypeRatioVolatilesOutput</Key>
-      <Value>The ratio of volatiles in device's Output network</Value>
+      <Value>Соотношение летучих веществ в выходной сети устройства</Value>
     </Record>
     <Record>
       <Key>LogicTypeRatioWaterOutput</Key>
-      <Value>The ratio of water in device's Output network</Value>
+      <Value>Соотношение воды в выходной сети устройства</Value>
     </Record>
     <Record>
       <Key>LogicTypeRatioNitrousOxideOutput</Key>
-      <Value>The ratio of {GAS:NitrousOxide} in device's Output network</Value>
+      <Value>Соотношение {GAS:NitrousOxide} в выходной сети устройств</Value>
     </Record>
     <Record>
       <Key>LogicTypeCombustionOutput</Key>
-      <Value>The assess atmosphere is on fire. Returns 1 if device's Output network is on fire, 0 if not.</Value>
+      <Value>Атмосферная атмосфера в огне. Возвращает 1, если выходная сеть устройства горит, и 0, если нет.</Value>
     </Record>
     <Record>
       <Key>LogicTypeRatioOxygenOutput2</Key>
-      <Value>The ratio of oxygen in device's Output2 network</Value>
+      <Value>Соотношение кислорода в сети Output2 устройства</Value>
     </Record>
     <Record>
       <Key>LogicTypeRatioCarbonDioxideOutput2</Key>
-      <Value>The ratio of {GAS:CarbonDioxide} in device's Output2 network</Value>
+      <Value>Соотношение {GAS:CarbonDioxide} в устройствах Выход 2 сети</Value>
     </Record>
     <Record>
       <Key>LogicTypeRatioNitrogenOutput2</Key>
-      <Value>The ratio of nitrogen in device's Output2 network</Value>
+      <Value>Соотношение азота в сети Output2 устройства</Value>
     </Record>
     <Record>
       <Key>LogicTypeRatioPollutantOutput2</Key>
-      <Value>The ratio of pollutant in device's Output2 network</Value>
+      <Value>Соотношение загрязняющих веществ в сети Output2 устройства</Value>
     </Record>
     <Record>
       <Key>LogicTypeRatioVolatilesOutput2</Key>
-      <Value>The ratio of volatiles in device's Output2 network</Value>
+      <Value>Соотношение volatiles в сети Output2 устройства</Value>
     </Record>
     <Record>
       <Key>LogicTypeRatioWaterOutput2</Key>
-      <Value>The ratio of water in device's Output2 network</Value>
+      <Value>Соотношение воды в сети Output2 устройства</Value>
     </Record>
     <Record>
       <Key>LogicTypeRatioNitrousOxideOutput2</Key>
-      <Value>The ratio of {GAS:NitrousOxide} in device's Output2 network</Value>
+      <Value>Соотношение {GAS:NitrousOxide} в сети Output2 устройства </Value>
     </Record>
     <Record>
       <Key>LogicTypeCombustionOutput2</Key>
-      <Value>The assess atmosphere is on fire. Returns 1 if device's Output2 network is on fire, 0 if not.</Value>
+      <Value>Оценивает наличие пожара в атмосфере. Возвращает 1 если атмосфера в огне, 0 если нет.</Value>
     </Record>
     <Record>
       <Key>LogicTypeHorizontal</Key>
-      <Value>Horizontal setting of the device</Value>
+      <Value>Настройка горизонтального угла устройства</Value>
     </Record>
     <Record>
       <Key>LogicTypeVertical</Key>
-      <Value>Vertical setting of the device</Value>
+      <Value>Настройка вертикального угла устройства</Value>
     </Record>
     <Record>
       <Key>LogicTypeSolarAngle</Key>
-      <Value>Solar angle of the device</Value>
+      <Value>Угол солнца девайса</Value>
     </Record>
     <Record>
       <Key>LogicTypeMaximum</Key>
-      <Value>Maximum setting of the device</Value>
+      <Value>Максимальная настройка устройства</Value>
     </Record>
     <Record>
       <Key>LogicTypeRatio</Key>
@@ -13306,7 +13306,7 @@ Stationeers, способные строить и поддерживать ба�
     </Record>
     <Record>
       <Key>SettingsStartLocalHost</Key>
-      <Value>StartLocalHost</Value>
+      <Value>Запустить локальный хост</Value>
     </Record>
     <Record>
       <Key>MainMenuChangeAppearance</Key>
@@ -13354,27 +13354,27 @@ Stationeers, способные строить и поддерживать ба�
     </Record>
     <Record>
       <Key>TradeErrorNoMotherboardInsertedTitle</Key>
-      <Value>Unable to trade</Value>
+      <Value>Невозможно торговать</Value>
     </Record>
     <Record>
       <Key>TradeErrorNoMotherboardInsertedMessage</Key>
-      <Value>The connected computer requires a comms motherboard to be inserted in order to trade.</Value>
+      <Value>Подключенный компьютер требует, чтобы материнская плата связи была вставлена ​​для торговли.</Value>
     </Record>
     <Record>
       <Key>TradeErrorPadError</Key>
-      <Value>The Landing Pad is in an Error state. Restore landing pad to normal operation before trade can continue</Value>
+      <Value>Посадочная площадка находится в состоянии ошибки. Восстановите нормальную работу посадочной площадки, прежде чем можно будет продолжить торговлю.</Value>
     </Record>
     <Record>
       <Key>TradeErrorPadOff</Key>
-      <Value>The Landing Pad is Unpowered. Restore landing pad to normal operation before trade can continue</Value>
+      <Value>Посадочная площадка обесточена. Восстановите нормальную работу посадочной площадки, прежде чем можно будет продолжить торговлю.</Value>
     </Record>
     <Record>
       <Key>CartridgePlantAnalyserTitle</Key>
-      <Value>PLANT ANALYSER</Value>
+      <Value>АНАЛИЗАТОР РАСТЕНИЙ</Value>
     </Record>
     <Record>
       <Key>ContactItemLostContact</Key>
-      <Value>Lost Contact</Value>
+      <Value>Потеряно соединение</Value>
     </Record>
   </Interface>
   <Colors>
@@ -13722,7 +13722,7 @@ Stationeers, способные строить и поддерживать ба�
     </Record>
     <Record>
       <Key>Pipe</Key>
-      <Value>Труба</Value>
+      <Value>Pipe</Value>
     </Record>
     <Record>
       <Key>RightCurlyBracket</Key>
