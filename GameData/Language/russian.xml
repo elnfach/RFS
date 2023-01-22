@@ -729,17 +729,17 @@ Just bolt it to a {THING:StructureBench} using a {THING:ItemWrench} to power it,
     <RecordThing>
       <Key>CartridgeAtmosAnalyser</Key>
       <Value>Атмосферный анализатор</Value>
-      <Description>The Lorenz atmos analyzer is a multi-functional mass-spectrometer designed by {LINK:ExMin;ExMin} for use with the OreCore {THING:ItemTablet}. It displays the pressure, concentration and molar quantity of {LINK:GasPage;gas} in rooms, tanks, or pipe networks.</Description>
+      <Description>Анализатор Lorenz atmos представляет собой многофункциональный масс-спектрометр, разработанный {LINK:ExMin;ExMin} для использования с OreCore {THING:ItemTablet}. Он отображает давление, концентрацию и молярное количество {LINK:GasPage;gas} в помещениях, резервуарах или трубопроводных сетях.</Description>
     </RecordThing>
     <RecordThing>
       <Key>CartridgeMedicalAnalyser</Key>
       <Value>Медицинский анализатор</Value>
-      <Description>When added to the OreCore {THING:ItemTablet}, {LINK:Asura;Asura's}'s ReadyMed medical analyzer reveals the health, or otherwise, of users various organs. Due to a design flaw, older models were notorious for producing quasar-like levels of x-ray radiation. Recent advances in shielding have more than halved the risk to users.</Description>
+      <Description>При добавлении в OreCore {THING:ItemTablet} медицинский анализатор {LINK:Asura;Asura's} ReadyMed показывает состояние здоровья или иное состояние различных органов пользователя. Из-за конструктивного недостатка старые модели были известны тем, что производили рентгеновское излучение на уровне квазара. Недавние достижения в области защиты более чем вдвое снизили риск для пользователей.</Description>
     </RecordThing>
     <RecordThing>
       <Key>CartridgeNetworkAnalyser</Key>
       <Value>Сетевой анализатор</Value>
-      <Description>A minor masterpiece of micro-electronic engineering, the network analyzer displays the current, voltage and wattage of a cable network, as well as any devices connected to it. Based on a widely-copied {LINK:Sinotai;Sinotai} design, it's used in conjunction with the OreCore {THING:ItemTablet}.</Description>
+      <Description>Небольшой шедевр микроэлектроники, сетевой анализатор отображает ток, напряжение и мощность кабельной сети, а также любых подключенных к ней устройств. Основанный на широко скопированном дизайне {LINK:Sinotai;Sinotai}, он используется в сочетании с OreCore {THING:ItemTablet}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>Character</Key>
@@ -769,35 +769,117 @@ Just bolt it to a {THING:StructureBench} using a {THING:ItemWrench} to power it,
     </RecordThing>
     <RecordThing>
       <Key>CircuitboardDoorControl</Key>
-      <Value>Управление дверью</Value>
-      <Description>A basic tool of {LINK:Stationeers;Stationeer} base construction, this circuit board provides a way to open and close a {THING:StructureCompositeDoor}, {THING:StructureBlastDoor} or {THING:StructureGlassDoor} remotely, when connected to a {THING:StructureConsole}. This system can be further linked to {THING:StructureMotionSensor} to create automatic doors.</Description>
+      <Value>Управление дверями</Value>
+      <Description>Плата для консоли. Предназначена для централизованного управления дверями с консоли и с помощью датчиков движения.
+
+{HEADER:ПОДРОБНОЕ ОПИСАНИЕ}
+Являясь базовым инструментом для создания базы {LINK:Stationeers;Stationeer}, эта печатная плата позволяет удаленно открывать и закрывать {THING:StructureCompositeDoor}, {THING:StructureBlastDoor} или {THING:StructureGlassDoor} при подключении к {THING :Структурконсоле}. Эта система может быть дополнительно связана с {THING:StructureMotionSensor} для создания автоматических дверей.
+
+{HEADER:МОНТАЖ И НАСТРОЙКА}
+Закрепите на стене консоль, вставьте в неё плату, закройте стеклом. Подключите консоль к электрической и информационной сетям.
+Включите консоль, вставьте в неё дискету. В появившемся списке оборудования выберите необходимые двери любого типа и датчики движения. Установите разрешение или запрет ручного управления дверями (Manual Operation - Enabled/Disabled), режим работы (Mode) - Toggle или Linked.
+
+{HEADER:АЛГОРИТМ РАБОТЫ}
+Режим Toggle: В этом режиме при каждом срабатывании любого из выбранных датчиков движения все выбранные двери меняют состояние Открыто/Закрыто на противоположное.
+Режим Linked: В этом режиме при активации любого из выбранных датчиков движения все выбранные двери открываются, при деактивации датчика - закрываются.
+В обоих режимах возможно ручное открытие/закрытие двери через консоль.
+
+{HEADER:ИНДИКАЦИЯ}
+Режим Toggle:
+TOGGLE DOOR - при нажатие на надпись все выбранные двери меняют состояние Открыто/Закрыто на противоположное.
+Режим Linked:
+OPEN DOOR - при нажатие на надпись все выбранные двери открываются
+CLOSE DOOR - при нажатие на надпись все выбранные двери закрываются
+	  </Description>
     </RecordThing>
     <RecordThing>
       <Key>CircuitboardGasDisplay</Key>
       <Value>Атмосферный индикатор</Value>
-      <Description>Information is power. Place this circuitboard into a {THING:StructureConsole} to create a display that shows gas pressure or temperature of any connected tank, storage cannister, {THING:ItemPipeAnalyizer} or {THING:ItemGasSensor}.</Description>
+      <Description>Плата для консоли. Предназначена для отображения усреднённых давления или температуры с группы газовых датчиков и газоанализаторов.
+
+{HEADER:ПОДРОБНОЕ ОПИСАНИЕ}
+Информация – это сила. Поместите эту печатную плату в {THING:StructureConsole}, чтобы создать дисплей, показывающий давление газа или температуру любого подключенного резервуара, контейнера для хранения, {THING:ItemPipeAnalyizer} или {THING:ItemGasSensor}.
+
+{HEADER:МОНТАЖ И НАСТРОЙКА}
+Закрепите на стене консоль, вставьте в неё плату, закройте стеклом. Подключите консоль к электрической и информационной сетям.
+Включите консоль, вставьте в неё дискету. В появившемся списке оборудования выберите газовые датчики и газоанализаторы, от которых консоль будет получать данные.
+В верхней части выберите режим работы (Mode) - Pressure или Temperature
+Извлеките дискету из консоли, она перейдёт в автономный режим.
+
+{HEADER:АЛГОРИТМ РАБОТЫ}
+В режиме Pressure консоль получает данные о давлении со всех подключённых датчиков, вычисляет и отображает среднее значение.
+В режиме Temperature консоль получает данные о температуре со всех подключённых датчиков, вычисляет и отображает среднее значение.
+	  </Description>
     </RecordThing>
     <RecordThing>
       <Key>CircuitboardModeControl</Key>
       <Value>Управление режимом</Value>
-      <Description>Can't decide which mode you love most? This circuit board allows you to switch any connected device between operation modes.</Description>
+      <Description>Не можете решить, какой режим вам нравится больше всего? Эта печатная плата позволяет переключать любое подключенное устройство между режимами работы.
+
+{HEADER:ПОДРОБНОЕ ОПИСАНИЕ}
+Плата для консоли. Предназначена для переключения режимов устройств, поддерживающих логический параметр Mode.
+
+{HEADER:МОНТАЖ И НАСТРОЙКА}
+Закрепите на стене консоль, вставьте в неё плату, закройте стеклом. Подключите консоль к электрической и информационной сетям.
+Включите консоль, вставьте в неё дискету. В появившемся списке оборудования выберите устройства, режим работы которых надо переключать.
+Сверху выберите разрешение/запрет ручного управления устройством (Manual Operation - Enabled/Disabled) и режим работы (Mode) - Toggle или Linked.
+Извлеките дискету, устройство перейдёт в автономный режим работы.
+
+{HEADER:АЛГОРИТМ РАБОТЫ}
+В режиме Toggle каждое нажатие на кнопку TOGGLE MODE меняет режим работы устройств на противоположный.
+В режиме Linked кнопка ACTIVE MODE/INACTIVE MODE устанавливают соответствующий режим работы связанных устройств.
+Таким образом, первый режим позволяет, например, одновременно открыть только закрытые связанные двери и закрыть только открытые, а второй режим все связанные двери откроет (или закроет), независимо от их предыдущего состояния.
+	  </Description>
     </RecordThing>
     <RecordThing>
       <Key>CircuitboardPowerControl</Key>
       <Value>Управление питанием</Value>
-      <Description>Under distant suns and demanding environments, {LINK:Stationeers;Stationeer} systems need to balance reliability, resilience and versatility. The power control board allows remote enabling and disabling of selected devices, disconnecting manual operation. 
-      
-The circuit board has two modes: 'Link' switches all devices on or off; 'Toggle' switches each device to their alternate state. </Description>
+      <Description>Системы {LINK:Stationeers;Stationeer} под палящим солнцем и в сложных условиях должны сочетать надежность, отказоустойчивость и универсальность. Плата управления питанием позволяет дистанционно включать и выключать выбранные устройства, отключать ручное управление.
+Плата имеет два режима: «Link» включает или выключает все устройства; «Toggle» переключает каждое устройство в альтернативное состояние.
+
+{HEADER:ПОДРОБНОЕ ОПИСАНИЕ}
+Плата для консоли. Предназначена для включения/выключения питания устройств. Может отключать питание даже на устройствах, не имеющих такой функции в явном виде, например на дверях.
+
+{HEADER:МОНТАЖ И НАСТРОЙКА}
+Закрепите на стене консоль, вставьте в неё плату, закройте стеклом. Подключите консоль к электрической и информационной сетям.
+Включите консоль, вставьте в неё дискету. В появившемся списке оборудования выберите устройства, питанием которых надо управлять.
+Сверху выберите разрешение/запрет ручного управления устройством (Manual Operation - Enabled/Disabled) и режим работы (Mode) - Toggle или Linked.
+Извлеките дискету, устройство перейдёт в автономный режим работы.
+
+{HEADER:АЛГОРИТМ РАБОТЫ}
+В режиме Toggle каждое нажатие на кнопку TRIGGER POWER переключает питание устройств.
+В режиме Linked кнопка POWER ON/POWER OFF соответственно включает или выключает питание связанных устройств.
+	  </Description>
     </RecordThing>
     <RecordThing>
       <Key>CircuitboardShipDisplay</Key>
       <Value>Параметры корабля</Value>
-      <Description>When the original {LINK:Stationeers;Stationeer} Handbook collapsed under its own weight into a singularity, certain information was irretrievably lost. Amongst this mysterious corpus of knowledge is the exact purpose of the ship display board.</Description>
+      <Description>Когда исходный справочник {LINK:Stationeers;Stationeer} рухнул под собственным весом в сингулярность, некоторая информация была безвозвратно утеряна. Среди этого таинственного свода знаний есть точное назначение табло корабля.</Description>
     </RecordThing>
     <RecordThing>
       <Key>CircuitboardSolarControl</Key>
       <Value>Управление солнечными панелями</Value>
-      <Description>Adding a solar control board to a {THING:StructureConsole} lets you manually control the horizontal and vertical angles of any connected {THING:StructureSolarPanel}.</Description>
+      <Description>Плата для консоли. Позволяет централизованно управлять положением панелей и отображает информацию о генерируемой ими мощности.
+
+{HEADER:ПОДРОБНОЕ ОПИСАНИЕ}
+Добавление панели управления солнечными батареями к {THING:StructureConsole} позволяет вручную управлять горизонтальными и вертикальными углами любой подключенной {THING:StructureSolarPanel}.
+
+{HEADER:МОНТАЖ И НАСТРОЙКА}
+Закрепите на стене консоль, вставьте в неё плату, закройте стеклом. Подключите консоль к электрической и информационной сетям.
+Включите консоль, вставьте в неё дискету. В появившемся списке оборудования выберите необходимые солнечные панели.
+Извлеките дискету, консоль перейдёт в автономный режим работы.
+
+{HEADER:АЛГОРИТМ РАБОТЫ}
+Консоль суммирует со всех связанных солнечных панелей данные о генерируемой энергии и отображает результат на экране.
+В нижней части панели находится управление горизонтальным (HORIZONTAL) и вертикальным (VERTICAL) поворотом панелей. С помощью кнопок + и - можно задавать необходимое положение сразу для всех связанных панелей.
+Внимание! Консоль не выполняет автоматическое наведение солнечных панелей, а только позволяет управлять всеми панелями с одной точки.
+
+{HEADER:ИНДИКАЦИЯ}
+CONNECTED - количество подключенных солнечных панелей
+GENERATED - суммарная генерируемая мощность, Вт
+HORIZONTAL - горизонтальный поворот панелей, %
+VERTICAL - вертикальный поворот панелей, %
+	  </Description>
     </RecordThing>
     <RecordThing>
       <Key>DynamicAirConditioner</Key>
@@ -946,32 +1028,78 @@ The circuit board has two modes: 'Link' switches all devices on or off; 'Toggle'
     <RecordThing>
       <Key>ItemBatteryCell</Key>
       <Value>Аккумулятор</Value>
-      <Description>Harnessing a design pioneered in the early 21st century, the small battery cell is the {LINK:Stationeers;Stationeer's} basic unit of portable electrical power. While it lacks the charge of a {THING:ItemBatteryCellLarge} or {THING:ItemBatteryCellNuclear}, it has the humble advantage of being fabricated from basic resources.
+      <Description>Благодаря конструкции, разработанной впервые в начале 21 века, небольшая аккумуляторная батарея является основной единицей портативной электрической энергии {LINK:Stationeers;Stationeer}. Хотя ему не хватает заряда {THING:ItemBatteryCellLarge} или {THING:ItemBatteryCellNuclear}, у него есть скромное преимущество в том, что он изготовлен из базовых ресурсов.
 
-{HEADER:POWER OUTPUT}
-The small cell stores up to 36000 watts of power.</Description>
+{HEADER:ПОДРОБНОЕ ОПИСАНИЕ}
+Перезаряжаемый источник питания, ёмкостью 36 кДж (5 Вт·ч). Используется в электроинструментах (бур, дрель, болгарка), планшете, маячке, оружии, переносных машинах, источнике бесперебойного питания.
+В верхней части аккумулятора находится индикатор, показывающий текущее состояние аккумулятора.
+В игре также есть высокоёмкий и ядерный аккумуляторы.
+Внимание!!! В холодной атмосфере аккумулятор разряжается, теряя каждый тик 50·(1-T/273.15)·(P/101325) Дж (T - температура в кельвинах, P - давление в паскалях, но не более 101325). В атмосфере Марса потери батареи составят до 0.38 Дж/тик, в атмосфере Европы - 23.5-38 Дж/тик. Потери аккумулятора, установленного в инструмент, зависят от теплоизоляции инструмента и могут быть на 90% меньше.
+
+{HEADER:ИНДИКАЦИЯ}
+Синий - заряд больше 99.9%
+Зелёный - заряд от 75 до 99.9%
+Жёлтый - заряд от 50 до 75%
+Оранжевый - заряд от 25 до 50%
+Красный - заряд от 10 до 25%
+Красный мигающий - заряд менее 10%
+Не светится - полностью разряжен
+
+{HEADER:ЗАРЯД}
+Аккумулятор хранит до 36000 Вт мощности или 36 кДж (5 Вт·ч).
+</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemBatteryCellLarge</Key>
       <Value>Высокоёмкий аккумулятор</Value>
-      <Description>First mass-produced by {LINK:Xigo;Xigo} in 2155 on the basis of a unattributed prototype, the classic silicon anode solid-state design extends its optimum temperature range.
+      <Description>Впервые серийно произведенный {LINK:Xigo;Xigo} в 2155 году на основе неустановленного прототипа классический твердотельный кремниевый анод с расширенным оптимальным температурным диапазоном.
 
-{HEADER:POWER OUTPUT}
-The large power cell can discharge 288kW of power. 
+{HEADER:ПОДРОБНОЕ ОПИСАНИЕ}
+Перезаряжаемый источник питания, ёмкостью 288 000 Дж (40 Вт·ч). Используется в электроинструментах (бур, дрель, болгарка), планшете, маячке, оружии, переносных машинах, источнике бесперебойного питания.
+В верхней части аккумулятора находится индикатор, показывающий текущее состояние аккумулятора.
+В игре также есть обычный и ядерный аккумуляторы.
+Внимание!!! В холодной атмосфере аккумулятор разряжается, теряя каждый тик 50·(1-T/273.15)·(P/101325) Дж (T - температура в кельвинах, P - давление в паскалях, но не более 101325). В атмосфере Марса потери батареи составят до 0.38 Дж/тик, в атмосфере Европы - 23.5-38 Дж/тик. Потери аккумулятора, установленного в инструмент, зависят от теплоизоляции инструмента и могут быть на 90% меньше.
+
+{HEADER:ИНДИКАЦИЯ}
+Синий - заряд больше 99.9%
+Зелёный - заряд от 75 до 99.9%
+Жёлтый - заряд от 50 до 75%
+Оранжевый - заряд от 25 до 50%
+Красный - заряд от 10 до 25%
+Красный мигающий - заряд менее 10%
+Не светится - полностью разряжен
+
+{HEADER:ЗАРЯД}
+Высокоёмкий аккумулятор может выдавать мощность до 288 кВт (40 Вт·ч).
 </Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemBatteryCellNuclear</Key>
       <Value>Ядерный аккумулятор</Value>
-      <Description>Illegal on Earth since the Chengdu Event, Norsec nuclear power cells found a new and drastically less safety-conscious market offworld.
+      <Description>Запрещенные на Земле после события в Чэнду, ядерные силовые элементы Norsec нашли новый и значительно менее заботящийся о безопасности рынок за пределами планеты.
 
-{HEADER:POWER OUTPUT}
-Pushing the power-weight balance to its limits, the 'nuke' has a 2.3 megawatt charge (2304000W), reflecting its reliance on exotic {LINK:IngotPage;superalloys}.</Description>
+{HEADER:ПОДРОБНОЕ ОПИСАНИЕ}
+Перезаряжаемый источник питания, ёмкостью 2 304 000 Дж (320 Вт·ч). Используется в электроинструментах (бур, дрель, болгарка), планшете, маячке, оружии, переносных машинах, источнике бесперебойного питания.
+В верхней части аккумулятора находится индикатор, показывающий текущее состояние аккумулятора.
+В игре также есть обычный и высокоёмкий аккумуляторы.
+Внимание!!! В холодной атмосфере аккумулятор разряжается, теряя каждый тик 50·(1-T/273.15)·(P/101325) Дж (T - температура в кельвинах, P - давление в паскалях, но не более 101325). В атмосфере Марса потери батареи составят до 0.38 Дж/тик, в атмосфере Европы - 23.5-38 Дж/тик. Потери аккумулятора, установленного в инструмент, зависят от теплоизоляции инструмента и могут быть на 90% меньше.
+
+{HEADER:ИНДИКАЦИЯ}
+Синий - заряд больше 99.9%
+Зелёный - заряд от 75 до 99.9%
+Жёлтый - заряд от 50 до 75%
+Оранжевый - заряд от 25 до 50%
+Красный - заряд от 10 до 25%
+Красный мигающий - заряд менее 10%
+Не светится - полностью разряжен
+
+{HEADER:ЗАРЯД}
+Доведя баланс мощности и веса до предела, «ядерная бомба» имеет заряд 2.3 МВт (2304000 Вт), что отражает ее зависимость от редких {LINK:IngotPage;суперсплавов}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemBatteryCharger</Key>
       <Value>Зарядное устройство</Value>
-      <Description>This kit produces a 5-slot {THING:ItemBatteryCharger}.</Description>
+      <Description>Этот комплект содержит {THING:ItemBatteryCharger} с 5-ю слотами.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemBook</Key>
@@ -1190,12 +1318,22 @@ To use on yourself: put duct tape in your active hand, hold RIGHT MOUSE BUTTON t
     <RecordThing>
       <Key>ItemGlassSheets</Key>
       <Value>Листы стекла</Value>
-      <Description>A fundamental construction component, glass sheets are created from {REAGENT:Silicon}. Fabricated on the {THING:StructureAutolathe}, they are used to make {THING:StructureSolarPanel;Solar Panels}, {THING:StructureAirlock;Airlocks} and many other structures.</Description>
+      <Description>Стеклянные листы, являющиеся основным строительным компонентом, создаются из {REAGENT:Silicon}. Изготовленные на {THING:StructureAutolathe}, они используются для изготовления {THING:StructureSolarPanel;Солнечных панелей}, {THING:StructureAirlock;Воздушных шлюзов} и многих других конструкций.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemCopperIngot</Key>
       <Value>Слиток меди</Value>
-      <Description>Медные слитки создаются путем плавки {THING:ItemCopperOre} в {THING:StructureFurnace} или в  {THING:StructureArcFurnace} и потом используются для создания различных предметов.</Description>
+      <Description>Медные слитки создаются путем плавки {THING:ItemCopperOre} в {THING:StructureFurnace} или в  {THING:StructureArcFurnace} и потом используются для создания различных предметов.
+
+{HEADER:ПОДРОБНОЕ ОПИСАНИЕ}
+Получается переплавкой руды в обычной, улучшенной или дуговой печи. Переплавка идёт по следующей формуле:
+Медная руда • 1г => Слиток меди • 1г + N2 • 0.5 моль + CO2 • 1 моль + X • 1 моль
+Для печи требуется давление 100 кПа — 100 МПа и температура 600 К — 100 кК.
+Дуговая печь затратит на переплавку 1 г руды 3 секунды и 500 Дж электричества.
+
+{HEADER:ИСПОЛЬЗОВАНИЕ}
+Второй основной производственный материал после железа. Так же используется при выплавке {THING:ItemConstantanIngot;Константана} и {THING:ItemAstroloyIngot;Астролоя}.
+	  </Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemCopperOre</Key>
@@ -1831,7 +1969,35 @@ It also incorporates a lock/unlock feature to avoid accidental opening, as well 
     <RecordThing>
       <Key>StructureBatteryCharger</Key>
       <Value>Зарядное устройство</Value>
-      <Description>The 5-slot {LINK:Xigo;Xigo} battery charger fits the {THING:ItemBatteryCell}, {THING:ItemBatteryCellLarge} and {THING:ItemBatteryCellNuclear}, providing up to 500W to any connected cell. Note: the older design means this device has minor power draw (10W) even when not charging.</Description>
+      <Description>Зарядное устройство {LINK:Xigo;Xigo} с 5 гнездами подходит для {THING:ItemBatteryCell}, {THING:ItemBatteryCellLarge} и {THING:ItemBatteryCellNuclear} и обеспечивает мощность до 500 Вт для любой подключенной ячейки. Примечание: более старый дизайн означает, что это устройство имеет незначительное энергопотребление (10 Вт), даже когда оно не заряжается.
+
+{HEADER:ПОДРОБНОЕ ОПИСАНИЕ}
+Устройство для зарядки обычных, высокоёмких и ядерных аккумуляторов. Имеет пять слотов для зарядки, отдельные разъёмы для подключения к электрической и информационной сетям.
+Маркировано знаком повышенной мощности, но на самом деле использует 500 Вт электроэнергии для каждого заряжаемого аккумулятора, и 10 Вт для работы самого устройства, то есть суммарно не более 2510 Вт, чего недостаточно, чтобы перегрузить даже обычный кабель.
+Время полной зарядки обычного аккумулятора - 36 секунд, высокоёмкого - 4 минуты 48 секунд, ядерного - 38 минут 24 секунды (!при интервале тика в 0.5 секунды). Что интересно, источник бесперебойного питания использует для зарядки вдвое большую мощность, таким образом высокоёмкие и, тем более, ядерные аккумуляторы можно гораздо быстрее заряжать в нём.
+
+{HEADER:АВТОМАТИЗАЦИЯ}
+Получаемые параметры:
+Power - 0 - устройство не потребляет электричество, 1 - потребляет
+Error - 0 - нормальная работа, 1 - ошибка
+On - 0 - устройство выключено, 1 - включено
+RequiredPower - потребляемая энергия, Вт, включая затраты на зарядку батарей
+PrefabHash - хэш префаба объекта
+
+Слот батареи (для каждого):
+Occupied - 0 - слот свободен, 1 - занят
+OccupantHash - хэш объекта в слоте
+Quantity - масса / количество предметов в упаковке
+Damage - уровень повреждения объекта
+Charge - заряд батареи, Дж
+ChargeRatio - уровень заряда, 0 - полностью разряжена, 1 - полностью заряжена
+Class - класс объекта в слоте
+MaxQuantity - максимальное количество предметов в слоте
+PrefabHash - хэш префаба объекта в слоте
+
+Параметры управления:
+On - &gt;1 - выключить устройство, &lt;=1 - включить
+	  </Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureBench</Key>
@@ -4841,10 +5007,38 @@ Note that transformers also operate as data isolators, preventing data flowing i
     <RecordThing>
       <Key>StructureBatteryChargerSmall</Key>
       <Value>Небольшое зарядное устройство</Value>
+	  <Description>{HEADER:ОПИСАНИЕ}
+Устройство для зарядки обычных, высокоёмких и ядерных аккумуляторов. Имеет два слотов для зарядки, разъём для подключения к электрической и информационной сети.
+Маркировано знаком повышенной мощности, но на самом деле использует 400 Вт электроэнергии для каждого заряжаемого аккумулятора, и 5 Вт для работы самого устройства, то есть суммарно не более 805 Вт, чего недостаточно, чтобы перегрузить даже обычный кабель.
+Время полной зарядки обычного аккумулятора - 45 секунд, высокоёмкого - 6 минут, ядерного - 48 минут (!при интервале тика в 0.5 секунды). Что интересно, источник бесперебойного питания использует для зарядки в два с половиной раза большую мощность, таким образом высокоёмкие и, тем более, ядерные аккумуляторы можно гораздо быстрее заряжать в нём.
+	  
+{HEADER:АВТОМАТИЗАЦИЯ}
+Получаемые параметры:
+Power - 0 - устройство не потребляет электричество, 1 - потребляет
+Error - 0 - нормальная работа, 1 - ошибка
+On - 0 - устройство выключено, 1 - включено
+RequiredPower - потребляемая энергия, Вт, включая затраты на зарядку батарей
+PrefabHash - хэш префаба объекта
+
+Слот батареи (для каждого):
+Occupied - 0 - слот свободен, 1 - занят
+OccupantHash - хэш объекта в слоте
+Quantity - масса / количество предметов в упаковке
+Damage - уровень повреждения объекта
+Charge - заряд батареи, Дж
+ChargeRatio - уровень заряда, 0 - полностью разряжена, 1 - полностью заряжена
+Class - класс объекта в слоте
+MaxQuantity - максимальное количество предметов в слоте
+PrefabHash - хэш префаба объекта в слоте
+
+Параметры управления:
+On - &lt;1 - выключить устройство, &gt;=1 - включить
+	  </Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemBatteryChargerSmall</Key>
       <Value>Небольшое зарядное устройство</Value>
+	  <Description>Этот набор содержит {THING:StructureBatteryChargerSmall}</Description>
 	</RecordThing>
     <RecordThing>
       <Key>StructureSolarPanelFlat</Key>
