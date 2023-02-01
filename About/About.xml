@@ -2,7 +2,7 @@
 <ModMetadata xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Name>Русификатор</Name>
   <Author>elnfach</Author>
-  <Version>0.1.11</Version>
+  <Version>0.1.12</Version>
   <Description>Русификатор для Stationeers.
 
 Благодарю, что вы скачали мой мод для игры Stationners!
@@ -34,6 +34,10 @@
 - Генетика (Гены не могут быть переведены)
 
 Список изменений:
+
+Версия 0.1.12
+- Добавлены новые строки "Landingpad_GasConnectorInwardPiece" и "Landingpad_LiquidConnectorInwardPiece"
+- Небольшое улучшение перевода
 
 Версия 0.1.11
 - Добавлены новые строки "IncreasePower" и "DecreasePower"
