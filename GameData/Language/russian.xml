@@ -7717,6 +7717,16 @@ You must place the laptop down to interact with the onsreen UI.
       <Value>Большая спутниковая антенна</Value>
       <Description />
     </RecordThing>
+	<RecordThing>
+      <Key>Landingpad_GasConnectorInwardPiece</Key>
+	  <Value>Подача газа на посадочную площадку</Value>
+	  <Description />
+	</RecordThing>
+	<RecordThing>
+	  <Key>Landingpad_LiquidConnectorInwardPiece</Key>
+	  <Value>Ввод жидкости на посадочную площадку</Value>
+	  <Description />
+	</RecordThing>
   </Things>
   <Slots>
     <Record>
@@ -9451,47 +9461,47 @@ You must place the laptop down to interact with the onsreen UI.
     </Record>
     <Record>
       <Key>SettingsTitleMultiplayerAdvanced</Key>
-      <Value>Advanced Settings</Value>
+      <Value>Расширенные настройки</Value>
     </Record>
     <Record>
       <Key>SettingsUPNPNote</Key>
-      <Value>If Universal Plug and Play (UPNP) is enabled here and on your router, these ports will be automatically forwarded when you create a game.</Value>
+      <Value>Если здесь и на вашем маршрутизаторе включена функция Universal Plug and Play (UPNP), эти порты будут автоматически перенаправляться при создании игры.</Value>
     </Record>
     <Record>
       <Key>SettingsTooltipOpacity</Key>
-      <Value>Tooltip Opacity</Value>
+      <Value>Непрозрачность всплывающей подсказки</Value>
     </Record>
     <Record>
       <Key>MenuDownloadDriverButton</Key>
-      <Value>Download Drivers</Value>
+      <Value>Скачать драйверы</Value>
     </Record>
     <Record>
       <Key>MenuDownloadDriverWarning</Key>
-      <Value>Many AMD graphics card users have reported issues with the game which have been resolved by updating their drivers.  We &lt;b&gt;STRONGLY&lt;/b&gt; recommend you update before playing.</Value>
+      <Value>Многие пользователи видеокарт AMD сообщали о проблемах с игрой, которые были решены путем обновления их драйверов. Мы &lt;b&gt;STRONGLY &lt;/b&gt; рекомендуем вам обновить перед игрой.</Value>
     </Record>
     <Record>
       <Key>SettingsChatFadeTimer</Key>
-      <Value>Chat Fade Delay</Value>
+      <Value>Задержка исчезновения чата</Value>
     </Record>
     <Record>
       <Key>PromptResetSettingsTitle</Key>
-      <Value>Reset Settings</Value>
+      <Value>Сброс настроек</Value>
     </Record>
     <Record>
       <Key>PromptResetSettingsBody</Key>
-      <Value>Are you sure?</Value>
+      <Value>Вы уверены?</Value>
     </Record>
     <Record>
       <Key>PromptResetSettingsConfirm</Key>
-      <Value>Reset</Value>
+      <Value>Сбросить</Value>
     </Record>
     <Record>
       <Key>SteamErrorTitle</Key>
-      <Value>Steam Error</Value>
+      <Value>Ошибка Steam</Value>
     </Record>
     <Record>
       <Key>SteamErrorBody</Key>
-      <Value>Could not connect to Steam.  Try restarting Steam before relaunching Stationeers</Value>
+      <Value>Не удалось подключиться к Steam. Попробуйте перезапустить Steam перед перезапуском Stationeers.</Value>
     </Record>
     <Record>
       <Key>SteamErrorButton</Key>
@@ -9499,11 +9509,11 @@ You must place the laptop down to interact with the onsreen UI.
     </Record>
     <Record>
       <Key>WaitingTitle</Key>
-      <Value>Saving Warning</Value>
+      <Value>Предупреждение о сохранении</Value>
     </Record>
     <Record>
       <Key>WaitingBody</Key>
-      <Value>Still saving world data.  Please try it again when it finishes.</Value>
+      <Value>Все еще сохраняет мировые данные. Пожалуйста, попробуйте еще раз, когда он закончится.</Value>
     </Record>
     <Record>
       <Key>PromptQuitTitle</Key>
@@ -9523,35 +9533,35 @@ You must place the laptop down to interact with the onsreen UI.
     </Record>
     <Record>
       <Key>PromptUnsubscribeBody</Key>
-      <Value>Are you sure you want to unsubscribe from this Workshop item?</Value>
+      <Value>Вы уверены, что хотите отказаться от подписки на этот элемент мастерской Steam?</Value>
     </Record>
     <Record>
       <Key>PromptUnsubscribeConfirm</Key>
-      <Value>Unsubscribe</Value>
+      <Value>Отписаться</Value>
     </Record>
     <Record>
       <Key>PromptOverwriteTitle</Key>
-      <Value>Overwrite</Value>
+      <Value>Переписать</Value>
     </Record>
     <Record>
       <Key>PromptOverwriteBody</Key>
-      <Value>Are you sure you want to overwrite existing saved world?</Value>
+      <Value>Вы уверены, что хотите перезаписать существующий сохраненный мир?</Value>
     </Record>
     <Record>
       <Key>PromptOverwriteConfirm</Key>
-      <Value>Overwrite</Value>
+      <Value>Переписать</Value>
     </Record>
     <Record>
       <Key>PromptPublishTitle</Key>
-      <Value>Publish to Workshop</Value>
+      <Value>Опубликовать в мастерской Steam</Value>
     </Record>
     <Record>
       <Key>PromptPublishBody</Key>
-      <Value>Are you sure you want to publish this world to the workshop?</Value>
+      <Value>Вы уверены, что хотите опубликовать этот мир в мастерской Steam?</Value>
     </Record>
     <Record>
       <Key>PromptPublishConfirm</Key>
-      <Value>Publish</Value>
+      <Value>Опубликовать</Value>
     </Record>
     <Record>
       <Key>PromptDeleteTitle</Key>
@@ -9567,27 +9577,27 @@ You must place the laptop down to interact with the onsreen UI.
     </Record>
     <Record>
       <Key>PromptDebugLoadTitle</Key>
-      <Value>Debug Load</Value>
+      <Value>Отладочная загрузка</Value>
     </Record>
     <Record>
       <Key>PromptDebugLoadBody</Key>
-      <Value>Are you sure you want to load this world with only one character?</Value>
+      <Value>Вы уверены, что хотите загрузить этот мир только одним персонажем?</Value>
     </Record>
     <Record>
       <Key>PromptDebugLoadConfirm</Key>
-      <Value>Debug Load</Value>
+      <Value>Отладочная загрузка</Value>
     </Record>
     <Record>
       <Key>PromptRespawnTitle</Key>
-      <Value>Respawn</Value>
+      <Value>Возродиться</Value>
     </Record>
     <Record>
       <Key>PromptRespawnBody</Key>
-      <Value>You are dead.</Value>
+      <Value>Вы мертвы.</Value>
     </Record>
     <Record>
       <Key>PromptRespawnConfirm</Key>
-      <Value>Respawn</Value>
+      <Value>Возродиться</Value>
     </Record>
     <Record>
       <Key>PromptGiveUpTitle</Key>
@@ -9603,58 +9613,57 @@ You must place the laptop down to interact with the onsreen UI.
     </Record>
     <Record>
       <Key>AlertYourSaveFileIsBroken</Key>
-      <Value>The file {0} is invalid. Check world {1}.</Value>
+      <Value>Файл {0} недействителен. Проверить мир {1}.</Value>
     </Record>
     <Record>
       <Key>AlertInvalidIP</Key>
-      <Value>Invalid IP Address {0} \nCheck IP address or URL is valid</Value>
+      <Value>Недействительный IP-адрес {0} \nПроверьте допустимость IP-адреса или URL-адреса</Value>
     </Record>
     <Record>
       <Key>AlertNoBackups</Key>
-      <Value>Backups folder missing or empty.</Value>
+      <Value>Папка резервных копий отсутствует или пуста.</Value>
     </Record>
     <Record>
       <Key>AlertPlayerCountExceeded</Key>
-      <Value>Server is full.</Value>
+      <Value>Сервер переполнен.</Value>
     </Record>
     <Record>
       <Key>AlertVersionMismatch</Key>
-      <Value>Game version mismatch with server.</Value>
+      <Value>Несоответствие версии игры серверной.</Value>
     </Record>
     <Record>
       <Key>AlertNoResponse</Key>
-      <Value>
-        There is no response from the Game Server.
-        Please try again.
+      <Value>Нет ответа от игрового сервера.
+         Пожалуйста, попробуйте еще раз.
       </Value>
     </Record>
     <Record>
       <Key>AlertKicked</Key>
-      <Value>You have been kicked from the server.</Value>
+      <Value>Вас выгнали с сервера.</Value>
     </Record>
     <Record>
       <Key>AlertWrongPassword</Key>
-      <Value>Server Password Incorrect.</Value>
+      <Value>Неверный пароль сервера.</Value>
     </Record>
     <Record>
       <Key>AlertInvalidPort</Key>
-      <Value>Port values must be between 0 and 65535.</Value>
+      <Value>Значения порта должны быть в диапазоне от 0 до 65535.</Value>
     </Record>
     <Record>
       <Key>AlertCannotUpdatePort</Key>
-      <Value>Cannot modify Update Port while server is running.</Value>
+	  <Value> Невозможно изменить порт обновления во время работы сервера.</Value>
     </Record>
     <Record>
       <Key>AlertBlankSaveName</Key>
-      <Value>You must enter a world name to save.</Value>
+      <Value>Вы должны ввести мировое имя, чтобы сохранить.</Value>
     </Record>
     <Record>
       <Key>AlertTitleAttention</Key>
-      <Value>Attention</Value>
+      <Value>Внимание</Value>
     </Record>
     <Record>
       <Key>AlertTitlePleaseWait</Key>
-      <Value>Please Wait...</Value>
+      <Value>Пожалуйста, подождите...</Value>
     </Record>
     <Record>
       <Key>TooltipNeedMoreKit</Key>
@@ -9670,19 +9679,19 @@ You must place the laptop down to interact with the onsreen UI.
     </Record>
     <Record>
       <Key>JoinMenuServerDetailConnectButton</Key>
-      <Value>Join World</Value>
+      <Value>Присоединиться в мир</Value>
     </Record>
     <Record>
       <Key>JoinMenuServerDetailInfoButton</Key>
-      <Value>View Info</Value>
+      <Value>Посмотреть информацию</Value>
     </Record>
     <Record>
       <Key>JoinMenuServerDetailUnFavoriteButton</Key>
-      <Value>Remove Favorite</Value>
+      <Value>Удалить из избранных</Value>
     </Record>
     <Record>
       <Key>JoinMenuServerDetailFavoriteButton</Key>
-      <Value>Favorite</Value>
+      <Value>Избранные</Value>
     </Record>
     <Record>
       <Key>SaveMenuSaveWorldButton</Key>
@@ -9690,27 +9699,27 @@ You must place the laptop down to interact with the onsreen UI.
     </Record>
     <Record>
       <Key>SaveMenuOverwriteButton</Key>
-      <Value>Overwrite</Value>
+      <Value>Перезаписать</Value>
     </Record>
     <Record>
       <Key>SaveMenuNamePlaceholder</Key>
-      <Value>Enter Save Name...</Value>
+      <Value>Введите имя для сохранения...</Value>
     </Record>
     <Record>
       <Key>NewWorldModeCreative</Key>
-      <Value>Creative</Value>
+      <Value>Креатив</Value>
     </Record>
     <Record>
       <Key>NewWorldModeSurvival</Key>
-      <Value>Survival</Value>
+      <Value>Выживание</Value>
     </Record>
     <Record>
       <Key>JoinMenuServerListMap</Key>
-      <Value>Map</Value>
+      <Value>Карта</Value>
     </Record>
     <Record>
       <Key>JoinMenuInfoIPAddress</Key>
-      <Value>IP Address:</Value>
+      <Value>IP адрес:</Value>
     </Record>
     <Record>
       <Key>JoinMenuInfoMap</Key>
@@ -9734,31 +9743,31 @@ You must place the laptop down to interact with the onsreen UI.
     </Record>
     <Record>
       <Key>AppearanceTitleGender</Key>
-      <Value>Gender</Value>
+      <Value>Пол</Value>
     </Record>
     <Record>
       <Key>AppearanceTitleFace</Key>
-      <Value>Face</Value>
+      <Value>Лицо</Value>
     </Record>
     <Record>
       <Key>AppearanceTitleHairStyle</Key>
-      <Value>Hair</Value>
+      <Value>Волосы</Value>
     </Record>
     <Record>
       <Key>AppearanceTitleHairColor</Key>
-      <Value>Hair Colour</Value>
+      <Value>Цвет волос</Value>
     </Record>
     <Record>
       <Key>AppearanceTitleEyeColor</Key>
-      <Value>Eye Colour</Value>
+      <Value>Цвет глаз</Value>
     </Record>
     <Record>
       <Key>AppearanceTitleSkinColor</Key>
-      <Value>Skin Colour</Value>
+      <Value>Цвет кожи</Value>
     </Record>
     <Record>
       <Key>AppearanceTitleFacialHairStyle</Key>
-      <Value>Facial Hair</Value>
+      <Value>Волосы на лице</Value>
     </Record>
     <Record>
       <Key>SettingsStartingCondition</Key>
@@ -9766,15 +9775,15 @@ You must place the laptop down to interact with the onsreen UI.
     </Record>
     <Record>
       <Key>SettingsTitleGameSettings</Key>
-      <Value>Game Settings</Value>
+      <Value>Настройки игры</Value>
     </Record>
     <Record>
       <Key>SettingsHungerRate</Key>
-      <Value>Hunger/Hydration Rate</Value>
+      <Value>Голод/уровень гидратации</Value>
     </Record>
     <Record>
       <Key>JoinWorldSortBy</Key>
-      <Value>Sort by</Value>
+      <Value>Сортировать по</Value>
     </Record>
     <Record>
       <Key>JoinMenuFiltersTitle</Key>
@@ -9786,31 +9795,31 @@ You must place the laptop down to interact with the onsreen UI.
     </Record>
     <Record>
       <Key>JoinMenuIncompatibleVersions</Key>
-      <Value>Hide Incompatible Versions</Value>
+      <Value>Скрыть несовместимые версии</Value>
     </Record>
     <Record>
       <Key>JoinMenuPasswordProtected</Key>
-      <Value>Hide Password Protected</Value>
+      <Value>Скрыть защищенный паролем</Value>
     </Record>
     <Record>
       <Key>JoinWorldEmptyServers</Key>
-      <Value>Hide Empty Servers</Value>
+      <Value>Скрыть пустые серверы</Value>
     </Record>
     <Record>
       <Key>WorkshopSubscribedModsTitle</Key>
-      <Value>Subscribed Mods</Value>
+      <Value>Подписки</Value>
     </Record>
     <Record>
       <Key>WorkshopPageButton</Key>
-      <Value>Workshop Page</Value>
+      <Value>Открыть в мастерской</Value>
     </Record>
     <Record>
       <Key>WorkshopUnsubscribeButton</Key>
-      <Value>Unsubscribe</Value>
+      <Value>Отписаться</Value>
     </Record>
     <Record>
       <Key>OpenWorkshopButton</Key>
-      <Value>Open Workshop</Value>
+      <Value>Мастерская Steam</Value>
     </Record>
     <Record>
       <Key>WorldPresetTitle</Key>
@@ -9818,23 +9827,23 @@ You must place the laptop down to interact with the onsreen UI.
     </Record>
     <Record>
       <Key>WorldPresetLabel</Key>
-      <Value>Preset</Value>
+      <Value>Предустановка</Value>
     </Record>
     <Record>
       <Key>WorldNameLabel</Key>
-      <Value>World Name</Value>
+      <Value>Название мира</Value>
     </Record>
     <Record>
       <Key>WorldDescriptionLabel</Key>
-      <Value>Description</Value>
+      <Value>Описание</Value>
     </Record>
     <Record>
       <Key>WorldAtmosphere</Key>
-      <Value>Atmosphere</Value>
+      <Value>Атмосфера</Value>
     </Record>
     <Record>
       <Key>GameSettingsTitle</Key>
-      <Value>Game Settings</Value>
+      <Value>Настройки игры</Value>
     </Record>
     <Record>
       <Key>WorldCreativeMode</Key>
@@ -9842,7 +9851,7 @@ You must place the laptop down to interact with the onsreen UI.
     </Record>
     <Record>
       <Key>WorldTerrain</Key>
-      <Value>Terrain</Value>
+      <Value>Поверхность</Value>
     </Record>
     <Record>
       <Key>WorldSeedLabel</Key>
@@ -9850,296 +9859,294 @@ You must place the laptop down to interact with the onsreen UI.
     </Record>
     <Record>
       <Key>WorldCratersLabel</Key>
-      <Value>Craters</Value>
+      <Value>Крафтеры</Value>
     </Record>
     <Record>
       <Key>WorldTerrainPresetLabel</Key>
-      <Value>Terrain</Value>
+      <Value>Поверхность</Value>
     </Record>
     <Record>
       <Key>WorldAtmospherePresetLabel</Key>
-      <Value>Atmosphere</Value>
+      <Value>Атмосфера</Value>
     </Record>
     <Record>
       <Key>WorldSettingsTitle</Key>
-      <Value>World Settings</Value>
+      <Value>Настройки мира</Value>
     </Record>
     <Record>
       <Key>WorldResetButton</Key>
-      <Value>Reset</Value>
+      <Value>Сбросить</Value>
     </Record>
     <Record>
       <Key>WorldSaveButton</Key>
-      <Value>Save</Value>
+      <Value>Сохранить</Value>
     </Record>
     <Record>
       <Key>NewWorldAreaCustom</Key>
-      <Value>Custom</Value>
+      <Value>Пользовательский</Value>
     </Record>
     <Record>
       <Key>NewWorldMoonDesc</Key>
-      <Value>
-        So you're stuck on the moon, but it's not all bad.Sure, it's cold, harsh and pretty monotonous, but at least the sun's shining. The solar panel is going to be useful, and the power controller... and probably the arc furnace too.
-                                              There's even a little food and oxygen in the other crates, though it's definitely not going to last forever. Neither's your battery.
-                                              You better start thinking about how you're going to survive. How hard could it be to rig up an airlock? A generator? Maybe even smelt some ore and build yourself a base?
-        Looks like you're gonna be here a while.
-      </Value>
+      <Value>Итак, вы застряли на Луне, но все не так уж и плохо. 
+Конечно, здесь сурово, холодно и достаточно однообразно, но по крайней мере солнце-то светит! Это значит, что солнечные панели тут пригодятся, и источник бесперебойного питания... И, скорее всего, печь тоже будет полезна.
+В тех ящиках немного еды, которой на долго не хватит. Впрочем как и вашего аккумулятора.
+Стоит подумать как выжить, и стоит это сделать как можно быстрее. Интересно, сложно ли настроить шлюз? А генератор? Может быть начать с того, чтобы добыть немного руды и начать строить свою базу?
+Похоже, вы тут задержитесь ненадолго.</Value>
     </Record>
     <Record>
       <Key>NewWorldSpaceDesc</Key>
-      <Value>
-        This is Stationeers Creative Mode!Spawn in any item, test ideas and build bonkers stuff real fast.
-                                              &lt;color=red&gt;This mode is experimental. Think of it as a freeform space party where exciting and unexpected things* can and will happen, compared to the more reliable near-death experience of Survival Mode.
-                                              Just don't be sad when you blow yourself into tiny, tiny little pieces or get savaged by chickens or slowly explode while drifting alone into the infinite void.
-        *bugs
+      <Value>>Это креативный режим Stationeers! Создавайте любые предметы, тестируйте идеи и быстро стройте безумные вещи.
+                                              &lt;color=red&gt;Это эксперементальый режим игры!&lt;/color&gt; Думайте об этом как о космическом приключении, где захватывающие и неожиданные вещи* могут и будут происходить по сравнению с более надежным почти-смертельным опытом режима выживания.
+                                              Не расстраивайтесь, если вы нечаянно взорвете себя в крошечные, крошечные кусочки, или будете растерзаны цыплятками или погибните, дрейфуя один-одинешенек в пучине черного и враждебного космоса.
+                                              *Баги
       </Value>
     </Record>
     <Record>
       <Key>TextboxEnterName</Key>
-      <Value>Enter Name...</Value>
+      <Value>Введите название...</Value>
     </Record>
     <Record>
       <Key>TextboxEnterDescription</Key>
-      <Value>Enter Description...</Value>
+      <Value>Введите описание...</Value>
     </Record>
     <Record>
       <Key>TextboxEnterSeed</Key>
-      <Value>Enter Seed...</Value>
+      <Value>Введите сид...</Value>
     </Record>
     <Record>
       <Key>SettingsDisableParticlesOnMenu</Key>
-      <Value>Disable Particles On Menu</Value>
+      <Value>Отключить эффекты частиц в меню</Value>
     </Record>
     <Record>
       <Key>SettingsMouseWheelZoom</Key>
-      <Value>Mouse Wheel Zoom</Value>
+      <Value>Масштаб колесиком мыши</Value>
     </Record>
     <Record>
       <Key>Incident_Supply_Title</Key>
-      <Value>Supply Crate</Value>
+      <Value>Сброс припасов</Value>
     </Record>
     <Record>
       <Key>Incident_Supply</Key>
-      <Value>Satellites suggest a crate has dropped nearby, your beacon tracker should show you the way.</Value>
+      <Value>Спутники заметили сброс ящика поблизости. Ваш навигатор подскажет направление к нему.</Value>
     </Record>
     <Record>
       <Key>TradingNoMoneyHash</Key>
-      <Value>Not enough money to complete this transaction, make sure you and the trader have enough money to complete the transaction.</Value>
+      <Value>Недостаточно денег для совершения сделки!</Value>
     </Record>
     <Record>
       <Key>SomethingWentWrongTrading</Key>
-      <Value>Something went wrong when processing the trade, did something leave the vendor!</Value>
+      <Value>Что-то пошло не так при обработке сделки, что-то отключилось от продавца!</Value>
     </Record>
     <Record>
       <Key>SomethingWentWrongTrading2</Key>
-      <Value>Something went wrong when processing the trade, you don't have a credit card!</Value>
+      <Value>Что-то пошло не так при обработке сделки, у вас нет кредитной карты!</Value>
     </Record>
     <Record>
       <Key>TraderErrorNoGasSpace</Key>
-      <Value>There is not enough capacity in the landingpad to recieve the requested gas. Add more gas storage to the pad.</Value>
+      <Value>На посадочной площадке недостаточно мощностей для получения запрошенного газа. Добавьте больше газа для хранения на площадку.</Value>
     </Record>
     <Record>
       <Key>GameMenuRespawn</Key>
-      <Value>Respawn</Value>
+      <Value>Возродиться</Value>
     </Record>
     <Record>
       <Key>MainMenuScenarios</Key>
-      <Value>Scenarios</Value>
+      <Value>Сценарии</Value>
     </Record>
     <Record>
       <Key>ScenariosStartButton</Key>
-      <Value>Start Scenario</Value>
+      <Value>Начать сценарий</Value>
     </Record>
     <Record>
       <Key>SettingsSunOrbitPeriod</Key>
-      <Value>Sun Orbit Period</Value>
+      <Value>Период вращения вокруг солнца</Value>
     </Record>
     <Record>
       <Key>SettingsExtendedTerrain</Key>
-      <Value>Extended Terrain</Value>
+      <Value>Расширенная территория</Value>
     </Record>
     <Record>
       <Key>RenameThing</Key>
-      <Value>Rename {0}</Value>
+      <Value>Переименовать {0}</Value>
     </Record>
     <Record>
       <Key>SetThingValue</Key>
-      <Value>Set {0}</Value>
+      <Value>Установить {0}</Value>
     </Record>
     <Record>
       <Key>FurnaceChamber</Key>
-      <Value>Chamber</Value>
+      <Value>Печная камера</Value>
     </Record>
     <Record>
       <Key>FurnaceChamberText</Key>
       <Value>
-        Pressure {0}
-        Temperature {1}
+        Давление {0}
+        Температура {1}
       </Value>
     </Record>
     <Record>
       <Key>FurnaceSmelting</Key>
-      <Value>Smelting {0}</Value>
+      <Value>Плавится {0}</Value>
     </Record>
     <Record>
       <Key>LogicState</Key>
-      <Value>State &lt;color=green&gt;#VAR1#</Value>
+      <Value>Состояние &lt;color=green&gt;#VAR1#</Value>
     </Record>
     <Record>
       <Key>LogicNoDevice</Key>
-      <Value>No Device</Value>
+      <Value>Нет устройств</Value>
     </Record>
     <Record>
       <Key>LogicNoSetting</Key>
-      <Value>No Settings</Value>
+      <Value>Нет настроек</Value>
     </Record>
     <Record>
       <Key>LogicNoAdditionalSettingsFor</Key>
-      <Value>No additional settings for {0}</Value>
+      <Value>Нет дополнительных настроек для {0}</Value>
     </Record>
     <Record>
       <Key>LogicNoSlot</Key>
-      <Value>&lt;color=red&gt;No Slot</Value>
+      <Value>&lt;color=red&gt;Нет слота&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>LogicNoAvailableSlots</Key>
-      <Value>&lt;color=red&gt;No available slots</Value>
+      <Value>&lt;color=red&gt;Нет доступных слотов&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>LogicNoAdditionalSlotsFor</Key>
-      <Value>No additional slots for {0}</Value>
+      <Value>Нет дополнительных слотов для {0}</Value>
     </Record>
     <Record>
       <Key>RequiresScrewdriver</Key>
-      <Value>You need a {THING:ItemScrewdriver} to change settings</Value>
+      <Value>Для изменения настроек вам нужна {THING:ItemScrewdriver}</Value>
     </Record>
     <Record>
       <Key>LogicNoReadableDevices</Key>
-      <Value>No other readable devices on network</Value>
+      <Value>В этой сети нет доступных для считывания устройств</Value>
     </Record>
     <Record>
       <Key>LogicNoReadableTypes</Key>
-      <Value>No other readable types on network</Value>
+      <Value>В этой сети нет доступных типов</Value>
     </Record>
     <Record>
       <Key>LogicNoWritableDevices</Key>
-      <Value>No other writable devices on network</Value>
+      <Value>В этой сети нет доступных для записи устройств</Value>
     </Record>
     <Record>
       <Key>ChangeSettingTo</Key>
-      <Value>Cycle to {0}</Value>
+      <Value>Цикл до {0</Value>
     </Record>
     <Record>
       <Key>ChangeSettingToAll</Key>
-      <Value>Cycle to All {0}</Value>
+      <Value>Цикл для всех {0}</Value>
     </Record>
     <Record>
       <Key>HoldForPreviousObject</Key>
-      <Value>Hold {KEY:QuantityModifier} for previous object</Value>
+      <Value>Зажмите {KEY:QuantityModifier} для выбора предыдущего объекта</Value>
     </Record>
     <Record>
       <Key>ChangeSettingToFor</Key>
-      <Value>Cycle to &lt;color=yellow&gt;{0} for {1}</Value>
+      <Value>Цикл &lt;color=yellow&gt;{0}&lt;/color&gt; для {1}</Value>
     </Record>
     <Record>
       <Key>ChangeSettingToForIn</Key>
-      <Value>Cycle to &lt;color=yellow&gt;{0} for {3} &lt;color=yellow&gt;({2}) in {1}</Value>
+      <Value>Цикл &lt;color=yellow&gt;{0}&lt;/color&gt; для {3} &lt;color=yellow&gt;({2})&lt;/color&gt; в {1}</Value>
     </Record>
     <Record>
       <Key>ChangeReagentSettingTo</Key>
-      <Value>Cycle to {2}.&lt;color=yellow&gt;{0}.&lt;color=yellow&gt;{1}</Value>
+      <Value>Поменять на {2}.&lt;color=yellow&gt;{0}&lt;/color&gt;.&lt;color=yellow&gt;{1}&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>ChangeSlotSettingToFor</Key>
-      <Value>Cycle to {1}&lt;color=yellow&gt;({0}) for {2}</Value>
+      <Value>Цикл {1}&lt;color=yellow&gt;({0})&lt;/color&gt; для {2}</Value>
     </Record>
     <Record>
       <Key>ChangeSettingToForAll</Key>
-      <Value>Cycle to &lt;color=yellow&gt;{0}&gt;for all {1}</Value>
+      <Value>Цикл &lt;color=yellow&gt;{0}&lt;/color&gt;&gt;для всех {1}</Value>
     </Record>
     <Record>
       <Key>InteractionTemporarilyDisabledOnThisObject</Key>
-      <Value>Interaction temporarily disabled on this object</Value>
+      <Value>Взаимодействие временно отключено для этого объекта</Value>
     </Record>
     <Record>
       <Key>UnableToInteractAsYouDoNotHaveTheRequiredAccessCard</Key>
-      <Value>Unable to interact as you do not have the required {SLOT:AccessCard}</Value>
+      <Value>Нельзя взаимодействовать, так как у вас нет требуемой {SLOT:AccessCard}</Value>
     </Record>
     <Record>
       <Key>SettingsAtmosphericScattering</Key>
-      <Value>Atmospheric Scattering</Value>
+      <Value>Атмосферное рассеяние</Value>
     </Record>
     <Record>
       <Key>ButtonReset</Key>
-      <Value>Reset</Value>
+      <Value>Сбросить</Value>
     </Record>
     <Record>
       <Key>ButtonClear</Key>
-      <Value>Clear</Value>
+      <Value>Очистить</Value>
     </Record>
     <Record>
       <Key>StatusWindowThrust</Key>
-      <Value>Thrust</Value>
+      <Value>Тяга</Value>
     </Record>
     <Record>
       <Key>SettingsAmbientOcclusion</Key>
-      <Value>Ambient Occlusion</Value>
+      <Value>Модель затенения</Value>
     </Record>
     <Record>
       <Key>SettingsLensFlares</Key>
-      <Value>Lens Flares</Value>
+      <Value>Эффект отблеска от линз</Value>
     </Record>
     <Record>
       <Key>SettingsInputSettings</Key>
-      <Value>Input Settings</Value>
+      <Value>Настройки ввода</Value>
     </Record>
     <Record>
       <Key>NewWorldAreaEuropa</Key>
-      <Value>Europa</Value>
+      <Value>Европа</Value>
     </Record>
     <Record>
       <Key>NewWorldAreaMimas</Key>
-      <Value>Mimas</Value>
+      <Value>Мимас</Value>
     </Record>
     <Record>
       <Key>NewWorldMarsShortDesc</Key>
-      <Value>A desolate dusty red ball, Mars features more varied terrain that can reach into the sky, and a chilly atmosphere that's no good for breathing, but maybe it can be used for something ...</Value>
+      <Value>Пустынный пыльный="" красный="" шар="", Марс="" отличается="" более="" разнообразной="" местностью="", которая="" может="" достичь="" неба="", и="" прохладной="", непригодной="" для="" дыхания="" атмосферой="", но="" возможно="" это="" может="" быть="" использовано="" для="" чего-то="" ...=""</Value>
     </Record>
     <Record>
       <Key>NewWorldMoonShortDesc</Key>
-      <Value>While the presence of coal isn't typical of Earth's Moon, the relatively flat terrain full of various sizable craters and lack of atmosphere may be more familiar in this grey landscape. A great location for the budding Stationeer to begin their journey, with fewer of the hazards and complexities offered on more exotic worlds</Value>
+      <Value>Хотя присутствие угля не характерно для земной луны, относительно ровная местность, полная различных кратеров и отсутствие атмосферы может быть более знакомо в этом сером ландшафте. Отличное место для начинающего путешественника, с меньшим количеством опасностей и сложностей относительно более экзотических миров</Value>
     </Record>
     <Record>
       <Key>NewWorldSpaceShortDesc</Key>
-      <Value>While there's no gravity or atmosphere, at least there's a lot of space to build!  You'll find yourself among several asteroids that may contain various ores and ices you can use to survive out here.</Value>
+      <Value>Хотя там нет гравитации или атмосферы, по крайней мере там очень много места для стройки!  Вы окажетесь среди астероидов, которые могут содержать различные руды, которые вы можете использовать чтобы выжить здесь.</Value>
     </Record>
     <Record>
       <Key>NewWorldVenusShortDesc</Key>
-      <Value>Unvarying extreme temperatures and ultra-high pressures make Venus no place for the faint-hearted. Only the most accomplished Stationeers will survive on our once-sister planet, now a barren rock. Dig deep, or go home.</Value>
+      <Value>Неизменные экстремальные температуры и сверхвысокое давление делают Венеру неподходящим местом для слабонервных. Только самые опытные канцеляристы выживут на нашей когда-то родственной планете, которая теперь превратилась в бесплодную скалу. Копай глубже или иди домой.</Value>
     </Record>
     <Record>
       <Key>NewWorldEuropaShortDesc</Key>
-      <Value>Melting some of the ice on this cold world has finally given it an atmosphere, but it's extremely frigid environment presents a serious challenge for the stationeers.The extreme cold will cause batteries to rapidly lose power, so getting a steady power source and warm location are your priorities.</Value>
+      <Value>Таяние льдов в этом холодном мире, наконец, создало атмосферу, но его чрезвычайно холодная среда представляет серьезную проблему для обитателей. Из-за сильного холода батареи быстро теряют заряд, поэтому получение стабильного источника питания и теплого места ваши приоритеты.</Value>
     </Record>
     <Record>
       <Key>NewWorldVulcanShortDesc</Key>
-      <Value>The volatile environment on Vulcan is surviable for very few living organisms, but it's fractured surface and rich mineral deposits make it a risky but profitable venture for enterprising traders.</Value>
+      <Value>Атмосфера Вулкана наполнена летучими веществами, в ней может выжить очень небольшое количество живых организмов, но его раздробленная поверхность и богатые залежи полезных ископаемых делают его рискованным и прибыльным предприятием для трейдеров.</Value>
     </Record>
     <Record>
       <Key>NewWorldVulcan2ShortDesc</Key>
-      <Value>A world torn apart due to massive tidal forces from the supermassive black hole it orbits. Vulcan offers little hope for any organism that ends up here, but it's fractured surface and rich mineral deposits make it a risky but profitable venture for enterprising traders.Watch out for the deep crevasses that lead to deadly magma flows beneath the surface!</Value>
+      <Value>Мир, раздираемый огромными приливными силами сверхмассивной черной дыры, возле которой он вращается. Вулкан оставляет мало надежды организмам, которые здесь оказываются, но его раздробленная поверхность и богатые залежи полезных ископаемых делают его рискованным и прибыльным предприятием для трейдеров. Будьте внимательны, так как глубокие трещины ведут к смертельным потокам магмы под поверхностью!</Value>
     </Record>
     <Record>
       <Key>NewWorldMimasShortDesc</Key>
-      <Value>A barren rock nestled under the wing of Saturn's spectacular rings. Mimas tiny stature is reflected in its extremely low gravity, and the Mimantean surface is saturated with impact craters from wayward ring occupants. It's distance from the sun provides little power from solar devices.Be very careful when walking or jumping, as you can travel a long way and gain a lot of speed due to the extremely low gravity.</Value>
+      <Value>Бесплодная скала, укрытая под крылом захватывающих колец Сатурна. Небольшой размер Мимаса отражается в его чрезвычайно низкой гравитации, а поверхность испещерена кратерами от заблудших обитателей кольца. Такое расстояние до солнца дает мало энергии от солнечных устройств. Будьте очень осторожны при ходьбе или прыжках, так как вы можете далеко прыгать и набирать большую скорость из-за крайне низкой гравитации.</Value>
     </Record>
     <Record>
       <Key>SettingsTitleAudioAlerts</Key>
-      <Value>Voice Notifications</Value>
+      <Value>Голосовые оповещения</Value>
     </Record>
     <Record>
       <Key>InventoryCloseAll</Key>
-      <Value>Close All</Value>
+      <Value>Закрыть всё</Value>
     </Record>
     <Record>
       <Key>ButtonResetWindows</Key>
@@ -10147,43 +10154,43 @@ You must place the laptop down to interact with the onsreen UI.
     </Record>
     <Record>
       <Key>ConnectionFiltered</Key>
-      <Value>Filtered</Value>
+      <Value>Выход отфильтрованного газа</Value>
     </Record>
     <Record>
       <Key>ConnectionUnfiltered</Key>
-      <Value>Unfiltered</Value>
+      <Value>Выход неотфильтрованного газа</Value>
     </Record>
     <Record>
       <Key>ConnectionInput</Key>
-      <Value>Input</Value>
+      <Value>Вход</Value>
     </Record>
     <Record>
       <Key>ConnectionInput2</Key>
-      <Value>Input 2</Value>
+      <Value>Вход 2</Value>
     </Record>
     <Record>
       <Key>ConnectionOutput</Key>
-      <Value>Output</Value>
+      <Value>Выход</Value>
     </Record>
     <Record>
       <Key>ConnectionOutput2</Key>
-      <Value>Output 2</Value>
+      <Value>Выход 2</Value>
     </Record>
     <Record>
       <Key>ConnectionWaste</Key>
-      <Value>Waste</Value>
+      <Value>Вспомогательный выход</Value>
     </Record>
     <Record>
       <Key>ConnectionBreathing</Key>
-      <Value>Breathing</Value>
+      <Value>Подключение воздуха</Value>
     </Record>
     <Record>
       <Key>ConnectionPropellant</Key>
-      <Value>Propellant</Value>
+      <Value>Подключение пропеллента</Value>
     </Record>
     <Record>
       <Key>SettingsChunkRenderDistance</Key>
-      <Value>Chunk Render Distance</Value>
+      <Value>Дальность отрисовки чанков</Value>
     </Record>
     <Record>
       <Key>ScenarioScoreboardBackToMenu</Key>
@@ -10219,15 +10226,15 @@ You must place the laptop down to interact with the onsreen UI.
     </Record>
     <Record>
       <Key>HeadingHelp</Key>
-      <Value>help</Value>
+      <Value>Помощь</Value>
     </Record>
     <Record>
       <Key>ButtonLoad</Key>
-      <Value>Load</Value>
+      <Value>Загрузить</Value>
     </Record>
     <Record>
       <Key>HeadingEdit</Key>
-      <Value>Edit</Value>
+      <Value>Редактировать</Value>
     </Record>
     <Record>
       <Key>ButtonFunctions</Key>
@@ -10235,55 +10242,55 @@ You must place the laptop down to interact with the onsreen UI.
     </Record>
     <Record>
       <Key>ButtonLibrary</Key>
-      <Value>Library</Value>
+      <Value>Библиотека</Value>
     </Record>
     <Record>
       <Key>SettingsMenuAdvanced</Key>
-      <Value>Advanced</Value>
+      <Value>Расширенные</Value>
     </Record>
     <Record>
       <Key>SettingsLegacyInventory</Key>
-      <Value>Legacy Inventory</Value>
+      <Value>Старый инвентарь</Value>
     </Record>
     <Record>
       <Key>SettingsDisableWaterVisualizer</Key>
-      <Value>Disable Water Visualizer</Value>
+      <Value>Отключить визулализацию воды</Value>
     </Record>
     <Record>
       <Key>SettingsInterface</Key>
-      <Value>Interface</Value>
+      <Value>Интерфейс</Value>
     </Record>
     <Record>
       <Key>SettingsUPNPEnabled</Key>
-      <Value>Enable UPNP</Value>
+      <Value>Включить UPNP</Value>
     </Record>
     <Record>
       <Key>SettingsEnableClouds</Key>
-      <Value>Enable Clouds</Value>
+      <Value>Включить облака</Value>
     </Record>
     <Record>
       <Key>SettingsClouds</Key>
-      <Value>Enable Clouds</Value>
+      <Value>Включить облака</Value>
     </Record>
     <Record>
       <Key>InvalidDegrees</Key>
-      <Value>Nil</Value>
+      <Value>Н/Д</Value>
     </Record>
     <Record>
       <Key>SettingsSoundFX</Key>
-      <Value>Sound FX</Value>
+      <Value>Звуковые эффекты</Value>
     </Record>
     <Record>
       <Key>WarningControlConflict</Key>
-      <Value>Controls Conflict</Value>
+      <Value>Конфликты управления</Value>
     </Record>
     <Record>
       <Key>WarningControlConflictDescription</Key>
-      <Value>Please visit the control assignment window and clear conflicts</Value>
+      <Value>Пожалуйста, исправьте конфликты управления в окне назначения клавиш</Value>
     </Record>
     <Record>
       <Key>NewWorldGameMode</Key>
-      <Value>Game Mode</Value>
+      <Value>Режим игры</Value>
     </Record>
     <Record>
       <Key>NewWorldGravity</Key>
@@ -10579,324 +10586,323 @@ You must place the laptop down to interact with the onsreen UI.
     </Record>
     <Record>
       <Key>LogicTypeRatio</Key>
-      <Value>Context specific value depending on device, 0 to 1 based ratio</Value>
+      <Value>Контекстно-зависимое значение устройства, соотношение от 0 до 1</Value>
     </Record>
     <Record>
       <Key>LogicTypePowerPotential</Key>
-      <Value>How much energy the device or network potentially provides</Value>
+      <Value>Сколько энергии потенциально обеспечивает устройство или сеть</Value>
     </Record>
     <Record>
       <Key>LogicTypePowerActual</Key>
-      <Value>How much energy the device or network is actually using</Value>
+      <Value>Сколько энергии устройство или сеть потребляет в данный момент</Value>
     </Record>
     <Record>
       <Key>LogicTypeQuantity</Key>
-      <Value>Total quantity on the device</Value>
+      <Value>Общее количество на устройстве</Value>
     </Record>
     <Record>
       <Key>LogicTypeOn</Key>
-      <Value>The current state of the device, 0 for off, 1 for on</Value>
+      <Value>Текущее состояние устройства, 0 для выключения, 1 для включения</Value>
     </Record>
     <Record>
       <Key>LogicTypeImportQuantity</Key>
-      <Value>Total quantity of items imported by the device</Value>
+      <Value>Общее количество предметов, импортированных устройством</Value>
     </Record>
     <Record>
       <Key>LogicTypeImportSlotOccupant</Key>
-      <Value>DEPRECATED</Value>
+      <Value>НЕ РЕКОМЕНДУЕТСЯ</Value>
     </Record>
     <Record>
       <Key>LogicTypeExportQuantity</Key>
-      <Value>Total quantity of items exported by the device</Value>
+      <Value>Количество всех предметов, экспортированных устройством</Value>
     </Record>
     <Record>
       <Key>LogicTypeExportSlotOccupant</Key>
-      <Value>DEPRECATED</Value>
+      <Value>НЕ РЕКОМЕНДУЕТСЯ</Value>
     </Record>
     <Record>
       <Key>LogicTypeRequiredPower</Key>
-      <Value>Idle operating power quantity, does not necessarily include extra demand power</Value>
+      <Value>Количество потребляемой энергии в простое не равно полной потребляемой энергии</Value>
     </Record>
     <Record>
       <Key>LogicTypeHorizontalRatio</Key>
-      <Value>Radio of horizontal setting for device</Value>
+      <Value>Коэффициент горизонтальной настройки устройства</Value>
     </Record>
     <Record>
       <Key>LogicTypeVerticalRatio</Key>
-      <Value>Radio of vertical setting for device</Value>
+      <Value>Коэффициент вертикальной настройки устройства</Value>
     </Record>
     <Record>
       <Key>LogicTypePowerRequired</Key>
-      <Value>Power requested from the device and/or network</Value>
+      <Value>Запрашивается питание от устройства и/или сети</Value>
     </Record>
     <Record>
       <Key>LogicTypeIdle</Key>
-      <Value>Returns 1 if the device is currently idle, otherwise 0</Value>
+      <Value>Возвращает 1, если устройство в данный момент ожидает, иначе 0</Value>
     </Record>
     <Record>
       <Key>LogicTypeColor</Key>
-      <Value>
-        Whether driven by concerns for clarity, safety or simple aesthetics, {LINK:Stationeers;Stationeers} have access to a small rainbow of colors for their constructions. These are the color setting for devices, represented as an integer.
+      <Value>Стремясь к ясности, безопасности или простой эстетике, {LINK:Stationeers;Stationeers} имеют доступ к небольшой радуге цветов для своих конструкций. Это настройки цвета для устройств, представленные в виде целого числа.
 
-0: Blue
-1: Grey
-2: Green
-3: Orange
-4: Red
-5: Yellow
-6: White
-7: Black
-8: Brown
-9: Khaki
-10: Pink
-11: Purple
+0. Синий
+1. Серый
+2: Зеленый
+3. Оранжевый
+4. Красный
+5. Желтый
+6. Белый
+7. Черный
+8. Коричневый
+9. Хаки
+10. Розовый
+11. Фиолетовый
 
-        It is an unwavering universal law that anything higher than 11 will be purple. The {LINK:ODA;ODA} is powerless to change this. Similarly, anything lower than 0 will be Blue.
+Это непоколебимый универсальный закон, что все, что выше 11, будет фиолетовым. {LINK:ODA;ODA} не в силах это изменить. Точно так же все, что ниже 0, будет синим.
       </Value>
     </Record>
     <Record>
       <Key>LogicTypeElevatorSpeed</Key>
-      <Value>Current speed of the elevator</Value>
+      <Value>Текущая скорость лифта</Value>
     </Record>
     <Record>
       <Key>LogicTypeElevatorLevel</Key>
-      <Value>Level the elevator is currently at</Value>
+      <Value>Этаж, на котором в данный момент находится лифт</Value>
     </Record>
     <Record>
       <Key>LogicTypeRecipeHash</Key>
-      <Value>Current hash of the recipe the device is set to produce</Value>
+      <Value>Текущий хэш рецепта, который выбран на изготовление в устройстве</Value>
     </Record>
     <Record>
       <Key>LogicTypeExportSlotHash</Key>
-      <Value>DEPRECATED</Value>
+      <Value>НЕ РЕКОМЕНДУЕТСЯ</Value>
     </Record>
     <Record>
       <Key>LogicTypeImportSlotHash</Key>
-      <Value>DEPRECATED</Value>
+      <Value>НЕ РЕКОМЕНДУЕТСЯ</Value>
     </Record>
     <Record>
       <Key>LogicTypePlantHealth1</Key>
-      <Value>DEPRECATED</Value>
+      <Value>НЕ РЕКОМЕНДУЕТСЯ</Value>
     </Record>
     <Record>
       <Key>LogicTypePlantHealth2</Key>
-      <Value>DEPRECATED</Value>
+      <Value>НЕ РЕКОМЕНДУЕТСЯ</Value>
     </Record>
     <Record>
       <Key>LogicTypePlantHealth3</Key>
-      <Value>DEPRECATED</Value>
+      <Value>НЕ РЕКОМЕНДУЕТСЯ</Value>
     </Record>
     <Record>
       <Key>LogicTypePlantHealth4</Key>
-      <Value>DEPRECATED</Value>
+      <Value>НЕ РЕКОМЕНДУЕТСЯ</Value>
     </Record>
     <Record>
       <Key>LogicTypePlantGrowth1</Key>
-      <Value>DEPRECATED</Value>
+      <Value>НЕ РЕКОМЕНДУЕТСЯ</Value>
     </Record>
     <Record>
       <Key>LogicTypePlantGrowth2</Key>
-      <Value>DEPRECATED</Value>
+      <Value>НЕ РЕКОМЕНДУЕТСЯ</Value>
     </Record>
     <Record>
       <Key>LogicTypePlantGrowth3</Key>
-      <Value>DEPRECATED</Value>
+      <Value>НЕ РЕКОМЕНДУЕТСЯ</Value>
     </Record>
     <Record>
       <Key>LogicTypePlantGrowth4</Key>
-      <Value>DEPRECATED</Value>
+      <Value>НЕ РЕКОМЕНДУЕТСЯ</Value>
     </Record>
     <Record>
       <Key>LogicTypePlantEfficiency1</Key>
-      <Value>DEPRECATED</Value>
+      <Value>НЕ РЕКОМЕНДУЕТСЯ</Value>
     </Record>
     <Record>
       <Key>LogicTypePlantEfficiency2</Key>
-      <Value>DEPRECATED</Value>
+      <Value>НЕ РЕКОМЕНДУЕТСЯ</Value>
     </Record>
     <Record>
       <Key>LogicTypePlantEfficiency3</Key>
-      <Value>DEPRECATED</Value>
+      <Value>НЕ РЕКОМЕНДУЕТСЯ</Value>
     </Record>
     <Record>
       <Key>LogicTypePlantEfficiency4</Key>
-      <Value>DEPRECATED</Value>
+      <Value>НЕ РЕКОМЕНДУЕТСЯ</Value>
     </Record>
     <Record>
       <Key>LogicTypePlantHash1</Key>
-      <Value>DEPRECATED</Value>
+      <Value>НЕ РЕКОМЕНДУЕТСЯ</Value>
     </Record>
     <Record>
       <Key>LogicTypePlantHash2</Key>
-      <Value>DEPRECATED</Value>
+      <Value>НЕ РЕКОМЕНДУЕТСЯ</Value>
     </Record>
     <Record>
       <Key>LogicTypePlantHash3</Key>
-      <Value>DEPRECATED</Value>
+      <Value>НЕ РЕКОМЕНДУЕТСЯ</Value>
     </Record>
     <Record>
       <Key>LogicTypePlantHash4</Key>
-      <Value>DEPRECATED</Value>
+      <Value>НЕ РЕКОМЕНДУЕТСЯ</Value>
     </Record>
     <Record>
       <Key>LogicTypeRequestHash</Key>
-      <Value>When set to the unique identifier, re quests an item of the provided type from the device</Value>
+      <Value>Если задан уникальный идентификатор, запрашивает элемент указанного типа с устройства.</Value>
     </Record>
     <Record>
       <Key>LogicTypeCompletionRatio</Key>
-      <Value>How complete the current production is for this device, between 0 and 1</Value>
+      <Value>Насколько завершено текущее производство этого устройства, от 0 до 1</Value>
     </Record>
     <Record>
       <Key>LogicTypeClearMemory</Key>
-      <Value>When set to 1, clears the counter memory (e.g. ExportCount). Will set itself back to 0 when actioned</Value>
+      <Value>При значении 1 очищает память счетчика (например, ExportCount). Устанавливает себя обратно в 0 при действии</Value>
     </Record>
     <Record>
       <Key>LogicTypeExportCount</Key>
-      <Value>How many items exported since last ClearMemory</Value>
+      <Value>Сколько элементов экспортировано с момента последней очистки памяти (ClearMemory)</Value>
     </Record>
     <Record>
       <Key>LogicTypeImportCount</Key>
-      <Value>How many items imported since last ClearMemory</Value>
+      <Value>Сколько элементов импортировано с момента последней очистки памяти (ClearMemory)</Value>
     </Record>
     <Record>
       <Key>LogicTypePowerGeneration</Key>
-      <Value>Returns how much power is being generated</Value>
+      <Value>Возвращает, сколько энергии генерируется</Value>
     </Record>
     <Record>
       <Key>LogicTypeTotalMoles</Key>
-      <Value>Returns the total moles of the device</Value>
+      <Value>Возвращает общее количество молей устройства</Value>
     </Record>
     <Record>
       <Key>LogicTypeTotalMolesInput</Key>
-      <Value>Returns the total moles of the device's Input Network</Value>
+      <Value>Возвращает общее количество молей входной сети устройства.</Value>
     </Record>
     <Record>
       <Key>LogicTypeTotalMolesInput2</Key>
-      <Value>Returns the total moles of the device's Input2 Network</Value>
+      <Value>Возвращает общее количество молей сети Input2 устройства</Value>
     </Record>
     <Record>
       <Key>LogicTypeTotalMolesOutput</Key>
-      <Value>Returns the total moles of the device's Output Network</Value>
+      <Value>Возвращает общее количество молей выходной сети устройства.</Value>
     </Record>
     <Record>
       <Key>LogicTypeTotalMolesOutput2</Key>
-      <Value>Returns the total moles of the device's Output2 Network</Value>
+      <Value>Возвращает общее количество молей сети Output2 устройства </Value>
     </Record>
     <Record>
       <Key>LogicTypeVolume</Key>
-      <Value>Returns the device atmosphere volume</Value>
+      <Value>Возвращает объем атмосферы устройства</Value>
     </Record>
     <Record>
       <Key>LogicTypePlant</Key>
-      <Value>Performs the planting action for any plant based machinery</Value>
+      <Value>Выполняет действия по посадке для любой техники на базе завода</Value>
     </Record>
     <Record>
       <Key>LogicTypeHarvest</Key>
-      <Value>Performs the harvesting action for any plant based machinery</Value>
+      <Value>Выполняет сбор урожая для любой растительной техники</Value>
     </Record>
     <Record>
       <Key>LogicTypeOutput</Key>
-      <Value>The output operation for a sort handling device, such as a stacker or sorter, when in logic mode the device will only action one repetition when set zero or above and then back to -1 and await further instructions</Value>
+      <Value>Выходная операция для устройства обработки сортировки, такого как укладчик или сортировщик, когда в логическом режиме устройство будет выполнять только одно повторение, когда установлено 0 или выше, а затем возвращается к -1 и ожидает дальнейших инструкций.</Value>
     </Record>
     <Record>
       <Key>LogicTypePressureSetting</Key>
-      <Value>The current setting for the internal pressure of the object (e.g. the Hardsuit Air release), in KPa</Value>
+      <Value>Текущая настройка внутреннего давления объекта (например, выпуска воздуха Hardsuit), в кПа</Value>
     </Record>
     <Record>
       <Key>LogicTypeTemperatureSetting</Key>
-      <Value>The current setting for the internal temperature of the object (e.g. the Hardsuit A/C)</Value>
+      <Value>Текущая настройка внутренней температуры объекта (например, Hardsuit A/C)</Value>
     </Record>
     <Record>
       <Key>LogicTypeTemperatureExternal</Key>
-      <Value>The temperature of the outside of the device, usually the world atmosphere surrounding it</Value>
+      <Value>Температура внешней части устройства, обычно окружающей его атмосферы.</Value>
     </Record>
     <Record>
       <Key>LogicTypeFiltration</Key>
-      <Value>The current state of the filtration system, for example Filtration = 1 for a Hardsuit sets filtration to On</Value>
+      <Value>Текущее состояние системы фильтрации, например Filtration = 1 для Hardsuit устанавливает фильтрацию на On</Value>
     </Record>
     <Record>
       <Key>LogicTypeAirRelease</Key>
-      <Value>The current state of the air release system, for example AirRelease = 1 for a Hardsuit sets Air Release to On</Value>
+      <Value>Текущее состояние системы выпуска воздуха, например AirRelease = 1 для жесткого костюма, устанавливает выпуск воздуха на On.</Value>
     </Record>
     <Record>
       <Key>LogicTypePositionX</Key>
-      <Value>The current position in X dimension in world coordinates</Value>
+      <Value>Текущая позиция в измерении X в мировых координатах</Value>
     </Record>
     <Record>
       <Key>LogicTypePositionY</Key>
-      <Value>The current position in Y dimension in world coordinates</Value>
+      <Value>Текущая позиция в измерении Y в мировых координатах</Value>
     </Record>
     <Record>
       <Key>LogicTypePositionZ</Key>
-      <Value>The current position in Z dimension in world coordinates</Value>
+      <Value>Текущая позиция в измерении Z в мировых координатах</Value>
     </Record>
     <Record>
       <Key>LogicTypeVelocityMagnitude</Key>
-      <Value>The current magnitude of the velocity vector</Value>
+      <Value>Текущая величина вектора скорости</Value>
     </Record>
     <Record>
       <Key>LogicTypeVelocityRelativeX</Key>
-      <Value>The current velocity X relative to the forward vector of this</Value>
+      <Value>Текущая скорость X относительно прямого вектора этого</Value>
     </Record>
     <Record>
       <Key>LogicTypeVelocityRelativeY</Key>
-      <Value>The current velocity Y relative to the forward vector of this</Value>
+      <Value>Текущая скорость Y относительно прямого вектора этого</Value>
     </Record>
     <Record>
       <Key>LogicTypeVelocityRelativeZ</Key>
-      <Value>The current velocity Z relative to the forward vector of this</Value>
+      <Value>Текущая скорость Z относительно прямого вектора этого</Value>
     </Record>
     <Record>
       <Key>LogicTypePrefabHash</Key>
-      <Value>The hash of the structure</Value>
+      <Value>Хэш структуры</Value>
     </Record>
     <Record>
       <Key>LogicTypeForceWrite</Key>
-      <Value>Forces Logic Writer devices to rewrite value</Value>
+      <Value>Заставляет устройства Logic Writer перезаписывать значение</Value>
     </Record>
     <Record>
       <Key>LogicTypeSignalStrength</Key>
-      <Value>Returns the strength of the strongest signal received from this Satellite</Value>
+      <Value>Возвращает мощность самого сильного сигнала, полученного от этого спутника.</Value>
     </Record>
     <Record>
       <Key>LogicTypeSignalID</Key>
-      <Value>Returns the contact ID of the strongest signal from this Satellite</Value>
+      <Value>Возвращает идентификатор контакта самого сильного сигнала с этого спутника</Value>
     </Record>
     <Record>
       <Key>LogicTypeOperationalTemperatureEfficiency</Key>
-      <Value>How the input pipe's temperature effects the machines efficiency</Value>
+      <Value>Как температура входной трубы влияет на эффективность машины</Value>
     </Record>
     <Record>
       <Key>LogicTypeTemperatureDifferentialEfficiency</Key>
-      <Value>How the difference between the input pipe and waste pipe temperatures effect the machines efficiency</Value>
+      <Value>Как разница между температурами входного и выходного трубопроводов влияет на эффективность машин</Value>
     </Record>
     <Record>
       <Key>LogicTypeCombustionLimiter</Key>
-      <Value>Retards the rate of combustion inside the machine (range: 0-100), with 0 being the slowest rate of combustion and 100 being the fastest</Value>
+	  <Value> Замедляет скорость сгорания внутри машины (диапазон: 0-100), где 0 — самая низкая скорость сгорания, а 100 — самая быстрая</Value>
     </Record>
     <Record>
       <Key>LogicTypeThrottle</Key>
-      <Value>Increases the rate at which the machine works (range: 0-100)</Value>
+      <Value>Увеличивает скорость работы машины (диапазон: 0-100)</Value>
     </Record>
     <Record>
       <Key>LogicTypeRpm</Key>
-      <Value>The number of revolutions per minute that the device's spinning mechanism is doing</Value>
+      <Value>Количество оборотов в минуту, которое делает вращающийся механизм устройства</Value>
     </Record>
     <Record>
       <Key>LogicTypeStress</Key>
-      <Value>Machines get stressed when working hard. When Stress reaches 100 the machine will automatically shut down</Value>
+      <Value>Машины испытывают стресс при тяжелой работе. Когда уровень стресса достигает 100, машина автоматически выключается.</Value>
     </Record>
     <Record>
       <Key>LogicTypePressureEfficiency</Key>
-      <Value>How the pressure of the input pipe and waste pipe effect the machines efficiency</Value>
+      <Value>Как давление входной трубы и сточной трубы влияет на эффективность машин</Value>
     </Record>
     <Record>
       <Key>LogicSlotTypeNone</Key>
-      <Value>No description</Value>
+      <Value>Нет описания.</Value>
     </Record>
     <Record>
       <Key>LogicSlotTypeOccupied</Key>
-      <Value>returns 0 when slot is not occupied, 1 when it is</Value>
+      <Value>возвращает 0, если слот не занят, 1, если он </Value>
     </Record>
     <Record>
       <Key>LogicSlotTypeOccupantHash</Key>
@@ -10904,99 +10910,99 @@ You must place the laptop down to interact with the onsreen UI.
     </Record>
     <Record>
       <Key>LogicSlotTypeQuantity</Key>
-      <Value>returns the current quantity, such as stack size, of the item in the slot</Value>
+      <Value>возвращает текущее количество, например размер стека, предмета в слоте</Value>
     </Record>
     <Record>
       <Key>LogicSlotTypeDamage</Key>
-      <Value>returns the damage state of the item in the slot</Value>
+      <Value>возвращает состояние повреждения предмета в слоте</Value>
     </Record>
     <Record>
       <Key>LogicSlotTypeEfficiency</Key>
-      <Value>returns the growth efficiency of the plant in the slot</Value>
+      <Value>возвращает эффективность роста растения в слоте</Value>
     </Record>
     <Record>
       <Key>LogicSlotTypeMature</Key>
-      <Value>returns 1 if the plant in this slot is mature, 0 when it isn't</Value>
+      <Value>возвращает 1, если растение в этом слоте созрело, и 0, если нет</Value>
     </Record>
     <Record>
       <Key>LogicSlotTypeHealth</Key>
-      <Value>returns the health of the plant in the slot</Value>
+      <Value>возвращает здоровье растения в слот</Value>
     </Record>
     <Record>
       <Key>LogicSlotTypeGrowth</Key>
-      <Value>returns the current growth state of the plant in the slot</Value>
+      <Value>возвращает текущее состояние роста растения в слоте</Value>
     </Record>
     <Record>
       <Key>LogicSlotTypePressure</Key>
-      <Value>returns pressure of the slot occupants internal atmosphere</Value>
+      <Value>возвращает давление внутренней атмосферы обитателей слота</Value>
     </Record>
     <Record>
       <Key>LogicSlotTypeTemperature</Key>
-      <Value>returns temperature of the slot occupants internal atmosphere</Value>
+      <Value>возвращает температуру внутренней атмосферы людей, находящихся в слоте</Value>
     </Record>
     <Record>
       <Key>LogicSlotTypeCharge</Key>
-      <Value>returns current energy charge the slot occupant is holding</Value>
+      <Value>возвращает текущий заряд энергии, который держит владелец слота</Value>
     </Record>
     <Record>
       <Key>LogicSlotTypeChargeRatio</Key>
-      <Value>returns current energy charge the slot occupant is holding as a ratio between 0 and 1 of its maximum</Value>
+      <Value>возвращает текущий энергетический заряд, удерживаемый пользователем слота, как отношение от 0 до 1 от его максимума</Value>
     </Record>
     <Record>
       <Key>LogicSlotTypeClass</Key>
-      <Value>returns integer representing the class of object</Value>
+      <Value>возвращает целое число, представляющее класс объекта</Value>
     </Record>
     <Record>
       <Key>LogicSlotTypePressureWaste</Key>
-      <Value>returns pressure in the waste tank of the jetpack in this slot</Value>
+      <Value>возвращает давление в баке отходов реактивного ранца в этом слоте</Value>
     </Record>
     <Record>
       <Key>LogicSlotTypePressureAir</Key>
-      <Value>returns pressure in the air tank of the jetpack in this slot</Value>
+      <Value>возвращает давление в воздушном баке реактивного ранца в этот слот</Value>
     </Record>
     <Record>
       <Key>LogicSlotTypeMaxQuantity</Key>
-      <Value>returns the max stack size of the item in the slot</Value>
+      <Value>возвращает максимальный размер стека предмета в слоте</Value>
     </Record>
     <Record>
       <Key>FuelInTankRemaining</Key>
-      <Value>Gets the fuel remaining in your rocket's fuel tank.</Value>
+      <Value>Получает топливо, оставшееся в топливном баке вашей ракеты.</Value>
     </Record>
     <Record>
       <Key>FuelReturnCost</Key>
-      <Value>Gets the cost of fuel to return the rocket to your current world.</Value>
+      <Value>Получает стоимость топлива, чтобы вернуть ракету в ваш текущий мир.</Value>
     </Record>
     <Record>
       <Key>RocketMode</Key>
-      <Value>Deprecated</Value>
+      <Value>Устаревший</Value>
     </Record>
     <Record>
       <Key>CollectableGoods</Key>
-      <Value>Returns 0 or 1 based on whether or not the current rocket system has the ability to collect resources on the planet.</Value>
+      <Value>Возвращает 0 или 1 в зависимости от того, может ли текущая ракетная система собирать ресурсы на планете.</Value>
     </Record>
     <Record>
       <Key>LogicTypeRequestHash</Key>
-      <Value>When set to the unique identifier, requests an item of the provided type from the device</Value>
+      <Value>Если задан уникальный идентификатор, запрашивает элемент указанного типа из устройства</Value>
     </Record>
     <Record>
       <Key>LogicSlotTypePrefabHash</Key>
-      <Value>returns the hash of the structure in the slot</Value>
+      <Value>возвращает хэш структуры в слот</Value>
     </Record>
     <Record>
       <Key>AppearanceButtonRandomize</Key>
-      <Value>Randomize</Value>
+      <Value>Случайно</Value>
     </Record>
     <Record>
       <Key>SettingsP2PHostEnabled</Key>
-      <Value>Enable P2PHost</Value>
+      <Value>Включить P2PHost</Value>
     </Record>
     <Record>
       <Key>SettingsP2PHostNote</Key>
-      <Value>If P2PHost is enabled, Stationeers will use steam's packet relay so that you can play with your friend under NAT or VPN. It's not compatible with TCP/IP and force not to advertise server.</Value>
+      <Value>Если P2PHost включен, Stationeers будет использовать ретрансляцию пакетов от steam, для игры с друзьями через NAT или VPN. Функция не совместима с TCP/IP и не объявляет сервер.</Value>
     </Record>
     <Record>
       <Key>SettingsSavePath</Key>
-      <Value>Path</Value>
+      <Value>Путь</Value>
     </Record>
     <Record>
       <Key>ButtonFolderBrowse</Key>
@@ -11004,7 +11010,7 @@ You must place the laptop down to interact with the onsreen UI.
     </Record>
     <Record>
       <Key>AppearanceTitleSpecies</Key>
-      <Value>Species</Value>
+      <Value>Виды</Value>
     </Record>
     <Record>
       <Key>SpinnerPannelSaving</Key>
@@ -11016,11 +11022,11 @@ You must place the laptop down to interact with the onsreen UI.
     </Record>
     <Record>
       <Key>IncidentsTitle</Key>
-      <Value>Incidents</Value>
+      <Value>Происшествия</Value>
     </Record>
     <Record>
       <Key>OpenIncidentUI</Key>
-      <Value>Open Incidents</Value>
+      <Value>История происшествий</Value>
     </Record>
     <Record>
       <Key>ContactsTrading</Key>
@@ -11048,87 +11054,87 @@ You must place the laptop down to interact with the onsreen UI.
     </Record>
     <Record>
       <Key>TraderInUse</Key>
-      <Value>This contact is already interacting with someone, try again soon.</Value>
+      <Value>Этот контакт уже взаимодействует с кем-то, попробуйте чуть позже.</Value>
     </Record>
     <Record>
       <Key>ContactNoResponse</Key>
-      <Value>There was no response.</Value>
+      <Value>Ответа не было.</Value>
     </Record>
     <Record>
       <Key>ContactTradeRequestFail</Key>
-      <Value>Trader requesting safe landing. A powered landing pad is required to continue.</Value>
+      <Value>Торговец запрашивает безопасную посадку. Запитанная посадочная площадка требуется для продолжения.</Value>
     </Record>
     <Record>
       <Key>ContactTradeRequestFailInUse</Key>
-      <Value>Somebody is already interacting with this Trader, try again soon.</Value>
+      <Value>Этот торговец уже взаимодействует с кем-то, попробуйте чуть позже.</Value>
     </Record>
     <Record>
       <Key>ContactLandingRequestFailVendingMachine</Key>
-      <Value>You need a powered Vending Machine on the network to interact with this trader.</Value>
+      <Value>Для взаимодействия с этим торговцем вам нужен Склад, питающийся от сети.</Value>
     </Record>
     <Record>
       <Key>ContactLandingRequestFailSatellite</Key>
-      <Value>There is an issue with your satellite. Check it's connected to the network and powered.</Value>
+      <Value>Какие-то неполадки с вашей спутниковой антенной. Убедитесь что она подключена к сети и запитана.</Value>
     </Record>
     <Record>
       <Key>ContactLandingRequestFailStorm</Key>
-      <Value>Trader is unable to travel in this storm.</Value>
+      <Value>Торговец не может передвигаться в таком шторме.</Value>
     </Record>
     <Record>
       <Key>InputTextTradingTitle</Key>
-      <Value>Trading Terminal</Value>
+	  <Value>Торговый терминал</Value>
     </Record>
     <Record>
       <Key>PanelPlantGeneticsTitle</Key>
-      <Value>Genetic Information</Value>
+      <Value>Генетическая информация</Value>
     </Record>
     <Record>
       <Key>TraderElectronics</Key>
-      <Value>TechTree Electronics</Value>
+      <Value>Дерево Технологий</Value>
     </Record>
     <Record>
       <Key>TraderOrganics</Key>
-      <Value>Organicon</Value>
+      <Value>Органикон</Value>
     </Record>
     <Record>
       <Key>TraderBasic</Key>
-      <Value>Spes'mall Basics</Value>
+      <Value>Основы Spes'mall</Value>
     </Record>
     <Record>
       <Key>TraderHydraulic</Key>
-      <Value>HydrauliKit</Value>
+      <Value>ГирдаулиКит</Value>
     </Record>
     <Record>
       <Key>TraderOre</Key>
-      <Value>MineRiteOres</Value>
+      <Value>МинеРит</Value>
     </Record>
     <Record>
       <Key>TraderMicrowave</Key>
-      <Value>Microwares</Value>
+      <Value>Микроизделия</Value>
     </Record>
     <Record>
       <Key>TraderChemistry</Key>
-      <Value>Chem Lab</Value>
+      <Value>Химическая лаборатория</Value>
     </Record>
     <Record>
       <Key>TraderExotics</Key>
-      <Value>ExoTech</Value>
+      <Value>ЭкзоТек</Value>
     </Record>
     <Record>
       <Key>TraderPaint</Key>
-      <Value>Color Corp Paints</Value>
+      <Value>Продавец красок</Value>
     </Record>
     <Record>
       <Key>TraderTool</Key>
-      <Value>Tool Corp</Value>
+      <Value>Продавец инструментов</Value>
     </Record>
     <Record>
       <Key>TraderSecurity</Key>
-      <Value>Hall Corp Security</Value>
+      <Value>Холл Корп Безопасность</Value>
     </Record>
     <Record>
       <Key>TraderOther</Key>
-      <Value>Kolders' Assorted Goods</Value>
+      <Value>Товары Колдерса</Value>
     </Record>
     <Record>
       <Key>TraderGas</Key>
@@ -11160,31 +11166,31 @@ You must place the laptop down to interact with the onsreen UI.
     </Record>
     <Record>
       <Key>RoomControlTickSpeed</Key>
-      <Value>RoomControl TickSpeed</Value>
+      <Value>Скорость тика управления помещением</Value>
     </Record>
     <Record>
       <Key>LogicTypeTargetX</Key>
-      <Value>The target position in X dimension in world coordinates</Value>
+      <Value>Текущая позиция по оси X в мировых координатах</Value>
     </Record>
     <Record>
       <Key>LogicTypeTargetY</Key>
-      <Value>The target position in Y dimension in world coordinates</Value>
+      <Value>Текущая позиция по оси Y в мировых координатах</Value>
     </Record>
     <Record>
       <Key>LogicTypeTargetZ</Key>
-      <Value>The target position in Z dimension in world coordinates</Value>
+      <Value>Текущая позиция по оси Z в мировых координатах</Value>
     </Record>
     <Record>
       <Key>LogicTypeSettingInputHash</Key>
-      <Value>The input setting for the device</Value>
+      <Value>Настройка входа устройства</Value>
     </Record>
     <Record>
       <Key>LogicTypeSettingOutputHash</Key>
-      <Value>The output setting for the device</Value>
+      <Value>Настройка выхода устройства</Value>
     </Record>
     <Record>
       <Key>ButtonDepart</Key>
-      <Value>Попрощаться</Value>
+      <Value>Отправляться</Value>
     </Record>
     <Record>
       <Key>SettingsShowSlotTooltips</Key>
@@ -13570,6 +13576,18 @@ Stationeers, способные строить и поддерживать ба�
       <Key>ContactItemLostContact</Key>
       <Value>Потеряно соединение</Value>
     </Record>
+	<Record>
+	  <Key>ButtonSell</Key>
+	  <Value>Продать</Value>
+	</Record>
+	<Record>
+	  <Key>ButtonBuy</Key>
+	  <Value>Купить</Value>
+	</Record>
+	<Record>
+	  <Key>ButtonClose</Key>
+	  <Value>Закрыть</Value>
+	</Record>
   </Interface>
   <Colors>
     <Record>
