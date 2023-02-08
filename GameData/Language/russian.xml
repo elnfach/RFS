@@ -281,7 +281,7 @@
     </Record>
     <Record>
       <Key>Insert</Key>
-      <Value>Положить</Value>
+      <Value>Вставить</Value>
     </Record>
     <Record>
       <Key>Remove</Key>
@@ -329,11 +329,11 @@
     </Record>
     <Record>
       <Key>Off</Key>
-      <Value>выключен</Value>
+      <Value>Выключить</Value>
     </Record>
     <Record>
       <Key>On</Key>
-      <Value>включен</Value>
+      <Value>Включить</Value>
     </Record>
     <Record>
       <Key>Powered</Key>
@@ -963,7 +963,7 @@ VERTICAL - вертикальный поворот панелей, %
     </RecordThing>
     <RecordThing>
       <Key>DynamicLight</Key>
-      <Value>Переносной свет</Value>
+      <Value>Переносной светильник</Value>
       <Description>Филипп Старк, возможно, не аплодирует, но этот источник света на батарейках осветляет углы, когда освещения недостаточно. Работающий от любой батареи, это {LINK:Xigo;Xigo} дизайн без излишеств, который можно дешево изготовить с минимальными усилиями. Если только вы не любите суеты. В таком случае, суетитесь сколько хотите.</Description>
     </RecordThing>
     <RecordThing>
@@ -1109,8 +1109,17 @@ VERTICAL - вертикальный поворот панелей, %
     <RecordThing>
       <Key>ItemCableCoil</Key>
       <Value>Моток кабеля</Value>
-      <Description>Bodily metaphors are tired and anthropocentric, but it was Frida Stuppen, the first {LINK:ODA;ODA} Administrator, who said, 'Let the cabling be as the nerve and the vessel, transmitting power and data alike through systems we forge among the stars.' Later commentators suggested that she was simply putting a romantic gloss on a piece of dubious economy. Whatever the case, standard cabling is where any {LINK:Stationeers;Stationeer's} network begins. 
-Normal coil has a maximum wattage of 5kW. For higher-current applications, use {THING:ItemCableCoilHeavy}.</Description>
+      <Description>Телесные метафоры утомительны и антропоцентричны, но именно Фрида Штуппен, первый администратор {LINK:ODA;ODA}, сказала: "Пусть кабель будет как нерв и сосуд, передающий энергию и данные через системы, которые мы создаем среди звезд". Более поздние критики предположили, что она просто придавала романтический блеск куску сомнительного изделия. В любом случае стандартные кабели — это то, с чего начинается любая сеть {LINK:Stationeers;Stationeer}.
+Это обычный моток кабеля имеет максимальную мощность 5 кВт. Для приборов, которым требуется еще большая мощность используйте {THING:ItemCableCoilHeavy}.
+
+{HEADER:ПОДРОБНОЕ ОПИСАНИЕ}
+Бухта провода для передачи электричества и данных. Подключается как к силовым, так и к информационным портам оборудования. Свободно проходит сквозь стены не нарушая герметичности. При установке колёсиком мыши можно выбрать один из восьми вариантов - прямой участок и поворот расходуют по одной единице кабеля, T-соединение, X-соединение и угловой тройник - по две единицы, 6-стороннее соединение и угловое 4-стороннее - по три единицы, 5-стороннее - четыре единицы. Для демонтажа используются {THING:ItemWireCutters}.
+Если взять в одну руку кусачки, а в другую кабель, то можно добавлять ответвления в уже расположенный в ячейке сегмент кабеля. Например, если в ячейке построен прямой участок, и вы добавляете второй прямой сегмент поперёк предыдущего, то в ячейке сразу появится крестовой сегмент. Расход кабеля при этом равен разности расходов на начальный и конечный сегменты.
+Внимание! Перегорает если суммарная потребляемая мощность всех устройств сети превышает 5 кВт.
+
+{HEADER:ОКРАСКА КАБЕЛЯ}
+Если взять в руку окрашенный кабель, то следующие куски, взятые в ту же руку, независимо от того, подобраны они с земли, взяты из шкафа или демонтированы кусачками, получат тот же самый цвет. Это можно использовать для экономии краски при прокладке большого количества кабеля.
+	  </Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemChemLightBlue</Key>
@@ -1322,7 +1331,7 @@ To use on yourself: put duct tape in your active hand, hold RIGHT MOUSE BUTTON t
     </RecordThing>
     <RecordThing>
       <Key>ItemCopperIngot</Key>
-      <Value>Слиток меди</Value>
+      <Value>Медный слиток</Value>
       <Description>Медные слитки создаются путем плавки {THING:ItemCopperOre} в {THING:StructureFurnace} или в  {THING:StructureArcFurnace} и потом используются для создания различных предметов.
 
 {HEADER:ПОДРОБНОЕ ОПИСАНИЕ}
@@ -1332,7 +1341,7 @@ To use on yourself: put duct tape in your active hand, hold RIGHT MOUSE BUTTON t
 Дуговая печь затратит на переплавку 1 г руды 3 секунды и 500 Дж электричества.
 
 {HEADER:ИСПОЛЬЗОВАНИЕ}
-Второй основной производственный материал после железа. Так же используется при выплавке {THING:ItemConstantanIngot;} и {THING:ItemAstroloyIngot;}.
+Второй основной производственный материал после железа. Так же используется при выплавке {THING:ItemConstantanIngot} и {THING:ItemAstroloyIngot}.
 	  </Description>
     </RecordThing>
     <RecordThing>
@@ -1343,7 +1352,17 @@ To use on yourself: put duct tape in your active hand, hold RIGHT MOUSE BUTTON t
     <RecordThing>
       <Key>ItemGoldIngot</Key>
       <Value>Золотой слиток</Value>
-      <Description>В основе проекта {LINK:Stationeers;Stationeers} лежит устойчивый парадокс: инициатива, задуманная как "освоение космоса по сниженным ценам", использует {REAGENT:Gold} в качестве основного ингредиента для производства такого большого количества своего оборудования и материалов.</Description>
+      <Description>В основе проекта {LINK:Stationeers;Stationeers} лежит устойчивый парадокс: инициатива, задуманная как "освоение космоса по сниженным ценам", использует {REAGENT:Gold} в качестве основного ингредиента для производства такого большого количества своего оборудования и материалов.
+
+{HEADER:ПОДРОБНОЕ ОПИСАНИЕ}
+Получается переплавкой руды в обычной, улучшенной или дуговой печи. Переплавка идёт по следующей формуле:
+Золотая руда • 1г => Слиток золота • 1г + N2 • 0.5 моль + CO2 • 0.2 моль + O2 •0.2 моль + X • 2 моль
+Для печи требуется давление 100 кПа — 100 МПа и температура 600 К — 100 кК.
+Дуговая печь затратит на переплавку 1 г золота 6 секунд и 2 кДж электричества.
+
+{HEADER:ИСПОЛЬЗОВАНИЕ}
+Один из основных элементов используемых в производстве. Так же используется при выплавке {THING:ItemElectrumIngot} и {THING:ItemInconelIngot}.
+	</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemGoldOre</Key>
@@ -1388,7 +1407,16 @@ To use on yourself: put duct tape in your active hand, hold RIGHT MOUSE BUTTON t
     <RecordThing>
       <Key>ItemIronIngot</Key>
       <Value>Железный слиток</Value>
-      <Description>Самая основная единица строительства, доступная для {LINK:Stationeers;Stationeer}. Железные слитки создаются путем плавки {THING:ItemIronOre} в {THING:StructureFurnace} или в  {THING:StructureArcFurnace} и потом используются для создания различных предметов.</Description>
+      <Description>Самая основная единица строительства, доступная для {LINK:Stationeers;Stationeer}. Железные слитки создаются путем плавки {THING:ItemIronOre} в {THING:StructureFurnace} или в  {THING:StructureArcFurnace} и потом используются для создания различных предметов.
+{HEADER:ПОДРОБНОЕ ОПИСАНИЕ}
+Получается переплавкой руды в обычной, улучшенной или дуговой печи. Переплавка идёт по следующей формуле:
+Железная руда • 1г => Слиток железа • 1г + CO2 • 0.5 моль + X • 2 моль
+Для печи требуется давление 100 кПа — 100 МПа и температура 800 К — 100 кК.
+Дуговая печь затратит на переплавку 1 г железной руды 2 секунды и 200 Дж электричества.
+
+{HEADER:ИСПОЛЬЗОВАНИЕ}
+Основной производственный материал используемый в огромном количестве рецептов. Так же используется для выплавки {THING:ItemSteelIngot} , {THING:ItemInvarIngot} и {THING:ItemSolderIngot}.
+	  </Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemIronOre</Key>
@@ -2006,43 +2034,43 @@ On - &gt;1 - выключить устройство, &lt;=1 - включить
     </RecordThing>
     <RecordThing>
       <Key>StructureBlastDoor</Key>
-      <Value>Blast Door</Value>
-      <Description>Airtight and almost undamageable, the original 'Millmar' series of blast door was designed by off-world mining giant {LINK:Recurso;Recurso} to protect asteroid-mining facilities from nuclear-incident-level explosive decompression.
-Short of a pocket-sized singularity blinking into the local space-time frame, there is effectively no limit to the pressure these blast doors can contain - ideal for constructing airlocks in pressure-sensitive environments.</Description>
+      <Value>Усиленная дверь</Value>
+      <Description>Герметичные и почти неповреждаемые противовзрывные двери оригинальной серии Millmar были разработаны внеземным горнодобывающим гигантом {LINK:Recurso;Recurso} для защиты объектов добычи на астероидах от взрывной декомпрессии на уровне ядерных аварий.
+Если не считать сингулярности карманного размера, мерцающей в локальной пространственно-временной структуре, то фактически нет предела давлению, которое могут выдержать эти противовзрывные двери — идеальное решение для строительства шлюзов в средах, чувствительных к давлению.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureCableCorner</Key>
-      <Value>Cable (Corner)</Value>
-      <Description>Carrying power and data alike, cable coil has come to symbolize the innovation, independence and flexibility of {LINK:Stationeers;Stationeer} life - so essential, the {LINK:ODA;ODA} designated it an official {LINK:ToolPage;'tool'} during the 3rd Decannual Stationeer Solar Conference.
-Normal coil has a maximum wattage of 5kW. For higher-current applications, use {THING:ItemCableCoilHeavy}.</Description>
+      <Value>Кабель (Тип 2)</Value>
+      <Description>Кабельная катушка, передающая как мощность, так и данные, стала символом инноваций, независимости и гибкости жизни {LINK:Stationeers;Stationeer}. Она настолько важна, что {LINK:ODA;ODA} назначила ее официальным {LINK:ToolPage;'инструментом '} во время 3-й Decannual Stationeer Solar Conference.
+Обычная катушка имеет максимальную мощность 5 кВт. Для сильноточных приложений используйте {THING:ItemCableCoilHeavy}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureCableCorner3</Key>
-      <Value>Cable (3-Way Corner)</Value>
+      <Value>Кабель (Тип 7)</Value>
       <Description>Carrying power and data alike, cable coil has come to symbolize the innovation, independence and flexibility of {LINK:Stationeers;Stationeer} life - so essential, the {LINK:ODA;ODA} designated it an official {LINK:ToolPage;'tool'} during the 3rd Decannual Stationeer Solar Conference.
 Normal coil has a maximum wattage of 5kW. For higher-current applications, use {THING:ItemCableCoilHeavy}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureCableJunction</Key>
-      <Value>Cable (Junction)</Value>
+      <Value>Кабель (Тип 3)</Value>
       <Description>Carrying power and data alike, cable coil has come to symbolize the innovation, independence and flexibility of {LINK:Stationeers;Stationeer} life - so much so, the {LINK:ODA;ODA} designated it an official {LINK:ToolPage;'tool'} during the 3rd Decannual Stationeer Solar Conference.
 Normal coil has a maximum wattage of 5kW. For higher-current applications, use {THING:ItemCableCoilHeavy}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureCableJunction4</Key>
-      <Value>Cable (4-Way Junction)</Value>
+      <Value>Кабель (Тип 4)</Value>
       <Description>Carrying power and data alike, cable coil has come to symbolize the innovation, independence and flexibility of {LINK:Stationeers;Stationeer} life - so much so, the {LINK:ODA;ODA} designated it an official {LINK:ToolPage;'tool'} during the 3rd Decannual Stationeer Solar Conference.
 Normal coil has a maximum wattage of 5kW. For higher-current applications, use {THING:ItemCableCoilHeavy}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureCableJunction6</Key>
-      <Value>Cable (6-Way Junction)</Value>
+      <Value>Кабель (Тип 6)</Value>
       <Description>Carrying power and data alike, cable coil has come to symbolize the innovation, independence and flexibility of {LINK:Stationeers;Stationeer} duty - so much so, the {LINK:ODA;ODA} designated it an official {LINK:ToolPage;'tool'} during the 3rd Decannual Stationeer Solar Conference.
 Normal coil has a maximum wattage of 5kW. For higher-current applications, use {THING:ItemCableCoilHeavy}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureCableStraight</Key>
-      <Value>Cable (Straight)</Value>
+      <Value>Кабель (Тип 1)</Value>
       <Description>Carrying power and data alike, cable coil has come to symbolize the innovation, independence and flexibility of {LINK:Stationeers;Stationeer} life - so much so, the {LINK:ODA;ODA} designated it an official {LINK:ToolPage;'tool'}.
 Normal coil has a maximum wattage of 5kW. For higher-current applications, use {THING:ItemCableCoilHeavy}.</Description>
     </RecordThing>
@@ -2102,7 +2130,7 @@ Chutes are fundamental components of chute networks, which allow the transport o
     </RecordThing>
     <RecordThing>
       <Key>StructureCompositeDoor</Key>
-      <Value>Композитная двурь</Value>
+      <Value>Композитная дверь</Value>
       <Description>{LINK:Recurso;Recurso's} composite doors are rated to 300kPa, which is more than sufficient for most purposes they were designed for. However, steep pressure differentials are not your friend.</Description>
     </RecordThing>
     <RecordThing>
@@ -2408,7 +2436,7 @@ With a little patience and maneuvering, the corner frame's Gothic-inspired silho
     </RecordThing>
     <RecordThing>
       <Key>StructureRailing</Key>
-      <Value>Railing Industrial (Type 1)</Value>
+      <Value>Промышленные перила (Тип 1)</Value>
       <Description>"Safety third."</Description>
     </RecordThing>
     <RecordThing>
@@ -2456,7 +2484,7 @@ The ProKompile can stack a wide variety of things such as {LINK:IngotPage;ingots
     </RecordThing>
     <RecordThing>
       <Key>StructureStairs4x2</Key>
-      <Value>Лестницы</Value>
+      <Value>Лестница</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureStellarAnchor</Key>
@@ -2598,19 +2626,19 @@ The ProKompile can stack a wide variety of things such as {LINK:IngotPage;ingots
     </RecordThing>
     <RecordThing>
       <Key>StructureCableStraightH</Key>
-      <Value>Силовой кабель</Value>
+      <Value>Силовой кабель (Тип 1)</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureCableJunctionH6</Key>
-      <Value>Силовой кабель (6-Way Junction)</Value>
+      <Value>Силовой кабель (Тип 6)</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureCableJunctionH4</Key>
-      <Value>Силовой кабель (4-Way Junction)</Value>
+      <Value>Силовой кабель (Тип 4)</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureCableJunctionH</Key>
-      <Value>Силовой кабель (3-Way Junction)</Value>
+      <Value>Силовой кабель (Тип 3)</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureCableJunction6HBurnt</Key>
@@ -2634,7 +2662,7 @@ The ProKompile can stack a wide variety of things such as {LINK:IngotPage;ingots
     </RecordThing>
     <RecordThing>
       <Key>StructureCableCornerH</Key>
-      <Value>Сгоревший силовой кабель (Corner)</Value>
+      <Value>Силовой кабель (Тип 2)</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureCableFuse1k</Key>
@@ -2656,7 +2684,8 @@ The ProKompile can stack a wide variety of things such as {LINK:IngotPage;ingots
       <Key>StructureTransformer</Key>
       <Value>Большой трансформатор</Value>
       <Description>Большой трансформатор {LINK:Norsec;Norsec} является важным компонентом расширенных {LINK:ElectronicPage;электрических} сетей, контролируя максимальную мощность, которая будет передаваться по кабелю. Для предотвращения перегрузки мощность может быть установлена в диапазоне от 0 до 50 000 Вт.
-Обратите внимание, что преобразователи работают как изоляторы данных, предотвращая поток данных в любую сеть за ее пределами.</Description>
+Обратите внимание, что преобразователи работают как изоляторы данных, предотвращая поток данных в любую сеть за ее пределами.
+	  </Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitTransformer</Key>
@@ -2718,8 +2747,16 @@ Note that transformers operate as data isolators, preventing data flowing into a
     </RecordThing>
     <RecordThing>
       <Key>ItemCableCoilHeavy</Key>
-      <Value>Cable Coil (Heavy)</Value>
-      <Description>Use heavy cable coil for power systems with large draws. Unlike {THING:StructureCableCoil}, which can only safely conduct 5kW, heavy cables can transmit up to 100kW.</Description>
+      <Value>Моток силового кабеля</Value>
+      <Description>Используйте тяжелую кабельную катушку для энергосистем с большим энергопотреблением. В отличие от {THING:ItemCableCoil}, который может безопасно проводить только 5 кВт, тяжелые кабели могут передавать до 100 кВт.
+
+{HEADER:ПОДРОБНОЕ ОПИСАНИЕ}
+Бухта провода для передачи электричества большой мощности и данных. Подключается как к силовым, так и к информационным портам оборудования. Свободно проходит сквозь стены не нарушая герметичности. При установке колёсиком мыши можно выбрать один из восьми вариантов - прямой участок, поворот, плоские 3- и 4-конечные, 5- и 6-конечные, угловые 3- и 4-конечные. Для демонтажа используются кусачки. Перегорает если суммарная потребляемая мощность всех устройств сети превышает 100 кВт.
+Если взять в одну руку кусачки, а в другую кабель, то можно добавлять ответвления в уже расположенный в ячейке сегмент кабеля. Например, если в ячейке построен прямой участок, и вы добавляете второй прямой сегмент поперёк предыдущего, то в ячейке сразу появится крестовой сегмент. Расход кабеля при этом равен разности расходов на начальный и конечный сегменты.
+
+{HEADER:ОКРАСКА КАБЕЛЯ}
+Если взять в руку окрашенный кабель, то следующие куски, взятые в ту же руку, независимо от того, подобраны они с земли, взяты из шкафа или демонтированы кусачками, получат тот же самый цвет. Это можно использовать для экономии краски при прокладке большого количества кабеля.
+	  </Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureFrameIron</Key>
@@ -2763,6 +2800,18 @@ Note that transformers operate as data isolators, preventing data flowing into a
     <RecordThing>
       <Key>ItemLeadIngot</Key>
       <Value>Свинцовый слиток</Value>
+	  <Description>
+Свинец — элемент 14-й группы шестого периода периодической системы химических элементов Менделеева, с атомным номером 82. Обозначается символом Pb (лат. Plumbum).
+
+{HEADER:ПОДРОБНОЕ ОПИСАНИЕ}
+Получается переплавкой руды в обычной, улучшенной или дуговой печи. Переплавка идёт по следующей формуле:
+Свинцовая руда • 1г => Слиток свинца • 1г + N2 • 1 моль + CO2 • 0.4 моль + N2O • 0.4 моль + X • 2 моль
+Для печи требуется давление 100 кПа — 100 МПа и температура 400 К — 100 кК.
+Дуговая печь затратит на переплавку 1 г свинца 5 секунд и 1 кДж электричества.
+
+{HEADER:ИСПОЛЬЗОВАНИЕ}
+Основное использование для выплавки сплавов: {THING:ItemSolderIngot} и {THING:ItemWaspaloyIngot}.
+	  </Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemNickelIngot</Key>
@@ -2770,7 +2819,7 @@ Note that transformers operate as data isolators, preventing data flowing into a
     </RecordThing>
     <RecordThing>
       <Key>ItemInvarIngot</Key>
-      <Value>Инварный слиток</Value>
+      <Value>Слиток инваря</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemConstantanIngot</Key>
@@ -2820,7 +2869,7 @@ Note that transformers operate as data isolators, preventing data flowing into a
     </RecordThing>
     <RecordThing>
       <Key>StructureElectronicsPrinter</Key>
-      <Value>3D Принтер</Value>
+      <Value>Принтер электроники</Value>
       <Description>Электронный принтер создаст любую {LINK:ElectronicPage;электронную} деталь, которая вам нужна. От печатных плат и электронных устройств до солнечных батарей. Выбор остается за вами. Обновите устройство с помощью {THING:ElectronicPrinterMod}, чтобы получить дополнительные рецепты и повысить скорость обработки.</Description>
     </RecordThing>
     <RecordThing>
@@ -2895,7 +2944,7 @@ Note that transformers operate as data isolators, preventing data flowing into a
     </RecordThing>
     <RecordThing>
       <Key>ItemKitElectronicsPrinter</Key>
-      <Value>3D принтер</Value>
+      <Value>Принтер электроники</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitDoor</Key>
@@ -2940,7 +2989,11 @@ Note that transformers operate as data isolators, preventing data flowing into a
     </RecordThing>
     <RecordThing>
       <Key>ItemBeacon</Key>
-      <Value>Маячок</Value>
+      <Value>Стационарный маяк</Value>
+	  <Description>Стационарный навигационный маяк с питанием от электрической сети, на который наводится трекер планшета. Для управления подключается к информационной сети. Изначально крепится только к железному или стальному каркасу, после подключения провода каркас можно убрать.
+Потребляет 300 Вт.
+Маяк можно покрасить с помощью баллончика с краской, при этом цвет свечения маяка изменится. Чёрная краска полностью блокирует свечение.
+	  </Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureToolManufactory</Key>
@@ -3256,11 +3309,11 @@ Insert a cartridge or color scanner into the tablet, then press the activate but
     </RecordThing>
     <RecordThing>
       <Key>StructureCableCornerH3</Key>
-      <Value>Силовой кабель (3-Way Corner)</Value>
+      <Value>Силовой кабель (Тип 7)</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureCableCornerH4</Key>
-      <Value>Силовой кабель (4-Way Corner)</Value>
+      <Value>Силовой кабель (Тип 8)</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureCableCorner4HBurnt</Key>
@@ -3278,11 +3331,11 @@ Insert a cartridge or color scanner into the tablet, then press the activate but
     </RecordThing>
     <RecordThing>
       <Key>StructureCableJunction5</Key>
-      <Value>Кабель (5-Way Junction)</Value>
+      <Value>Кабель (Тип 5)</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureCableCorner4</Key>
-      <Value>Кабель (4-Way Corner)</Value>
+      <Value>Кабель (Тип 8)</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureCableCorner4Burnt</Key>
@@ -3294,7 +3347,7 @@ Insert a cartridge or color scanner into the tablet, then press the activate but
     </RecordThing>
     <RecordThing>
       <Key>StructureCableJunctionH5</Key>
-      <Value>Силовой кабель (5-Way Junction)</Value>
+      <Value>Силовой кабель (Тип 5)</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureCableJunctionH5Burnt</Key>
@@ -3443,7 +3496,7 @@ Insert a cartridge or color scanner into the tablet, then press the activate but
     </RecordThing>
     <RecordThing>
       <Key>CompositeRollCover</Key>
-      <Value>Composite Roll Cover</Value>
+      <Value>Крышка-рольставень</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitLadder</Key>
@@ -3976,7 +4029,7 @@ MODE - группа чтения
     </RecordThing>
     <RecordThing>
       <Key>StructureLadderEnd</Key>
-      <Value>Ladder End</Value>
+      <Value>Верхушка лестницы</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureLockerSmall</Key>
@@ -4340,19 +4393,19 @@ OUT VAR - параметр, передаваемый устройству
     <RecordThing>
       <Key>ItemKitRoverFrame</Key>
       <Value>Каркас планетохода</Value>
-	  <Description> Не появляется.</Description>
+	  <Description>Не появляется.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureStairs4x2Rails</Key>
-      <Value>Stairs with Rails</Value>
+      <Value>Лестница с перилами</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureStairs4x2RailL</Key>
-      <Value>Stairs with Rail (Left)</Value>
+      <Value>Лестница с перилами с левой стороны</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureStairs4x2RailR</Key>
-      <Value>Stairs with Rail (Right)</Value>
+      <Value>Лестница с перилами с правой стороны</Value>
     </RecordThing>
     <RecordThing>
       <Key>Phobos</Key>
@@ -4898,7 +4951,7 @@ Note that transformers also operate as data isolators, preventing data flowing i
     </RecordThing>
     <RecordThing>
       <Key>RailingIndustrial02</Key>
-	  <Value>Перила промышленные (Тип 2)</Value>
+	  <Value>Промышленные перила (Тип 2)</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitRailing</Key>
@@ -5124,11 +5177,11 @@ On - &lt;1 - выключить устройство, &gt;=1 - включить
     </RecordThing>
     <RecordThing>
       <Key>StructureChairBacklessSingle</Key>
-      <Value>Chair (Backless Single)</Value>
+      <Value>Кресло (Backless Single)</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureChairBacklessDouble</Key>
-      <Value>Chair (Backless Double)</Value>
+      <Value>Кресло (Backless Double)</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureFlatBench</Key>
@@ -7300,22 +7353,22 @@ You must place the laptop down to interact with the onsreen UI.
     </RecordThing>
     <RecordThing>
       <Key>StructureInteriorDoorTriangle</Key>
-      <Value>Треугольник межкомнатной двери</Value>
+      <Value>Межкомнатная дверь</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureInteriorDoorPaddedThin</Key>
-      <Value>Внутренняя мягко-тонкая дверь</Value>
+      <Value>Межкомнатная мягко-тонкая дверь</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureInteriorDoorPadded</Key>
-      <Value>Interior Door Padded</Value>
+      <Value>Мягкая межкомнатная дверь</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureInteriorDoorGlass</Key>
-      <Value>Interior Door Glass</Value>
+      <Value>Стеклянная межкомнатная дверь</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -7330,7 +7383,7 @@ You must place the laptop down to interact with the onsreen UI.
     </RecordThing>
     <RecordThing>
       <Key>StructureManualHatch</Key>
-      <Value>Manual Hatch</Value>
+      <Value>Гермодверь</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -9565,7 +9618,7 @@ You must place the laptop down to interact with the onsreen UI.
     </Record>
     <Record>
       <Key>PromptDeleteTitle</Key>
-      <Value>Удалить сохранение</Value>
+      <Value>Удаление сохранения</Value>
     </Record>
     <Record>
       <Key>PromptDeleteBody</Key>
@@ -11755,7 +11808,7 @@ You must place the laptop down to interact with the onsreen UI.
     </Record>
     <Record>
       <Key>ResetInventoryDescription</Key>
-      <Value>This will reset all undocked inventory windows.</Value>
+      <Value>Это сбросит все не закрепленные окна.</Value>
     </Record>
     <Record>
       <Key>ConfirmReset</Key>
@@ -12523,39 +12576,39 @@ You must place the laptop down to interact with the onsreen UI.
     </Record>
     <Record>
       <Key>PlantWillCreate</Key>
-      <Value>This will create {2}{0}{3} x {1}</Value>
+      <Value>Урожай {2}{0}{3} x {1}</Value>
     </Record>
     <Record>
       <Key>PlantGrowing</Key>
-      <Value>The {0} is {1}growing{2}</Value>
+      <Value>{0} is {1}растет{2}</Value>
     </Record>
     <Record>
       <Key>PlantDead</Key>
-      <Value>The {0} is {1}dead{2}</Value>
+      <Value>{0} {1}мертво{2}</Value>
     </Record>
     <Record>
       <Key>PlantHydrate</Key>
-      <Value>The {0} lacks {1}hydration{2}</Value>
+      <Value>{0} недостаточно {1}воды{2}</Value>
     </Record>
     <Record>
       <Key>NoAtmos</Key>
-      <Value>The {0} has no {1}atmosphere{2}</Value>
+      <Value>{0} находится вне {1}атмосферы{2}</Value>
     </Record>
     <Record>
       <Key>PlantTemperature</Key>
-      <Value>The {0} is not at the right {1}temperature{2}</Value>
+      <Value>{0} имеет неподходящую {1}температуру{2}</Value>
     </Record>
     <Record>
       <Key>PlantNoSunlight</Key>
-      <Value>The {0} does not have the required {1}sunlight{2}</Value>
+      <Value>{0} не имеет необходимого {1}солнечного света{2}</Value>
     </Record>
     <Record>
       <Key>PlantToxic</Key>
-      <Value>The {0} is being damaged due to high {1}pollutant{2} in the atmosphere</Value>
+      <Value>{0} получает повреждения из-за высокого содержания {1}токсинов{2} в атмосфере</Value>
     </Record>
     <Record>
       <Key>holdhotkey</Key>
-      <Value>(hold)</Value>
+      <Value>(держать)</Value>
     </Record>
     <Record>
       <Key>Pipe</Key>
@@ -12579,15 +12632,15 @@ You must place the laptop down to interact with the onsreen UI.
     </Record>
     <Record>
       <Key>PowerAndData</Key>
-      <Value>Power And Data</Value>
+      <Value>Питание и Данные</Value>
     </Record>
     <Record>
       <Key>All</Key>
-      <Value>All</Value>
+      <Value>Все</Value>
     </Record>
     <Record>
       <Key>DeconstructToolTipText</Key>
-      <Value>{0} required to deconstruct</Value>
+      <Value>{0} требуется для разборки</Value>
     </Record>
     <Record>
       <Key>SettingsDoubleClickDelay</Key>
@@ -12607,19 +12660,19 @@ You must place the laptop down to interact with the onsreen UI.
     </Record>
     <Record>
       <Key>SettingsFirstPersonHelmet</Key>
-      <Value>First Person Helmet</Value>
+      <Value>Шлем От Первого Лица</Value>
     </Record>
     <Record>
       <Key>SiloDeconstruct</Key>
-      <Value>Your Silo must be empty before deconstructing it.</Value>
+      <Value>Ваше хранилище должно быть опустошено перед разборкой.</Value>
     </Record>
     <Record>
       <Key>PressEnterToContinue</Key>
-      <Value>Нажмите ПРОБЕЛ, чтобы продолжить</Value>
+      <Value>Нажмите &lt;color=#FBB03B&gt;SPACE&lt;/color&gt; чтобы Продолжить</Value>
     </Record>
     <Record>
       <Key>TutorialCompleteDateOfCompletion</Key>
-      <Value>Date of Completion:</Value>
+      <Value>Дата Завершения:</Value>
     </Record>
     <Record>
       <Key>BottleSlot</Key>
