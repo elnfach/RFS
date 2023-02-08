@@ -1245,8 +1245,8 @@ To use on yourself: put duct tape in your active hand, hold RIGHT MOUSE BUTTON t
       <Key>ItemGasCanisterEmpty</Key>
       <Value>Баллон</Value>
       <Description>Переносной {SLOT:GasCanister} – это для {LINK:Stationeers;Stationeer} базовое хранилище для различных {LINK:GasPage;газов}. Пустые газовые баллоны, рассчитанны на стандартное давление 8000 кПа (80 атмосфер), могут быть установлены на
-		  {THING:DynamicGasCanisterAir} или на {THING:StructureGasTankStorage} для пополнения.
-		  Следите за тем, чтобы давление не превышало 10 МПа, иначе может произойти взрыв. Содержит 64 л газа.
+{THING:DynamicGasCanisterAir} или на {THING:StructureGasTankStorage} для пополнения.
+Следите за тем, чтобы давление не превышало 10 МПа, иначе может произойти взрыв. Содержит 64 л газа.
 	  </Description>
     </RecordThing>
     <RecordThing>
@@ -1282,7 +1282,7 @@ To use on yourself: put duct tape in your active hand, hold RIGHT MOUSE BUTTON t
     <RecordThing>
       <Key>ItemLiquidCanisterEmpty</Key>
       <Value>Баллон</Value>
-      <Description>Вмещает {GAS:Water}, если они у вас есть.</Description>
+      <Description>Это пустой баллон для жидкости. Вмещает {GAS:Water}, если они у вас есть.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemGasFilterCarbonDioxide</Key>
@@ -1445,7 +1445,7 @@ To use on yourself: put duct tape in your active hand, hold RIGHT MOUSE BUTTON t
     </RecordThing>
     <RecordThing>
       <Key>ItemKitChute</Key>
-      <Value>Основные желоба</Value>
+      <Value>Транспортная труба</Value>
       <Description>This kit produces a variety of unpowered chutes.</Description>
     </RecordThing>
     <RecordThing>
@@ -2092,38 +2092,38 @@ Be there, even when you're not.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureChuteBin</Key>
-      <Value>Chute Bin</Value>
+      <Value>Транспортная труба в корзину</Value>
       <Description>The {LINK:Stationeers;Stationeer's} goal is to make off-world survival less of a struggle for themselves, and those who will follow in their footsteps.
 Like most {LINK:Recurso;Recurso}-designed systems, chute bins are simple and robust powered items, allowing items to be manually passed into chute networks by pulling a lever. They can also be programmed with {LINK:LogicUnitPage;logic} to operate automatically, although full automation requires the use items such as a {THING:StructureSDBHopper}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureChuteCorner</Key>
-      <Value>Chute (Corner)</Value>
+      <Value>Угловая транспортная труба</Value>
       <Description>Chutes act as pipes for items. Use them to connect various {LINK:ImportExportPage;import/export} equipment together such as the {THING:StructureVendingMachine} and printers like the {THING:StructureAutolathe}.
 The aim for any {LINK:Stationeers;Stationeer} is to make off-world survival less of a struggle for themselves, and those who will follow in their footsteps.
 Chute corners are fundamental components of chute networks, which allow the transport of items between machines with {LINK:ImportExportPage;import/export} slots, such as the {THING:StructureFurnace} and other automatable structures.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureChuteInlet</Key>
-      <Value>Chute Inlet</Value>
+      <Value>Приемник</Value>
       <Description>The aim for any {LINK:Stationeers;Stationeer} is to make off-world survival less of a struggle for themselves, and those who will follow in their footsteps.
 The chute inlet is an aperture by which items can be introduced to {LINK:ImportExportPage;import/export} networks. Note that its origins in zero-gravity mining means chute inlets are unpowered and permanently open, rather than interactable, allowing objects to be thrown in. They can be connected to {LINK:LogicUnitPage;logic} systems to monitor throughput.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureChuteJunction</Key>
-      <Value>Chute (Junction)</Value>
+      <Value>Соединитель</Value>
       <Description>The aim for any {LINK:Stationeers;Stationeer} is to make off-world survival less of a struggle for themselves, and those who will follow in their footsteps.
 Chute junctions are fundamental components of chute networks, allowing merging or splitting of these networks. When combined with a programmed {THING:StructureSorter}, items can be sent down different paths to various machines with {LINK:ImportExportPage;import/export} slots.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureChuteOutlet</Key>
-      <Value>Chute Outlet</Value>
+      <Value>Выбрасыватель</Value>
       <Description>The aim for any {LINK:Stationeers;Stationeer} is to make off-world survival less of a struggle for themselves, and those who will follow in their footsteps.
 The chute outlet is an aperture for exiting items from {LINK:ImportExportPage;import/export} networks. Note that the outlet's origins in zero-gravity mining means they are permanently open, rather than interactable, but can be connected to {LINK:LogicUnitPage;logic} systems to monitor throughput.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureChuteStraight</Key>
-      <Value>Chute (Straight)</Value>
+      <Value>Прямая транспортная труба</Value>
       <Description>Chutes act as pipes for items. Use them to connect various {LINK:ImportExportPage;import/export} equipment together such as the {THING:StructureVendingMachine} and printers like the {THING:StructureAutolathe}.
 The aim for any {LINK:Stationeers;Stationeer} is to make off-world survival less of a struggle for themselves, and those who will follow in their footsteps.
 Chutes are fundamental components of chute networks, which allow the transport of items between any machine or device with an {LINK:ImportExportPage;import/export} slot.</Description>
@@ -2331,7 +2331,7 @@ With a little patience and maneuvering, the corner frame's Gothic-inspired silho
     </RecordThing>
     <RecordThing>
       <Key>StructureHydroponicsTray</Key>
-      <Value>Лоток для гидропоники</Value>
+      <Value>Гидропонный лоток</Value>
       <Description>Лоток для гидропоники {LINK:Agrizero;Agrizero} — идеальный сосуд для выращивания ряда {LINK:OrganicPage;растений}. Он должен быть обеспечен водой с помощью водопроводной сети и достаточным количеством света для фотосинтеза.
 Его можно автоматизировать с помощью {THING:StructureHarvie}.</Description>
     </RecordThing>
@@ -2472,15 +2472,15 @@ With a little patience and maneuvering, the corner frame's Gothic-inspired silho
     </RecordThing>
     <RecordThing>
       <Key>StructureStacker</Key>
-      <Value>Укладчик</Value>
-      <Description>A stacker is an important part of any automated chute network. The {LINK:Xigo;Xigo} ProKompile can be set manually or via logic, to make sure items passing through the stacker are maximized for your storage needs.
-The ProKompile can stack a wide variety of things such as {LINK:IngotPage;ingots}, as well as splitting stacks into appropriate sizes as needed.</Description>
+      <Value>Укладчик (Тип 2)</Value>
+      <Description>Укладчик является важной частью любой автоматизированной сети желобов. {LINK:Xigo;Xigo} ProKompile можно настроить вручную или с помощью логики, чтобы обеспечить максимальное количество предметов, проходящих через укладчик, для ваших потребностей в хранении.
+ProKompile может складывать самые разные вещи, такие как {LINK:IngotPage;слитки}, а также при необходимости разбивать стопки на подходящие размеры.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureStackerReverse</Key>
-      <Value>Укладчик</Value>
-      <Description>A stacker is an important part of any automated chute network. The {LINK:Xigo;Xigo} ProKompile can be set manually or via logic, to make sure items passing through the stacker are maximized for your storage needs. The reversed stacker has power and data on the opposite side.
-The ProKompile can stack a wide variety of things such as {LINK:IngotPage;ingots}, as well as splitting stacks into appropriate sizes as needed.</Description>
+      <Value>Укладчик (Тип 1)</Value>
+      <Description>Укладчик является важной частью любой автоматизированной сети желобов. {LINK:Xigo;Xigo} ProKompile можно настроить вручную или с помощью логики, чтобы обеспечить максимальное количество предметов, проходящих через укладчик, для ваших потребностей в хранении. У реверсивного укладчика питание и данные находятся на противоположной стороне.
+ProKompile может складывать самые разные вещи, такие как {LINK:IngotPage;слитки}, а также при необходимости разбивать стопки на подходящие размеры.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureStairs4x2</Key>
@@ -2488,7 +2488,7 @@ The ProKompile can stack a wide variety of things such as {LINK:IngotPage;ingots
     </RecordThing>
     <RecordThing>
       <Key>StructureStellarAnchor</Key>
-      <Value>Stellar Anchor</Value>
+      <Value>Звездный якорь</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureSuitStorage</Key>
@@ -2500,12 +2500,12 @@ The ProKompile can stack a wide variety of things such as {LINK:IngotPage;ingots
     <RecordThing>
       <Key>StructureTankConnector</Key>
       <Value>Коннектор переносного резервуара</Value>
-      <Description>Tank connectors are basic mounting devices that allow you to attach a {THING:DynamicGasCanisterEmpty} to a gas pipe network.</Description>
+      <Description>Соединители резервуаров — это основные монтажные устройства, которые позволяют вам присоединить {THING:DynamicGasCanisterEmpty} к сети газовых труб.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureTankConnectorLiquid</Key>
       <Value>Коннектор переносного резервуара</Value>
-      <Description>These basic mounting devices allow you to attach a {THING:DynamicLiquidCanisterEmpty} to a liquid pipe network.</Description>
+      <Description>Эти основные монтажные устройства позволяют прикрепить {THING:DynamicLiquidCanisterEmpty} к сети трубопроводов для жидкости.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureTankSmall</Key>
@@ -2666,19 +2666,19 @@ The ProKompile can stack a wide variety of things such as {LINK:IngotPage;ingots
     </RecordThing>
     <RecordThing>
       <Key>StructureCableFuse1k</Key>
-      <Value>Fuse (1kW)</Value>
+      <Value>Предохранитель (1кВт)</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureCableFuse5k</Key>
-      <Value>Fuse (5kW)</Value>
+      <Value>Предохранитель (5кВт)</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureCableFuse50k</Key>
-      <Value>Fuse (50kW)</Value>
+      <Value>Предохранитель (50кВт)</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureCableFuse100k</Key>
-      <Value>Fuse (100kW)</Value>
+      <Value>Предохранитель (100кВт)</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureTransformer</Key>
@@ -2703,7 +2703,7 @@ Note that transformers operate as data isolators, preventing data flowing into a
     </RecordThing>
     <RecordThing>
       <Key>StructureChuteWindow</Key>
-      <Value>Chute (Window)</Value>
+      <Value>Транспортная труба с окнами</Value>
       <Description>Chute's with windows let you see what's passing through your {LINK:ImportExportPage;import/export} network. But be warned, they are not insulated as other chutes are. Ices will melt.</Description>
     </RecordThing>
     <RecordThing>
@@ -4014,8 +4014,8 @@ MODE - группа чтения
       <Value>Извлекатель</Value>
       <Description>{LINK: Xigo; Xigo} Re: Gurge — это удобное устройство для выгрузки любых предметов, вставленных в него, и подачи их в сеть желобов. Например, если вы добавите полный {THING:ItemMiningBelt}, Re:Gurge очистит майнинговый пояс от его содержимого, вставит его в сеть желобов, а затем вставит сам майнинговый пояс. {THING:StructureSorter} рекомендуется восстановить шахтный пояс.
 
-		  Выход = 0 экспорт основного элемента
-		  Выход = 1 экспорт элементов внутри и, в конечном итоге, основного элемента.
+Выход = 0 экспорт основного элемента
+Выход = 1 экспорт элементов внутри и, в конечном итоге, основного элемента.
 	  </Description>
     </RecordThing>
     <RecordThing>
@@ -4794,12 +4794,12 @@ Note that transformers also operate as data isolators, preventing data flowing i
     </RecordThing>
     <RecordThing>
       <Key>StructureModularRocketCargo01</Key>
-      <Value>Модульный ракетный груз</Value>
+      <Value>Ракетный модульный груза</Value>
       <Description>Грузовой модуль рассчитан на два десятиместных ящика. На вашей ракете может быть несколько грузовых модулей. Всего ракета может поднять до семи модулей. Этот груз будет выпущен на орбиту и опустится на поверхность пункта назначения. Если только это не пояс астероидов, в таком случае он останется безмятежно парить в пустоте.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureModularRocketCommand01</Key>
-      <Value>Модульная ракетная команда</Value>
+      <Value>Модуль управления ракетой</Value>
       <Description>Командный модуль должен быть размещен сверху ракеты и будет оценивать готовность ракеты к полету. Когда все условия выполнены, ракету можно запустить, когда все игроки сидят в модуле, нажав "ЗАЖИГАНИЕ" на консоли.
 
 Для запуска должны быть выполнены следующие условия:
@@ -4878,24 +4878,24 @@ Note that transformers also operate as data isolators, preventing data flowing i
     </RecordThing>
     <RecordThing>
       <Key>StructureModularRocketEngine01</Key>
-      <Value>Модульный ракетный двигатель</Value>
+      <Value>Модуль ракетного двигателя</Value>
       <Description>Модульный ракетный двигатель способен поднимать до семи модулей, включая самого себя. Он должен подпитываться хотя бы одним {THING:StructureModularRocketFueltank01}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureModularRocketFueltank01</Key>
-      <Value>Модульный ракетный топливный бак</Value>
+      <Value>Модуль ракетного топливного бака</Value>
       <Description>Для топливного бака ракеты требуется смесь {GAS:Volatiles} и {GAS:Oxygen} в соотношении 2:1. Если смесь превысит эти пропорции или вы поместите в бак другие {LINK:GasPage;газы}, консоль {THING:StructureModularRocketCommand01} отобразит ошибку "Недействительно".
       
        Обратите внимание, что топливный бак ракеты также можно использовать для сбора газа, добытого {THING:StructureModularRocketGasMining}, при подключении к этому устройству с помощью {THING:StructureModularRocketCouplingUp} или {THING:StructureModularRocketCouplingDown}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitStructureModularRocketCommand01</Key>
-      <Value>Модуль Управления Ракетой</Value>
+      <Value>Модуль управления ракетой</Value>
       <Description>Этот набор содержит {THING:StructureModularRocketCommand01}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitStructureModularRocketCargo01</Key>
-      <Value>Модуль Грузовой Ракетный</Value>
+      <Value>Ракетный модуль груза</Value>
       <Description>Этот набор содержит {THING:StructureModularRocketCargo01}.</Description>
     </RecordThing>
     <RecordThing>
@@ -4905,12 +4905,12 @@ Note that transformers also operate as data isolators, preventing data flowing i
     </RecordThing>
     <RecordThing>
       <Key>ItemKitStructureModularRocketEngine01</Key>
-      <Value>Модульный ракетный двигатель</Value>
+      <Value>Модуль ракетного двигателя</Value>
       <Description>Этот набор содержит {THING:StructureModularRocketEngine01}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitStructureModularRocketFueltank01</Key>
-      <Value>Модульный ракетный топливный бак</Value>
+      <Value>Модуль ракетного топливного бака</Value>
       <Description>Этот набор содержит {THING:StructureModularRocketFueltank01}.</Description>
     </RecordThing>
     <RecordThing>
@@ -6051,7 +6051,7 @@ While the wind turbine is optimized to produce power even on low atmosphere worl
     </RecordThing>
     <RecordThing>
       <Key>StructureHydroponicsTrayData</Key>
-      <Value>Устройство гидропоники</Value>
+      <Value>Гидропонная установка</Value>
       <Description>Устройство для гидропоники {LINK:Agrizero;Agrizero} — идеальный сосуд для выращивания ряда {LINK:OrganicPage;растений}. Он должен быть обеспечен водой с помощью водопроводной сети и достаточным количеством света для фотосинтеза.
 Его можно автоматизировать с помощью {THING:StructureHarvie}. Обратите внимание, что в отличие от {THING:StructureHydroponicsTray}, их нельзя размещать последовательно, поскольку они считаются устройствами, а не чистыми трубами. Однако они позволяют запрашивать данные для логических систем.</Description>
     </RecordThing>
@@ -6397,12 +6397,12 @@ To use on yourself: put duct tape in your active hand, hold RIGHT MOUSE BUTTON t
     </RecordThing>
     <RecordThing>
       <Key>StructureModularRocketLiquidTank</Key>
-      <Value>Модуль хранения автоматизированной ракетной жидкости</Value>
+      <Value>Модуль хранения ракетной жидкости</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureRocketModuleSilo</Key>
-      <Value>Модуль автоматизированной ракетной шахты</Value>
+      <Value>Модуль ракетной шахты</Value>
       <Description>Автономный силосный модуль {LINK:ExMin;ExMin} обеспечивает хранение {LINK:OrePage;руд}, собранных {THING:StructureRocketModuleMiningOre}, {LINK:OrePage;льдов}, собранных {THING:StructureModularRocketIceMining}, и "космического мусора" спасено с помощью {THING:StructureModularRocketScrapMining}. Другими словами, он вмещает до 600 галантереи среднего размера.
 Модуль бункера должен быть подключен к модулю добычи или утилизации с помощью правильно размещенного {THING:StructureModularRocketCouplingDown} или {THING:StructureModularRocketCouplingUp}, чтобы материал мог попасть в бункер.
 Силосный модуль также должен быть запитан, когда он находится на стартовой площадке. По умолчанию он включен, но при необходимости его можно отключить с помощью логики.
@@ -6411,102 +6411,109 @@ To use on yourself: put duct tape in your active hand, hold RIGHT MOUSE BUTTON t
     </RecordThing>
     <RecordThing>
       <Key>StructureRocketModuleBattery</Key>
-      <Value>Модуль хранения автоматизированной ракетной энергии</Value>
+      <Value>Модуль хранения ракетной энергии</Value>
       <Description>Описание пока отсутствует.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureRocketModuleGasCollector</Key>
-      <Value>Модуль автоматизированного сбора ракетных газов</Value>
+      <Value>Модуль сбора ракетных газов</Value>
       <Description>Магией собирает газ из космоса.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureRocketModuleEnergyGenerator</Key>
-      <Value>Модуль автоматизированного сбора ракетной энергии</Value>
+      <Value>Модуль сбора ракетной энергии</Value>
       <Description>Собирает энергию, электромагнитно улавливая солнечный ветер. Сохраняет его в {THING:StructureRocketModuleBattery}.
 Вскоре</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureRocketModuleMiningJunk</Key>
-      <Description>The module must be connected to a {THING:StructureRocketModuleSilo} by a properly placed {THING:StructureModularRocketCouplingDown} or {THING:StructureModularRocketCouplingUp}, in order for {LINK:OrePage;руды} to pass from the collector unit into the silo.</Description>
+	  <Value>Ракетный модуль добычи хлама</Value>
+      <Description>Модуль должен быть подключен к {THING:StructureRocketModuleSilo} с помощью правильно размещенного {THING:StructureModularRocketCouplingDown} или {THING:StructureModularRocketCouplingUp}, чтобы {LINK:OrePage;руды} проходили из коллектора в бункер.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureRocketModuleMiningOre</Key>
-      <Value>Добывающий модуль автоматической ракеты</Value>
+      <Value>Ракетный модуль автоматической добычи руды</Value>
       <Description>{LINK:ExMin;ExMin} автономный шахтер добывает металлическую {LINK:OrePage;руду} с астероидов и планет в определенном регионе космоса. Его радиус действия и, следовательно, количество {LINK:OrePage;руды}, которое он собирает, строго определяется количеством топлива ракеты.
-		  Модуль должен быть подключен к {THING:StructureRocketModuleSilo} с помощью правильно размещенного {THING:StructureModularRocketCouplingDown} или {THING:StructureModularRocketCouplingUp}, чтобы {LINK:OrePage;руда} проходила из коллектора в бункер.
-		  Он имеет два режима - активный (1) и неактивный (0), который должен срабатывать только тогда, когда ракета прибыла на планету и простаивает (режим 4).
+Модуль должен быть подключен к {THING:StructureRocketModuleSilo} с помощью правильно размещенного {THING:StructureModularRocketCouplingDown} или {THING:StructureModularRocketCouplingUp}, чтобы {LINK:OrePage;руда} проходила из коллектора в бункер.
+Он имеет два режима - активный (1) и неактивный (0), который должен срабатывать только тогда, когда ракета прибыла на планету и простаивает (режим 4).
 	  </Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureModularRocketAutonomous</Key>
-      <Value>Ракета Модульная Автономная</Value>
+      <Value>Автономный ракетный модуль</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureRocketModuleCollectorLiquid</Key>
-      <Value>Модуль автоматизированного сбора ракетной жидкости</Value>
-      <Description>Coming soon</Description>
+      <Value>Ракетный модуль сбора ракетной жидкости</Value>
+      <Description>Скоро</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureModularRocketAutomation</Key>
-      <Value>Автоматизированный модуль автоматизации ракеты</Value>
+      <Value>Ракетный модуль автоматизации полета</Value>
       <Description>Модуль автоматики завершает ракету. Он передает логику соответствующим компонентам.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureModularRocketCouplingDown</Key>
-      <Value>Модуль автоматизированной ракетной связи (внизу)</Value>
-      <Description>Соединительный модуль, представляющий собой однонаправленное решение для транспортировки с несколькими состояниями, предназначен для взаимодействия между различными модулями добычи и хранения. Это необходимо для работы майнингового агрегата.
+      <Value>Ракетный модуль верхней стыковки</Value>
+      <Description>Устанавливается между одним из добывающих модулей ракеты и модулем предназначенным для хранения добываемого ресурса. Стрелка показывает направление перекачки ресурсов.
+
+{HEADER:ПОДРОБНОЕ ОПИСАНИЕ}
+Соединительный модуль, представляющий собой однонаправленное решение для транспортировки с несколькими состояниями, предназначен для взаимодействия между различными модулями добычи и хранения. Это необходимо для работы майнингового агрегата.
 При размещении НИЖЕ модуля добычи (например, {THING:StructureRocketModuleMiningOre}), нижняя муфта передает добытый или собранный материал (твердый, жидкий или газообразный) в соответствующий блок хранения (например, {THING:StructureRocketModuleSilo})..</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureModularRocketCouplingUp</Key>
-      <Value>Модуль автоматизированной ракетной связи (вверху)</Value>
-      <Description>Соединительный модуль, представляющий собой однонаправленное решение для транспортировки с несколькими состояниями, предназначен для взаимодействия между различными модулями добычи и хранения. Это необходимо для работы майнингового агрегата.
+      <Value>Ракетный модуль нежней стыковки</Value>
+      <Description>Устанавливается между одним из добывающих модулей ракеты и модулем предназначенным для хранения добываемого ресурса. Стрелка показывает направление перекачки ресурсов.
+
+{HEADER:ПОДРОБНОЕ ОПИСАНИЕ}
+Соединительный модуль, представляющий собой однонаправленное решение для транспортировки с несколькими состояниями, предназначен для взаимодействия между различными модулями добычи и хранения. Это необходимо для работы майнингового агрегата.
 При размещении НАД модулем добычи (например, {THING:StructureRocketModuleMiningOre}) соединитель UP передает добытый или собранный материал (твердый, жидкий или газообразный) в соответствующий блок хранения (например, {THING:StructureRocketModuleSilo}).</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitModularRocketOreStorage</Key>
-      <Value>Модуль автоматизированной ракетной шахты</Value>
+      <Value>Ракетный модуль хранения руды</Value>
       <Description>Содержит {THING:StructureRocketModuleSilo}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitModularRocketCoupling</Key>
-      <Value>Модуль автоматизированной ракетной связи</Value>
+      <Value>Ракетный модуль стыковки</Value>
       <Description>Creates a {THING:StructureModularRocketCouplingDown} or {THING:StructureModularRocketCouplingUp}</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitModularRocketAutomation</Key>
-      <Value>Автоматизированный модуль автоматизации ракеты</Value>
-      <Description>Creates a {THING:StructureModularRocketAutomation}</Description>
+      <Value>Ракетный модуль автоматизации полета</Value>
+      <Description>Этот набор содержит {THING:StructureModularRocketAutomation}</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitModularRocketOreMining</Key>
-      <Value>Модуль автоматизированной ракетной добычи руды</Value>
-      <Description>Creates a {THING:StructureRocketModuleMiningOre}.</Description>
+      <Value>Ракетный модуль рудного бура</Value>
+      <Description>Этот набор содержит {THING:StructureRocketModuleMiningOre}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureModularRocketIceMining</Key>
-      <Value>Модуль Добычи Льда Автоматизированной Ракеты</Value>
+      <Value>Ракетный модуль добычи льда</Value>
       <Description>Автономный льдодобытчик {LINK:ExMin;ExMin} — это специально созданный робот-ледоуборочный комбайн, способный добывать ледяную руду с астероидов и планет в ограниченном пространстве космоса. Дальность полета и, следовательно, количество собираемого льда {LINK:OrePage;руды} строго определяется запасом топлива ракеты.
-		  Модуль должен быть подключен к {THING:StructureRocketModuleSilo} с помощью правильно размещенного {THING:StructureModularRocketCouplingDown} или {THING:StructureModularRocketCouplingUp}, чтобы {LINK:OrePage;руда} проходила из коллектора в бункер.
-		  Он имеет два режима - активный (1) и неактивный (0), который должен срабатывать только тогда, когда ракета прибыла на планету и простаивает (режим 4).
+Модуль должен быть подключен к {THING:StructureRocketModuleSilo} с помощью правильно размещенного {THING:StructureModularRocketCouplingDown} или {THING:StructureModularRocketCouplingUp}, чтобы {LINK:OrePage;руда} проходила из коллектора в бункер.
+Он имеет два режима - активный (1) и неактивный (0), который должен срабатывать только тогда, когда ракета прибыла на планету и простаивает (режим 4).
 	  </Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitModularRocketIceMining</Key>
-      <Value>Модуль автоматизированной ракетной добычи льда</Value>
-      <Description>Creates a {THING:StructureModularRocketIceMining}.</Description>
+      <Value>Ракетный Модуль добычи льда</Value>
+      <Description>Этот набор содержит {THING:StructureModularRocketIceMining}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureModularRocketScrapMining</Key>
-      <Value>Модуль Сбора Вторсырья Автоматической Ракеты</Value>
+      <Value>Ракетный модуль сбора вторсырья</Value>
       <Description>Так называемый модуль сбора космического мусора {LINK:Sinotai;Sinotai} на самом деле представляет собой высокотехнологичную автоматизированную сборочную единицу, предназначенную для взаимодействия с автономной ракетой {LINK:ExMin;ExMin}. Он прочесывает местный регион космоса в поисках затонувших кораблей, брошенных космических кораблей и прочего мусора. Таким образом, он возвращает довольно случайный набор элементов.
-		  Модуль должен быть подключен к {THING:StructureRocketModuleSilo} с помощью правильно размещенного {THING:StructureModularRocketCouplingDown} или {THING:StructureModularRocketCouplingUp}, чтобы {LINK:OrePage;руда} проходила из коллектора в бункер.
+Модуль должен быть подключен к {THING:StructureRocketModuleSilo} с помощью правильно размещенного {THING:StructureModularRocketCouplingDown} или {THING:StructureModularRocketCouplingUp}, чтобы {LINK:OrePage;руда} проходила из коллектора в бункер.
 	  </Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitModularRocketScrapMining</Key>
-      <Value>Модуль автоматизированной ракеты-спасателя</Value>
-      <Description>Creates a {THING:StructureModularRocketScrapMining}.</Description>
+      <Value>Ракетный модуль ракеты-спасателя</Value>
+      <Description>Этот набор содержит {THING:StructureModularRocketScrapMining}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWaterPipeMeter</Key>
@@ -7562,17 +7569,17 @@ You must place the laptop down to interact with the onsreen UI.
     </RecordThing>
     <RecordThing>
       <Key>StructureSleeperVertical</Key>
-      <Value>Спальное место</Value>
+      <Value>Спальное место (Тип 3)</Value>
       <Description>Вертикальный вариант спального места. Игроки будут обеспечены водой и пищей, пока они не вышли из системы — до тех пор, пока будет обеспечена пригодная для дыхания атмосфера.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureSleeperLeft</Key>
-      <Value>Спальное место</Value>
+      <Value>Спальное место (Тип 1)</Value>
       <Description>Горизонтальный вариант спального места. Игроки будут обеспечены водой и пищей, пока они не вышли из системы — до тех пор, пока будет обеспечена пригодная для дыхания атмосфера.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureSleeperRight</Key>
-      <Value>Спальное место</Value>
+      <Value>Спальное место (Тип 2)</Value>
       <Description>Горизонтальный вариант спального места. Игроки будут обеспечены водой и пищей, пока они не вышли из системы — до тех пор, пока будет обеспечена пригодная для дыхания атмосфера.</Description>
     </RecordThing>
     <RecordThing>
@@ -7602,7 +7609,7 @@ You must place the laptop down to interact with the onsreen UI.
     </RecordThing>
     <RecordThing>
       <Key>StructureChuteValve</Key>
-      <Value>Chute Valve</Value>
+      <Value>Затворка</Value>
       <Description>The Chute Valve will stop the flow of materials when set to closed and when set to open, will act like a straight chute.</Description>
     </RecordThing>
     <RecordThing>
