@@ -1707,7 +1707,7 @@ To use on yourself: put duct tape in your active hand, hold RIGHT MOUSE BUTTON t
     </RecordThing>
     <RecordThing>
       <Key>ItemRTGSurvival</Key>
-      <Value>RTG</Value>
+      <Value>РИТЭГ</Value>
       <Description>Этот набор содержит {THING:ItemRTGSurvival}.</Description>
     </RecordThing>
     <RecordThing>
@@ -2312,7 +2312,7 @@ With a little patience and maneuvering, the corner frame's Gothic-inspired silho
     </RecordThing>
     <RecordThing>
       <Key>StructureLiquidTankStorage</Key>
-      <Value>Стойка для балона</Value>
+      <Value>Стойка для баллона</Value>
       <Description>При подключении к сети трубопроводов стойка для ЖИДКОСТНОГО баллона позволяет пополнять {THING:ItemLiquidCanisterEmpty}, а также считывать различные атмосферные данные из {SLOT:GasCanister}. Он не принимает газовые баллоны.</Description>
     </RecordThing>
     <RecordThing>
@@ -2462,7 +2462,7 @@ With a little patience and maneuvering, the corner frame's Gothic-inspired silho
     </RecordThing>
     <RecordThing>
       <Key>StructureSolarPanel</Key>
-      <Value>Солнечная панель</Value>
+      <Value>Солнечная панель (Тип 1)</Value>
       <Description>Стандартные солнечные панели {LINK: Sinotai; Sinotai} используются для выработки энергии из солнечного света. Они могут быть подключены к {LINK:LogicPage;логическим} системам, чтобы отслеживать солнечный свет, но их количество уменьшается во время штормов и при повреждении. Вы можете починить их, используя надежный {THING:ItemDuctTape}.</Description>
     </RecordThing>
     <RecordThing>
@@ -3157,7 +3157,7 @@ OPR - выбор операции, результат которой будет 
     </RecordThing>
     <RecordThing>
       <Key>StructureSolarPanelDual</Key>
-      <Value>Солнечная Панель (Двойная)</Value>
+      <Value>Солнечная панель (Тип 2)</Value>
       <Description>{LINK:Sinotai;Sinotai} dual solar panels are used for generating power from sunlight, with dedicated data and power ports. They can be connected to {{LINK:LogicPage;Logic} systems, in order to track sunlight, but their efficiency is reduced during storms and when damaged. You can repair these using some trusty {THING:ItemDuctTape}.</Description>
     </RecordThing>
     <RecordThing>
@@ -3281,9 +3281,9 @@ OUT - выбор операции, результат которой будет 
     <RecordThing>
       <Key>DynamicGPR</Key>
       <Value>Георадар (GPR)</Value>
-      <Description>The {LINK:Recurso;Recurso} Ground Penetrating Radar (GPR), when used in conjunction with either a {THING:CartridgeOreScanner} or a {THING:CartridgeOreScannerColor} placed in a {THING:ItemTablet}, allows a {LINK:Stationeers;Stationeer} to maximize mining yields and save time gathering resources to complete their mission by displaying hidden ores in the terrain. 
+      <Description>Георадар {LINK:Recurso;Recurso} при использовании в сочетании с {THING:CartridgeOreScanner} или {THING:CartridgeOreScannerColor}, помещенным в {THING:ItemTablet}, позволяет использовать {LINK:Stationeers; Stationeer}, чтобы максимизировать отдачу от добычи и сэкономить время на сборе ресурсов для выполнения своей миссии, отображая скрытые руды на местности.
 
-Insert a cartridge or color scanner into the tablet, then press the activate button on the GPR to scan the surroundings. The data will be displayed on the tablet.</Description>
+Вставьте картридж или цветной сканер в планшет, затем нажмите кнопку активации на георадаре, чтобы сканировать окрестности. Данные будут отображаться на планшете.</Description>
     </RecordThing>
     <RecordThing>
       <Key>CartridgeOreScanner</Key>
@@ -3896,7 +3896,7 @@ IN - чип, с выхода которого читается значение.
     </RecordThing>
     <RecordThing>
       <Key>CircuitboardGraphDisplay</Key>
-      <Value>Graph Display</Value>
+      <Value>Графический дисплей</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitMotherShipCore</Key>
@@ -4543,7 +4543,7 @@ RobotMode.None = 6 = автоматически назначенное сост�
     </RecordThing>
     <RecordThing>
       <Key>ElectronicPrinterMod</Key>
-      <Value>Electronic Printer Mod</Value>
+      <Value>Модуль принтера электроники</Value>
       <Description>Apply to an {THING:StructureElectronicsPrinter} with a {THING:ItemWeldingTorch} or {THING:ItemArcWelder} to upgrade for increased processing speed and more recipe options.</Description>
     </RecordThing>
     <RecordThing>
@@ -4588,7 +4588,7 @@ Note that transformers also operate as data isolators, preventing data flowing i
     </RecordThing>
     <RecordThing>
       <Key>StructureRTGSurvival</Key>
-      <Value>RTG</Value>
+      <Value>РИТЭГ</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemEmergencyHelmet</Key>
@@ -4736,23 +4736,23 @@ Note that transformers also operate as data isolators, preventing data flowing i
     </RecordThing>
     <RecordThing>
       <Key>QuarryDrillBitBasic</Key>
-      <Value>Quarry Drill Bit Basic</Value>
+      <Value>Базовое сверло</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemResearchCapsuleRed</Key>
-      <Value>Research Capsule Red</Value>
+      <Value>Красная исследовательская капсула</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemResearchCapsuleYellow</Key>
-      <Value>Research Capsule Yellow</Value>
+      <Value>Желтая исследовательская капсула</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemResearchCapsuleGreen</Key>
-      <Value>Research Capsule Green</Value>
+      <Value>Зеленая исследовательская капсула</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemResearchCapsule</Key>
-      <Value>Research Capsule Blue</Value>
+      <Value>Синяя исследовательская капсула</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitPictureFrame</Key>
@@ -4760,7 +4760,7 @@ Note that transformers also operate as data isolators, preventing data flowing i
     </RecordThing>
     <RecordThing>
       <Key>ItemVoxelTool</Key>
-      <Value>Voxel Tool</Value>
+      <Value>Воксельный инструмент</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitAIMeE</Key>
@@ -4777,16 +4777,16 @@ Note that transformers also operate as data isolators, preventing data flowing i
     </RecordThing>
     <RecordThing>
       <Key>ItemDirtCannister</Key>
-      <Value>Dirt Cannister</Value>
+      <Value>Канистра с грунтом</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemDirtCanister</Key>
-      <Value>Dirt Canister</Value>
+      <Value>Канистра с грунтом</Value>
       <Description>A container the will fill with Dirt when using a {THING:ItemMiningDrill} when placed inside a {THING:ItemMiningBelt}. You can then use this {SLOT:DirtCanister} with the {THING:ItemTerrainManipulator} to adjust the terrain to suit your needs.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemTerrainManipulator</Key>
-      <Value>Terrain Manipulator</Value>
+      <Value>Манипулятор ландшафта</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureLaunchPad</Key>
@@ -5095,12 +5095,12 @@ On - &lt;1 - выключить устройство, &gt;=1 - включить
 	</RecordThing>
     <RecordThing>
       <Key>StructureSolarPanelFlat</Key>
-      <Value>Solar Panel (Flat)</Value>
+      <Value>Плоская солнечная панель</Value>
       <Description>{LINK:Sinotai;Sinotai} basic solar panels generate power from sunlight. They lie flat to the ground, and their efficiency is reduced during storms and when damaged. You can repair these using some trusty {THING:ItemDuctTape}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureSolarPanel45</Key>
-      <Value>Solar Panel (Angled)</Value>
+      <Value>Угловая солнечная панель</Value>
       <Description>{LINK:Sinotai;Sinotai} basic solar panels generate power from sunlight, sitting at 45 degrees to the ground. Their efficiency is reduced during storms and when damaged. You can repair these using some trusty {THING:ItemDuctTape}.</Description>
     </RecordThing>
     <RecordThing>
@@ -5110,24 +5110,24 @@ On - &lt;1 - выключить устройство, &gt;=1 - включить
     </RecordThing>
     <RecordThing>
       <Key>StructureSDBHopperAdvanced</Key>
-      <Value>SDB Hopper Advanced</Value>
+      <Value>SDB Улучшенная загрузочная воронка</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureSDBHopper</Key>
-      <Value>SDB Hopper</Value>
+      <Value>SDB Загрузочная воронка</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitSDBHopper</Key>
-      <Value>Kit (SDB Hopper)</Value>
+      <Value>SDB Загрузочная воронка</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureSDBSilo</Key>
-      <Value>SDB Silo</Value>
+      <Value>SDB Хранилище</Value>
       <Description>The majestic silo holds large quantities of almost anything. While it is doing that, it cannot be deconstructed. Note also, that any food you put into a silo is likely to {LINK:DecayPage;decay} extremely rapidly. The silo can hold up to 600 stacks.</Description>
     </RecordThing>
     <RecordThing>
       <Key>KitSDBSilo</Key>
-      <Value>Kit (SDB Silo)</Value>
+      <Value>SDB Хранилище</Value>
       <Description>This kit creates a {THING:StructureSDBSilo}.</Description>
     </RecordThing>
     <RecordThing>
@@ -5145,7 +5145,7 @@ On - &lt;1 - выключить устройство, &gt;=1 - включить
     </RecordThing>
     <RecordThing>
       <Key>ItemKitDebug</Key>
-      <Value>Kit (Debug)</Value>
+      <Value>Отладчик</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureChairThickSingle</Key>
@@ -5382,45 +5382,45 @@ On - &lt;1 - выключить устройство, &gt;=1 - включить
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageSolarPanel1</Key>
-      <Value>Wreckage Solar Panel</Value>
+      <Value>Обломки солнечной панели</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageSolarPanel2</Key>
-      <Value>Wreckage Solar Panel</Value>
+      <Value>Обломки солнечной панели</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageSolarPanel3</Key>
-      <Value>Wreckage Solar Panel</Value>
+      <Value>Обломки солнечной панели</Value>
       <Description>Description coming.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageTransformer1</Key>
-      <Value>Wreckage Transformer</Value>
+      <Value>Обломки трансформатора</Value>
       <Description>Description coming.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageTransformer2</Key>
-      <Value>Wreckage Transformer</Value>
+      <Value>Обломки трансформатора</Value>
       <Description>Description coming.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageTransformerMedium1</Key>
-      <Value>Wreckage Transformer Medium</Value>
+      <Value>Обломки среднего трансформатора</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageTransformerMedium2</Key>
-      <Value>Wreckage Transformer Medium</Value>
+      <Value>Обломки среднего трансформатора</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageTransformerSmall1</Key>
-      <Value>Wreckage Transformer Small</Value>
+      <Value>Обломки небольшого трансформатора</Value>
       <Description>Description coming.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageTransformerSmall2</Key>
-      <Value>Wreckage Transformer Small</Value>
+      <Value>Обломки небольшого трансформатора</Value>
       <Description>Description coming.</Description>
     </RecordThing>
     <RecordThing>
@@ -5884,103 +5884,103 @@ On - &lt;1 - выключить устройство, &gt;=1 - включить
     </RecordThing>
     <RecordThing>
       <Key>Rover_MkI</Key>
-      <Value>Rover MkI</Value>
+      <Value>Планетоход MkI</Value>
       <Description>A distant cousin of the jeep, the Mk I {{LINK:Sinotai;Sinotai} electric rover is one of the most simple and durable light vehicles in the known universe. Able to carry two passengers and cargo such as the {THING:DynamicGasCanisterAir} or {THING:Crate}, it is powered by up to three batteries, accepting everything including {THING:ItemBatteryCellNuclear}.
 A quad-array of hub-mounted electric engines propels the reinforced aluminium frame over most terrain and modest obstacles. While the Mk I is designed for stability in low-horizontality circumstances, if it rolls, try using your {THING:ItemCrowbar} to put it right way up.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureSpawnPoint</Key>
-      <Value>Spawn Point</Value>
+      <Value>Точка возрождения</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>RespawnPoint</Key>
-      <Value>Respawn Point</Value>
+      <Value>Место возрождения</Value>
       <Description>Place a respawn point to set a player entry point to your base when loading in, or returning from the dead.</Description>
     </RecordThing>
     <RecordThing>
       <Key>RespawnPointWallMounted</Key>
-      <Value>Respawn Point (Mounted)</Value>
+      <Value>Фиксированная точка возрождения</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemKitRespawnPointWallMounted</Key>
-      <Value>Kit (Respawn)</Value>
+      <Value>Точка возрождения</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemKitFlagODA</Key>
-      <Value>Kit (ODA Flag)</Value>
+      <Value>Флаг ODA</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>Flag_ODA_10m</Key>
-      <Value>Flag (ODA 10m)</Value>
+      <Value>Флаг ODA 10m</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>Flag_ODA_8m</Key>
-      <Value>Flag (ODA 8m)</Value>
+      <Value>Флаг ODA 8m</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>Flag_ODA_6m</Key>
-      <Value>Flag (ODA 6m)</Value>
+      <Value>Флаг ODA 6m</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>Flag_ODA_4m</Key>
-      <Value>Flag (ODA 4m)</Value>
+      <Value>Флаг ODA 4m</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageStructureRTG1</Key>
-      <Value>Wreckage Structure RTG</Value>
+      <Value>Обломки РИТЭГ</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageTurbineGenerator1</Key>
-      <Value>Wreckage Turbine Generator</Value>
+      <Value>Обломки турбинного генератора</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageTurbineGenerator2</Key>
-      <Value>Wreckage Turbine Generator</Value>
+      <Value>Обломки турбинного генератора</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageTurbineGenerator3</Key>
-      <Value>Wreckage Turbine Generator</Value>
+      <Value>Обломки турбинного генератора</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageAirConditioner1</Key>
-      <Value>Wreckage Air Conditioner</Value>
+      <Value>Обломок воздушного кондиционера</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageAirConditioner2</Key>
-      <Value>Wreckage Air Conditioner</Value>
+      <Value>Обломок воздушного кондиционера</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageWallCooler1</Key>
-      <Value>Wreckage Wall Cooler</Value>
+      <Value>Обломки настенного охлаждения</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageWallCooler2</Key>
-      <Value>Wreckage Wall Cooler</Value>
+      <Value>>Обломки настенного охлаждения</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemKitRoverMKI</Key>
-      <Value>Kit (Rover Mk I)</Value>
-      <Description>Creates a {THING:Rover_MkI}</Description>
+      <Value>Планетоход МКI</Value>
+      <Description>Этот набор содержит {THING:Rover_MkI}</Description>
     </RecordThing>
     <RecordThing>
       <Key>Rover_MkI_build_states</Key>
-      <Value>Rover MKI</Value>
+      <Value>Планетоход МКI</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -5995,38 +5995,38 @@ A quad-array of hub-mounted electric engines propels the reinforced aluminium fr
     </RecordThing>
     <RecordThing>
       <Key>StructureWeatherStation</Key>
-      <Value>Weather Station</Value>
+      <Value>Погодная станция</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemKitWeatherStation</Key>
-      <Value>Kit (Weather Station)</Value>
+      <Value>Погодная станция</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemKitUprightWindTurbine</Key>
-      <Value>Kit (Upright Wind Turbine)</Value>
+      <Value>Вертикальная ветряная турбина</Value>
       <Description>This kit produces a {THING:StructureUprightWindTurbine}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureUprightWindTurbine</Key>
-      <Value>Upright Wind Turbine</Value>
+      <Value>Вертикальная ветряная турбина</Value>
       <Description>Norsec's basic wind turbine is an easily fabricated, rapidly deployed design that is strong enough to withstand the worst that environments can throw at it. 
 While the wind turbine is optimized to produce power even on low atmosphere worlds (up to 200W), it performs best in denser environments. Output varies with wind speed, and during storms, may increase dramatically (up to 800W), so be careful to design your power networks with that in mind.</Description>
     </RecordThing>
     <RecordThing>
       <Key>CrateMkII</Key>
-      <Value>Crate Mk II</Value>
+      <Value>Ящик Mk II</Value>
       <Description>A more heavily reinforced version of the iconic {THING:DynamicCrate}, the Crate Mk II is resistant to incredibly high pressures and temperatures. Short of disposing of it in a black hole, the Mk II is about as safe as luggage gets.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitCrateMkII</Key>
-      <Value>Kit (Crate Mk II)</Value>
+      <Value>Ящик Mk II</Value>
       <Description>This kit produces a {THING:CrateMkII}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemEmptyCan</Key>
-      <Value>Empty Can</Value>
+      <Value>Пустая банка</Value>
       <Description>Used for making soups when combined with food in the {THING:AppliancePackagingMachine} or {THING:StructureAdvancedPackagingMachine}. Fairly high in nutrition, canned food does not {LINK:DecayPage;decay}.</Description>
     </RecordThing>
     <RecordThing>
@@ -6062,37 +6062,37 @@ While the wind turbine is optimized to produce power even on low atmosphere worl
     </RecordThing>
     <RecordThing>
       <Key>ItemKitSolarPanelReinforced</Key>
-      <Value>Kit (Solar Panel Heavy)</Value>
+      <Value>Тяжелая солнечная панель</Value>
       <Description>This kit produces heavy duty solar panels that are resistant to storm damage.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitSolarPanelBasicReinforced</Key>
-      <Value>Kit (Solar Panel Basic Heavy)</Value>
+      <Value>Базовая тяжелая солнечная панель</Value>
       <Description>This solar panel is resistant to storm damage.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureSolarPanel45Reinforced</Key>
-      <Value>Solar Panel (Heavy Angled)</Value>
+      <Value>Тяжелая солнечная панель (Тип 2)</Value>
       <Description>This solar panel is resistant to storm damage.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureSolarPanelDualReinforced</Key>
-      <Value>Solar Panel (Heavy Dual)</Value>
+      <Value>Тяжелая солнечная панель (Тип 1)</Value>
       <Description>This solar panel is resistant to storm damage.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureSolarPanelFlatReinforced</Key>
-      <Value>Solar Panel (Heavy Flat)</Value>
+      <Value>Тяжелая солнечная панель (Тип 1)</Value>
       <Description>This solar panel is resistant to storm damage.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureSolarPanelReinforced</Key>
-      <Value>Solar Panel (Heavy)</Value>
+      <Value>Тяжелая солнечная панель (Тип 2)</Value>
       <Description>This solar panel is resistant to storm damage.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemAstroloySheets</Key>
-      <Value>Item Astroloy Sheets</Value>
+      <Value>Лист Астролоя</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -6102,13 +6102,13 @@ While the wind turbine is optimized to produce power even on low atmosphere worl
     </RecordThing>
     <RecordThing>
       <Key>StructureWindTurbine</Key>
-      <Value>Wind Turbine</Value>
+      <Value>Ветрогенератор</Value>
       <Description>The Stationeers wind turbine was first designed by Norsec atmospheric engineers, looking to create a wind-driven power generation system that would operate even on exceedingly low atmosphere worlds. The ultra-light blades respond to exceedingly low atmospheric densities, while being strong enough to function even under huge strain in much more demanding environments.
 While the wind turbine is optimized to produce power (up to 500W) even on low atmosphere worlds, it performs best in denser environments. Output varies with wind speed and, during storms, may increase dramatically (up to 10,000W), so be careful to design your power networks with that in mind.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitWindTurbine</Key>
-      <Value>Kit (Wind Turbine)</Value>
+      <Value>Ветрогенератор</Value>
       <Description>This kit produces a {THING:StructureWindTurbine}.</Description>
     </RecordThing>
     <RecordThing>
@@ -6158,67 +6158,67 @@ While the wind turbine is optimized to produce power (up to 500W) even on low at
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageWindTurbine001</Key>
-      <Value>Wreckage Wind Turbine</Value>
+      <Value>Обломки ветрогенератора</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageWindTurbine002</Key>
-      <Value>Wreckage Wind Turbine</Value>
+      <Value>Обломки ветрогенератора</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageWindTurbine003</Key>
-      <Value>Wreckage Wind Turbine</Value>
+      <Value>Обломки ветрогенератора</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageWindTurbine004</Key>
-      <Value>Wreckage Wind Turbine</Value>
+      <Value>Обломки ветрогенератора</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageWindTurbine005</Key>
-      <Value>Wreckage Wind Turbine</Value>
+      <Value>Обломки ветрогенератора</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageStructureWeatherStation001</Key>
-      <Value>Wreckage Structure Weather Station</Value>
+      <Value>Обломки погодной станции</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageStructureWeatherStation002</Key>
-      <Value>Wreckage Structure Weather Station</Value>
+      <Value>Обломки погодной станции</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageStructureWeatherStation003</Key>
-      <Value>Wreckage Structure Weather Station</Value>
+      <Value>Обломки погодной станции</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageStructureWeatherStation004</Key>
-      <Value>Wreckage Structure Weather Station</Value>
+      <Value>Обломки погодной станции</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageStructureWeatherStation005</Key>
-      <Value>Wreckage Structure Weather Station</Value>
+      <Value>Обломки погодной станции</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageStructureWeatherStation006</Key>
-      <Value>Wreckage Structure Weather Station</Value>
+      <Value>Обломки погодной станции</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageStructureWeatherStation007</Key>
-      <Value>Wreckage Structure Weather Station</Value>
+      <Value>Обломки погодной станции</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageStructureWeatherStation008</Key>
-      <Value>Wreckage Structure Weather Station</Value>
+      <Value>Обломки погодной станции</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -6651,22 +6651,22 @@ To use on yourself: put duct tape in your active hand, hold RIGHT MOUSE BUTTON t
     </RecordThing>
     <RecordThing>
       <Key>ItemSoundCartridgeBass</Key>
-      <Value>Sound Cartridge Bass</Value>
+      <Value>Картридж звука баса</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemSoundCartridgeDrums</Key>
-      <Value>Sound Cartridge Drums</Value>
+      <Value>Картридж звука барабанов</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemSoundCartridgeLeads</Key>
-      <Value>Sound Cartridge Leads</Value>
+      <Value>Картридж звука лида</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemSoundCartridgeSynth</Key>
-      <Value>Sound Cartridge Synth</Value>
+      <Value>Картридж синтезатора</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -6696,17 +6696,16 @@ To use on yourself: put duct tape in your active hand, hold RIGHT MOUSE BUTTON t
     </RecordThing>
     <RecordThing>
       <Key>DecayedFood</Key>
-      <Value>Decayed Food</Value>
-      <Description>When your {LINK:OrganicPage;food} decays, it turns into this. {LINK:ODA;ODA} scientists have attempted to determine the exact constituents of this substance, but it remains evasive and mysterious. Suffice to say, eating it is a bad idea. Research has determined, however, that The exact speed of decay varies individually by:
+      <Value>Испорченная еда</Value>
+      <Description>Когда ваша {LINK:OrganicPage;еда} разлагается, она превращается в это. {LINK:ODA;ODA} ученые пытались определить точные составляющие этого вещества, но это остается уклончивым и загадочным. Достаточно сказать, что есть это плохая идея. Однако исследования показали, что точная скорость распада зависит от:
 
-- TEMPERATURE - Refrigeration will slow decay, but many foods will be damaged by exposure to extreme low pressure, as well as extreme heat. The optimum temperature is 0 kelvin (-272 C).
+- ТЕМПЕРАТУРА - Охлаждение замедлит разложение, но многие продукты будут повреждены при воздействии крайне низкого давления, а также сильной жары. Оптимальная температура 0 кельвинов (-272 С).
 
-- FOOD TYPE - Each {LINK:OrganicPage;food} type has its own decay properties. {THING:ItemTomatoSoup} lasts a lot longer than a {THING:ItemTomato}, for instance.
+- ТИП ПРОДУКТА - Каждый тип {LINK:OrganicPage;еды} имеет свои собственные свойства разложения. Например, {THING:ItemTomatoSoup} длится намного дольше, чем {THING:ItemTomato}.
 
-- PRESSURE - Food decays faster when the pressure drops below 1 atmosphere (101kPa). Decay happens exponentially more quickly as the atmosphere approaches a perfect vacuum. There is no effect from higher pressures. 
+- ДАВЛЕНИЕ - Пища портится быстрее, когда давление падает ниже 1 атмосферы (101 кПа). Распад происходит экспоненциально быстрее, когда атмосфера приближается к идеальному вакууму. Эффекта от более высоких давлений нет.
 
-- ATMOSPHERE - Different gases can slow and accelerate the decay process. The process will take account of respective gas ratios in mixed atmospheres in calculating the decay modifier. The following rates apply across all foods:
-
+- АТМОСФЕРА - Различные газы могут замедлять и ускорять процесс распада. Процесс будет учитывать соответствующие соотношения газов в смешанных атмосферах при расчете модификатора распада. На все продукты действуют следующие ставки:
 &gt; {GAS:Oxygen} x 1.3
 &gt; {GAS:Nitrogen} x 0.6
 &gt; {GAS:CarbonDioxide} x 0.8
@@ -6714,7 +6713,7 @@ To use on yourself: put duct tape in your active hand, hold RIGHT MOUSE BUTTON t
 &gt; {GAS:Pollutant} x 3
 &gt; {GAS:NitrousOxide} x 1.5
 &gt; {GAS:Water} x 2
-&gt; Vacuum (see PRESSURE above)
+&gt; Vacuum (см. ДАВЛЕНИЕ выше)
 
 </Description>
     </RecordThing>
@@ -6852,12 +6851,12 @@ Fertilizer is produced at a 1:3 ratio of fertilizer to ingredients. The fertiliz
     </RecordThing>
     <RecordThing>
       <Key>ItemKitAdvancedComposter</Key>
-      <Value>Kit (Advanced Composter)</Value>
+      <Value>Расширенный компостер</Value>
       <Description>Creates an {THING:StructureAdvancedComposter}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitFridgeSmall</Key>
-      <Value>Kit (Fridge Small)</Value>
+      <Value>Небольшой холодильник</Value>
       <Description>Creates a {THING:StructureFridgeSmall}.</Description>
     </RecordThing>
     <RecordThing>
@@ -6867,12 +6866,12 @@ Fertilizer is produced at a 1:3 ratio of fertilizer to ingredients. The fertiliz
     </RecordThing>
     <RecordThing>
       <Key>KitPlanter</Key>
-      <Value>Kit Planter</Value>
+      <Value>Комплект плантатора</Value>
       <Description>Places a {THING:StructurePlanter}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>PortableComposter</Key>
-      <Value>Portable Composter</Value>
+      <Value>Переносной компостер</Value>
       <Description>A simple composting device, the basic composter creates {THING:Fertilizer} out of organic matter. It accepts {LINK:OrganicPage;food}, {THING:DecayedFood} or {THING:ItemBiomass}. It requires a full {THING:ItemLiquidCanisterEmpty} and a battery to operate, accelerating the natural composting process.
 When processing, it releases nitrogen and volatiles, as well a small amount of heat.
 
@@ -7250,17 +7249,17 @@ When closed, has the heat transfer characteristics of a basic wall. Requires pow
     </RecordThing>
     <RecordThing>
       <Key>ItemStelliteGlassSheets</Key>
-      <Value>Item Stellite Glass Sheets</Value>
+      <Value>Листы стеллитового стекла</Value>
       <Description>A stronger glass substitute.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitReinforcedWindows</Key>
-      <Value>Reinforced Windows (Kit)</Value>
+      <Value>Усиленные окна</Value>
       <Description>Creates {THING:StructureReinforcedCompositeWindow} and other variants.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitHorizontalAutoMiner</Key>
-      <Value>Kit (OGRE)</Value>
+      <Value>Набор OGRE</Value>
       <Description>Creates a {THING:StructureHorizontalAutoMiner}.</Description>
     </RecordThing>
     <RecordThing>
@@ -7355,7 +7354,7 @@ You must place the laptop down to interact with the onsreen UI.
     </RecordThing>
     <RecordThing>
       <Key>ItemKitPowerTransmitter</Key>
-      <Value>Kit (Power Transmitter)</Value>
+      <Value>Передатчик мощности</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -7385,7 +7384,7 @@ You must place the laptop down to interact with the onsreen UI.
     </RecordThing>
     <RecordThing>
       <Key>StructureUnpoweredHatch</Key>
-      <Value>Structure Unpowered Hatch</Value>
+      <Value>Люк без питания</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -7395,12 +7394,12 @@ You must place the laptop down to interact with the onsreen UI.
     </RecordThing>
     <RecordThing>
       <Key>ItemKitPowerTransmitterOmni</Key>
-      <Value>Kit (Power Transmitter Omni)</Value>
+      <Value>Передатчик мощности Omni</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructurePowerTransmitterOmni</Key>
-      <Value>Structure Power Transmitter Omni</Value>
+      <Value>Структура по передаче мощности Omni</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -8077,59 +8076,59 @@ You must place the laptop down to interact with the onsreen UI.
     </Record>
     <Record>
       <Key>GrabLeftHand</Key>
-      <Value>Grab Left Hand</Value>
+      <Value>Взять за левую руку</Value>
     </Record>
     <Record>
       <Key>GrabRightHand</Key>
-      <Value>Grab Right Hand</Value>
+      <Value>Взять за правую руку</Value>
     </Record>
     <Record>
       <Key>GrabLeftFoot</Key>
-      <Value>Grab Left Foot</Value>
+      <Value>Взять за левую ногу</Value>
     </Record>
     <Record>
       <Key>GrabRightFoot</Key>
-      <Value>Grab Right Foot</Value>
+      <Value>Взять за правую ногу</Value>
     </Record>
     <Record>
       <Key>GrabHead</Key>
-      <Value>Grab Head</Value>
+      <Value>Взять за голову</Value>
     </Record>
     <Record>
       <Key>GrabUpperArmL</Key>
-      <Value>Grab Left Arm</Value>
+      <Value>Взять за левую руку</Value>
     </Record>
     <Record>
       <Key>GrabUpperArmR</Key>
-      <Value>Grab Right Arm</Value>
+      <Value>Взять за правую руку</Value>
     </Record>
     <Record>
       <Key>GrabLowerArmL</Key>
-      <Value>Grab Left Arm</Value>
+      <Value>Взять за левую руку</Value>
     </Record>
     <Record>
       <Key>GrabLowerArmR</Key>
-      <Value>Grab Right Arm</Value>
+      <Value>Взять за правую руку</Value>
     </Record>
     <Record>
       <Key>GrabThighR</Key>
-      <Value>Grab Right Thigh</Value>
+      <Value>Взять за правое бедро</Value>
     </Record>
     <Record>
       <Key>GrabThighL</Key>
-      <Value>Grab Left Thigh</Value>
+      <Value>Взять за левое бедро</Value>
     </Record>
     <Record>
       <Key>GrabCalfR</Key>
-      <Value>Grab Right Calf</Value>
+      <Value>Взять за правую ногу</Value>
     </Record>
     <Record>
       <Key>GrabCalfL</Key>
-      <Value>Grab Left Calf</Value>
+      <Value>Взять за левую ногу</Value>
     </Record>
     <Record>
       <Key>Drag</Key>
-      <Value>Drag</Value>
+      <Value>Тащить</Value>
     </Record>
     <Record>
       <Key>Mode</Key>
@@ -8317,7 +8316,7 @@ You must place the laptop down to interact with the onsreen UI.
     </Record>
     <Record>
       <Key>TiltUpwards</Key>
-      <Value>Tilt Upwards</Value>
+      <Value>Наклонить вверх</Value>
     </Record>
     <Record>
       <Key>Rotate</Key>
@@ -8325,15 +8324,15 @@ You must place the laptop down to interact with the onsreen UI.
     </Record>
     <Record>
       <Key>RotateLeft</Key>
-      <Value>Rotate Left</Value>
+      <Value>Повернуть влево</Value>
     </Record>
     <Record>
       <Key>RotateRight</Key>
-      <Value>Rotate Right</Value>
+      <Value>Повернуть вправо</Value>
     </Record>
     <Record>
       <Key>TiltDownwards</Key>
-      <Value>Tilt Downwards</Value>
+      <Value>Наклонить вниз</Value>
     </Record>
     <Record>
       <Key>Export2</Key>
@@ -8341,23 +8340,23 @@ You must place the laptop down to interact with the onsreen UI.
     </Record>
     <Record>
       <Key>Launch</Key>
-      <Value>Launch</Value>
+      <Value>Запустить</Value>
     </Record>
     <Record>
       <Key>PreviousPlan</Key>
-      <Value>Previous Plan</Value>
+      <Value>Предыдущий план</Value>
     </Record>
     <Record>
       <Key>NextPlan</Key>
-      <Value>Next Plan</Value>
+      <Value>Следующий план</Value>
     </Record>
     <Record>
       <Key>CreatePlan</Key>
-      <Value>Create Plan</Value>
+      <Value>Создать план</Value>
     </Record>
     <Record>
       <Key>Search</Key>
-      <Value>Search</Value>
+      <Value>Искать</Value>
     </Record>
     <Record>
       <Key>Button4</Key>
@@ -8365,15 +8364,15 @@ You must place the laptop down to interact with the onsreen UI.
     </Record>
     <Record>
       <Key>Output</Key>
-      <Value>Output</Value>
+      <Value>Вывод</Value>
     </Record>
     <Record>
       <Key>Hatch</Key>
-      <Value>Hatch</Value>
+      <Value>Выведение</Value>
     </Record>
     <Record>
       <Key>Grow</Key>
-      <Value>Grow</Value>
+      <Value>Рост</Value>
     </Record>
     <Record>
       <Key>LayEgg</Key>
@@ -8409,7 +8408,7 @@ You must place the laptop down to interact with the onsreen UI.
     </Record>
     <Record>
       <Key>Magazine</Key>
-      <Value>Magazine</Value>
+      <Value>Магазин</Value>
     </Record>
     <Record>
       <Key>TemperatureUp</Key>
@@ -8421,11 +8420,11 @@ You must place the laptop down to interact with the onsreen UI.
     </Record>
     <Record>
       <Key>ThrustUp</Key>
-      <Value>Thrust Up</Value>
+      <Value>Увеличить тягу</Value>
     </Record>
     <Record>
       <Key>ThrustDown</Key>
-      <Value>Thrust Down</Value>
+      <Value>Уменьшить тягу</Value>
     </Record>
     <Record>
       <Key>Button5</Key>
@@ -8445,23 +8444,23 @@ You must place the laptop down to interact with the onsreen UI.
     </Record>
     <Record>
       <Key>Cartridge2</Key>
-      <Value>Cartridge2</Value>
+      <Value>Картридж 2</Value>
     </Record>
     <Record>
       <Key>Cartridge1</Key>
-      <Value>Cartridge1</Value>
+      <Value>Картридж 1</Value>
     </Record>
     <Record>
       <Key>Next</Key>
-      <Value>Next</Value>
+      <Value>Вперед</Value>
     </Record>
     <Record>
       <Key>Prev</Key>
-      <Value>Prev</Value>
+      <Value>Назад</Value>
     </Record>
     <Record>
       <Key>Previous</Key>
-      <Value>Previous</Value>
+      <Value>Назад</Value>
     </Record>
     <Record>
       <Key>Button7</Key>
@@ -8509,7 +8508,7 @@ You must place the laptop down to interact with the onsreen UI.
     </Record>
     <Record>
       <Key>ProgrammableChip</Key>
-      <Value>Programmable Chip</Value>
+      <Value>IC чип</Value>
     </Record>
     <Record>
       <Key>Motherboard</Key>
@@ -8547,11 +8546,11 @@ You must place the laptop down to interact with the onsreen UI.
     </Record>
     <Record>
       <Key>Throttle</Key>
-      <Value>Throttle</Value>
+      <Value>Дроссель</Value>
     </Record>
     <Record>
       <Key>CombustionLimiter</Key>
-      <Value>Combustion Limiter</Value>
+      <Value>Ограничитель горения</Value>
     </Record>
     <Record>
       <Key>RespawnConditionEasy</Key>
@@ -8579,11 +8578,11 @@ You must place the laptop down to interact with the onsreen UI.
     </Record>
     <Record>
       <Key>SoonTM</Key>
-      <Value>Coming Soon...</Value>
+      <Value>Скоро...</Value>
     </Record>
     <Record>
       <Key>MainMenuContinue</Key>
-      <Value>Continue</Value>
+      <Value>Продолжить</Value>
     </Record>
     <Record>
       <Key>KitCategory</Key>
@@ -8843,7 +8842,7 @@ You must place the laptop down to interact with the onsreen UI.
     </Record>
     <Record>
       <Key>JoinMenuButtonRefresh</Key>
-      <Value>обновить</Value>
+      <Value>Обновить</Value>
     </Record>
     <Record>
       <Key>JoinMenuButtonJoin</Key>
@@ -9107,7 +9106,7 @@ You must place the laptop down to interact with the onsreen UI.
     </Record>
     <Record>
       <Key>SettingsHUDScale</Key>
-      <Value>HUD Scale</Value>
+      <Value>Размер HUD</Value>
     </Record>
     <Record>
       <Key>SettingsDisplayLatency</Key>
@@ -9147,11 +9146,11 @@ You must place the laptop down to interact with the onsreen UI.
     </Record>
     <Record>
       <Key>SettingsScreenMode</Key>
-      <Value>Screen Mode</Value>
+      <Value>Режим экрана</Value>
     </Record>
     <Record>
       <Key>SettingsVsync</Key>
-      <Value>V-Sync</Value>
+      <Value>Вертикальная синхронизация</Value>
     </Record>
     <Record>
       <Key>SettingsButtonApply</Key>
@@ -9167,79 +9166,79 @@ You must place the laptop down to interact with the onsreen UI.
     </Record>
     <Record>
       <Key>SettingsOverallQuality</Key>
-      <Value>Overall Quality</Value>
+      <Value>Общее качество графики</Value>
     </Record>
     <Record>
       <Key>SettingsTextureQuality</Key>
-      <Value>Texture Quality</Value>
+      <Value>Качество текстур</Value>
     </Record>
     <Record>
       <Key>SettingsParticleQuality</Key>
-      <Value>Particle Quality</Value>
+      <Value>Качество частиц</Value>
     </Record>
     <Record>
       <Key>SettingsSoftParticles</Key>
-      <Value>Soft Particles</Value>
+      <Value>Мягкие частицы</Value>
     </Record>
     <Record>
       <Key>SettingsVolumetricLighting</Key>
-      <Value>Volumetric Lighting</Value>
+      <Value>Объёмное освещение</Value>
     </Record>
     <Record>
       <Key>SettingsPixelLightCount</Key>
-      <Value>Pixel Light Count</Value>
+      <Value>Кол-во источников света</Value>
     </Record>
     <Record>
       <Key>SettingsShadows</Key>
-      <Value>Shadows</Value>
+      <Value>Тени</Value>
     </Record>
     <Record>
       <Key>SettingsShadowResolution</Key>
-      <Value>Shadow Resolution</Value>
+      <Value>Разрешение теней</Value>
     </Record>
     <Record>
       <Key>SettingsWeatherQuality</Key>
-      <Value>Weather Quality</Value>
+      <Value>Качество визуализации погодных условий</Value>
     </Record>
     <Record>
       <Key>SettingsShadowDistamce</Key>
-      <Value>Shadow Distance</Value>
+      <Value>Дальность прорисовки теней</Value>
     </Record>
     <Record>
       <Key>SettingsEnvElements</Key>
-      <Value>Environmental Elements</Value>
+      <Value>Элементы окружения</Value>
     </Record>
     <Record>
       <Key>SettingsReflections</Key>
-      <Value>Reflections</Value>
+      <Value>Отражения</Value>
     </Record>
     <Record>
       <Key>SettingsMasterVolume</Key>
-      <Value>Master Volume</Value>
+      <Value>Общая громкость</Value>
     </Record>
     <Record>
       <Key>SettingsTitleMixer</Key>
-      <Value>Mixer</Value>
+      <Value>Микшер</Value>
     </Record>
     <Record>
       <Key>SettingsSound</Key>
-      <Value>Sound</Value>
+      <Value>Звук</Value>
     </Record>
     <Record>
       <Key>SettingsVoiceNotifications</Key>
-      <Value>Voice Notifications</Value>
+      <Value>Голосовые оповещения</Value>
     </Record>
     <Record>
       <Key>SettingsTitleKeybinds</Key>
-      <Value>Keybinds</Value>
+      <Value>Назначение клавиш</Value>
     </Record>
     <Record>
       <Key>SettingsTitleMisc</Key>
-      <Value>Misc Settings</Value>
+      <Value>Прочие настройки</Value>
     </Record>
     <Record>
       <Key>SettingsLanguage</Key>
-      <Value>Language</Value>
+      <Value>Язык</Value>
     </Record>
     <Record>
       <Key>SettingsVoiceControl</Key>
@@ -9343,19 +9342,19 @@ You must place the laptop down to interact with the onsreen UI.
     </Record>
     <Record>
       <Key>SettingsMenuMultiplayer</Key>
-      <Value>Multiplayer</Value>
+      <Value>МУЛЬТИПЛЕЕР</Value>
     </Record>
     <Record>
       <Key>SettingsAdvertiseServer</Key>
-      <Value>Advertise Server</Value>
+      <Value>Играть онлайн</Value>
     </Record>
     <Record>
       <Key>SettingsServerName</Key>
-      <Value>Server Name</Value>
+      <Value>Имя сервера</Value>
     </Record>
     <Record>
       <Key>SettingsServerPassword</Key>
-      <Value>Password</Value>
+      <Value>Пароль</Value>
     </Record>
     <Record>
       <Key>SettingsServerMaxPlayers</Key>
@@ -9403,9 +9402,8 @@ You must place the laptop down to interact with the onsreen UI.
     </Record>
     <Record>
       <Key>TutorialCompleteMessage</Key>
-      <Value>
-		  Нам еще многое предстоит узнать.
-		  Так что желаем тебе удачи!
+      <Value>Нам еще многое предстоит узнать.
+Так что желаем тебе удачи!
 	  </Value>
     </Record>
     <Record>
@@ -9414,11 +9412,11 @@ You must place the laptop down to interact with the onsreen UI.
     </Record>
     <Record>
       <Key>SettingsMiscInvertMouse</Key>
-      <Value>Invert Mouse</Value>
+      <Value>Инверсия мыши</Value>
     </Record>
     <Record>
       <Key>SettingsInvertMouse</Key>
-      <Value>Invert Mouse</Value>
+      <Value>Инверсия мыши</Value>
     </Record>
     <Record>
       <Key>MothershipConstruction</Key>
@@ -9517,7 +9515,7 @@ You must place the laptop down to interact with the onsreen UI.
     </Record>
     <Record>
       <Key>SettingsInvertMouseWheelInventory</Key>
-      <Value>Invert Inventory Scroll</Value>
+      <Value>Инверсия прокрутки инвентаря</Value>
     </Record>
     <Record>
       <Key>SettingsTitleMultiplayerAdvanced</Key>
@@ -11418,11 +11416,11 @@ You must place the laptop down to interact with the onsreen UI.
     </Record>
     <Record>
       <Key>TerrainFeaturesField</Key>
-      <Value>Terrain Features</Value>
+      <Value>Особенность ландшафта</Value>
     </Record>
     <Record>
       <Key>RespawnConditionsField</Key>
-      <Value>Respawn Condition</Value>
+      <Value>Условия возрождения</Value>
     </Record>
     <Record>
       <Key>DifficultyField</Key>
@@ -11430,43 +11428,43 @@ You must place the laptop down to interact with the onsreen UI.
     </Record>
     <Record>
       <Key>HasLODField</Key>
-      <Value>Has LOD</Value>
+      <Value>Наличие LOD</Value>
     </Record>
     <Record>
       <Key>SolarScaleField</Key>
-      <Value>Solar Intensity Scale</Value>
+      <Value>Солнечная энергия</Value>
     </Record>
     <Record>
       <Key>DawnTemperatureField</Key>
-      <Value>Dawn Temperature</Value>
+      <Value>Температура на рассвете</Value>
     </Record>
     <Record>
       <Key>NoonTemperatureField</Key>
-      <Value>Noon Temperature</Value>
+      <Value>Температура в полдень</Value>
     </Record>
     <Record>
       <Key>DuskTemperatureField</Key>
-      <Value>Dusk Temperature</Value>
+      <Value>Температура на закате</Value>
     </Record>
     <Record>
       <Key>MidnightTemperatureField</Key>
-      <Value>Midnight Temperature</Value>
+      <Value>Температура в полночь</Value>
     </Record>
     <Record>
       <Key>PreviewAtmosphereField</Key>
-      <Value>Preview Atmosphere</Value>
+      <Value>Предпросмотр атмосферы</Value>
     </Record>
     <Record>
       <Key>HasCustomTemperatureField</Key>
-      <Value>Has Custom Temperature</Value>
+      <Value>Задать температуру</Value>
     </Record>
     <Record>
       <Key>LavaLevelField</Key>
-      <Value>Lava Level</Value>
+      <Value>Уровень лавы</Value>
     </Record>
     <Record>
       <Key>SolidTerrainColourField</Key>
-      <Value>Solid Terrain Colour</Value>
+      <Value>Сплошной цвет местности</Value>
     </Record>
     <Record>
       <Key>CartridgeTrackerTitle</Key>
@@ -11819,15 +11817,15 @@ You must place the laptop down to interact with the onsreen UI.
     </Record>
     <Record>
       <Key>ConfirmReset</Key>
-      <Value>Reset</Value>
+      <Value>Сбросить</Value>
     </Record>
     <Record>
       <Key>Construction Supplies 1</Key>
-      <Value>Строительные материалы (1)</Value>
+      <Value>Стройматериалы 1</Value>
     </Record>
     <Record>
       <Key>Construction Supplies 2</Key>
-      <Value>Строительные материалы (2)</Value>
+      <Value>Стройматериалы 2</Value>
     </Record>
     <Record>
       <Key>Organic Supplies</Key>
@@ -11835,15 +11833,19 @@ You must place the laptop down to interact with the onsreen UI.
     </Record>
     <Record>
       <Key>Organic Supplies 1</Key>
-      <Value>Органика (1)</Value>
+      <Value>Органические припасы 1</Value>
     </Record>
     <Record>
       <Key>Organic Supplies 2</Key>
-      <Value>Органика (2)</Value>
+      <Value>Органические припасы 2</Value>
     </Record>
     <Record>
-      <Key>Consumables Supplies</Key>
-      <Value>Consumables Supplies</Value>
+      <Key>ConsumablesSupplies</Key>
+      <Value>Ящик расходников</Value>
+    </Record>
+	<Record>
+      <Key>Residential Supplies</Key>
+      <Value>Ящик расходников</Value>
     </Record>
     <Record>
       <Key>Portable Appliance Kits</Key>
@@ -11851,11 +11853,11 @@ You must place the laptop down to interact with the onsreen UI.
     </Record>
     <Record>
       <Key>Misc Crate</Key>
-      <Value>Misc Crate</Value>
+      <Value>Ящик разного</Value>
     </Record>
     <Record>
       <Key>Communications Crate</Key>
-      <Value>Communications Crate</Value>
+      <Value>Ящик связи</Value>
     </Record>
     <Record>
       <Key>SettingsTerrainClutterMultiplier</Key>
@@ -11891,23 +11893,23 @@ You must place the laptop down to interact with the onsreen UI.
     </Record>
     <Record>
       <Key>ResearchTitle</Key>
-      <Value>Research</Value>
+      <Value>Исследование</Value>
     </Record>
     <Record>
       <Key>ResearchConfirm</Key>
-      <Value>Confirm</Value>
+      <Value>Подтвердить</Value>
     </Record>
     <Record>
       <Key>ResearchCancel</Key>
-      <Value>Cancel</Value>
+      <Value>Отмена</Value>
     </Record>
     <Record>
       <Key>ServerReadyString</Key>
-      <Value>Server can now be started.</Value>
+      <Value>Теперь сервер можно запускать.</Value>
     </Record>
     <Record>
       <Key>ScriptCommandL</Key>
-      <Value>Loads device var to register.</Value>
+      <Value>Загружает переменную устройства для регистрации.</Value>
     </Record>
     <Record>
       <Key>ScriptCommandLB</Key>
@@ -12387,31 +12389,31 @@ You must place the laptop down to interact with the onsreen UI.
     </Record>
     <Record>
       <Key>ScriptCommandCommand</Key>
-      <Value>command</Value>
+      <Value>команда</Value>
     </Record>
     <Record>
       <Key>BluePodType</Key>
-      <Value>Blue</Value>
+      <Value>Синий</Value>
     </Record>
     <Record>
       <Key>RedPodType</Key>
-      <Value>Red</Value>
+      <Value>Красный</Value>
     </Record>
     <Record>
       <Key>GreenPodType</Key>
-      <Value>Green</Value>
+      <Value>Зеленый</Value>
     </Record>
     <Record>
       <Key>YellowPodType</Key>
-      <Value>Yellow</Value>
+      <Value>Желтый</Value>
     </Record>
     <Record>
       <Key>SettingsResearch</Key>
-      <Value>Research Pool Selection</Value>
+      <Value>Выбор исследования</Value>
     </Record>
     <Record>
       <Key>DialogConfirmResearchUnlock</Key>
-      <Value>Do you want to Unlock this Research?</Value>
+      <Value>Вы хотите разблокировать это исследование?</Value>
     </Record>
     <Record>
       <Key>ResearchRequirementTitle</Key>
@@ -12419,19 +12421,19 @@ You must place the laptop down to interact with the onsreen UI.
     </Record>
     <Record>
       <Key>ResearchUnlocksTitle</Key>
-      <Value>Unlocks</Value>
+      <Value>Разблокировать</Value>
     </Record>
     <Record>
       <Key>ResearchMilitary</Key>
-      <Value>Military</Value>
+      <Value>Военное</Value>
     </Record>
     <Record>
       <Key>ResearchProduction</Key>
-      <Value>Production</Value>
+      <Value>Производство</Value>
     </Record>
     <Record>
       <Key>ResearchAutomation</Key>
-      <Value>Automation</Value>
+      <Value>Автоматизация</Value>
     </Record>
     <Record>
       <Key>ResearchTools</Key>
@@ -12459,71 +12461,71 @@ You must place the laptop down to interact with the onsreen UI.
     </Record>
     <Record>
       <Key>ResearchCantAfford</Key>
-      <Value>You cannot afford to unlock this research.</Value>
+      <Value>Вы не можете позволить себе разблокировку этого исследования.</Value>
     </Record>
     <Record>
       <Key>ResearchRequirementNotMet</Key>
-      <Value>You do not meet the requirements to unlock this research.</Value>
+      <Value>Вы не выполнили условия разблокировки этого исследования.</Value>
     </Record>
     <Record>
       <Key>ResearchUnlockConfirm</Key>
-      <Value>Do you want to Unlock this Research?</Value>
+      <Value>Вы хотите разблокировать это исследование?</Value>
     </Record>
     <Record>
       <Key>WarningSavePathNotWritableDescription</Key>
-      <Value>Could not write to save path. It has been reset to default</Value>
+      <Value>Не удалось записать по пути сохранения. Путь будет сброшен до значения по умолчанию</Value>
     </Record>
     <Record>
       <Key>WarningSavePathNotWritable</Key>
-      <Value>Save Path Not Writable</Value>
+      <Value>Путь к сохранению не доступен для записи</Value>
     </Record>
     <Record>
       <Key>FramerateLock</Key>
-      <Value>Target Framerate</Value>
+      <Value>Целевая частота кадров</Value>
     </Record>
     <Record>
       <Key>SaveBeforeTravel</Key>
-      <Value>You need to save your game before traveling to another world!</Value>
+      <Value>Вам необходимо сохранить игру пред началом путешествия!</Value>
     </Record>
     <Record>
       <Key>LaunchRocketAlert</Key>
-      <Value>Do you want to launch this rocket</Value>
+      <Value>Хотите ли вы запустить эту ракету</Value>
     </Record>
     <Record>
       <Key>StatusWindowVitals</Key>
-      <Value>Vitals</Value>
+      <Value>Мед. статус</Value>
     </Record>
     <Record>
       <Key>StatusWindowJetpack</Key>
-      <Value>Jetpack</Value>
+      <Value>Реактивный ранец</Value>
     </Record>
     <Record>
       <Key>StatusWindowTarget</Key>
-      <Value>Target</Value>
+      <Value>Цель</Value>
     </Record>
     <Record>
       <Key>CompletedKey</Key>
-      <Value>Completed</Value>
+      <Value>Завершено</Value>
     </Record>
     <Record>
       <Key>LockedKey</Key>
-      <Value>Locked</Value>
+      <Value>Заблокировано</Value>
     </Record>
     <Record>
       <Key>TutorialScoreboardHeading</Key>
-      <Value>Tutorial Complete</Value>
+      <Value>Обучение выполнено</Value>
     </Record>
     <Record>
       <Key>TutorialSelectKey</Key>
-      <Value>Tutorial Select</Value>
+      <Value>Выбор обучения</Value>
     </Record>
     <Record>
       <Key>ScenarioSelectKey</Key>
-      <Value>Scenario Select</Value>
+      <Value>Выбор сценария</Value>
     </Record>
     <Record>
       <Key>TankPressure</Key>
-      <Value>Tank Pressure</Value>
+      <Value>Давление в балоне</Value>
     </Record>
     <Record>
       <Key>CrowbarToOpen</Key>
@@ -12531,7 +12533,7 @@ You must place the laptop down to interact with the onsreen UI.
     </Record>
     <Record>
       <Key>Display</Key>
-      <Value>Display</Value>
+      <Value>Экран</Value>
     </Record>
     <Record>
       <Key>Player</Key>
@@ -12551,11 +12553,11 @@ You must place the laptop down to interact with the onsreen UI.
     </Record>
     <Record>
       <Key>InputRight</Key>
-      <Value>Input Right</Value>
+      <Value>Вход справа</Value>
     </Record>
     <Record>
       <Key>InputLeft</Key>
-      <Value>Input Left</Value>
+      <Value>Вход слева</Value>
     </Record>
     <Record>
       <Key>Liquid</Key>
@@ -13309,11 +13311,11 @@ Stationeers, способные строить и поддерживать ба�
     </Record>
     <Record>
       <Key>StationpediaFlashpointHeader</Key>
-      <Value>Вероятность воспламенения:</Value>
+      <Value>Возможность воспламенения:</Value>
     </Record>
     <Record>
       <Key>StationpediaAutoIgniteHeader</Key>
-      <Value>Автовозгорание при </Value>
+      <Value>Воспламенение при </Value>
     </Record>
     <Record>
       <Key>StationpediaConstructedFrom</Key>
