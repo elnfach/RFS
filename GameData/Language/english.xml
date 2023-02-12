@@ -4875,12 +4875,12 @@ When landing, the rocket will deploy a lander, and any cargo contained in the {T
       <Description>1 x 1 modular door piece for building hangar doors.</Description>
     </RecordThing>
     <RecordThing>
-      <Key>StructureMediumHangarDoor</Key>
+      <Key>StructureMediumHangerDoor</Key>
       <Value>Medium Hangar Door</Value>
       <Description>1 x 2 modular door piece for building hangar doors.</Description>
     </RecordThing>
     <RecordThing>
-      <Key>StructureLargeHangarDoor</Key>
+      <Key>StructureLargeHangerDoor</Key>
       <Value>Large Hangar Door</Value>
       <Description>1 x 3 modular door piece for building hangar doors.</Description>
     </RecordThing>
@@ -6176,11 +6176,6 @@ As the N Flow-P is a passive system, it equalizes pressure across the entire of 
       <Description />
     </RecordThing>
     <RecordThing>
-      <Key>ItemKitHangerDoor</Key>
-      <Value>Kit Hangar Door</Value>
-      <Description />
-    </RecordThing>
-    <RecordThing>
       <Key>LogicStepSequencer8</Key>
       <Value>Logic Step Sequencer</Value>
       <Description>The {LINK:ODA;ODA} does not approve of soundtracks or other distractions.
@@ -7339,6 +7334,26 @@ To begin splicing, place a plant or seed bag in the left slot (source) and place
       <Value>Kit (Large Satellite Dish)</Value>
       <Description />
     </RecordThing>
+    <RecordThing>
+      <Key>Landingpad_GasConnectorInwardPiece</Key>
+      <Value>Landingpad Gas Input</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>Landingpad_LiquidConnectorInwardPiece</Key>
+      <Value>Landingpad Liquid Input</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>Landingpad_2x2CenterPiece01</Key>
+      <Value>Landingpad 2x2 Center Piece</Value>
+      <Description>Recommended for larger traders. This allows for the creation of 4x4 and 6x6 landing areas with symetrical doors</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureTraderWaypoint</Key>
+      <Value>Structure Trader Waypoint</Value>
+      <Description />
+    </RecordThing>
   </Things>
   <Slots>
     <Record>
@@ -8067,6 +8082,14 @@ To begin splicing, place a plant or seed bag in the left slot (source) and place
       <Key>Motherboard</Key>
       <Value>Motherboard</Value>
     </Record>
+    <Record>
+      <Key>IncreasePower</Key>
+      <Value>Increase Power</Value>
+    </Record>
+    <Record>
+      <Key>DecreasePower</Key>
+      <Value>Decrease Power</Value>
+    </Record>
   </Interactables>
   <Interface>
     <Record>
@@ -8592,6 +8615,14 @@ To begin splicing, place a plant or seed bag in the left slot (source) and place
     <Record>
       <Key>GameMenuButtonExit</Key>
       <Value>Exit Game</Value>
+    </Record>
+    <Record>
+      <Key>TraderCommunication</Key>
+      <Value>Trader Communication</Value>
+    </Record>
+    <Record>
+      <Key>TraderCommunicationText</Key>
+      <Value>The trader is waiting for a breathable atmosphere before leaving the shuttle</Value>
     </Record>
     <Record>
       <Key>SettingsMenuTitle</Key>
@@ -13161,6 +13192,18 @@ Note: {GAS:Water} was previously treated as a gas, but a new system for liquids 
     <Record>
       <Key>ContactItemLostContact</Key>
       <Value>Lost Contact</Value>
+    </Record>
+    <Record>
+      <Key>ButtonSell</Key>
+      <Value>Sell</Value>
+    </Record>
+    <Record>
+      <Key>ButtonBuy</Key>
+      <Value>Buy</Value>
+    </Record>
+    <Record>
+      <Key>ButtonClose</Key>
+      <Value>Close</Value>
     </Record>
   </Interface>
   <Colors>

@@ -7784,6 +7784,16 @@ You must place the laptop down to interact with the onsreen UI.
 	  <Value>Ввод жидкости на посадочную площадку</Value>
 	  <Description />
 	</RecordThing>
+	<RecordThing>
+	  <Key>Landingpad_2x2CenterPiece01</Key>
+	  <Value>Посадочная площадка 2x2</Value>
+	  <Description>Рекомендуется для крупных торговцев. Это позволяет создавать посадочные площадки 4x4 и 6x6 с симметричными дверями.</Description>
+	</RecordThing>
+	<RecordThing>
+	  <Key>StructureTraderWaypoint</Key>
+	  <Value>Structure Trader Waypoint</Value>
+	  <Description>Перевод скоро появится</Description>
+	</RecordThing>
   </Things>
   <Slots>
     <Record>
@@ -9070,6 +9080,14 @@ You must place the laptop down to interact with the onsreen UI.
       <Key>GameMenuButtonExit</Key>
       <Value>Выход</Value>
     </Record>
+	<Record>
+	  <Key>TraderCommunication</Key>
+	  <Value>Связь с торговцем</Value>
+	</Record>
+	<Record>
+	  <Key>TraderCommunicationText</Key>
+	  <Value>Торговец ждет пригодной для дыхания атмосферы, прежде чем покинуть шаттл</Value>
+	</Record>
     <Record>
       <Key>SettingsMenuTitle</Key>
       <Value>Настройки</Value>
@@ -9096,11 +9114,11 @@ You must place the laptop down to interact with the onsreen UI.
     </Record>
     <Record>
       <Key>SettingsGameplayAutosave</Key>
-      <Value>Enable Autosave</Value>
+      <Value>Включить автосохранение</Value>
     </Record>
     <Record>
       <Key>SettingsAutosaveInterval</Key>
-      <Value>Interval Time (Seconds)</Value>
+      <Value>Интервал автосохранения (в секундах)</Value>
     </Record>
     <Record>
       <Key>SettingsHUDScale</Key>
@@ -9108,7 +9126,7 @@ You must place the laptop down to interact with the onsreen UI.
     </Record>
     <Record>
       <Key>SettingsDisplayLatency</Key>
-      <Value>Display Latency</Value>
+      <Value>Показать задержку</Value>
     </Record>
     <Record>
       <Key>SettingsDisplayFPS</Key>
@@ -9244,15 +9262,15 @@ You must place the laptop down to interact with the onsreen UI.
     </Record>
     <Record>
       <Key>SettingsCameraSensitivity</Key>
-      <Value>Camera Sensitivity</Value>
+      <Value>Чувствительность камеры</Value>
     </Record>
     <Record>
       <Key>NotificationTitle</Key>
-      <Value>Save Successful</Value>
+      <Value>Успешно сохранено</Value>
     </Record>
     <Record>
       <Key>SaveLocationBroken</Key>
-      <Value>Unable to access the save files location, are you using an invalid character? Try changing the save directory in Settings.</Value>
+      <Value>Не удается получить доступ к местоположению файлов сохранения, вы используете недопустимый символ? Попробуйте изменить каталог сохранения в настройках.</Value>
     </Record>
     <Record>
       <Key>PlayerIsConnecting</Key>
@@ -9324,19 +9342,19 @@ You must place the laptop down to interact with the onsreen UI.
     </Record>
     <Record>
       <Key>SettingsPopupChat</Key>
-      <Value>Popup Chat</Value>
+      <Value>Всплывающий чат</Value>
     </Record>
     <Record>
       <Key>SettingsDisplayPortrait</Key>
-      <Value>Display Portrait</Value>
+      <Value>Показать портрет</Value>
     </Record>
     <Record>
       <Key>NewWorldAreaMoon</Key>
-      <Value>Moon</Value>
+      <Value>Луна</Value>
     </Record>
     <Record>
       <Key>SettingsAntialiasing</Key>
-      <Value>Antialiasing Method</Value>
+      <Value>Метод сглаживания</Value>
     </Record>
     <Record>
       <Key>SettingsMenuMultiplayer</Key>
@@ -9433,7 +9451,7 @@ You must place the laptop down to interact with the onsreen UI.
     </Record>
     <Record>
       <Key>PortableConnectionFailure</Key>
-      <Value>Can only connect {0} to this {1}</Value>
+      <Value>Можно подключить только {0} к этому {1}</Value>
     </Record>
     <Record>
       <Key>TooltipRotateLeftRight</Key>
