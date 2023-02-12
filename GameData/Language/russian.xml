@@ -2012,7 +2012,7 @@ On - 0 - устройство выключено, 1 - включено
 RequiredPower - потребляемая энергия, Вт, включая затраты на зарядку батарей
 PrefabHash - хэш префаба объекта
 
-Слот батареи (для каждого):
+Ячейка батареи (для каждого):
 Occupied - 0 - слот свободен, 1 - занят
 OccupantHash - хэш объекта в слоте
 Quantity - масса / количество предметов в упаковке
@@ -5073,7 +5073,7 @@ On - 0 - устройство выключено, 1 - включено
 RequiredPower - потребляемая энергия, Вт, включая затраты на зарядку батарей
 PrefabHash - хэш префаба объекта
 
-Слот батареи (для каждого):
+Ячейка батареи (для каждого):
 Occupied - 0 - слот свободен, 1 - занят
 OccupantHash - хэш объекта в слоте
 Quantity - масса / количество предметов в упаковке
@@ -6062,32 +6062,32 @@ While the wind turbine is optimized to produce power even on low atmosphere worl
     </RecordThing>
     <RecordThing>
       <Key>ItemKitSolarPanelReinforced</Key>
-      <Value>Тяжелая солнечная панель</Value>
+      <Value>Усиленная солнечная панель</Value>
       <Description>This kit produces heavy duty solar panels that are resistant to storm damage.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitSolarPanelBasicReinforced</Key>
-      <Value>Базовая тяжелая солнечная панель</Value>
+      <Value>Базовая усиленная солнечная панель</Value>
       <Description>This solar panel is resistant to storm damage.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureSolarPanel45Reinforced</Key>
-      <Value>Тяжелая солнечная панель (Тип 2)</Value>
+      <Value>Усиленная солнечная панель (Тип 2)</Value>
       <Description>This solar panel is resistant to storm damage.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureSolarPanelDualReinforced</Key>
-      <Value>Тяжелая солнечная панель (Тип 1)</Value>
+      <Value>Усиленная солнечная панель (Тип 1)</Value>
       <Description>This solar panel is resistant to storm damage.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureSolarPanelFlatReinforced</Key>
-      <Value>Тяжелая солнечная панель (Тип 1)</Value>
+      <Value>Усиленная солнечная панель (Тип 1)</Value>
       <Description>This solar panel is resistant to storm damage.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureSolarPanelReinforced</Key>
-      <Value>Тяжелая солнечная панель (Тип 2)</Value>
+      <Value>Усиленная солнечная панель (Тип 2)</Value>
       <Description>This solar panel is resistant to storm damage.</Description>
     </RecordThing>
     <RecordThing>
@@ -7214,17 +7214,16 @@ When closed, has the heat transfer characteristics of a basic wall. Requires pow
     <RecordThing>
       <Key>StructureHorizontalAutoMiner</Key>
       <Value>OGRE</Value>
-      <Description>
-		  OGRE (прямоугольный вращающийся экскаватор) разработанный {LINK:Recurso;Recurso} представляет собой базовую конструкцию с прикрепленной к ней горнодобывающей машиной, которая будет разрабатывать горизонтальный ствол длиной до X метров. Заполнившись, горнодобывающая машина вернется на базу, чтобы опустошить себя, прежде чем вернуться к копанию. Если он встретит пустое место, он также вернется на базу и будет ждать указаний. Блок вернется, если деактивирован.
+      <Description>OGRE (прямоугольный вращающийся экскаватор) разработанный {LINK:Recurso;Recurso} представляет собой базовую конструкцию с прикрепленной к ней горнодобывающей машиной, которая будет разрабатывать горизонтальный ствол длиной до X метров. Заполнившись, горнодобывающая машина вернется на базу, чтобы опустошить себя, прежде чем вернуться к копанию. Если он встретит пустое место, он также вернется на базу и будет ждать указаний. Блок вернется, если деактивирован.
 
-		  OGRE может быть подключен к системе желоба и управляется логической сетью. Обратите внимание, что OGRE производит больше {LINK:OrePage;руды}, чем обычный {THING:ItemMiningDrill} на той же площади, благодаря более эффективной обработке.
+OGRE может быть подключен к системе желоба и управляется логической сетью. Обратите внимание, что OGRE производит больше {LINK:OrePage;руды}, чем обычный {THING:ItemMiningDrill} на той же площади, благодаря более эффективной обработке.
 
-		  {HEADER:РЕЖИМЫ}
-		  Простой - 0
-		  Добыча - 1
-		  Возвращение - 2
-		  Отгрузка руды - 3
-		  Завершение - 4
+{HEADER:РЕЖИМЫ}
+Простой - 0
+Добыча - 1
+Возвращение - 2
+Отгрузка руды - 3
+Завершение - 4
 	  </Description>
     </RecordThing>
     <RecordThing>
@@ -7450,10 +7449,9 @@ You must place the laptop down to interact with the onsreen UI.
     <RecordThing>
       <Key>ItemNitrice</Key>
       <Value>Нитрисовый лёд</Value>
-      <Description>
-		  Нитрис — это прозвище, данное твердому льду {GAS:Nitrogen}, который встречается на многих планетах и спутниках Солнечной системы. Учитывая инертную природу {GAS:Nitrogen}, который он производит, лед полезен при создании пригодной для дыхания атмосферы с низкой воспламеняемостью.
+      <Description>Нитрис — это прозвище, данное твердому льду {GAS:Nitrogen}, который встречается на многих планетах и спутниках Солнечной системы. Учитывая инертную природу {GAS:Nitrogen}, который он производит, лед полезен при создании пригодной для дыхания атмосферы с низкой воспламеняемостью.
 
-		  Сильно чувствительный к температуре азот начнет плавиться, как только он будет добыт, если только температура не ниже нуля, или если он не хранится в {THING:ItemMiningBelt}, {THING:ItemMiningBeltAdvanced} или в таких устройствах, как {THING:StructureIceCrusher} или {THING:StructureFridgeSmall}.
+Сильно чувствительный к температуре азот начнет плавиться, как только он будет добыт, если только температура не ниже нуля, или если он не хранится в {THING:ItemMiningBelt}, {THING:ItemMiningBeltAdvanced} или в таких устройствах, как {THING:StructureIceCrusher} или {THING:StructureFridgeSmall}.
 	  </Description>
     </RecordThing>
     <RecordThing>
@@ -7874,7 +7872,7 @@ You must place the laptop down to interact with the onsreen UI.
     </Record>
     <Record>
       <Key>DirtCanister</Key>
-      <Value>Dirt Canister</Value>
+      <Value>Канистра с грунтом</Value>
     </Record>
     <Record>
       <Key>Propellent</Key>
@@ -7922,7 +7920,7 @@ You must place the laptop down to interact with the onsreen UI.
     </Record>
     <Record>
       <Key>TransportSlot</Key>
-      <Value>Transport Slot</Value>
+      <Value>Транспортный слот</Value>
     </Record>
     <Record>
       <Key>Motherboard</Key>
@@ -7966,7 +7964,7 @@ You must place the laptop down to interact with the onsreen UI.
     </Record>
     <Record>
       <Key>ContainerSlot</Key>
-      <Value>Слот</Value>
+      <Value>Ячейка</Value>
     </Record>
     <Record>
       <Key>Plant</Key>
@@ -7978,7 +7976,7 @@ You must place the laptop down to interact with the onsreen UI.
     </Record>
     <Record>
       <Key>Circuit</Key>
-      <Value>Circuit</Value>
+      <Value>Плата для консоли</Value>
     </Record>
     <Record>
       <Key>CircuitBoard</Key>
@@ -7994,35 +7992,35 @@ You must place the laptop down to interact with the onsreen UI.
     </Record>
     <Record>
       <Key>Cartridge2</Key>
-      <Value>Cartridge2</Value>
+      <Value>Картридж 2</Value>
     </Record>
     <Record>
       <Key>Next</Key>
-      <Value>Next</Value>
+      <Value>Вперед</Value>
     </Record>
     <Record>
       <Key>Prev</Key>
-      <Value>Prev</Value>
+      <Value>Назад</Value>
     </Record>
     <Record>
       <Key>Cartridge0</Key>
-      <Value>Cartridge0</Value>
+      <Value>Картридж 0</Value>
     </Record>
     <Record>
       <Key>Cartridge1</Key>
-      <Value>Cartridge1</Value>
+      <Value>Картридж 1</Value>
     </Record>
     <Record>
       <Key>Previous</Key>
-      <Value>Previous</Value>
+      <Value>Предыдущий</Value>
     </Record>
     <Record>
       <Key>SensorProcessingUnit</Key>
-      <Value>Sensor Processing Unit</Value>
+      <Value>Блок обработки датчиков</Value>
     </Record>
     <Record>
       <Key>LiquidCanister</Key>
-      <Value>Liquid Canister</Value>
+      <Value>Жидкостный баллон</Value>
     </Record>
     <Record>
       <Key>HandSlot</Key>
@@ -8030,7 +8028,7 @@ You must place the laptop down to interact with the onsreen UI.
     </Record>
     <Record>
       <Key>BottleSlot</Key>
-      <Value>Bottle Slot</Value>
+      <Value>Ячейка для бутылки</Value>
     </Record>
     <Record>
       <Key>SourcePlant</Key>
@@ -8068,11 +8066,11 @@ You must place the laptop down to interact with the onsreen UI.
     </Record>
     <Record>
       <Key>Slot1</Key>
-      <Value>Slot1</Value>
+      <Value>Ячейка 1</Value>
     </Record>
     <Record>
       <Key>Slot2</Key>
-      <Value>Slot2</Value>
+      <Value>Ячейка 2</Value>
     </Record>
     <Record>
       <Key>GrabLeftHand</Key>
@@ -8136,43 +8134,43 @@ You must place the laptop down to interact with the onsreen UI.
     </Record>
     <Record>
       <Key>Button1</Key>
-      <Value>Button1</Value>
+      <Value>Кнопка 1</Value>
     </Record>
     <Record>
       <Key>Slot3</Key>
-      <Value>Slot3</Value>
+      <Value>Ячейка 3</Value>
     </Record>
     <Record>
       <Key>Slot4</Key>
-      <Value>Slot4</Value>
+      <Value>Ячейка 4</Value>
     </Record>
     <Record>
       <Key>Slot5</Key>
-      <Value>Slot5</Value>
+      <Value>Ячейка 5</Value>
     </Record>
     <Record>
       <Key>Slot6</Key>
-      <Value>Slot6</Value>
+      <Value>Ячейка 6</Value>
     </Record>
     <Record>
       <Key>Slot7</Key>
-      <Value>Slot7</Value>
+      <Value>Ячейка 7</Value>
     </Record>
     <Record>
       <Key>Slot8</Key>
-      <Value>Slot8</Value>
+      <Value>Ячейка 8</Value>
     </Record>
     <Record>
       <Key>Slot9</Key>
-      <Value>Slot9</Value>
+      <Value>Ячейка 9</Value>
     </Record>
     <Record>
       <Key>Slot10</Key>
-      <Value>Slot10</Value>
+      <Value>Ячейка 10</Value>
     </Record>
     <Record>
       <Key>Button2</Key>
-      <Value>Button2</Value>
+      <Value>Кнопка 2</Value>
     </Record>
     <Record>
       <Key>SplitOne</Key>
@@ -8232,87 +8230,87 @@ You must place the laptop down to interact with the onsreen UI.
     </Record>
     <Record>
       <Key>Button3</Key>
-      <Value>Button3</Value>
+      <Value>Кнопка 3</Value>
     </Record>
     <Record>
       <Key>Slot11</Key>
-      <Value>Slot11</Value>
+      <Value>Ячейка 11</Value>
     </Record>
     <Record>
       <Key>Slot12</Key>
-      <Value>Slot12</Value>
+      <Value>Ячейка 12</Value>
     </Record>
     <Record>
       <Key>Slot13</Key>
-      <Value>Slot13</Value>
+      <Value>Ячейка 13</Value>
     </Record>
     <Record>
       <Key>Slot14</Key>
-      <Value>Slot14</Value>
+      <Value>Ячейка 14</Value>
     </Record>
     <Record>
       <Key>Slot15</Key>
-      <Value>Slot15</Value>
+      <Value>Ячейка 15</Value>
     </Record>
     <Record>
       <Key>Slot16</Key>
-      <Value>Slot16</Value>
+      <Value>Ячейка 16</Value>
     </Record>
     <Record>
       <Key>Slot17</Key>
-      <Value>Slot17</Value>
+      <Value>Ячейка 17</Value>
     </Record>
     <Record>
       <Key>Slot18</Key>
-      <Value>Slot18</Value>
+      <Value>Ячейка 18</Value>
     </Record>
     <Record>
       <Key>Slot19</Key>
-      <Value>Slot 19</Value>
+      <Value>Ячейка 19</Value>
     </Record>
     <Record>
       <Key>Slot20</Key>
-      <Value>Slot 20</Value>
+      <Value>Ячейка 20</Value>
     </Record>
     <Record>
       <Key>Slot21</Key>
-      <Value>Slot 21</Value>
+      <Value>Ячейка 21</Value>
     </Record>
     <Record>
       <Key>Slot22</Key>
-      <Value>Slot22</Value>
+      <Value>Ячейка 22</Value>
     </Record>
     <Record>
       <Key>Slot23</Key>
-      <Value>Slot23</Value>
+      <Value>Ячейка 23</Value>
     </Record>
     <Record>
       <Key>Slot24</Key>
-      <Value>Slot24</Value>
+      <Value>Ячейка 24</Value>
     </Record>
     <Record>
       <Key>Slot25</Key>
-      <Value>Slot 25</Value>
+      <Value>Ячейка 25</Value>
     </Record>
     <Record>
       <Key>Slot26</Key>
-      <Value>Slot 26</Value>
+      <Value>Ячейка 26</Value>
     </Record>
     <Record>
       <Key>Slot27</Key>
-      <Value>Slot 27</Value>
+      <Value>Ячейка 27</Value>
     </Record>
     <Record>
       <Key>Slot28</Key>
-      <Value>Slot28</Value>
+      <Value>Ячейка 28</Value>
     </Record>
     <Record>
       <Key>Slot29</Key>
-      <Value>Slot29</Value>
+      <Value>Ячейка 29</Value>
     </Record>
     <Record>
       <Key>Slot30</Key>
-      <Value>Slot30</Value>
+      <Value>Ячейка 30</Value>
     </Record>
     <Record>
       <Key>TiltUpwards</Key>
@@ -8566,7 +8564,7 @@ You must place the laptop down to interact with the onsreen UI.
     </Record>
     <Record>
       <Key>Rpm</Key>
-      <Value>Rpm</Value>
+      <Value>Обороты/сек</Value>
     </Record>
     <Record>
       <Key>Stress</Key>
@@ -8574,7 +8572,7 @@ You must place the laptop down to interact with the onsreen UI.
     </Record>
     <Record>
       <Key>SlotKey</Key>
-      <Value>Слот</Value>
+      <Value>Ячейка</Value>
     </Record>
     <Record>
       <Key>SoonTM</Key>
@@ -9837,7 +9835,7 @@ You must place the laptop down to interact with the onsreen UI.
     </Record>
     <Record>
       <Key>SettingsHungerRate</Key>
-      <Value>Голод/уровень гидратации</Value>
+      <Value>Голод/Жажда</Value>
     </Record>
     <Record>
       <Key>JoinWorldSortBy</Key>
@@ -9853,11 +9851,11 @@ You must place the laptop down to interact with the onsreen UI.
     </Record>
     <Record>
       <Key>JoinMenuIncompatibleVersions</Key>
-      <Value>Скрыть несовместимые версии</Value>
+      <Value>Скрыть с несовместимыми версиями</Value>
     </Record>
     <Record>
       <Key>JoinMenuPasswordProtected</Key>
-      <Value>Скрыть защищенный паролем</Value>
+      <Value>Скрыть защищенные паролем</Value>
     </Record>
     <Record>
       <Key>JoinWorldEmptyServers</Key>
@@ -10168,7 +10166,7 @@ You must place the laptop down to interact with the onsreen UI.
     </Record>
     <Record>
       <Key>NewWorldMarsShortDesc</Key>
-      <Value>Пустынный пыльный="" красный="" шар="", Марс="" отличается="" более="" разнообразной="" местностью="", которая="" может="" достичь="" неба="", и="" прохладной="", непригодной="" для="" дыхания="" атмосферой="", но="" возможно="" это="" может="" быть="" использовано="" для="" чего-то="" ...=""</Value>
+      <Value>Пустынный пыльный красный шар, Марс отличается более разнообразной местностью, которая может достичь неба, и прохладной, непригодной для дыхания атмосферой, но возможно это может быть использовано для чего-то ...</Value>
     </Record>
     <Record>
       <Key>NewWorldMoonShortDesc</Key>
@@ -12685,27 +12683,27 @@ You must place the laptop down to interact with the onsreen UI.
     </Record>
     <Record>
       <Key>BottleSlot</Key>
-      <Value>Bottle Slot</Value>
+      <Value>Ячейка бутыля</Value>
     </Record>
     <Record>
       <Key>TutorialCompleteDeanHall</Key>
-      <Value>Dean Hall</Value>
+      <Value>Дин Холл</Value>
     </Record>
     <Record>
       <Key>TutorialCompleteTruly</Key>
-      <Value>Commodore ODA</Value>
+      <Value>Коммодор ODA</Value>
     </Record>
     <Record>
       <Key>TutorialCompleteNextTutorial</Key>
-      <Value>Next Tutorial</Value>
+      <Value>Следующее обучение</Value>
     </Record>
     <Record>
       <Key>SettingsMineableRenderDistance</Key>
-      <Value>Mineable Render Distance</Value>
+      <Value>Дальность отрисовки руды</Value>
     </Record>
     <Record>
       <Key>SetSpawnMessage</Key>
-      <Value>Use to set Spawn Point</Value>
+      <Value>Использовать что бы поставить точку появления</Value>
     </Record>
     <Record>
       <Key>SetSpawnTitle</Key>
@@ -12717,7 +12715,7 @@ You must place the laptop down to interact with the onsreen UI.
     </Record>
     <Record>
       <Key>ControlPrimaryClickDisc</Key>
-      <Value>Interact</Value>
+      <Value>Взаимодействовать</Value>
     </Record>
     <Record>
       <Key>ControlHoldPrimaryClick</Key>
@@ -13059,11 +13057,11 @@ Stationeers, способные строить и поддерживать ба�
     </Record>
     <Record>
       <Key>ControlMouseDrag</Key>
-      <Value>Hold and Drag {KEY:PrimaryAction}</Value>
+      <Value>Нажмите {KEY:PrimaryAction}</Value>
     </Record>
     <Record>
       <Key>ControlMouseDragDisc</Key>
-      <Value>Move Selection</Value>
+      <Value>Поднять выбранное</Value>
     </Record>
     <Record>
       <Key>ControlSecondaryAction</Key>
@@ -13071,7 +13069,7 @@ Stationeers, способные строить и поддерживать ба�
     </Record>
     <Record>
       <Key>ControlSecondaryActionBuildModeDisc</Key>
-      <Value>Toggle Build Mode</Value>
+      <Value>Переключить режим строительства</Value>
     </Record>
     <Record>
       <Key>ControlScrollWheelSelect</Key>
@@ -13079,7 +13077,7 @@ Stationeers, способные строить и поддерживать ба�
     </Record>
     <Record>
       <Key>ControlScrollWheelSelectDisc</Key>
-      <Value>Toggle Build Mode</Value>
+      <Value>Переключить режим строительства</Value>
     </Record>
     <Record>
       <Key>ControlAutoRotate</Key>
@@ -13087,15 +13085,15 @@ Stationeers, способные строить и поддерживать ба�
     </Record>
     <Record>
       <Key>ControlAutoRotateDisc</Key>
-      <Value>Auto Rotate</Value>
+      <Value>Автоповорот</Value>
     </Record>
     <Record>
       <Key>ControlMouseScroll</Key>
-      <Value>Mouse scroll</Value>
+      <Value>Колесико мыши</Value>
     </Record>
     <Record>
       <Key>ControlMouseScrollDisc</Key>
-      <Value>Item Select</Value>
+      <Value>Выбрать предмет</Value>
     </Record>
     <Record>
       <Key>ControlTurnOn</Key>
@@ -13103,7 +13101,7 @@ Stationeers, способные строить и поддерживать ба�
     </Record>
     <Record>
       <Key>ControlTurnOnDisc</Key>
-      <Value>Turn On</Value>
+      <Value>Включить</Value>
     </Record>
     <Record>
       <Key>ControlQuickMove</Key>
@@ -13119,7 +13117,7 @@ Stationeers, способные строить и поддерживать ба�
     </Record>
     <Record>
       <Key>ControlUseItemDisc</Key>
-      <Value>Use Item</Value>
+      <Value>Использовать предмет</Value>
     </Record>
     <Record>
       <Key>ControlMineDisc</Key>
@@ -13127,7 +13125,7 @@ Stationeers, способные строить и поддерживать ба�
     </Record>
     <Record>
       <Key>ControlSecondaryEatDisc</Key>
-      <Value>Eat</Value>
+      <Value>Съесть</Value>
     </Record>
     <Record>
       <Key>HelpCommand</Key>
@@ -13151,7 +13149,7 @@ Stationeers, способные строить и поддерживать ба�
     </Record>
     <Record>
       <Key>FixedWeatherEventMissing</Key>
-      <Value>No weather system was found for this world. The default weather system has been applied. Expect some turbulence.</Value>
+      <Value>Для этого мира не было найдено погодной системы. Была применена погодная система по умолчанию. Ожидайте некоторой турбулентности.</Value>
     </Record>
     <Record>
       <Key>AdvancedTutorialButton</Key>
@@ -13383,7 +13381,7 @@ Stationeers, способные строить и поддерживать ба�
     </Record>
     <Record>
       <Key>HydrationSPDAKey</Key>
-      <Value>Hydration</Value>
+      <Value>Гидрация</Value>
     </Record>
     <Record>
       <Key>EvaSPDAKey</Key>
@@ -13395,11 +13393,11 @@ Stationeers, способные строить и поддерживать ба�
     </Record>
     <Record>
       <Key>StatusIconHydrationDesc</Key>
-      <Value>Hydration is running low</Value>
+      <Value>Уровень гидратации падает</Value>
     </Record>
     <Record>
       <Key>StatusIconHydrationKey</Key>
-      <Value>Уровень воды низкий</Value>
+      <Value>Уровень жидкости низкий</Value>
     </Record>
     <Record>
       <Key>HydrationCaution</Key>
@@ -13407,7 +13405,7 @@ Stationeers, способные строить и поддерживать ба�
     </Record>
     <Record>
       <Key>HydrationCritical</Key>
-      <Value>Hydration Critical</Value>
+      <Value>Критический уровень гидрации</Value>
     </Record>
     <Record>
       <Key>Guides</Key>
@@ -13435,7 +13433,7 @@ Stationeers, способные строить и поддерживать ба�
     </Record>
     <Record>
       <Key>LogicTypeBpm</Key>
-      <Value>Bpm</Value>
+      <Value>Удары/сек</Value>
     </Record>
     <Record>
       <Key>LogicTypeEnvironmentEfficiency</Key>
@@ -13447,11 +13445,11 @@ Stationeers, способные строить и поддерживать ба�
     </Record>
     <Record>
       <Key>Pitch</Key>
-      <Value>Pitch</Value>
+      <Value>Подача</Value>
     </Record>
     <Record>
       <Key>Volume</Key>
-      <Value>Volume</Value>
+      <Value>Громкость</Value>
     </Record>
     <Record>
       <Key>NoAudioReceiverDevices</Key>
@@ -13459,39 +13457,39 @@ Stationeers, способные строить и поддерживать ба�
     </Record>
     <Record>
       <Key>Speed</Key>
-      <Value>Speed</Value>
+      <Value>Скорость</Value>
     </Record>
     <Record>
       <Key>Attack</Key>
-      <Value>Attack</Value>
+      <Value>Атака</Value>
     </Record>
     <Record>
       <Key>Release</Key>
-      <Value>Release</Value>
+      <Value>Выпустить</Value>
     </Record>
     <Record>
       <Key>CurrentInstrument</Key>
-      <Value>Current Instrument</Value>
+      <Value>Текущий инструмент</Value>
     </Record>
     <Record>
       <Key>NoSoundCartridge</Key>
-      <Value>No Sound Cartridge</Value>
+      <Value>Нет звукового картриджа</Value>
     </Record>
     <Record>
       <Key>NoNote</Key>
-      <Value>No Note</Value>
+      <Value>Нет заметок</Value>
     </Record>
     <Record>
       <Key>Intensity</Key>
-      <Value>Intensity</Value>
+      <Value>Интенсивность</Value>
     </Record>
     <Record>
       <Key>Waveform</Key>
-      <Value>Waveform</Value>
+      <Value>Форма волны</Value>
     </Record>
     <Record>
       <Key>Radius</Key>
-      <Value>Detection Radius</Value>
+      <Value>Радиус обнаружения</Value>
     </Record>
     <Record>
       <Key>StationpediaBasePowerUsage</Key>
@@ -13503,7 +13501,7 @@ Stationeers, способные строить и поддерживать ба�
     </Record>
     <Record>
       <Key>StationpediaVolume</Key>
-      <Value>Volume:</Value>
+      <Value>Объём:</Value>
     </Record>
     <Record>
       <Key>StationpediaNutrition</Key>
@@ -13525,8 +13523,8 @@ Stationeers, способные строить и поддерживать ба�
       <Key>MoleCarbonDioxideDescription</Key>
       <Value>Вы выдыхаете его, {LINKIN:Organic Page;Plants} вдыхают его. Без него они не растут. Вы можете использовать предметы, размещенные в слотах {SLOT:GasFilter}, чтобы удалить его из атмосферы.
 
-		  {GAS:CarbonDioxide} имеет умеренно высокую удельную теплоемкость, что означает, что он является хорошей охлаждающей жидкостью для таких устройств, как Уолл Коу.
-		  {THING:StructureWallCooler}. {GAS:Water} лучше, но обычно имеет более важное применение.
+{GAS:CarbonDioxide} имеет умеренно высокую удельную теплоемкость, что означает, что он является хорошей охлаждающей жидкостью для таких устройств, как Уолл Коу.
+{THING:StructureWallCooler}. {GAS:Water} лучше, но обычно имеет более важное применение.
 	  </Value>
     </Record>
     <Record>
@@ -13559,11 +13557,11 @@ Stationeers, способные строить и поддерживать ба�
     </Record>
     <Record>
       <Key>SettingsSmoothTerrain</Key>
-      <Value>Smooth Terrain</Value>
+      <Value>Гладкая местность</Value>
     </Record>
     <Record>
       <Key>SettingsVirtualizedRendering</Key>
-      <Value>Virtualized Rendering
+      <Value>Виртуализированный рендеринг
 </Value>
     </Record>
     <Record>
@@ -13736,27 +13734,27 @@ Stationeers, способные строить и поддерживать ба�
     </Record>
     <Record>
       <Key>Exclaim</Key>
-      <Value>Exclaim</Value>
+      <Value>!</Value>
     </Record>
     <Record>
       <Key>DoubleQuote</Key>
-      <Value>Double Quote</Value>
+      <Value>&quot;</Value>
     </Record>
     <Record>
       <Key>Hash</Key>
-      <Value>Hash</Value>
+      <Value>#</Value>
     </Record>
     <Record>
       <Key>Dollar</Key>
-      <Value>Dollar</Value>
+      <Value>$</Value>
     </Record>
     <Record>
       <Key>Percent</Key>
-      <Value>Percent</Value>
+      <Value>%</Value>
     </Record>
     <Record>
       <Key>Ampersand</Key>
-      <Value>Ampersand</Value>
+      <Value>&amp;</Value>
     </Record>
     <Record>
       <Key>Quote</Key>
@@ -13772,119 +13770,119 @@ Stationeers, способные строить и поддерживать ба�
     </Record>
     <Record>
       <Key>Asterisk</Key>
-      <Value>Asterisk</Value>
+      <Value>*</Value>
     </Record>
     <Record>
       <Key>Plus</Key>
-      <Value>Plus</Value>
+      <Value>+</Value>
     </Record>
     <Record>
       <Key>Comma</Key>
-      <Value>Comma</Value>
+      <Value>,</Value>
     </Record>
     <Record>
       <Key>Minus</Key>
-      <Value>Minus</Value>
+      <Value>-</Value>
     </Record>
     <Record>
       <Key>Period</Key>
-      <Value>Period</Value>
+      <Value>.</Value>
     </Record>
     <Record>
       <Key>Slash</Key>
-      <Value>Slash</Value>
+      <Value>/</Value>
     </Record>
     <Record>
       <Key>Alpha0</Key>
-      <Value>Alpha0</Value>
+      <Value>0</Value>
     </Record>
     <Record>
       <Key>Alpha1</Key>
-      <Value>Alpha1</Value>
+      <Value>1</Value>
     </Record>
     <Record>
       <Key>Alpha2</Key>
-      <Value>Alpha2</Value>
+      <Value>2</Value>
     </Record>
     <Record>
       <Key>Alpha3</Key>
-      <Value>Alpha3</Value>
+      <Value>3</Value>
     </Record>
     <Record>
       <Key>Alpha4</Key>
-      <Value>Alpha4</Value>
+      <Value>4</Value>
     </Record>
     <Record>
       <Key>Alpha5</Key>
-      <Value>Alpha5</Value>
+      <Value>5</Value>
     </Record>
     <Record>
       <Key>Alpha6</Key>
-      <Value>Alpha6</Value>
+      <Value>6</Value>
     </Record>
     <Record>
       <Key>Alpha7</Key>
-      <Value>Alpha7</Value>
+      <Value>7</Value>
     </Record>
     <Record>
       <Key>Alpha8</Key>
-      <Value>Alpha8</Value>
+      <Value>8</Value>
     </Record>
     <Record>
       <Key>Alpha9</Key>
-      <Value>Alpha9</Value>
+      <Value>9</Value>
     </Record>
     <Record>
       <Key>Colon</Key>
-      <Value>Colon</Value>
+      <Value>:</Value>
     </Record>
     <Record>
       <Key>Semicolon</Key>
-      <Value>Semicolon</Value>
+      <Value>;</Value>
     </Record>
     <Record>
       <Key>Less</Key>
-      <Value>Less</Value>
+      <Value>&lt;</Value>
     </Record>
     <Record>
       <Key>Equals</Key>
-      <Value>Equals</Value>
+      <Value>Равно</Value>
     </Record>
     <Record>
       <Key>Greater</Key>
-      <Value>Greater</Value>
+      <Value>&gt;</Value>
     </Record>
     <Record>
       <Key>Question</Key>
-      <Value>Question</Value>
+      <Value>?</Value>
     </Record>
     <Record>
       <Key>At</Key>
-      <Value>At</Value>
+      <Value>@</Value>
     </Record>
     <Record>
       <Key>LeftBracket</Key>
-      <Value>Left Bracket</Value>
+      <Value>(</Value>
     </Record>
     <Record>
       <Key>Backslash</Key>
-      <Value>Backslash</Value>
+      <Value>\</Value>
     </Record>
     <Record>
       <Key>RightBracket</Key>
-      <Value>Right Bracket</Value>
+      <Value>)</Value>
     </Record>
     <Record>
       <Key>Caret</Key>
-      <Value>Caret</Value>
+      <Value>^</Value>
     </Record>
     <Record>
       <Key>Underscore</Key>
-      <Value>Underscore</Value>
+      <Value>_</Value>
     </Record>
     <Record>
       <Key>BackQuote</Key>
-      <Value>Back Quote</Value>
+      <Value>〝</Value>
     </Record>
     <Record>
       <Key>A</Key>
@@ -13992,15 +13990,15 @@ Stationeers, способные строить и поддерживать ба�
     </Record>
     <Record>
       <Key>LeftCurlyBracket</Key>
-      <Value>Left Curly Bracket</Value>
+      <Value>{</Value>
     </Record>
     <Record>
       <Key>Pipe</Key>
-      <Value>Pipe</Value>
+      <Value>Труба</Value>
     </Record>
     <Record>
       <Key>RightCurlyBracket</Key>
-      <Value>Right Curly Bracket</Value>
+      <Value>}</Value>
     </Record>
     <Record>
       <Key>Tilde</Key>
