@@ -1231,13 +1231,13 @@ To use on yourself: put duct tape in your active hand, hold RIGHT MOUSE BUTTON t
     </RecordThing>
     <RecordThing>
       <Key>ItemGasCanisterCarbonDioxide</Key>
-      <Value>Баллон (Углекислый газ)</Value>
+      <Value>Баллон с углекислым газом</Value>
       <Description>При изготовлении {GAS:CarbonDioxide} {SLOT:GasCanister} заполняется под давлением 8000 кПа (80 атмосфер) и по умолчанию окрашивается в серый цвет. Используется в качестве вторичного топлива в {THING:ItemJetpackBasic}, его можно установить на {THING:DynamicGasCanisterAir} или {THING:StructureGasTankStorage} для пополнения.
 Будьте осторожны, чтобы не создать избыточное давление при заправке, иначе он может «взорваться».</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemGasCanisterPollutants</Key>
-      <Value>Баллон (Токсины)</Value>
+      <Value>Баллон с токсинами</Value>
       <Description>Хотя этот побочный продукт плавки, иногда называемый просто «X», является токсином, его удельная теплоемкость делает его ценным хладагентом. Все газовые баллоны заполнены, когда они изготовлены до давления 8000 кПа (80 атмосфер), и могут быть установлены на {THING:DynamicGasCanisterAir} или {THING:StructureGasTankStorage} для повторного заполнения.
 Следите за тем, чтобы давление не превышало 10 МПа, иначе может произойти взрыв.</Description>
     </RecordThing>
@@ -1251,32 +1251,32 @@ To use on yourself: put duct tape in your active hand, hold RIGHT MOUSE BUTTON t
     </RecordThing>
     <RecordThing>
       <Key>ItemGasCanisterFuel</Key>
-      <Value>Баллон (Топливо)</Value>
+      <Value>Баллон с топливом</Value>
       <Description>Оранжевый переносной {LINK:GasPage;топливный} {SLOT:GasCanister} содержит 64 л смеси это 66 % {GAS:Volatiles}/34 % {GAS:Oxygen} для приведения в действие таких предметов, как {THING:ItemWeldingTorch} и {THING:DynamicGenerator}. Все газовые баллоны заполнены, когда они изготовлены до давления 8000 кПа (80 атмосфер), и могут быть установлены на {THING:DynamicGasCanisterAir} или {THING:StructureGasTankStorage} для повторного заполнения.
-		  Следите за тем, чтобы давление не превышало 10 МПа, иначе может произойти взрыв.
+Следите за тем, чтобы давление не превышало 10 МПа, иначе может произойти взрыв.
 	  </Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemGasCanisterVolatiles</Key>
-      <Value>Баллон (Летучие вещества)</Value>
+      <Value>Баллон с летучими веществами</Value>
 	  <Description>Пока нет описания.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemGasCanisterNitrogen</Key>
-      <Value>Баллон (Азот)</Value>
+      <Value>Баллон с азотом</Value>
       <Description>Зеленый переносной {SLOT:GasCanister} c {GAS:Nitrogen} поставляет топливо для {THING:ItemSpacepack} и {THING:ItemHardJetpack}. Все газовые баллоны заполнены, когда они изготовлены до давления 8000 кПа (80 атмосфер), и могут быть установлены на {THING:DynamicGasCanisterAir} или {THING:StructureGasTankStorage} для повторного заполнения.
-		  Следите за тем, чтобы давление не превышало 10 МПа, иначе может произойти взрыв.
+Следите за тем, чтобы давление не превышало 10 МПа, иначе может произойти взрыв.
 	  </Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemGasCanisterOxygen</Key>
-      <Value>Баллон (Кислород)</Value>
+      <Value>Баллон с кислородом</Value>
       <Description>Белый переносной 64-литровый {SLOT:GasCanister} – это {LINK:Stationeers;Stationeer} базовый блок {GAS:Oxygen} доставки. Все газовые баллоны заполнены, когда они изготовлены до давления 8000 кПа (80 атмосфер), и могут быть установлены на {THING:DynamicGasCanisterAir} или {THING:StructureGasTankStorage} для повторного заполнения.
 Следите за тем, чтобы давление не превышало 10 МПа, иначе может произойти взрыв.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemGasCanisterWater</Key>
-      <Value>Баллон (Вода)</Value>
+      <Value>Баллон с водой</Value>
       <Description>Синий портативный {GAS:Water} {SLOT:GasCanister} имеет емкость 64 л и подает {GAS:Water} на такие предметы, как {THING:DynamicHydroponics}, или любую другую подключенную систему. Все канистры для жидкости заполнены, если они изготовлены с давлением 8000 кПа (80 атмосфер), и могут быть установлены на {THING: DynamicLiquidCanisterEmpty} или {THING:StructureLiquidTankStorage} для повторного заполнения.</Description>
     </RecordThing>
     <RecordThing>
@@ -1397,12 +1397,12 @@ To use on yourself: put duct tape in your active hand, hold RIGHT MOUSE BUTTON t
     <RecordThing>
       <Key>ItemIgniter</Key>
       <Value>Воспламенитель</Value>
-      <Description>This kit creates an {THING:ItemIgniter} unit.</Description>
+      <Description>Этот набор содержит {THING:ItemIgniter}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemInsulation</Key>
-      <Value>Insulation</Value>
-      <Description>Mysterious in the extreme, the function of this item is lost to the ages.</Description>
+      <Value>Изоляция</Value>
+      <Description>Загадочная до крайности, функция этого предмета утеряна с веками.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemIronIngot</Key>
@@ -1441,37 +1441,37 @@ To use on yourself: put duct tape in your active hand, hold RIGHT MOUSE BUTTON t
     <RecordThing>
       <Key>ItemKitCentrifuge</Key>
       <Value>Центрифуга</Value>
-      <Description>This kit produces a single {THING:StructureCentrifuge}.</Description>
+      <Description>Этот набор содержит только {THING:StructureCentrifuge}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitChute</Key>
       <Value>Транспортная труба</Value>
-      <Description>This kit produces a variety of unpowered chutes.</Description>
+      <Description>Этот набор содержит множество транспортных труб, которым не требуется питание.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitComputer</Key>
       <Value>Компьютер</Value>
-      <Description>This kit produces a single {THING:StructureComputer}.</Description>
+      <Description>Этот набор содержит только {THING:StructureComputer}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitConsole</Key>
       <Value>Консоль</Value>
-      <Description>This kit produces a range of {THING:StructureConsole}s and displays such as the {THING:StructureConsoleLED1x2}.</Description>
+      <Description>Этот набор содержит ряд {THING:StructureConsole} и дисплеев, таких как {THING:StructureConsoleLED1x2}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitConveyor</Key>
-      <Value>Kit (Conveyors)</Value>
-      <Description>This kit produces conveyor elements, such as the {THING:StructureConveyorStraight}.</Description>
+      <Value>Конвейер</Value>
+      <Description>Этот набор содержит элементы конвейера, такие как {THING:StructureConveyorStraight}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitCryoTube</Key>
       <Value>Криокапсула</Value>
-      <Description>This kit produces a range of cryo tubes which can be used to heal players and player organs as well as revive dead players</Description>
+      <Description>Этот набор содержит ряд криокапсул, которые можно использовать для лечения игроков и их органов, а также для оживления мертвых игроков.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitEngine</Key>
-      <Value>Kit (Engines)</Value>
-      <Description>This kit produces an engine.</Description>
+      <Value>Двигатель</Value>
+      <Description>Этот набор содержит двигатель.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitFabricator</Key>
@@ -1481,7 +1481,7 @@ To use on yourself: put duct tape in your active hand, hold RIGHT MOUSE BUTTON t
     <RecordThing>
       <Key>ItemKitFurnace</Key>
       <Value>Печь</Value>
-      <Description>This kit produces a single {THING:StructureFurnace}.</Description>
+      <Description>Этот набор содержит только {THING:StructureFurnace}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitFurniture</Key>
@@ -1490,23 +1490,23 @@ To use on yourself: put duct tape in your active hand, hold RIGHT MOUSE BUTTON t
     </RecordThing>
     <RecordThing>
       <Key>ItemKitGyroscope</Key>
-      <Value>Kit (Gyroscope)</Value>
-      <Description>This kit produces a single {THING:StructureGyroscope}.</Description>
+      <Value>Гироскоп</Value>
+      <Description>Этот набор содержит только {THING:StructureGyroscope}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitRegulator</Key>
       <Value>Регулятор давления</Value>
-      <Description>Этот набор содержит {THING:StructurePressureRegulator}.</Description>
+      <Description>Этот набор содержит только {THING:StructurePressureRegulator}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitSensor</Key>
       <Value>Датчик</Value>
-      <Description>This kit produces a range of sensors, including {THING:StructureGasSensor}, {THING:StructureDaylightSensor}, {THING:StructureMotionSensor}, {THING:StructureProximitySensor} and {THING:StructureOccupancySensor}.</Description>
+      <Description>Этот набор содержит ряд датчиков, в том числе {THING:StructureGasSensor}, {THING:StructureDaylightSensor}, {THING:StructureMotionSensor}, {THING:StructureProximitySensor} и {THING:StructureOccupancySensor}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitSign</Key>
       <Value>Табличка</Value>
-      <Description>This kit produces a {THING:StructureSign1x1} or {THING:StructureSign2x1}.</Description>
+      <Description>Этот набор содержит {THING:StructureSign1x1} или {THING:StructureSign2x1}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitSleeper</Key>
@@ -1530,7 +1530,7 @@ To use on yourself: put duct tape in your active hand, hold RIGHT MOUSE BUTTON t
     </RecordThing>
     <RecordThing>
       <Key>ItemKitStorage</Key>
-      <Value>Kit (Storage)</Value>
+      <Value>Хранилище</Value>
       <Description>This kit produces a {THING:StructureSuitStorage}.</Description>
     </RecordThing>
     <RecordThing>
@@ -1540,7 +1540,7 @@ To use on yourself: put duct tape in your active hand, hold RIGHT MOUSE BUTTON t
     </RecordThing>
     <RecordThing>
       <Key>ItemKitTorpedoTube</Key>
-      <Value>Kit (Torpedo Launcher)</Value>
+      <Value>Торпедный аппарат</Value>
       <Description>This kit produces a single {THING:StructureTorpedoTube}.</Description>
     </RecordThing>
     <RecordThing>
@@ -1745,62 +1745,74 @@ It also incorporates a lock/unlock feature to avoid accidental opening, as well 
     </RecordThing>
     <RecordThing>
       <Key>ItemSprayCanBlack</Key>
-      <Value>Баллончик с краской (Чёрный)</Value>
+      <Value>Баллончик с краской
+черный цвет</Value>
       <Description>Go classic, clandestine or just plain Gothic with black paint, which can be applied to most items. Each can has 20 uses.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemSprayCanBlue</Key>
-      <Value>Баллончик с краской (Синий)</Value>
+      <Value>Баллончик с краской
+синий цвет</Value>
       <Description>What kind of a color is blue? The kind of of color that says, 'Hey, what about me?'</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemSprayCanBrown</Key>
-      <Value>Баллончик с краской (Коричневый)</Value>
+      <Value>Баллончик с краской
+коричневый цвет</Value>
       <Description>In more artistic {LINK:Stationeers;Stationeers} circles, the absence of brown is often lamented, but seldom changed.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemSprayCanGreen</Key>
-      <Value>Баллончик с краской (Зеленый)</Value>
+      <Value>Баллончик с краской
+зеленый цвет</Value>
       <Description>Green is the color of life, and longing. Paradoxically, it's also the color of envy, and tolerance. It denotes sickness, youth, and wealth. But really, it's just what light does at around 500 billionths of a meter.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemSprayCanGrey</Key>
-      <Value>Баллончик с краской (Серый)</Value>
+      <Value>Баллончик с краской
+серый цвет</Value>
       <Description>Arguably the most popular color in the universe, grey was invented so designers had something to do.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemSprayCanKhaki</Key>
-      <Value>Баллончик с краской (Хакии)</Value>
+      <Value>Баллончик с краской
+цвет хаки</Value>
       <Description>Not so much a single color, as a category of boredom, khaki is the pigmentation equivalent of a mild depressive episode.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemSprayCanOrange</Key>
-      <Value>Баллончик с краской (Оранжевый)</Value>
+      <Value>Баллончик с краской
+оранжевый цвет</Value>
       <Description>Orange is fun, but also suggestive of hazards. Sitting proudly in the middle of the visual spectrum, it has nothing to prove.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemSprayCanPink</Key>
-      <Value>Баллончик с краской (Розовый)</Value>
+      <Value>Баллончик с краской
+розовый цвет</Value>
       <Description>With the invention of enduring chemical dyes, the 20th century bestowed associations with innocence and tenderness upon this pale tint of red. Yet classically, it was the color of seduction and eroticism. Things change.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemSprayCanPurple</Key>
-      <Value>Баллончик с краской (Фиолетовый)</Value>
+      <Value>Баллончик с краской
+фиолетовый цвет</Value>
       <Description>Purple is a curious color. You need to be careful with purple. It can be very good, or go horribly, horribly wrong.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemSprayCanRed</Key>
-      <Value>Баллончик с краской (Красный)</Value>
+      <Value>Баллончик с краской
+красный цвет</Value>
       <Description>The king of colors, red is perhaps the defining tone of the universe. Linked to blood, royalty, fire and damnation, it is the chromatic expression of power.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemSprayCanWhite</Key>
-      <Value>Баллончик с краской (Белый)</Value>
+      <Value>Баллончик с краской
+белый цвет</Value>
       <Description>White looks clean, sharp and nice. But {LINK:Stationeers;Stationeering} can be a dirty job. White tends to scuff.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemSprayCanYellow</Key>
-      <Value>Баллончик с краской (Желтый)</Value>
+      <Value>Баллончик с краской
+желтый цвет</Value>
       <Description>A caricature of light itself, yellow lacks the self-confidence of red, or the swagger of purple. It's less fun than orange, but less emotionally limp than khaki. It's hard to know when yellow is appropriate, but it persists as a primary color regardless. Suggesting that yellow gonna yellow, no matter what anyone thinks.</Description>
     </RecordThing>
     <RecordThing>
@@ -1812,7 +1824,7 @@ It also incorporates a lock/unlock feature to avoid accidental opening, as well 
       <Key>ItemSteelIngot</Key>
       <Value>Слиток стали</Value>
       <Description>Стальной слиток представляет собой металлический сплав, созданный в {THING:StructureFurnace} путем плавки {THING:ItemIronOre} и {THING:ItemCoalOre} в соотношении 3:1.
-		  Это может быть не очень элегантно, но {THING:ItemOxite} и {THING:ItemVolatiles} можно смешать в печи в соотношении 1:2, чтобы создать необходимую газовую смесь для плавки.
+Это может быть не очень элегантно, но {THING:ItemOxite} и {THING:ItemVolatiles} можно смешать в печи в соотношении 1:2, чтобы создать необходимую газовую смесь для плавки.
 	  </Description>
     </RecordThing>
     <RecordThing>
@@ -2092,7 +2104,7 @@ Be there, even when you're not.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureChuteBin</Key>
-      <Value>Транспортная труба в корзину</Value>
+      <Value>Транспортная труба для мусора</Value>
       <Description>The {LINK:Stationeers;Stationeer's} goal is to make off-world survival less of a struggle for themselves, and those who will follow in their footsteps.
 Like most {LINK:Recurso;Recurso}-designed systems, chute bins are simple and robust powered items, allowing items to be manually passed into chute networks by pulling a lever. They can also be programmed with {LINK:LogicUnitPage;logic} to operate automatically, although full automation requires the use items such as a {THING:StructureSDBHopper}.</Description>
     </RecordThing>
@@ -2105,13 +2117,14 @@ Chute corners are fundamental components of chute networks, which allow the tran
     </RecordThing>
     <RecordThing>
       <Key>StructureChuteInlet</Key>
-      <Value>Приемник</Value>
+      <Value>Транспортная труба
+Приемник предметов</Value>
       <Description>The aim for any {LINK:Stationeers;Stationeer} is to make off-world survival less of a struggle for themselves, and those who will follow in their footsteps.
 The chute inlet is an aperture by which items can be introduced to {LINK:ImportExportPage;import/export} networks. Note that its origins in zero-gravity mining means chute inlets are unpowered and permanently open, rather than interactable, allowing objects to be thrown in. They can be connected to {LINK:LogicUnitPage;logic} systems to monitor throughput.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureChuteJunction</Key>
-      <Value>Соединитель</Value>
+      <Value>Соединитель транспортных труб</Value>
       <Description>The aim for any {LINK:Stationeers;Stationeer} is to make off-world survival less of a struggle for themselves, and those who will follow in their footsteps.
 Chute junctions are fundamental components of chute networks, allowing merging or splitting of these networks. When combined with a programmed {THING:StructureSorter}, items can be sent down different paths to various machines with {LINK:ImportExportPage;import/export} slots.</Description>
     </RecordThing>
@@ -3281,7 +3294,7 @@ OUT - выбор операции, результат которой будет 
     <RecordThing>
       <Key>DynamicGPR</Key>
       <Value>Георадар (GPR)</Value>
-      <Description>Георадар {LINK:Recurso;Recurso} при использовании в сочетании с {THING:CartridgeOreScanner} или {THING:CartridgeOreScannerColor}, помещенным в {THING:ItemTablet}, позволяет использовать {LINK:Stationeers; Stationeer}, чтобы максимизировать отдачу от добычи и сэкономить время на сборе ресурсов для выполнения своей миссии, отображая скрытые руды на местности.
+      <Description>Георадар {LINK:Recurso;Recurso} при использовании в сочетании с {THING:CartridgeOreScanner} или {THING:CartridgeOreScannerColor}, помещенным в {THING:ItemTablet}, позволяет использовать {LINK:Stationeers; Stationeer}, чтобы максимизировать отдачу от добычи и сэкономить время на сборе ресурсов для выполнения своей миссии, отображая скрытые руды на поверхности.
 
 Вставьте картридж или цветной сканер в планшет, затем нажмите кнопку активации на георадаре, чтобы сканировать окрестности. Данные будут отображаться на планшете.</Description>
     </RecordThing>
@@ -3884,7 +3897,7 @@ IN - чип, с выхода которого читается значение.
     </RecordThing>
     <RecordThing>
       <Key>ItemGasCanisterSmart</Key>
-      <Value>Баллон (Умный)</Value>
+      <Value>Умный баллон</Value>
     </RecordThing>
     <RecordThing>
       <Key>CartridgeConfiguration</Key>
@@ -6311,7 +6324,7 @@ While the wind turbine is optimized to produce power (up to 500W) even on low at
     </RecordThing>
     <RecordThing>
       <Key>ItemLiquidCanisterSmart</Key>
-      <Value>Баллон (Умный)</Value>
+      <Value>Умный баллон</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -7582,26 +7595,27 @@ You must place the laptop down to interact with the onsreen UI.
     <RecordThing>
       <Key>StructureProximitySensor</Key>
       <Value>Датчик приближения</Value>
-      <Description>Will be triggered if there is a player in the range of the sensor (as defined by the setting dial). The quantity variable will show the number of players. You can configure the sensor to only detect players who hold the correct Access Card using a {THING:CartridgeAccessController} in a {THING:ItemTablet}.</Description>
+      <Description>Срабатывает, если в зоне действия датчика находится игрок (согласно шкале настройки). Переменная количества покажет количество игроков. Вы можете настроить датчик так, чтобы он обнаруживал только игроков, которые держат правильную карту доступа, используя {THING:CartridgeAccessController} в {THING:ItemTablet}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureOccupancySensor</Key>
       <Value>Датчик присутствия</Value>
-      <Description>Will be triggered if there is a player in the same room as the sensor. The quantity variable will show the number of players. You can use configure it to only detect players who hold the correct Access Card using a {THING:CartridgeAccessController} in a {THING:ItemTablet}. This sensor only works when placed in a room.</Description>
+      <Description>Срабатывает, если в той же комнате, что и датчик, находится игрок. Переменная количества покажет количество игроков. Вы можете настроить его, чтобы обнаруживать только игроков, которые держат правильную карту доступа, используя {THING:CartridgeAccessController} в {THING:ItemTablet}. Этот датчик работает только в помещении.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitDeepMiner</Key>
-      <Value>Kit (Deep Miner)</Value>
-      <Description>Creates {THING:StructureDeepMiner} which can drill through the terrain into bedrock to mine {THING:ItemDirtyOre}</Description>
+      <Value>Глубинный бур</Value>
+      <Description>Этот набор содержит {THING:StructureDeepMiner} который может пробурить местность в коренную породу для добычи {THING:ItemDirtyOre}</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemDirtyOre</Key>
-      <Value>Item Dirty Ore</Value>
-      <Description>Ore mined from bedrock via the {THING:StructureDeepMiner} which then can be used in the {THING:StructureCentrifuge}, or {THING:StructureCombustionCentrifuge}. Once processed, it produces ore in a ratio similar to the average found on the planet's surface. </Description>
+      <Value>Грязная руда</Value>
+      <Description>Руда добывается из коренных пород с помощью {THING:StructureDeepMiner}, которую затем можно использовать в {THING:StructureCentrifuge} или {THING:StructureCombustionCentrifuge}. После обработки он производит руду в соотношении, близком к среднему на поверхности планеты.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureChuteFlipFlopSplitter</Key>
-      <Value>Chute Flip Flop Splitter</Value>
+      <Value>Транспортная труба
+Развлетлитель с резким поворотом</Value>
       <Description>A chute that toggles between two outputs</Description>
     </RecordThing>
     <RecordThing>
@@ -7618,12 +7632,12 @@ You must place the laptop down to interact with the onsreen UI.
     </RecordThing>
     <RecordThing>
       <Key>StructureChuteOverflow</Key>
-      <Value>Chute Overflow</Value>
-      <Description>The overflow chute will direct materials to its overflow port when the thing connected to its default port is already occupied.</Description>
+      <Value>Транспортная труба при переполнении</Value>
+      <Description>Перепускной желоб направит материалы к порту перелива, когда вещь, подключенная к порту по умолчанию, уже занята..</Description>
     </RecordThing>
     <RecordThing>
       <Key>KitStructureCombustionCentrifuge</Key>
-      <Value>Kit (Combustion Centrifuge)</Value>
+      <Value>Центрифуга сжигания</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -7644,7 +7658,7 @@ You must place the laptop down to interact with the onsreen UI.
     <RecordThing>
       <Key>StructureChuteDigitalFlipFlopSplitterRight</Key>
       <Value>Chute Digital Flip Flop Splitter Right</Value>
-      <Description>The digital flip flop will toggle between two outputs using a specified ratio (n:1). For example, setting the dial to 2 would allow two items to pass through the primary output before flipping to the secondary output.</Description>
+      <Description>Цифровой триггер будет переключаться между двумя выходами с заданным соотношением (n:1). Например, установка циферблата на 2 позволит двум элементам пройти через первичный выход, прежде чем переключиться на вторичный выход.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitStandardChute</Key>
@@ -7677,8 +7691,8 @@ You must place the laptop down to interact with the onsreen UI.
       <Key>AppliancePlantGeneticStabilizer</Key>
       <Value>Генетический стабилизатор растений</Value>
       <Description>Генетический стабилизатор можно использовать для управления стабильностью генов на определенных {LINK:OrganicPage;растениях} или {LINK:OrganicPage;семенах}. Он имеет два режима стабилизации и дестабилизации.
-		  Стабилизировать: Увеличивает стабильность всех генов на 50%.
-		  Дестабилизировать: Снижает стабильность всех генов на 10%, кроме выбранного гена, стабильность которого снижается на 50%.
+Стабилизировать: Увеличивает стабильность всех генов на 50%.
+Дестабилизировать: Снижает стабильность всех генов на 10%, кроме выбранного гена, стабильность которого снижается на 50%.
 	  </Description>
     </RecordThing>
     <RecordThing>
@@ -7697,7 +7711,7 @@ You must place the laptop down to interact with the onsreen UI.
     <RecordThing>
       <Key>Landingpad_CenterPiece01</Key>
       <Value>Центр посадочной площадки</Value>
-      <Description>The target point where the trader shuttle will land. Requires a clear view of the sky.</Description>
+      <Description>Целевая точка, где приземлится торговый шаттл. Требуется ясная погода.</Description>
     </RecordThing>
     <RecordThing>
       <Key>Landingpad_StraightPiece01</Key>
@@ -7716,9 +7730,8 @@ You must place the laptop down to interact with the onsreen UI.
     </RecordThing>
     <RecordThing>
       <Key>Landingpad_DataConnectionPiece</Key>
-      <Value>Landingpad Data And Power</Value>
-      <Description>// Название временно на английском
-Обеспечивает питание посадочной площадки. Порт данных должен быть подключен к порту данных компьютера с коммуникационной материнской платой, чтобы трейдер мог быть вызван на посадку.</Description>
+      <Value>Посадочная площадка логики и питания</Value>
+      <Description>Обеспечивает питание посадочной площадки. Порт данных должен быть подключен к порту данных компьютера с коммуникационной материнской платой, чтобы трейдер мог быть вызван на посадку.</Description>
     </RecordThing>
     <RecordThing>
       <Key>SeedBag_Switchgrass</Key>
@@ -7732,7 +7745,7 @@ You must place the laptop down to interact with the onsreen UI.
     </RecordThing>
     <RecordThing>
       <Key>ItemCropHay</Key>
-      <Value>Hay</Value>
+      <Value>Сено</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -7753,9 +7766,10 @@ You must place the laptop down to interact with the onsreen UI.
     <RecordThing>
       <Key>StructureSmallSatelliteDish</Key>
       <Value>Маленькая спутниковая тарелка</Value>
-      <Description>This small communications unit can be used to communicate with nearby trade vessels.
+      <Description>Это небольшое устройство связи можно использовать для связи с ближайшими торговыми судами.
 
-        When connected to a {THING:StructureComputer} containing a {THING:MotherboardComms} motherboard, a {THING:Landingpad_CenterPiece01}, and a {THING:StructureVendingMachine}, this allows Stationeers to contact traders. Adjust its horizontal and vertical attributes either directly or through logic.</Description>
+При подключении к {THING:StructureComputer}, содержащему {THING:MotherboardComms} материнскую плату, {THING:Landingpad_CenterPiece01} и {THING:StructureVendingMachine}, это позволяет Stationeers связываться с торговцами. Отрегулируйте его горизонтальные и вертикальные атрибуты либо напрямую, либо с помощью логики.
+	  </Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitSmallSatelliteDish</Key>
@@ -7791,8 +7805,8 @@ You must place the laptop down to interact with the onsreen UI.
 	</RecordThing>
 	<RecordThing>
 	  <Key>StructureTraderWaypoint</Key>
-	  <Value>Structure Trader Waypoint</Value>
-	  <Description>Перевод скоро появится</Description>
+	  <Value>Путевая точка торговца</Value>
+	  <Description>Нет описания.</Description>
 	</RecordThing>
   </Things>
   <Slots>
@@ -7910,11 +7924,11 @@ You must place the laptop down to interact with the onsreen UI.
     </Record>
     <Record>
       <Key>Appliance1</Key>
-      <Value>Устрйоство 1</Value>
+      <Value>Устройство 1</Value>
     </Record>
     <Record>
       <Key>Appliance2</Key>
-      <Value>Устрйоство 2</Value>
+      <Value>Устройство 2</Value>
     </Record>
     <Record>
       <Key>Import</Key>
@@ -8344,7 +8358,7 @@ You must place the laptop down to interact with the onsreen UI.
     </Record>
     <Record>
       <Key>Export2</Key>
-      <Value>Export2</Value>
+      <Value>Экспорт 2</Value>
     </Record>
     <Record>
       <Key>Launch</Key>
@@ -8444,11 +8458,11 @@ You must place the laptop down to interact with the onsreen UI.
     </Record>
     <Record>
       <Key>UnpackAll</Key>
-      <Value>Unpack All</Value>
+      <Value>Распаковать все</Value>
     </Record>
     <Record>
       <Key>Unpack</Key>
-      <Value>Unpack</Value>
+      <Value>Распаковать</Value>
     </Record>
     <Record>
       <Key>Cartridge2</Key>
@@ -8902,11 +8916,11 @@ You must place the laptop down to interact with the onsreen UI.
     </Record>
     <Record>
       <Key>NewWorldAreaLoulan</Key>
-      <Value>Loulan</Value>
+      <Value>Лоулан</Value>
     </Record>
     <Record>
       <Key>LoulanShortDesc</Key>
-      <Value>Loulan, upon arrival you will notice a breathable atmosphere, high enough pressure to sustain life - but a severe lack of it. This sandy giant is situated in the Gargantuan System, moving closer to the black hole situated in the center each day. While abandoned and no longer green and full of {GAS:Water}, this planet still has a functioning atmosphere and you are tasked with scouring the wasteland to acquire the materials and resources needed to survive on this everlasting desert.</Value>
+      <Value>Лоулан, по прибытии вы заметите плотную атмосферу, достаточно высокое давление для поддержания жизни, но крайне скудную на жизнь. Песчаный гигант расположен в системе Гаргантюан, каждый день он приближается к черной дыре, расположенной в центре системы. Хоть эта планета и заброшена, не имеет воды и больше не цветет, но на ней по-прежнему поддерживается атмосфера, и перед вами стоит задача исследовать пустоши, чтобы найти материалы и ресурсы необходимые для выживания в этой вечной пустыне.</Value>
     </Record>
     <Record>
       <Key>NewWorldAreaVenus</Key>
@@ -8974,7 +8988,7 @@ You must place the laptop down to interact with the onsreen UI.
     </Record>
     <Record>
       <Key>NewWorldEnableAwayMissions</Key>
-      <Value>Enable Away Missions</Value>
+      <Value>Включить миссии</Value>
     </Record>
     <Record>
       <Key>InventorySlotBelt</Key>
@@ -9014,7 +9028,7 @@ You must place the laptop down to interact with the onsreen UI.
     </Record>
     <Record>
       <Key>StatusWindowDamage</Key>
-      <Value>Damage</Value>
+      <Value>Повреждение</Value>
     </Record>
     <Record>
       <Key>StatusWindowInternal</Key>
@@ -10053,9 +10067,8 @@ You must place the laptop down to interact with the onsreen UI.
     </Record>
     <Record>
       <Key>FurnaceChamberText</Key>
-      <Value>
-        Давление {0}
-        Температура {1}
+      <Value>Давление {0}
+Температура {1}
       </Value>
     </Record>
     <Record>
@@ -10236,7 +10249,7 @@ You must place the laptop down to interact with the onsreen UI.
     </Record>
     <Record>
       <Key>ConnectionInput</Key>
-      <Value>Вход</Value>
+      <Value>Вход 1</Value>
     </Record>
     <Record>
       <Key>ConnectionInput2</Key>
@@ -10244,7 +10257,7 @@ You must place the laptop down to interact with the onsreen UI.
     </Record>
     <Record>
       <Key>ConnectionOutput</Key>
-      <Value>Выход</Value>
+      <Value>Выход 1</Value>
     </Record>
     <Record>
       <Key>ConnectionOutput2</Key>
@@ -11296,19 +11309,19 @@ You must place the laptop down to interact with the onsreen UI.
     </Record>
     <Record>
       <Key>BuildTimeMultiplier</Key>
-      <Value>Build Time Mulitplier</Value>
+      <Value>Множитель времени сборки</Value>
     </Record>
     <Record>
       <Key>MaterialCostMultiplier</Key>
-      <Value>Material Cost Multiplier</Value>
+      <Value>Множитель стоимости материала</Value>
     </Record>
     <Record>
       <Key>EnergyCostMultiplier</Key>
-      <Value>Energy Cost Multiplier</Value>
+      <Value>Множитель стоимости энергии</Value>
     </Record>
     <Record>
       <Key>CreationMultiplier</Key>
-      <Value>Creation Multiplier</Value>
+      <Value>Множитель создания</Value>
     </Record>
     <Record>
       <Key>TierThree</Key>
@@ -11324,19 +11337,19 @@ You must place the laptop down to interact with the onsreen UI.
     </Record>
     <Record>
       <Key>TravelMenuTitle</Key>
-      <Value>Travel World</Value>
+      <Value>Мир путешествий</Value>
     </Record>
     <Record>
       <Key>TravelMenuListTitle</Key>
-      <Value>Available Worlds</Value>
+      <Value>Доступные миры</Value>
     </Record>
     <Record>
       <Key>TravelMenuButtonTravel</Key>
-      <Value>Travel World</Value>
+      <Value>Отправиться в мир</Value>
     </Record>
     <Record>
       <Key>GameMenuButtonTravel</Key>
-      <Value>Travel World</Value>
+      <Value>Отправиться в мир</Value>
     </Record>
     <Record>
       <Key>PromptTravelBody</Key>
@@ -11344,19 +11357,19 @@ You must place the laptop down to interact with the onsreen UI.
     </Record>
     <Record>
       <Key>TravelMenuNamePlaceholder</Key>
-      <Value>Travel world name</Value>
+      <Value>Название мира для путешествий</Value>
     </Record>
     <Record>
       <Key>PromptTravelConfirm</Key>
-      <Value>Travel</Value>
+      <Value>Путешествие</Value>
     </Record>
     <Record>
       <Key>Loulan</Key>
-      <Value>Loulan</Value>
+      <Value>Лоулан</Value>
     </Record>
     <Record>
       <Key>TravelMenuButtonTravelNew</Key>
-      <Value>New World</Value>
+      <Value>Новый мир</Value>
     </Record>
     <Record>
       <Key>TravelMenuButtonTravelLoad</Key>
@@ -11364,47 +11377,47 @@ You must place the laptop down to interact with the onsreen UI.
     </Record>
     <Record>
       <Key>SettingsDifficulty</Key>
-      <Value>Difficulty Settings</Value>
+      <Value>Настройки сложности</Value>
     </Record>
     <Record>
       <Key>WorldCustomTerrainLabel</Key>
-      <Value>Terrain Colour</Value>
+      <Value>Цвет поверхности</Value>
     </Record>
     <Record>
       <Key>BlueField</Key>
-      <Value>Blue:</Value>
+      <Value>Синий:</Value>
     </Record>
     <Record>
       <Key>GreenField</Key>
-      <Value>Green:</Value>
+      <Value>Зеленый:</Value>
     </Record>
     <Record>
       <Key>RedField</Key>
-      <Value>Red:</Value>
+      <Value>Красный:</Value>
     </Record>
     <Record>
       <Key>HueField</Key>
-      <Value>Hue:</Value>
+      <Value>Оттенок:</Value>
     </Record>
     <Record>
       <Key>SaturationField</Key>
-      <Value>Saturation:</Value>
+      <Value>Насыщенность:</Value>
     </Record>
     <Record>
       <Key>BrightnessField</Key>
-      <Value>Brightness:</Value>
+      <Value>Яркость:</Value>
     </Record>
     <Record>
       <Key>RGBValues</Key>
-      <Value>RGB Values</Value>
+      <Value>RGB значение</Value>
     </Record>
     <Record>
       <Key>HVSValues</Key>
-      <Value>HVS Values</Value>
+      <Value>HVS значение</Value>
     </Record>
     <Record>
       <Key>ColourSelecter</Key>
-      <Value>Colour Selecter:</Value>
+      <Value>Выбор цвета:</Value>
     </Record>
     <Record>
       <Key>HasLavaField</Key>
@@ -11412,19 +11425,19 @@ You must place the laptop down to interact with the onsreen UI.
     </Record>
     <Record>
       <Key>Colour</Key>
-      <Value>Colour</Value>
+      <Value>Цвет</Value>
     </Record>
     <Record>
       <Key>Gravity</Key>
-      <Value>Gravity</Value>
+      <Value>Гравитация</Value>
     </Record>
     <Record>
       <Key>AtmosphereScatteringField</Key>
-      <Value>Atmosphere Scattering</Value>
+      <Value>Рассеивание света атмосферой</Value>
     </Record>
     <Record>
       <Key>MineablesField</Key>
-      <Value>Minables</Value>
+      <Value>Ресурсы</Value>
     </Record>
     <Record>
       <Key>LevelLevelField</Key>
@@ -11480,23 +11493,23 @@ You must place the laptop down to interact with the onsreen UI.
     </Record>
     <Record>
       <Key>SolidTerrainColourField</Key>
-      <Value>Сплошной цвет местности</Value>
+      <Value>Сплошной цвет поверхности</Value>
     </Record>
     <Record>
       <Key>CartridgeTrackerTitle</Key>
-      <Value>TRACKER</Value>
+      <Value>НАВИГАТОР</Value>
     </Record>
     <Record>
       <Key>CartridgeTrackerSelected</Key>
-      <Value>Scroll to select target</Value>
+      <Value>Прокрутите для выбора цели</Value>
     </Record>
     <Record>
       <Key>CartridgeElectronicReaderSelected</Key>
-      <Value>Steel frames</Value>
+      <Value>Стальные каркасы</Value>
     </Record>
     <Record>
       <Key>CartridgeTrackerDistance</Key>
-      <Value>Distance</Value>
+      <Value>Дистанция</Value>
     </Record>
     <Record>
       <Key>ButtonCustomWorld</Key>
@@ -11524,7 +11537,7 @@ You must place the laptop down to interact with the onsreen UI.
     </Record>
     <Record>
       <Key>CartridgeAtmosAnalyserConvectedTitle</Key>
-      <Value>CONVECTED</Value>
+      <Value>КОНВЕКЦИЯ</Value>
     </Record>
     <Record>
       <Key>CartridgeAtmosAnalyserRadiatedTitle</Key>
@@ -11540,7 +11553,7 @@ You must place the laptop down to interact with the onsreen UI.
     </Record>
     <Record>
       <Key>DialogConfirmLastSaveIsAutoSave</Key>
-      <Value>ARE YOU SURE? The last save you have is an autosave. You may lose your progress if you don't save now.</Value>
+      <Value>ВЫ УВЕРЕНЫ? Вы можете потерять свой прогресс, если не сохранитесь сейчас.</Value>
     </Record>
     <Record>
       <Key>GameMenuButtonCancel</Key>
@@ -11565,11 +11578,11 @@ You must place the laptop down to interact with the onsreen UI.
     </Record>
     <Record>
       <Key>CartridgeElectronicReaderAutoHashTitle</Key>
-      <Value>Hash:</Value>
+      <Value>Хэш:</Value>
     </Record>
     <Record>
       <Key>ElectronicReaderWeightSymbol</Key>
-      <Value>g</Value>
+      <Value>г</Value>
     </Record>
     <Record>
       <Key>ElectronicReaderIron</Key>
@@ -11641,75 +11654,75 @@ You must place the laptop down to interact with the onsreen UI.
     </Record>
     <Record>
       <Key>ElectronicReaderHydrocarbon</Key>
-      <Value>Hydrocarbon</Value>
+      <Value>Углеводород</Value>
     </Record>
     <Record>
       <Key>ElectronicReaderSilver</Key>
-      <Value>Silver</Value>
+      <Value>Серебро</Value>
     </Record>
     <Record>
       <Key>ElectronicReaderNickel</Key>
-      <Value>Nickel</Value>
+      <Value>Никель</Value>
     </Record>
     <Record>
       <Key>ElectronicReaderLead</Key>
-      <Value>Lead</Value>
+      <Value>Свинец</Value>
     </Record>
     <Record>
       <Key>ElectronicReaderElectrum</Key>
-      <Value>Electrum</Value>
+      <Value>Электрум</Value>
     </Record>
     <Record>
       <Key>ElectronicReaderInvar</Key>
-      <Value>Invar</Value>
+      <Value>Инвар</Value>
     </Record>
     <Record>
       <Key>ElectronicReaderConstantan</Key>
-      <Value>Constantan</Value>
+      <Value>Константан</Value>
     </Record>
     <Record>
       <Key>ElectronicReaderSolder</Key>
-      <Value>Solder</Value>
+      <Value>Припой</Value>
     </Record>
     <Record>
       <Key>ElectronicReaderSilicon</Key>
-      <Value>Silicon</Value>
+      <Value>Кремний</Value>
     </Record>
     <Record>
       <Key>ElectronicReaderSalicylicAcid</Key>
-      <Value>SalicylicAcid</Value>
+      <Value>Салициловая кислота</Value>
     </Record>
     <Record>
       <Key>ElectronicReaderAlcohol</Key>
-      <Value>Alcohol</Value>
+      <Value>Алкоголь</Value>
     </Record>
     <Record>
       <Key>ElectronicReaderOil</Key>
-      <Value>Oil</Value>
+      <Value>Масло</Value>
     </Record>
     <Record>
       <Key>ElectronicReaderFenoxitone</Key>
-      <Value>Fenoxitone</Value>
+      <Value>Фенокситол</Value>
     </Record>
     <Record>
       <Key>ElectronicReaderColorRed</Key>
-      <Value>Red Coloring</Value>
+      <Value>Красная краска</Value>
     </Record>
     <Record>
       <Key>ElectronicReaderColorBlue</Key>
-      <Value>Blue Coloring</Value>
+      <Value>Синяя краска</Value>
     </Record>
     <Record>
       <Key>ElectronicReaderColorYellow</Key>
-      <Value>Yellow Coloring</Value>
+      <Value>Желтая краска</Value>
     </Record>
     <Record>
       <Key>ElectronicReaderColorOrange</Key>
-      <Value>Orange Coloring</Value>
+      <Value>Оранжевая краска</Value>
     </Record>
     <Record>
       <Key>ElectronicReaderColorGreen</Key>
-      <Value>Green Coloring</Value>
+      <Value>Зеленая краска</Value>
     </Record>
     <Record>
       <Key>ElectronicReaderMilk</Key>
@@ -11717,19 +11730,19 @@ You must place the laptop down to interact with the onsreen UI.
     </Record>
     <Record>
       <Key>ElectronicReaderFlour</Key>
-      <Value>Flour</Value>
+      <Value>Мука</Value>
     </Record>
     <Record>
       <Key>ElectronicReaderEgg</Key>
-      <Value>Egg</Value>
+      <Value>Яйцо</Value>
     </Record>
     <Record>
       <Key>ElectronicReadereggs</Key>
-      <Value>eggs</Value>
+      <Value>яйца</Value>
     </Record>
     <Record>
       <Key>ElectronicReaderLiquidMeasurement</Key>
-      <Value>ml</Value>
+      <Value>мл</Value>
     </Record>
     <Record>
       <Key>ElectronicReaderTime</Key>
@@ -11741,7 +11754,7 @@ You must place the laptop down to interact with the onsreen UI.
     </Record>
     <Record>
       <Key>SettingsThingRenderDistance</Key>
-      <Value>Thing Render Distance</Value>
+      <Value>Дальность отрисовки предметов</Value>
     </Record>
     <Record>
       <Key>ElectronicReaderEnergy</Key>
@@ -11749,7 +11762,7 @@ You must place the laptop down to interact with the onsreen UI.
     </Record>
     <Record>
       <Key>WattEnergyMeasurement</Key>
-      <Value>W</Value>
+      <Value>Вт</Value>
     </Record>
     <Record>
       <Key>ElectronicReaderTemperature</Key>
@@ -11765,51 +11778,51 @@ You must place the laptop down to interact with the onsreen UI.
     </Record>
     <Record>
       <Key>ElectronicReaderPressureSym</Key>
-      <Value>Pa</Value>
+      <Value>Па</Value>
     </Record>
     <Record>
       <Key>NetworkAnalyserNetwork</Key>
-      <Value>CABLE NETWORK</Value>
+      <Value>КАБЕЛЬНАЯ СЕТЬ</Value>
     </Record>
     <Record>
       <Key>NetworkAnalyserActual</Key>
-      <Value>ACTUAL</Value>
+      <Value>ТЕКУЩЕЕ</Value>
     </Record>
     <Record>
       <Key>NetworkAnalyserPotential</Key>
-      <Value>POTENTIAL</Value>
+      <Value>НАПРЯЖЕНИЕ</Value>
     </Record>
     <Record>
       <Key>NetworkAnalyserDevices</Key>
-      <Value>DEVICES</Value>
+      <Value>УСТРОЙСТВА</Value>
     </Record>
     <Record>
       <Key>NetworkAnalyserRequired</Key>
-      <Value>REQUIRED</Value>
+      <Value>ТРЕБУЕТСЯ</Value>
     </Record>
     <Record>
       <Key>NetworkAnalyserTitle</Key>
-      <Value>NETWORK ANALYZER</Value>
+      <Value>СЕТЕВОЙ АНАЛИЗАТОР</Value>
     </Record>
     <Record>
       <Key>CartridgeElectronicReaderTitle</Key>
-      <Value>ENCYCLOPEDIA</Value>
+      <Value>ЭНЦИКЛОПЕДИЯ</Value>
     </Record>
     <Record>
       <Key>NotApplicableString</Key>
-      <Value>N/A</Value>
+      <Value>Н/Д</Value>
     </Record>
     <Record>
       <Key>CustomWorld</Key>
-      <Value>Custom World</Value>
+      <Value>Пользовательский мир</Value>
     </Record>
     <Record>
       <Key>ScenariosTitle</Key>
-      <Value>Scenarios</Value>
+      <Value>Сценарии</Value>
     </Record>
     <Record>
       <Key>ScenariosObjectiveTitle</Key>
-      <Value>Objective</Value>
+      <Value>Задача</Value>
     </Record>
     <Record>
       <Key>TutorialsTitle</Key>
@@ -11817,15 +11830,15 @@ You must place the laptop down to interact with the onsreen UI.
     </Record>
     <Record>
       <Key>TutorialsObjectiveTitle</Key>
-      <Value>Objective</Value>
+      <Value>Задача</Value>
     </Record>
     <Record>
       <Key>SettingsTerrainClutter</Key>
-      <Value>Terrain Clutter</Value>
+      <Value>Шум поверхности</Value>
     </Record>
     <Record>
       <Key>ResetInventoryTitle</Key>
-      <Value>Reset Inventory Windows</Value>
+      <Value>Сбросить окна инвентаря</Value>
     </Record>
     <Record>
       <Key>ResetInventoryDescription</Key>
@@ -11917,491 +11930,491 @@ You must place the laptop down to interact with the onsreen UI.
     </Record>
     <Record>
       <Key>ResearchCancel</Key>
-      <Value>Отмена</Value>
+      <Value>Отменить</Value>
     </Record>
-    <Record>
-      <Key>ServerReadyString</Key>
-      <Value>Теперь сервер можно запускать.</Value>
-    </Record>
-    <Record>
+	<Record>
+	  <Key>ServerReadyString</Key>
+	  <Value>Теперь сервер можно запускать.</Value>
+	</Record>
+	<Record>
       <Key>ScriptCommandL</Key>
-      <Value>Загружает переменную устройства для регистрации.</Value>
+	  <Value>Загружает var устройства в регистр.</Value>
+	</Record>
+	<Record>
+	  <Key>ScriptCommandLB</Key>
+	  <Value>Загружает var со всех выходных сетевых устройств с предоставленным хэшем типа, используя пакетный режим предоставления. Среднее (0), Сумма (1), Минимум (2), Максимум (3). Можно использовать либо слово, либо число.</Value>
+	</Record>
+	<Record>
+	  <Key>ScriptCommandS</Key>
+	  <Value>Записывает значение регистра в var на устройстве.</Value>
+	</Record>
+	<Record>
+	  <Key>ScriptCommandSB</Key>
+	  <Value>Записывает значение регистра в var на всех выходных сетевых устройствах с предоставленным типом хеша.</Value>
+	</Record>
+	<Record>
+	  <Key>ScriptCommandLS</Key>
+	  <Value>Загружает слот переменной устройства в регистр.</Value>
+	</Record>
+	<Record>
+	  <Key>ScriptCommandLR</Key>
+	  <Value>Loads reagent of device's reagentMode to register. Contents (0), Required (1), Recipe (2). Can use either the word, or the number.</Value>
+	</Record>
+	<Record>
+	  <Key>ScriptCommandAlias</Key>
+	  <Value>Метки регистра или ссылка на устройство с именем, ссылки на устройства также влияют на то, что показано на винтах на основании IC.</Value>
     </Record>
+	<Record>
+	  <Key>ScriptCommandDefine</Key>
+	  <Value>Создает метку, которая будет заменена на протяжении всей программы указанным значением.</Value>
+	</Record>
+	<Record>
+	  <Key>ScriptCommandMove</Key>
+	  <Value>Регистр = числовое значение или значение регистра.</Value>
+	</Record>
     <Record>
-      <Key>ScriptCommandLB</Key>
-      <Value>Loads var from all output network devices with provided type hash using the provide batch mode. Average (0), Sum (1), Minimum (2), Maximum (3). Can use either the word, or the number.</Value>
-    </Record>
-    <Record>
-      <Key>ScriptCommandS</Key>
-      <Value>Stores register value to var on device.</Value>
-    </Record>
-    <Record>
-      <Key>ScriptCommandSB</Key>
-      <Value>Stores register value to var on all output network devices with provided type hash.</Value>
-    </Record>
-    <Record>
-      <Key>ScriptCommandLS</Key>
-      <Value>Loads slot var on device to register.</Value>
-    </Record>
-    <Record>
-      <Key>ScriptCommandLR</Key>
-      <Value>Loads reagent of device's reagentMode to register. Contents (0), Required (1), Recipe (2). Can use either the word, or the number.</Value>
-    </Record>
-    <Record>
-      <Key>ScriptCommandAlias</Key>
-      <Value>Labels register or device reference with name, device references also affect what shows on the screws on the IC base.</Value>
-    </Record>
-    <Record>
-      <Key>ScriptCommandDefine</Key>
-      <Value>Creates a label that will be replaced throughout the program with the provided value.</Value>
-    </Record>
-    <Record>
-      <Key>ScriptCommandMove</Key>
-      <Value>Register = provided num or register value.</Value>
-    </Record>
-    <Record>
-      <Key>ScriptCommandAdd</Key>
-      <Value>Register = a + b.</Value>
-    </Record>
-    <Record>
-      <Key>ScriptCommandSub</Key>
-      <Value>Register = a - b.</Value>
-    </Record>
-    <Record>
+	  <Key>ScriptCommandAdd</Key>
+	  <Value>Регистр = a + b.</Value>
+	</Record>
+	<Record>
+	  <Key>ScriptCommandSub</Key>
+	  <Value>Регистр = a - b.</Value>
+	</Record>
+	<Record>
       <Key>ScriptCommandSdse</Key>
-      <Value>Register = 1 if device is set, otherwise 0.</Value>
-    </Record>
+	  <Value>Регистр = 1, если устройство заданно, иначе 0.</Value>
+	</Record>
+	<Record>
+	  <Key>ScriptCommandSdns</Key>
+	  <Value>Регистр = 1, если устройство не задано, иначе 0</Value>
+	</Record>
+	<Record>
+	  <Key>ScriptCommandSlt</Key>
+	  <Value>Регистр = 1, если a &lt; b, иначе 0</Value>
+	</Record>
+	<Record>
+	  <Key>ScriptCommandSgt</Key>
+	  <Value>Регистр = 1, если a &gt; b, иначе 0</Value>
+	</Record>
     <Record>
-      <Key>ScriptCommandSdns</Key>
-      <Value>Register = 1 if device is not set, otherwise 0</Value>
-    </Record>
-    <Record>
-      <Key>ScriptCommandSlt</Key>
-      <Value>Register = 1 if a &lt; b, otherwise 0</Value>
-    </Record>
-    <Record>
-      <Key>ScriptCommandSgt</Key>
-      <Value>Register = 1 if a &gt; b, otherwise 0</Value>
-    </Record>
-    <Record>
-      <Key>ScriptCommandSle</Key>
-      <Value>Register = 1 if a &lt;= b, otherwise 0</Value>
-    </Record>
-    <Record>
-      <Key>ScriptCommandSge</Key>
-      <Value>Register = 1 if a &gt;= b, otherwise 0</Value>
-    </Record>
-    <Record>
-      <Key>ScriptCommandSeq</Key>
-      <Value>Register = 1 if a == b, otherwise 0</Value>
-    </Record>
-    <Record>
-      <Key>ScriptCommandSne</Key>
-      <Value>Register = 1 if a != b, otherwise 0</Value>
-    </Record>
-    <Record>
-      <Key>ScriptCommandSap</Key>
-      <Value>Register = 1 if abs(a - b) &lt;= max(c * max(abs(a), abs(b)), float.epsilon * 8), otherwise 0</Value>
-    </Record>
-    <Record>
-      <Key>ScriptCommandSna</Key>
-      <Value>Register = 1 if abs(a - b) &gt; max(c * max(abs(a), abs(b)), float.epsilon * 8), otherwise 0</Value>
-    </Record>
-    <Record>
-      <Key>ScriptCommandSltz</Key>
-      <Value>Register = 1 if a &lt; 0, otherwise 0</Value>
-    </Record>
-    <Record>
-      <Key>ScriptCommandSgtz</Key>
-      <Value>Register = 1 if a &gt; 0, otherwise 0</Value>
-    </Record>
-    <Record>
-      <Key>ScriptCommandSlez</Key>
-      <Value>Register = 1 if a &lt;= 0, otherwise 0</Value>
-    </Record>
-    <Record>
-      <Key>ScriptCommandSgez</Key>
-      <Value>Register = 1 if a &gt;= 0, otherwise 0</Value>
-    </Record>
-    <Record>
-      <Key>ScriptCommandSeqz</Key>
-      <Value>Register = 1 if a == 0, otherwise 0</Value>
-    </Record>
-    <Record>
-      <Key>ScriptCommandSnez</Key>
-      <Value>Register = 1 if a != 0, otherwise 0</Value>
-    </Record>
-    <Record>
-      <Key>ScriptCommandSapz</Key>
-      <Value>Register = 1 if |a| &lt;= float.epsilon * 8, otherwise 0</Value>
-    </Record>
-    <Record>
-      <Key>ScriptCommandSnaz</Key>
-      <Value>Register = 1 if |a| &gt; float.epsilon, otherwise 0</Value>
-    </Record>
-    <Record>
-      <Key>ScriptCommandAnd</Key>
-      <Value>Register = 1 if a and b not zero, otherwise 0</Value>
-    </Record>
-    <Record>
-      <Key>ScriptCommandOr</Key>
-      <Value>Register = 1 if a and/or b not 0, otherwise 0</Value>
-    </Record>
-    <Record>
-      <Key>ScriptCommandXor</Key>
-      <Value>Register = 1 if either a or b not 0, otherwise 0</Value>
-    </Record>
-    <Record>
-      <Key>ScriptCommandNor</Key>
-      <Value>Register = 1 if a and b are 0, otherwise 0</Value>
-    </Record>
-    <Record>
-      <Key>ScriptCommandMul</Key>
-      <Value>Register = a * b</Value>
-    </Record>
-    <Record>
-      <Key>ScriptCommandDiv</Key>
-      <Value>Register = a / b</Value>
-    </Record>
-    <Record>
-      <Key>ScriptCommandMod</Key>
-      <Value>Register = a mod b (note: NOT a % b)</Value>
-    </Record>
-    <Record>
+	  <Key>ScriptCommandSle</Key>
+	  <Value>Регистр = 1, если a &lt;= b, иначе 0</Value>
+	</Record>
+	<Record>
+	  <Key>ScriptCommandSge</Key>
+	  <Value>Регистр = 1, если a &gt;= b, иначе 0</Value>
+	</Record>
+	<Record>
+	  <Key>ScriptCommandSeq</Key>
+	  <Value>Регистр = 1, если a == b, иначе 0</Value>
+	</Record>
+	<Record>
+	  <Key>ScriptCommandSne</Key>
+	  <Value>Регистр = 1, если a != b, иначе 0</Value>
+	</Record>
+	<Record>
+	  <Key>ScriptCommandSap</Key>
+	  <Value>Регистр = 1, если abs(a - b) &lt;= max(c * max(abs(a), abs(b)), float.epsilon * 8), иначе 0</Value>
+	</Record>
+	<Record>
+	  <Key>ScriptCommandSna</Key>
+	  <Value>Регистр = 1, если abs(a - b) &gt; max(c * max(abs(a), abs(b)), float.epsilon * 8), иначе 0</Value>
+	</Record>
+	<Record>
+	  <Key>ScriptCommandSltz</Key>
+	  <Value>Регистр = 1, если a &lt; 0, иначе 0</Value>
+	</Record>
+	<Record>
+	  <Key>ScriptCommandSgtz</Key>
+	  <Value>Регистр = 1, если a &gt; 0, иначе 0</Value>
+	</Record>
+	<Record>
+	  <Key>ScriptCommandSlez</Key>
+	  <Value>Регистр = 1, если a &lt;= 0, иначе 0</Value>
+	</Record>
+	<Record>
+	  <Key>ScriptCommandSgez</Key>
+	  <Value>Регистр = 1, если a &gt;= 0, иначе 0</Value>
+	</Record>
+	<Record>
+	  <Key>ScriptCommandSeqz</Key>
+	  <Value>Регистр = 1, если a == 0, иначе 0</Value>
+	  </Record>
+	<Record>
+	  <Key>ScriptCommandSnez</Key>
+	  <Value>Регистр = 1, если a != 0, иначе 0</Value>
+	</Record>
+	<Record>
+	  <Key>ScriptCommandSapz</Key>
+	  <Value>Регистр = 1, если |a| &lt;= float.epsilon * 8, иначе 0</Value>
+	</Record>
+	<Record>
+	  <Key>ScriptCommandSnaz</Key>
+	  <Value>Регистр = 1, если |a| &gt; float.epsilon, иначе 0</Value>
+	</Record>
+	<Record>
+	  <Key>ScriptCommandAnd</Key>
+	  <Value>Регистр = 1, если a и b не равны 0, иначе 0</Value>
+	</Record>
+	<Record>
+	  <Key>ScriptCommandOr</Key>
+	  <Value>Регистр = 1, если a и/или b не равны 0, иначе 0</Value>
+	</Record>
+	<Record>
+	  <Key>ScriptCommandXor</Key>
+	  <Value>Регистр = 1, если a или b не равны 0, иначе 0</Value>
+	</Record>
+	<Record>
+	  <Key>ScriptCommandNor</Key>
+	  <Value>Регистр = 1, если a и b равны 0, иначе 0</Value>
+	</Record>
+	<Record>
+	  <Key>ScriptCommandMul</Key>
+	  <Value>Регистр = a * b</Value>
+	</Record>
+	<Record>
+	  <Key>ScriptCommandDiv</Key>
+	  <Value>Регистр = a / b</Value>
+	</Record>
+	<Record>
+	  <Key>ScriptCommandMod</Key>
+	  <Value>Регистр = a mod b (примечание: НЕ a % b)</Value>
+	</Record>
+	<Record>
       <Key>ScriptCommandJ</Key>
-      <Value>Jump execution to line a</Value>
+	  <Value>Переход на строку a</Value>
     </Record>
+	<Record>
+	  <Key>ScriptCommandBdse</Key>
+	  <Value>Ответвление на строку a, если устройство d установлено</Value>
+	</Record>
+	<Record>
+	  <Key>ScriptCommandBdns</Key>
+	  <Value>Ответвление на строку a, если устройство d не установлено</Value>
+	</Record>
+	<Record>
+	  <Key>ScriptCommandBlt</Key>
+	  <Value>Ответвление на строку c, если a &lt; b</Value>
+	</Record>
+	<Record>
+	  <Key>ScriptCommandBgt</Key>
+	  <Value>Ответвление на строку c, если a &gt; b</Value>
+	</Record>
+	<Record>
+	  <Key>ScriptCommandBle</Key>
+	  <Value>Ответвление на строку c, если a &lt;= b</Value>
+	</Record>
+	<Record>
+	  <Key>ScriptCommandBge</Key>
+	  <Value>Ответвление на строку c, если a &gt;= b</Value>
+	</Record>
+	<Record>
+	  <Key>ScriptCommandBeq</Key>
+	  <Value>Ответвление на строку c, если a == b</Value>
+	</Record>
+	<Record>
+	  <Key>ScriptCommandBne</Key>
+	  <Value>Ответвление на строку c, если a != b</Value>
+	</Record>
+	<Record>
+	  <Key>ScriptCommandBap</Key>
+	  <Value>Ответвление на строку d, если abs(a - b) &lt;= max(c * max(abs(a), abs(b)), float.epsilon * 8)</Value>
+	</Record>
+	<Record>
+	  <Key>ScriptCommandBna</Key>
+	  <Value>Ответвление на строку d, если abs(a - b) &gt; max(c * max(abs(a), abs(b)), float.epsilon * 8)</Value>
+	</Record>
+	<Record>
+	 <Key>ScriptCommandBltz</Key>
+	 <Value>Ответвление на строку b, если a &lt; 0</Value>
+	</Record>
+	<Record>
+	  <Key>ScriptCommandBgez</Key>
+	  <Value>Ответвление на строку b, если a &gt;= 0</Value>
+	</Record>
+	<Record>
+	  <Key>ScriptCommandBlez</Key>
+	  <Value>Ответвление на строку b, если a &lt;= 0</Value>
+	</Record>
+	<Record>
+	  <Key>ScriptCommandBgtz</Key>
+	  <Value>Ответвление на строку b, если a &gt; 0</Value>
+	</Record>
+	<Record>
+	  <Key>ScriptCommandBeqz</Key>
+	  <Value>Ответвление на строку b, если a == 0</Value>
+	</Record>
+	<Record>
+	  <Key>ScriptCommandBnez</Key>
+	  <Value>ответвление на строку b, если a != 0</Value>
+	</Record>
     <Record>
-      <Key>ScriptCommandBdse</Key>
-      <Value>Branch to line a if device d is set</Value>
+	  <Key>ScriptCommandBapz</Key>
+	  <Value>Ответвление на строку c, если abs(a) &lt;= float.epsilon * 8</Value>
+	</Record>
+	<Record>
+	  <Key>ScriptCommandBnaz</Key>
+	  <Value>Ответвление на строку c, если abs(a) &gt; float.epsilon * 8</Value>
+	</Record>
+    <Record>
+	  <Key>ScriptCommandJr</Key>
+	  <Value>Переход на строку А относительно текущей</Value>
+	</Record>
+	<Record>
+	  <Key>ScriptCommandJr</Key>
+	  <Value>Переход на строку А относительно текущей</Value>
+	</Record>
+	<Record>
+	  <Key>ScriptCommandBrdse</Key>
+	  <Value>Относительный переход на строку a, если устройство не установлено</Value>
+	</Record>
+	<Record>
+	  <Key>ScriptCommandBrdns</Key>
+	  <Value>Относительный переход на строку a, если устройство не установлено</Value>
+	</Record>
+	<Record>
+	  <Key>ScriptCommandBrlt</Key>
+	  <Value>Относительный переход на строку c, если a &lt; b</Value>
+	</Record>
+	<Record>
+	  <Key>ScriptCommandBrgt</Key>
+	  <Value>относительный переход на строку c, если a &gt; b</Value>
+	</Record>
+	<Record>
+	  <Key>ScriptCommandBrle</Key>
+	  <Value>Относительный переход на строку c, если a &lt;= b</Value>
+	</Record>
+	<Record>
+	  <Key>ScriptCommandBrge</Key>
+	  <Value>Относительный переход на строку c, если a &gt;= b</Value>
+	</Record>
+	<Record>
+	  <Key>ScriptCommandBreq</Key>
+	  <Value>Относительный переход на строку c, если a == b</Value>
+	</Record>
+	<Record>
+	  <Key>ScriptCommandBrne</Key>
+	  <Value>Относительный переход на строку c, если a != b</Value>
+	</Record>
+	<Record>
+	  <Key>ScriptCommandBrap</Key>
+	  <Value>Относительный переход на строку d, если abs(a - b) &lt;= max(c * max(abs(a), abs(b)), float.epsilon * 8)</Value>
+	</Record>
+	<Record>
+	  <Key>ScriptCommandBrna</Key>
+	  <Value>Относительный переход на строку d, если abs(a - b) &gt; max(c * max(abs(a), abs(b)), float.epsilon * 8)</Value>
+	</Record>
+	<Record>
+	  <Key>ScriptCommandBrltz</Key>
+	  <Value>Относительный переход на строку b, если a &lt; 0</Value>
+	</Record>
+	<Record>
+	  <Key>ScriptCommandBrgez</Key>
+	  <Value>Относительный переход на строку b, если a &gt;= 0</Value>
+	</Record>
+	<Record>
+	  <Key>ScriptCommandBrlez</Key>
+	  <Value>Относительный переход на строку b, если a &lt;= 0</Value>
+	</Record>
+	<Record>
+	  <Key>ScriptCommandBrgtz</Key>
+	  <Value>Относительный переход на строку b, если a &gt; 0</Value>
+	</Record>
+	<Record>
+	  <Key>ScriptCommandBreqz</Key>
+	  <Value>Относительный переход на строку b, если a == 0</Value>
+	</Record>
+	<Record>
+	  <Key>ScriptCommandBrnez</Key>
+	  <Value>Относительный переход на строку b, если a != 0</Value>
+	</Record>
+	<Record>
+	  <Key>ScriptCommandBrapz</Key>
+	  <Value>Относительный переход на строку c, если abs(a) &lt;= float.epsilon * 8</Value>
+	</Record>
+	<Record>
+	  <Key>ScriptCommandBrnaz</Key>
+	  <Value>Относительный переход на строку c, если abs(a) &gt; float.epsilon * 8</Value>
+	</Record>
+	<Record>
+	  <Key>ScriptCommandJal</Key>
+	  <Value>Переход на строку a и сохранение номера следующей строки в ra</Value>
+	</Record>
+	<Record>
+	  <Key>ScriptCommandBdseal</Key>
+	  <Value>Переход на строку a и сохранение номера следующей строки, если устройство установлено</Value>
+	</Record>
+    <Record>
+	  <Key>ScriptCommandBdnsal</Key>
+	  <Value>Переход на строку a и сохранение номера следующей строки, если устройство не установлено</Value>
+	</Record>
+	<Record>
+	  <Key>ScriptCommandBltal</Key>
+	  <Value>Ответвление на строку c, если a &lt; b, и сохранение номера следующей строки в ra</Value>
+	</Record>
+	<Record>
+	  <Key>ScriptCommandBgtal</Key>
+	  <Value>Ответвление на строку c, если a &gt; b, и сохранение номера следующей строки в ra</Value>
+	</Record>
+	<Record>
+	  <Key>ScriptCommandBleal</Key>
+	  <Value>Ответвление на строку c, если a &lt;= b, и сохранение номера следующей строки в ra</Value>
     </Record>
-    <Record>
-      <Key>ScriptCommandBdns</Key>
-      <Value>Branch to line a if device d isn't set</Value>
+	<Record>
+	  <Key>ScriptCommandBgeal</Key>
+	  <Value>Ответвление на строку c, если a &gt;= b, и сохранение номера следующей строки в ra</Value>
+	</Record>
+	<Record>
+	  <Key>ScriptCommandBeqal</Key>
+	  <Value>Ответвление на строку c, если a == b, и сохранение номера следующей строки в ra</Value>
+	</Record>
+	<Record>
+	  <Key>ScriptCommandBneal</Key>
+	  <Value>Ответвление на строку c, если a != b, и сохранение номера следующей строки в ra</Value>
+	</Record>
+	<Record>
+	  <Key>ScriptCommandBapal</Key>
+	  <Value>Ответвление на строку d, если abs(a - b) &lt;= max(c * max(abs(a), abs(b)), float.epsilon * 8), и сохранение номера следующей строки в ra</Value>
+	</Record>
+	<Record>
+	  <Key>ScriptCommandBnaal</Key>
+	  <Value>Ответвление на строку d, если abs(a - b) &lt;= max(c * max(abs(a), abs(b)), float.epsilon * 8), и сохранение номера следующей строки в ra</Value>
+	</Record>
+	<Record>
+	  <Key>ScriptCommandBltzal</Key>
+	  <Value>Ответвление на строку b, если a &lt; 0, и сохранение номера следующей строки в ra</Value>
+	</Record>
+	<Record>
+	  <Key>ScriptCommandBgezal</Key>
+	  <Value>Ответвление на строку b, если a &gt;= 0, и сохранение номера следующей строки в ra</Value>
+	</Record>
+	<Record>
+	  <Key>ScriptCommandBlezal</Key>
+	  <Value>Ответвление на строку b, если a &lt;= 0, и сохранение номера следующей строки в ra</Value>
+	</Record>
+	<Record>
+	  <Key>ScriptCommandBgtzal</Key>
+	  <Value>Ответвление на строку b, если a &gt; 0, и сохранение номера следующей строки в ra</Value>
     </Record>
-    <Record>
-      <Key>ScriptCommandBlt</Key>
-      <Value>Branch to line c if a &lt; b</Value>
-    </Record>
-    <Record>
-      <Key>ScriptCommandBgt</Key>
-      <Value>Branch to line c if a &gt; b</Value>
-    </Record>
-    <Record>
-      <Key>ScriptCommandBle</Key>
-      <Value>Branch to line c if a &lt;= b</Value>
-    </Record>
-    <Record>
-      <Key>ScriptCommandBge</Key>
-      <Value>Branch to line c if a &gt;= b</Value>
-    </Record>
-    <Record>
-      <Key>ScriptCommandBeq</Key>
-      <Value>Branch to line c if a == b</Value>
-    </Record>
-    <Record>
-      <Key>ScriptCommandBne</Key>
-      <Value>Branch to line c if a != b</Value>
-    </Record>
-    <Record>
-      <Key>ScriptCommandBap</Key>
-      <Value>Branch to line d if abs(a - b) &lt;= max(c * max(abs(a), abs(b)), float.epsilon * 8)</Value>
-    </Record>
-    <Record>
-      <Key>ScriptCommandBna</Key>
-      <Value>Branch to line d if abs(a - b) &gt; max(c * max(abs(a), abs(b)), float.epsilon * 8)</Value>
-    </Record>
-    <Record>
-      <Key>ScriptCommandBltz</Key>
-      <Value>Branch to line b if a &lt; 0</Value>
-    </Record>
-    <Record>
-      <Key>ScriptCommandBgez</Key>
-      <Value>Branch to line b if a &gt;= 0</Value>
-    </Record>
-    <Record>
-      <Key>ScriptCommandBlez</Key>
-      <Value>Branch to line b if a &lt;= 0</Value>
-    </Record>
-    <Record>
-      <Key>ScriptCommandBgtz</Key>
-      <Value>Branch to line b if a &gt; 0</Value>
-    </Record>
-    <Record>
-      <Key>ScriptCommandBeqz</Key>
-      <Value>Branch to line b if a == 0</Value>
-    </Record>
-    <Record>
-      <Key>ScriptCommandBnez</Key>
-      <Value>branch to line b if a != 0</Value>
-    </Record>
-    <Record>
-      <Key>ScriptCommandBapz</Key>
-      <Value>Branch to line c if abs(a) &lt;= float.epsilon * 8</Value>
-    </Record>
-    <Record>
-      <Key>ScriptCommandBnaz</Key>
-      <Value>Branch to line c if abs(a) &gt; float.epsilon * 8</Value>
-    </Record>
-    <Record>
-      <Key>ScriptCommandJr</Key>
-      <Value>Relative jump to line a</Value>
-    </Record>
-    <Record>
-      <Key>ScriptCommandJr</Key>
-      <Value>Relative jump to line a</Value>
-    </Record>
-    <Record>
-      <Key>ScriptCommandBrdse</Key>
-      <Value>Relative jump to line a if device is set</Value>
-    </Record>
-    <Record>
-      <Key>ScriptCommandBrdns</Key>
-      <Value>Relative jump to line a if device is not set</Value>
-    </Record>
-    <Record>
-      <Key>ScriptCommandBrlt</Key>
-      <Value>Relative jump to line c if a &lt; b</Value>
-    </Record>
-    <Record>
-      <Key>ScriptCommandBrgt</Key>
-      <Value>relative jump to line c if a &gt; b</Value>
-    </Record>
-    <Record>
-      <Key>ScriptCommandBrle</Key>
-      <Value>Relative jump to line c if a &lt;= b</Value>
-    </Record>
-    <Record>
-      <Key>ScriptCommandBrge</Key>
-      <Value>Relative jump to line c if a &gt;= b</Value>
-    </Record>
-    <Record>
-      <Key>ScriptCommandBreq</Key>
-      <Value>Relative branch to line c if a == b</Value>
-    </Record>
-    <Record>
-      <Key>ScriptCommandBrne</Key>
-      <Value>Relative branch to line c if a != b</Value>
-    </Record>
-    <Record>
-      <Key>ScriptCommandBrap</Key>
-      <Value>Relative branch to line d if abs(a - b) &lt;= max(c * max(abs(a), abs(b)), float.epsilon * 8)</Value>
-    </Record>
-    <Record>
-      <Key>ScriptCommandBrna</Key>
-      <Value>Relative branch to line d if abs(a - b) &gt; max(c * max(abs(a), abs(b)), float.epsilon * 8)</Value>
-    </Record>
-    <Record>
-      <Key>ScriptCommandBrltz</Key>
-      <Value>Relative branch to line b if a &lt; 0</Value>
-    </Record>
-    <Record>
-      <Key>ScriptCommandBrgez</Key>
-      <Value>Relative branch to line b if a &gt;= 0</Value>
-    </Record>
-    <Record>
-      <Key>ScriptCommandBrlez</Key>
-      <Value>Relative branch to line b if a &lt;= 0</Value>
-    </Record>
-    <Record>
-      <Key>ScriptCommandBrgtz</Key>
-      <Value>Relative branch to line b if a &gt; 0</Value>
-    </Record>
-    <Record>
-      <Key>ScriptCommandBreqz</Key>
-      <Value>Relative branch to line b if a == 0</Value>
-    </Record>
-    <Record>
-      <Key>ScriptCommandBrnez</Key>
-      <Value>Relative branch to line b if a != 0</Value>
-    </Record>
-    <Record>
-      <Key>ScriptCommandBrapz</Key>
-      <Value>Relative branch to line c if abs(a) &lt;= float.epsilon * 8</Value>
-    </Record>
-    <Record>
-      <Key>ScriptCommandBrnaz</Key>
-      <Value>Relative branch to line c if abs(a) &gt; float.epsilon * 8</Value>
-    </Record>
-    <Record>
-      <Key>ScriptCommandJal</Key>
-      <Value>Jump execution to line a and store next line number in ra</Value>
-    </Record>
-    <Record>
-      <Key>ScriptCommandBdseal</Key>
-      <Value>Jump execution to line a and store next line number if device is set</Value>
-    </Record>
-    <Record>
-      <Key>ScriptCommandBdnsal</Key>
-      <Value>Jump execution to line a and store next line number if device is not set</Value>
-    </Record>
-    <Record>
-      <Key>ScriptCommandBltal</Key>
-      <Value>Branch to line c if a &lt; b and store next line number in ra</Value>
-    </Record>
-    <Record>
-      <Key>ScriptCommandBgtal</Key>
-      <Value>Branch to line c if a &gt; b and store next line number in ra</Value>
-    </Record>
-    <Record>
-      <Key>ScriptCommandBleal</Key>
-      <Value>Branch to line c if a &lt;= b and store next line number in ra</Value>
-    </Record>
-    <Record>
-      <Key>ScriptCommandBgeal</Key>
-      <Value>Branch to line c if a &gt;= b and store next line number in ra</Value>
-    </Record>
-    <Record>
-      <Key>ScriptCommandBeqal</Key>
-      <Value>Branch to line c if a == b and store next line number in ra</Value>
-    </Record>
-    <Record>
-      <Key>ScriptCommandBneal</Key>
-      <Value>Branch to line c if a != b and store next line number in ra</Value>
-    </Record>
-    <Record>
-      <Key>ScriptCommandBapal</Key>
-      <Value>Branch to line d if abs(a - b) &lt;= max(c * max(abs(a), abs(b)), float.epsilon * 8) and store next line number in ra</Value>
-    </Record>
-    <Record>
-      <Key>ScriptCommandBnaal</Key>
-      <Value>Branch to line d if abs(a - b) &lt;= max(c * max(abs(a), abs(b)), float.epsilon * 8) and store next line number in ra</Value>
-    </Record>
-    <Record>
-      <Key>ScriptCommandBltzal</Key>
-      <Value>Branch to line b if a &lt; 0 and store next line number in ra</Value>
-    </Record>
-    <Record>
-      <Key>ScriptCommandBgezal</Key>
-      <Value>Branch to line b if a &gt;= 0 and store next line number in ra</Value>
-    </Record>
-    <Record>
-      <Key>ScriptCommandBlezal</Key>
-      <Value>Branch to line b if a &lt;= 0 and store next line number in ra</Value>
-    </Record>
-    <Record>
-      <Key>ScriptCommandBgtzal</Key>
-      <Value>Branch to line b if a &gt; 0 and store next line number in ra</Value>
-    </Record>
-    <Record>
-      <Key>ScriptCommandBeqzal</Key>
-      <Value>Branch to line b if a == 0 and store next line number in ra</Value>
-    </Record>
-    <Record>
-      <Key>ScriptCommandBnezal</Key>
-      <Value>Branch to line b if a != 0 and store next line number in ra</Value>
-    </Record>
-    <Record>
-      <Key>ScriptCommandBapzal</Key>
-      <Value>Branch to line c if abs(a) &lt;= float.epsilon * 8</Value>
-    </Record>
-    <Record>
-      <Key>ScriptCommandBnazal</Key>
-      <Value>Branch to line c if abs(a) &gt; float.epsilon * 8</Value>
-    </Record>
-    <Record>
-      <Key>ScriptCommandSqrt</Key>
-      <Value>Register = square root of a</Value>
-    </Record>
-    <Record>
-      <Key>ScriptCommandRound</Key>
-      <Value>Register = a rounded to nearest integer</Value>
-    </Record>
-    <Record>
-      <Key>ScriptCommandTrunc</Key>
-      <Value>Register = a with fractional part removed</Value>
-    </Record>
-    <Record>
+	<Record>
+	  <Key>ScriptCommandBeqzal</Key>
+	  <Value>Ответвление на строку b, если a == 0, и сохранение номера следующей строки в ra</Value>
+	</Record>
+	<Record>
+	  <Key>ScriptCommandBnezal</Key>
+	  <Value>Ответвление на строку b, если a != 0, и сохранение номера следующей строки в ra</Value>
+	</Record>
+	<Record>
+	  <Key>ScriptCommandBapzal</Key>
+	  <Value>Ответвление на строку c, если abs(a) &lt;= float.epsilon * 8</Value>
+	</Record>
+	<Record>
+	  <Key>ScriptCommandBnazal</Key>
+	  <Value>Ответвление на строку c, если abs(a) &gt; float.epsilon * 8</Value>
+	</Record>
+	<Record>
+	  <Key>ScriptCommandSqrt</Key>
+	  <Value>Регистр = квадратный корень из a</Value>
+	</Record>
+	<Record>
+	  <Key>ScriptCommandRound</Key>
+	  <Value>Регистр = a, округлённое до ближайшего целого числа</Value>
+	</Record>
+	<Record>
+	  <Key>ScriptCommandTrunc</Key>
+	  <Value>Регистр = a с удалённой дробной частью</Value>
+	</Record>
+	<Record>
       <Key>ScriptCommandCeil</Key>
-      <Value>Register = smallest integer greater than a</Value>
-    </Record>
-    <Record>
-      <Key>ScriptCommandFloor</Key>
-      <Value>Register = largest integer less than a</Value>
-    </Record>
-    <Record>
-      <Key>ScriptCommandMax</Key>
-      <Value>Register = max of a or b</Value>
-    </Record>
-    <Record>
-      <Key>ScriptCommandMin</Key>
-      <Value>Register = min of a or b</Value>
-    </Record>
-    <Record>
-      <Key>ScriptCommandAbs</Key>
-      <Value>Register = the absolute value of a</Value>
-    </Record>
-    <Record>
-      <Key>ScriptCommandLog</Key>
-      <Value>Register = log(a)</Value>
-    </Record>
-    <Record>
-      <Key>ScriptCommandExp</Key>
-      <Value>Register = exp(a)</Value>
-    </Record>
+	  <Value>Регистр = наименьшее целое число больше a</Value>
+	</Record>
+	<Record>
+	  <Key>ScriptCommandFloor</Key>
+	  <Value>Регистр = наибольше целое число меньше чем a</Value>
+	</Record>
+	<Record>
+	  <Key>ScriptCommandMax</Key>
+	  <Value>Регистр = максимум из a или b</Value>
+	</Record>
+	<Record>
+	  <Key>ScriptCommandMin</Key>
+	  <Value>Регистр = минимум из a или b</Value>
+	</Record>
+	<Record>
+	  <Key>ScriptCommandAbs</Key>
+	  <Value>Регистр = абсолютное значение a</Value>
+	</Record>
+	<Record>
+	  <Key>ScriptCommandLog</Key>
+	  <Value>Регистр = log(a)</Value>
+	</Record>
+	<Record>
+	  <Key>ScriptCommandExp</Key>
+	  <Value>Регистр = exp(a)</Value>
+	</Record>
     <Record>
       <Key>ScriptCommandRand</Key>
-      <Value>Register = a random value x with 0 &lt;= x &lt; 1</Value>
+      <Value>Регистр = случайное значение x между 0 &lt;= x &lt; 1</Value>
     </Record>
     <Record>
       <Key>ScriptCommandYield</Key>
-      <Value>Pauses execution for 1 tick</Value>
+      <Value>Приостановка выполнения на 1 тик (0,5 секунд)</Value>
     </Record>
     <Record>
       <Key>ScriptCommandLabel</Key>
-      <Value>DEPRECATED</Value>
+      <Value>НЕ РЕКОМЕНДУЕТСЯ</Value>
     </Record>
     <Record>
       <Key>ScriptCommandPeek</Key>
-      <Value>Register = the value at the top of the stack</Value>
+      <Value>Регистр = значение верхнего стека</Value>
     </Record>
     <Record>
       <Key>ScriptCommandPush</Key>
-      <Value>Pushes the value of a to the stack at sp and increments sp</Value>
+      <Value>Помещает значение a в стек и увеличивает sp</Value>
     </Record>
     <Record>
       <Key>ScriptCommandPop</Key>
-      <Value>Register = the value at the top of the stack and decrements sp</Value>
+      <Value>Регистр = значение верхнего стека и уменьшает sp</Value>
     </Record>
     <Record>
       <Key>ScriptCommandHcf</Key>
-      <Value>Halt and catch fire</Value>
+      <Value>Остановиться и загореться</Value>
     </Record>
     <Record>
       <Key>ScriptCommandSelect</Key>
-      <Value>Register = b if a is non-zero, otherwise c</Value>
+      <Value>Регистр = b, если a не равно нулю, иначе c</Value>
     </Record>
     <Record>
       <Key>ScriptCommandSleep</Key>
-      <Value>Pauses execution on the IC for a seconds</Value>
+      <Value>Приостанавливает выполнение на IC на несколько секунд</Value>
     </Record>
     <Record>
       <Key>ScriptCommandSin</Key>
-      <Value>Returns the sine of the specified angle (radians)</Value>
+      <Value>Возвращает синус указанного угла (в радианах)</Value>
     </Record>
     <Record>
       <Key>ScriptCommandCos</Key>
-      <Value>Returns the cosine of the specified angle (radians)</Value>
+      <Value>Возвращает косинус указанного угла (в радианах)</Value>
     </Record>
     <Record>
       <Key>ScriptCommandTan</Key>
-      <Value>Returns the tan of the specified angle (radians) </Value>
+      <Value>Возвращает тангенс указанного угла (радианы) </Value>
     </Record>
     <Record>
       <Key>ScriptCommandASin</Key>
-      <Value>Returns the angle (radians) whos sine is the specified value</Value>
+      <Value>Возвращает угол (в радианах), синус которого является заданным значением</Value>
     </Record>
     <Record>
       <Key>ScriptCommandACos</Key>
-      <Value>Returns the angle (radians) whos cosine is the specified value</Value>
+      <Value>Возвращает угол (в радианах), косинус которого является заданным значением</Value>
     </Record>
     <Record>
       <Key>ScriptCommandATan</Key>
-      <Value>Returns the angle (radians) whos tan is the specified value</Value>
+      <Value>Возвращает угол (в радианах), тангенс которого является заданным значением</Value>
     </Record>
     <Record>
       <Key>ScriptCommandATan2</Key>
-      <Value>Returns the angle (radians) whose tangent is the quotient of two specified values: a (y) and b (x)</Value>
+      <Value>Возвращает угол (в радианах), тангенс которого является частным двух указанных значений: a (y) и b (x).</Value>
     </Record>
     <Record>
       <Key>ScriptCommandCommand</Key>
@@ -12545,7 +12558,7 @@ You must place the laptop down to interact with the onsreen UI.
     </Record>
     <Record>
       <Key>CrowbarToOpen</Key>
-      <Value>Use a {THING:ItemCrowbar} to open this</Value>
+      <Value>Используйте {THING:ItemCrowbar} для открытия</Value>
     </Record>
     <Record>
       <Key>Display</Key>
@@ -12653,7 +12666,7 @@ You must place the laptop down to interact with the onsreen UI.
     </Record>
     <Record>
       <Key>Elevator</Key>
-      <Value>Elevator</Value>
+      <Value>Лифт</Value>
     </Record>
     <Record>
       <Key>PowerAndData</Key>
@@ -12757,7 +12770,7 @@ You must place the laptop down to interact with the onsreen UI.
     </Record>
     <Record>
       <Key>ControlHoldPrimaryClickHarvestDisc</Key>
-      <Value>Harvest</Value>
+      <Value>Собрать</Value>
     </Record>
     <Record>
       <Key>ControlPlayerMovement</Key>
@@ -12817,107 +12830,107 @@ You must place the laptop down to interact with the onsreen UI.
     </Record>
     <Record>
       <Key>CommandClearAll</Key>
-      <Value>Clears all disconnect players from the server: "/clearall"</Value>
+      <Value>Удаляет всех отключенных игроков от сервера : "/clearall"</Value>
     </Record>
     <Record>
       <Key>CommandThreadStatus</Key>
-      <Value>Shows the current status of the game's threads.: "/threadstatus"</Value>
+      <Value>Показывает текущий статус потоков игры. : "/threadstatus"</Value>
     </Record>
     <Record>
       <Key>CommandResetThread</Key>
-      <Value>Resets a given thread. : "/resetthread atmospherics"</Value>
+      <Value>Сбрасывает заданный поток. : "/resetthread atmospherics"</Value>
     </Record>
     <Record>
       <Key>CommandSetHunger</Key>
-      <Value>Sets the hunger rate. : "/hungerrate 0.25"</Value>
+      <Value>Устанавливает уровень голода. : "/hungerrate 0.25"</Value>
     </Record>
     <Record>
       <Key>CommandPause</Key>
-      <Value>Pauses the game for all connected players. : "/pause"</Value>
+      <Value>Приостанавливает игру для всех подключенных игроков. : "/pause"</Value>
     </Record>
     <Record>
       <Key>CommandResume</Key>
-      <Value>Resumes the game for all connected players. : "/resume"</Value>
+      <Value>Возобновляет игру для всех подключенных игроков. : "/resume"</Value>
     </Record>
     <Record>
       <Key>CommandToggleGod</Key>
-      <Value>Toggles Player invincibility including suit. : "/tg"</Value>
+      <Value>Переключает непобедимость игрока, включая костюм. : "/tg"</Value>
     </Record>
     <Record>
       <Key>CommandToggleInfinitePower</Key>
-      <Value>Toggles Infinite power on a player or serverwide. : "/tgp"</Value>
+      <Value>Переключает бесконечную мощность на игроке или на сервере. : "/tgp"</Value>
     </Record>
     <Record>
       <Key>CommandToggleGameMode</Key>
-      <Value>Toggles Gamemode between Survival and Creative. : "/tgm"</Value>
+      <Value>Переключает игровой режим между выживанием и творчеством. : "/tgm"</Value>
     </Record>
     <Record>
       <Key>CommandSetTime</Key>
-      <Value>Sets the sun offset effectively changing the time of day. : "/settime 0.25"</Value>
+      <Value>Устанавливает смещение солнца, эффективно изменяя время суток. : "/settime 0.25"</Value>
     </Record>
     <Record>
       <Key>CommandToggleInstaGrow</Key>
-      <Value>Toggles Instant plant growth on a server or game. : "/tgrow"</Value>
+      <Value>Включает мгновенный рост растений на сервере или в игре. : "/tgrow"</Value>
     </Record>
     <Record>
       <Key>CommandStopWeather</Key>
-      <Value>Stops a Storm Instantly. : "/stopweather"</Value>
+      <Value>Мгновенно останавливает шторм. : "/stopweather"</Value>
     </Record>
     <Record>
       <Key>CommandStartWeather</Key>
-      <Value>Starts a new Storm Instantly. : "/startweather"</Value>
+      <Value>Мгновенно запускает новую бурю. : "/startweather"</Value>
     </Record>
     <Record>
       <Key>CommandToggleNoClip</Key>
-      <Value>Toggles player collisions. : "/tnc"</Value>
+      <Value>Переключает столкновения игроков. : "/tnc"</Value>
     </Record>
     <Record>
       <Key>CommandSkipStage</Key>
-      <Value>Skips the current mission Stage. : "/skipstage"</Value>
+      <Value>Пропускает текущий этап миссии. : "/skipstage"</Value>
     </Record>
     <Record>
       <Key>CommandSetStage</Key>
-      <Value>Sets the current mission Stage. : "/setstage"</Value>
+      <Value>Устанавливает текущий этап миссии. : "/setstage"</Value>
     </Record>
     <Record>
       <Key>CommandShowStage</Key>
-      <Value>Displays the current mission Stage and how many stages are in the mission. : "/showstage"</Value>
+      <Value>Отображает текущий этап миссии и количество этапов в миссии.: "/showstage"</Value>
     </Record>
     <Record>
       <Key>CommandFillNeeds</Key>
-      <Value>Fills a players hunger and hydration. : "/fillneeds"</Value>
+      <Value>Восполняет голод и жажду игроков. : "/fillneeds"</Value>
     </Record>
     <Record>
       <Key>CommandFillHealth</Key>
-      <Value>heals a player. : "/fillhealth"</Value>
+      <Value>лечит игрока. : "/fillhealth"</Value>
     </Record>
     <Record>
       <Key>CommandAddGas</Key>
-      <Value>Adds gas's or liquids to a given tank or pipenetwork. : "/addgas [refID] [gasType 1-8] [molecount]"</Value>
+      <Value>Добавляет газы или жидкости в данный резервуар или трубопроводную сеть. : "/addgas [refID] [gasType 1-8] [molecount]"</Value>
     </Record>
     <Record>
       <Key>CommandAddGas</Key>
-      <Value>Adds gas's or liquids to a given tank or pipenetwork. : "/addgas [refID] [gasType 1-8] [molecount]"</Value>
+      <Value>Добавляет газы или жидкости в данный резервуар или трубопроводную сеть. : "/addgas [refID] [gasType 1-8] [molecount]"</Value>
     </Record>
     <Record>
       <Key>CommandCount</Key>
-      <Value>Counts all the Things of specified type in the save. : "/count [AllThings / Structures / DynamicThings / AnimatorThings / Pipes / Cables / Atmospheres / CableNetworks]"</Value>
+      <Value>Подсчитывает все Вещи указанного типа в сохранении. : "/count [AllThings / Structures / DynamicThings / AnimatorThings / Pipes / Cables / Atmospheres / CableNetworks]"</Value>
     </Record>
     <Record>
       <Key>CommandSetDecay</Key>
-      <Value>Sets the global food Decay Multiplier. : "/setdecay 2"</Value>
+      <Value>Устанавливает глобальный множитель разложения пищи. : "/setdecay 2"</Value>
     </Record>
     <Record>
       <Key>CommandSetContact</Key>
-      <Value>Sets the required signal amount to contact a trader. : "/setcontact 10"</Value>
+      <Value>Устанавливает необходимое количество сигнала для связи с трейдером. : "/setcontact 10"</Value>
     </Record>
     <Record>
       <Key>CommandHelp</Key>
-      <Value>Displays the commands list. : "/help"</Value>
+      <Value>Отображает список команд. : "/help"</Value>
     </Record>
     <Record>
       <Key>Seedsstring</Key>
-      <Value>Seeds</Value>
+      <Value>Сиды</Value>
     </Record>
     <Record>
       <Key>Agrizero</Key>
@@ -13071,7 +13084,7 @@ Stationeers, способные строить и поддерживать ба�
     </Record>
     <Record>
       <Key>ControlMouseControlDisc</Key>
-      <Value>Activate Mouse Control</Value>
+      <Value>Включить управление мышью</Value>
     </Record>
     <Record>
       <Key>ControlMouseDrag</Key>
@@ -13123,15 +13136,15 @@ Stationeers, способные строить и поддерживать ба�
     </Record>
     <Record>
       <Key>ControlQuickMove</Key>
-      <Value>Scroll wheel + {KEY:InventorySelect}</Value>
+      <Value>Колесо прокрутки + {KEY:InventorySelect}</Value>
     </Record>
     <Record>
       <Key>ControlQuickMoveDisc</Key>
-      <Value>Quick Move Item</Value>
+      <Value>Быстро передвинуть предмет</Value>
     </Record>
     <Record>
       <Key>WeatherEventsField</Key>
-      <Value>Has Weather Events</Value>
+      <Value>Имеет погодные события</Value>
     </Record>
     <Record>
       <Key>ControlUseItemDisc</Key>
@@ -13670,51 +13683,51 @@ Stationeers, способные строить и поддерживать ба�
   <Colors>
     <Record>
       <Key>ColorBlue</Key>
-      <Value>Blue</Value>
+      <Value>Синий</Value>
     </Record>
     <Record>
       <Key>ColorGray</Key>
-      <Value>Gray</Value>
+      <Value>Серый</Value>
     </Record>
     <Record>
       <Key>ColorGreen</Key>
-      <Value>Green</Value>
+      <Value>Зеленый</Value>
     </Record>
     <Record>
       <Key>ColorOrange</Key>
-      <Value>Orange</Value>
+      <Value>Оранжевый</Value>
     </Record>
     <Record>
       <Key>ColorRed</Key>
-      <Value>Red</Value>
+      <Value>Красный</Value>
     </Record>
     <Record>
       <Key>ColorYellow</Key>
-      <Value>Yellow</Value>
+      <Value>Желтый</Value>
     </Record>
     <Record>
       <Key>ColorWhite</Key>
-      <Value>White</Value>
+      <Value>Белый</Value>
     </Record>
     <Record>
       <Key>ColorBlack</Key>
-      <Value>Black</Value>
+      <Value>Черный</Value>
     </Record>
     <Record>
       <Key>ColorBrown</Key>
-      <Value>Brown</Value>
+      <Value>Серый</Value>
     </Record>
     <Record>
       <Key>ColorKhaki</Key>
-      <Value>Khaki</Value>
+      <Value>Хаки</Value>
     </Record>
     <Record>
       <Key>ColorPink</Key>
-      <Value>Pink</Value>
+      <Value>Розовый</Value>
     </Record>
     <Record>
       <Key>ColorPurple</Key>
-      <Value>Purple</Value>
+      <Value>Фиолетовый</Value>
     </Record>
   </Colors>
   <Keys>
