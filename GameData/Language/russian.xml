@@ -11774,11 +11774,11 @@ You must place the laptop down to interact with the onsreen UI.
     </Record>
     <Record>
       <Key>NetworkAnalyserPotential</Key>
-      <Value>НАПРЯЖЕНИЕ</Value>
+      <Value>ЛИМИТ СЕТИ</Value>
     </Record>
     <Record>
       <Key>NetworkAnalyserDevices</Key>
-      <Value>УСТРОЙСТВА</Value>
+      <Value>УСТРОЙСТВ</Value>
     </Record>
     <Record>
       <Key>NetworkAnalyserRequired</Key>
@@ -11874,31 +11874,31 @@ You must place the laptop down to interact with the onsreen UI.
     </Record>
     <Record>
       <Key>SettingsTerrainClutterMultiplier</Key>
-      <Value>Terrain Clutter Multiplier</Value>
+      <Value>Множитель деформации местности</Value>
     </Record>
     <Record>
       <Key>ActivateResearch</Key>
-      <Value>Starts reserach process.</Value>
+      <Value>Начать процесс исследования</Value>
     </Record>
     <Record>
       <Key>ManualGetResearchPodsRequired</Key>
-      <Value>Sets the pod type to search for a certain pod when breaking down a pods.</Value>
+      <Value>Определяет тип модуля для поиска определенного пакета при его поломке.</Value>
     </Record>
     <Record>
       <Key>CurrentResearchPodType</Key>
-      <Value>Returns the pod type stored in the machine.</Value>
+      <Value>Возвращает тип контейнера, хранящегося на машине.</Value>
     </Record>
     <Record>
       <Key>MineablesInVicinity</Key>
-      <Value>Returns the amount of potential mineables within an extended area around AIMEe.</Value>
+      <Value>Возвращает количество предметов потенциально пригодных к добыче в пределах расширенной области вокруг AIMEe.</Value>
     </Record>
     <Record>
       <Key>MineablesInQueue</Key>
-      <Value>Returns the amount of mineables AIMEe has queued up to mine.</Value>
+      <Value>Возвращает количество предметов помеченных к добыче в очереди AIMEe.</Value>
     </Record>
     <Record>
       <Key>NextWeatherEventTime</Key>
-      <Value>Returns in seconds when the next weather event is inbound.</Value>
+      <Value>Возвращает в секундах, когда наступит следующее погодное событие.</Value>
     </Record>
     <Record>
       <Key>ResearchFilter</Key>
