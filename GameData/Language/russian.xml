@@ -293,7 +293,7 @@
     </Record>
     <Record>
       <Key>Take</Key>
-      <Value>Взять</Value>
+      <Value>Забрать</Value>
     </Record>
     <Record>
       <Key>Build</Key>
@@ -1525,28 +1525,28 @@ To use on yourself: put duct tape in your active hand, hold RIGHT MOUSE BUTTON t
     </RecordThing>
     <RecordThing>
       <Key>ItemKitStellarAnchor</Key>
-      <Value>Kit (Stellar Anchor)</Value>
-      <Description>This kit produces a single {THING:StructureStellarAnchor}.</Description>
+      <Value>Звёздный якорь</Value>
+      <Description>Этот набор содержит только {THING:StructureStellarAnchor}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitStorage</Key>
       <Value>Хранилище</Value>
-      <Description>This kit produces a {THING:StructureSuitStorage}.</Description>
+      <Description>Этот набор содержит {THING:StructureSuitStorage}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitTank</Key>
       <Value>Резервуар</Value>
-      <Description>This kit produces either a {THING:StructureTankBig} or {THING:StructureTankSmall}.</Description>
+      <Description>Этот набор содержит {THING:StructureTankBig} и {THING:StructureTankSmall}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitTorpedoTube</Key>
       <Value>Торпедный аппарат</Value>
-      <Description>This kit produces a single {THING:StructureTorpedoTube}.</Description>
+      <Description>Этот набор содержит только {THING:StructureTorpedoTube}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitTurret</Key>
       <Value>Турель</Value>
-      <Description>Этот набор содержит одиночную {THING:StructureGunTurret}.</Description>
+      <Description>Этот набор содержит только {THING:StructureGunTurret}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitWall</Key>
@@ -1661,12 +1661,12 @@ To use on yourself: put duct tape in your active hand, hold RIGHT MOUSE BUTTON t
     </RecordThing>
     <RecordThing>
       <Key>ItemPipeStraight</Key>
-      <Value>Kit (Pipe Straight)</Value>
+      <Value>Прямая труба</Value>
       <Description>Этот набор содержит {THING:StructurePipeStraight}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemPipeTJunction</Key>
-      <Value>Kit (Pipe T Junction)</Value>
+      <Value>Т-образная труба</Value>
       <Description>Этот набор содержит {THING:StructurePipeTJunction}.</Description>
     </RecordThing>
     <RecordThing>
@@ -1745,74 +1745,62 @@ It also incorporates a lock/unlock feature to avoid accidental opening, as well 
     </RecordThing>
     <RecordThing>
       <Key>ItemSprayCanBlack</Key>
-      <Value>Баллончик с краской
-черный цвет</Value>
+      <Value>Баллончик с черной краской</Value>
       <Description>Go classic, clandestine or just plain Gothic with black paint, which can be applied to most items. Each can has 20 uses.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemSprayCanBlue</Key>
-      <Value>Баллончик с краской
-синий цвет</Value>
+      <Value>Баллончик с синей краской</Value>
       <Description>What kind of a color is blue? The kind of of color that says, 'Hey, what about me?'</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemSprayCanBrown</Key>
-      <Value>Баллончик с краской
-коричневый цвет</Value>
+      <Value>Баллончик с коричневой краской</Value>
       <Description>In more artistic {LINK:Stationeers;Stationeers} circles, the absence of brown is often lamented, but seldom changed.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemSprayCanGreen</Key>
-      <Value>Баллончик с краской
-зеленый цвет</Value>
+      <Value>Баллончик с зеленой краской</Value>
       <Description>Green is the color of life, and longing. Paradoxically, it's also the color of envy, and tolerance. It denotes sickness, youth, and wealth. But really, it's just what light does at around 500 billionths of a meter.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemSprayCanGrey</Key>
-      <Value>Баллончик с краской
-серый цвет</Value>
+      <Value>Баллончик с серой краской</Value>
       <Description>Arguably the most popular color in the universe, grey was invented so designers had something to do.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemSprayCanKhaki</Key>
-      <Value>Баллончик с краской
-цвет хаки</Value>
+      <Value>Баллончик с краской цвета хаки</Value>
       <Description>Not so much a single color, as a category of boredom, khaki is the pigmentation equivalent of a mild depressive episode.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemSprayCanOrange</Key>
-      <Value>Баллончик с краской
-оранжевый цвет</Value>
+      <Value>Баллончик с оранжевой краской</Value>
       <Description>Orange is fun, but also suggestive of hazards. Sitting proudly in the middle of the visual spectrum, it has nothing to prove.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemSprayCanPink</Key>
-      <Value>Баллончик с краской
-розовый цвет</Value>
+      <Value>Баллончик с розовой краской</Value>
       <Description>With the invention of enduring chemical dyes, the 20th century bestowed associations with innocence and tenderness upon this pale tint of red. Yet classically, it was the color of seduction and eroticism. Things change.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemSprayCanPurple</Key>
-      <Value>Баллончик с краской
-фиолетовый цвет</Value>
+      <Value>Баллончик с фиолетовой краской</Value>
       <Description>Purple is a curious color. You need to be careful with purple. It can be very good, or go horribly, horribly wrong.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemSprayCanRed</Key>
-      <Value>Баллончик с краской
-красный цвет</Value>
+      <Value>Баллончик с красной краской</Value>
       <Description>The king of colors, red is perhaps the defining tone of the universe. Linked to blood, royalty, fire and damnation, it is the chromatic expression of power.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemSprayCanWhite</Key>
-      <Value>Баллончик с краской
-белый цвет</Value>
+      <Value>Баллончик с белой краской</Value>
       <Description>White looks clean, sharp and nice. But {LINK:Stationeers;Stationeering} can be a dirty job. White tends to scuff.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemSprayCanYellow</Key>
-      <Value>Баллончик с краской
-желтый цвет</Value>
+      <Value>Баллончик с желтой краской</Value>
       <Description>A caricature of light itself, yellow lacks the self-confidence of red, or the swagger of purple. It's less fun than orange, but less emotionally limp than khaki. It's hard to know when yellow is appropriate, but it persists as a primary color regardless. Suggesting that yellow gonna yellow, no matter what anyone thinks.</Description>
     </RecordThing>
     <RecordThing>
@@ -2088,7 +2076,7 @@ Normal coil has a maximum wattage of 5kW. For higher-current applications, use {
     </RecordThing>
     <RecordThing>
       <Key>StructureCamera</Key>
-      <Value>Camera</Value>
+      <Value>Камера</Value>
       <Description>Nothing says 'I care' like a security camera that's been linked a {THING:StructureMotionSensor} and a {THING:StructureConsole} fitted with a {THING:CircuitboardCameraDisplay}.
 Be there, even when you're not.</Description>
     </RecordThing>
@@ -2117,8 +2105,7 @@ Chute corners are fundamental components of chute networks, which allow the tran
     </RecordThing>
     <RecordThing>
       <Key>StructureChuteInlet</Key>
-      <Value>Транспортная труба
-Приемник предметов</Value>
+      <Value>Погрузчик в транспортную трубу</Value>
       <Description>The aim for any {LINK:Stationeers;Stationeer} is to make off-world survival less of a struggle for themselves, and those who will follow in their footsteps.
 The chute inlet is an aperture by which items can be introduced to {LINK:ImportExportPage;import/export} networks. Note that its origins in zero-gravity mining means chute inlets are unpowered and permanently open, rather than interactable, allowing objects to be thrown in. They can be connected to {LINK:LogicUnitPage;logic} systems to monitor throughput.</Description>
     </RecordThing>
@@ -2130,7 +2117,7 @@ Chute junctions are fundamental components of chute networks, allowing merging o
     </RecordThing>
     <RecordThing>
       <Key>StructureChuteOutlet</Key>
-      <Value>Выбрасыватель</Value>
+      <Value>Выбрасыватель из транспортной трубы</Value>
       <Description>The aim for any {LINK:Stationeers;Stationeer} is to make off-world survival less of a struggle for themselves, and those who will follow in their footsteps.
 The chute outlet is an aperture for exiting items from {LINK:ImportExportPage;import/export} networks. Note that the outlet's origins in zero-gravity mining means they are permanently open, rather than interactable, but can be connected to {LINK:LogicUnitPage;logic} systems to monitor throughput.</Description>
     </RecordThing>
@@ -2224,31 +2211,31 @@ Chutes are fundamental components of chute networks, which allow the transport o
     </RecordThing>
     <RecordThing>
       <Key>StructureConveyorCorner</Key>
-      <Value>Conveyor (Corner)</Value>
+      <Value>Конвейер (Угловой)</Value>
       <Description>Originally designed by {LINK:Recurso;Recurso} for ore-shifting, Flexi-belt conveyor solutions can be customized to specific uses for facilitating efficient transportation workflows. In other words, they move stuff between places.
 An recurring {LINK:Stationeers;Stationeer} complaint focuses on the fact that every stage of a conveyor system must be individually powered. In the words of Recurso customer service agents through the ages: 'We're working on that.'</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureConveyorRiser</Key>
-      <Value>Conveyor (Riser)</Value>
+      <Value>Конвейер (Riser)</Value>
       <Description>Originally designed by {LINK:Recurso;Recurso} for ore-shifting, Flexi-belt conveyor solutions can be customized to specific uses for facilitating efficient transportation workflows. In other words, they move stuff between places - and up slightly, in the case of the riser.
 An recurring {LINK:Stationeers;Stationeer} complaint focuses on the fact that every stage of a conveyor system must be individually powered. In the words of Recurso customer service agents through the ages: 'We're working on that.'</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureConveyorStraight</Key>
-      <Value>Conveyor (Straight)</Value>
+      <Value>Конвейер (Straight)</Value>
       <Description>Originally designed by {LINK:Recurso;Recurso} for ore-shifting, Flexi-belt conveyor solutions can be customized to specific uses for facilitating efficient transportation workflows. In other words, they move stuff between places.
 An recurring {LINK:Stationeers;Stationeer} complaint focuses on the fact that every stage of a conveyor system must be individually powered. In the words of Recurso customer service agents through the ages: 'We're working on that.'</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureConveyorStraightLong</Key>
-      <Value>Conveyor (Straight Long)</Value>
+      <Value>Конвейер (Straight Long)</Value>
       <Description>Originally designed by {LINK:Recurso;Recurso} for ore-shifting, Flexi-belt conveyor solutions can be customized to specific uses for facilitating efficient transportation workflows. In other words, they move stuff between places.
 An recurring {LINK:Stationeers;Stationeer} complaint focuses on the fact that every stage of a conveyor system must be individually powered. In the words of Recurso customer service agents through the ages: 'We're working on that.'</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureConveyorStraightShort</Key>
-      <Value>Conveyor (Straight Short)</Value>
+      <Value>Конвейер (Straight Short)</Value>
       <Description>Originally designed by {LINK:Recurso;Recurso} for ore-shifting, Flexi-belt conveyor solutions can be customized to specific uses for facilitating efficient transportation workflows. In other words, they move stuff between places.
 An recurring {LINK:Stationeers;Stationeer} complaint focuses on the fact that every stage of a conveyor system must be individually powered. In the words of Recurso customer service agents through the ages: 'We're working on that.'</Description>
     </RecordThing>
@@ -3010,14 +2997,14 @@ Note that transformers operate as data isolators, preventing data flowing into a
     </RecordThing>
     <RecordThing>
       <Key>StructureToolManufactory</Key>
-      <Value>Производитель инструментов</Value>
+      <Value>Принтер инструментов</Value>
       <Description>Ни одна миссия не может быть представлена без использования инструментов. Прибор от {LINK:Norsec;Norsec} ThuulDek может изготовить практически любой инструмент или ручное устройство, которое может реализовать {LINK:Stationeer;Stationeer} для выполнения своей миссии, а также множество восхитительных красок.
 		  Обновите устройство с помощью {THING:ToolPrinterMod}, чтобы получить дополнительные рецепты и повысить скорость обработки.
 	  </Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitToolManufactory</Key>
-      <Value>Производитель инструментов</Value>
+      <Value>Принтер инструментов</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureTransformerSmallReversed</Key>
@@ -3477,23 +3464,23 @@ OUT - выбор операции, результат которой будет 
     </RecordThing>
     <RecordThing>
       <Key>CompositeFloorGrating1</Key>
-      <Value>Composite Floor Grating (Type 1)</Value>
+      <Value>Композитный напольный настил (Тип 1)</Value>
     </RecordThing>
     <RecordThing>
       <Key>CompositeFloorGrating2</Key>
-      <Value>Composite Floor Grating (Type 2)</Value>
+      <Value>Композитный напольный настил (Тип 2)</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureCompositeFloorGrating2</Key>
-      <Value>Composite Floor Grating  (Type 2)</Value>
+      <Value>Композитный напольный настил (Тип 2)</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureCompositeFloorGrating3</Key>
-      <Value>Composite Floor Grating  (Type 3)</Value>
+      <Value>Композитный напольный настил (Тип 3)</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureCompositeFloorGrating4</Key>
-      <Value>Composite Floor Grating  (Type 4)</Value>
+      <Value>Композитный напольный настил (Тип 4)</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitWallPanels</Key>
@@ -3517,95 +3504,95 @@ OUT - выбор операции, результат которой будет 
     </RecordThing>
     <RecordThing>
       <Key>StructureFrameCornerCut</Key>
-      <Value>Steel Frame (Corner Cut)</Value>
+      <Value>Скошенный стальной Каркас</Value>
     </RecordThing>
     <RecordThing>
       <Key>CompositeWallPanelling1</Key>
-      <Value>Composite Wall Panelling</Value>
+      <Value>Композитная настенная панель</Value>
     </RecordThing>
     <RecordThing>
       <Key>CompositeWallPanelling2</Key>
-      <Value>Composite Wall Panelling 2</Value>
+      <Value>Композитная настенная панель 2</Value>
     </RecordThing>
     <RecordThing>
       <Key>CompositeWallPanelling3</Key>
-      <Value>Composite Wall Panelling 3</Value>
+      <Value>Композитная настенная панель 3</Value>
     </RecordThing>
     <RecordThing>
       <Key>CompositeWallPanelling4</Key>
-      <Value>Composite Wall Panelling 4</Value>
+      <Value>Композитная настенная панель 4</Value>
     </RecordThing>
     <RecordThing>
       <Key>CompositeWallPanelling5</Key>
-      <Value>Composite Wall Panelling 5</Value>
+      <Value>Композитная настенная панель 5</Value>
     </RecordThing>
     <RecordThing>
       <Key>CompositeWallPanelling6</Key>
-      <Value>Composite Wall Panelling 6</Value>
+      <Value>Композитная настенная панель 6</Value>
     </RecordThing>
     <RecordThing>
       <Key>CompositeWallPanelling7</Key>
-      <Value>Composite Wall Panelling 7</Value>
+      <Value>Композитная настенная панель 7</Value>
     </RecordThing>
     <RecordThing>
       <Key>CompositeWallPanelling8</Key>
-      <Value>Composite Wall Panelling 8</Value>
+      <Value>Композитная настенная панель 8</Value>
     </RecordThing>
     <RecordThing>
       <Key>CompositeWallPanelling9</Key>
-      <Value>Composite Wall Panelling 9</Value>
+      <Value>Композитная настенная панель 9</Value>
     </RecordThing>
     <RecordThing>
       <Key>CompositeWallPanelling10</Key>
-      <Value>Composite Wall Panelling 10</Value>
+      <Value>Композитная настенная панель 10</Value>
     </RecordThing>
     <RecordThing>
       <Key>CompositeWallPanelling11</Key>
-      <Value>Composite Wall Panelling 11</Value>
+      <Value>Композитная настенная панель 11</Value>
     </RecordThing>
     <RecordThing>
       <Key>CompositeWallPanelling12</Key>
-      <Value>Composite Wall Panelling 12</Value>
+      <Value>Композитная настенная панель 12</Value>
     </RecordThing>
     <RecordThing>
       <Key>CompositeWallPanelling13</Key>
-      <Value>Composite Wall Panelling 13</Value>
+      <Value>Композитная настенная панель 13</Value>
     </RecordThing>
     <RecordThing>
       <Key>CompositeWallPanelling14</Key>
-      <Value>Composite Wall Panelling 14</Value>
+      <Value>Композитная настенная панель 14</Value>
     </RecordThing>
     <RecordThing>
       <Key>CompositeWallPanelling15</Key>
-      <Value>Composite Wall Panelling 15</Value>
+      <Value>Композитная настенная панель 15</Value>
     </RecordThing>
     <RecordThing>
       <Key>CompositeWallPanelling16</Key>
-      <Value>Composite Wall Panelling 16</Value>
+      <Value>Композитная настенная панель 16</Value>
     </RecordThing>
     <RecordThing>
       <Key>CompositeWallPanelling17</Key>
-      <Value>Composite Wall Panelling 17</Value>
+      <Value>Композитная настенная панель 17</Value>
     </RecordThing>
     <RecordThing>
       <Key>CompositeWallPanelling18</Key>
-      <Value>Composite Wall Panelling 18</Value>
+      <Value>Композитная настенная панель 18</Value>
     </RecordThing>
     <RecordThing>
       <Key>CompositeWallPanelling19</Key>
-      <Value>Composite Wall Panelling 19</Value>
+      <Value>Композитная настенная панель 19</Value>
     </RecordThing>
     <RecordThing>
       <Key>CompositeWallPanelling20</Key>
-      <Value>Composite Wall Panelling 20</Value>
+      <Value>Композитная настенная панель 20</Value>
     </RecordThing>
     <RecordThing>
       <Key>CompositeWallPanelling21</Key>
-      <Value>Composite Wall Panelling 21</Value>
+      <Value>Композитная настенная панель 21</Value>
     </RecordThing>
     <RecordThing>
       <Key>Corner1</Key>
-      <Value>Corner</Value>
+      <Value>Угол</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureWallFlat</Key>
@@ -4450,7 +4437,7 @@ OUT VAR - параметр, передаваемый устройству
     </RecordThing>
     <RecordThing>
       <Key>ItemExplosive</Key>
-      <Value>Remote Explosive</Value>
+      <Value>Взрывчатка</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureSolarPanelFused</Key>
@@ -5293,7 +5280,7 @@ On - &lt;1 - выключить устройство, &gt;=1 - включить
     </RecordThing>
     <RecordThing>
       <Key>TriggerZone</Key>
-      <Value>Trigger Zone</Value>
+      <Value>Зона срабатывания</Value>
       <Description>Описание скоро появится.</Description>
     </RecordThing>
     <RecordThing>
@@ -5808,47 +5795,47 @@ On - &lt;1 - выключить устройство, &gt;=1 - включить
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageAirlock1</Key>
-      <Value>Wreckage Airlock</Value>
+      <Value>Обломки шлюза</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageAirlock2</Key>
-      <Value>Wreckage Airlock</Value>
+      <Value>Обломки шлюза</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageCompositeDoorGlass1</Key>
-      <Value>Wreckage Composite Door Glass</Value>
+      <Value>Обломки композитной стеклянной двери</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageCompositeDoorGlass2</Key>
-      <Value>Wreckage Composite Door Glass</Value>
+      <Value>Обломки композитной стеклянной двери</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageElevatorShaftIndustrial1</Key>
-      <Value>Wreckage Elevator Shaft Industrial</Value>
+      <Value>Обломки шахты лифта</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageElevatorShaftIndustrial2</Key>
-      <Value>Wreckage Elevator Shaft Industrial</Value>
+      <Value>Обломки шахты лифта</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageElevatorShaftIndustrial3</Key>
-      <Value>Wreckage Elevator Shaft Industrial</Value>
+      <Value>Обломки шахты лифта</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageElevatorLevelFront1</Key>
-      <Value>Wreckage Elevator Level Front</Value>
+      <Value>Обломки этажа лифта</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageElevatorLevelFront2</Key>
-      <Value>Wreckage Elevator Level Front</Value>
+      <Value>Обломки этажа лифта</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -5867,17 +5854,17 @@ On - &lt;1 - выключить устройство, &gt;=1 - включить
     </RecordThing>
     <RecordThing>
       <Key>SpecialBlocks</Key>
-      <Value>Special Blocks</Value>
+      <Value>Особые блоки</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureBlocker</Key>
-      <Value>Blocker</Value>
+      <Value>Блокировщик</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageHydroponicsTray1</Key>
-      <Value>Wreckage Hydroponics Tray</Value>
+      <Value>Обломки гидропонного лотка</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -7211,25 +7198,25 @@ When closed, has the heat transfer characteristics of a basic wall. Requires pow
     </RecordThing>
     <RecordThing>
       <Key>ItemKitWindowShutter</Key>
-      <Value>Kit (Window Shutter)</Value>
+      <Value>Оконные ставни</Value>
       <Description>Produces a {THING:StructureWindowShutter}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemExplosiveBasic</Key>
-      <Value>Item Explosive Basic</Value>
-      <Description>A low cost, high yield explosive with a 10 second timer.</Description>
+      <Value>Недорогая взрывчатка</Value>
+      <Description>Недорогая взрывчатка высокой мощности с 10-секундным таймером..</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemMiningCharge</Key>
-      <Value>Mining Charge</Value>
-      <Description>A low cost, high yield explosive with a 10 second timer.</Description>
+      <Value>Горная взрывчатка</Value>
+      <Description>Недорогая взрывчатка высокой мощности с 10-секундным таймером..</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureHorizontalAutoMiner</Key>
-      <Value>OGRE</Value>
-      <Description>OGRE (прямоугольный вращающийся экскаватор) разработанный {LINK:Recurso;Recurso} представляет собой базовую конструкцию с прикрепленной к ней горнодобывающей машиной, которая будет разрабатывать горизонтальный ствол длиной до X метров. Заполнившись, горнодобывающая машина вернется на базу, чтобы опустошить себя, прежде чем вернуться к копанию. Если он встретит пустое место, он также вернется на базу и будет ждать указаний. Блок вернется, если деактивирован.
+      <Value>ПВЭ</Value>
+      <Description>ПВЭ (прямоугольный вращающийся экскаватор) разработанный {LINK:Recurso;Recurso} представляет собой базовую конструкцию с прикрепленной к ней горнодобывающей машиной, которая будет разрабатывать горизонтальный ствол длиной до X метров. Заполнившись, горнодобывающая машина вернется на базу, чтобы опустошить себя, прежде чем вернуться к копанию. Если он встретит пустое место, он также вернется на базу и будет ждать указаний. Блок вернется, если деактивирован.
 
-OGRE может быть подключен к системе желоба и управляется логической сетью. Обратите внимание, что OGRE производит больше {LINK:OrePage;руды}, чем обычный {THING:ItemMiningDrill} на той же площади, благодаря более эффективной обработке.
+ПВЭ может быть подключен к системе желоба и управляется логической сетью. Обратите внимание, что ПВЭ производит больше {LINK:OrePage;руды}, чем обычный {THING:ItemMiningDrill} на той же площади, благодаря более эффективной обработке.
 
 {HEADER:РЕЖИМЫ}
 Простой - 0
@@ -7271,7 +7258,7 @@ OGRE может быть подключен к системе желоба и у
     </RecordThing>
     <RecordThing>
       <Key>ItemKitHorizontalAutoMiner</Key>
-      <Value>Набор OGRE</Value>
+      <Value>ПВЭ</Value>
       <Description>Creates a {THING:StructureHorizontalAutoMiner}.</Description>
     </RecordThing>
     <RecordThing>
@@ -7469,8 +7456,8 @@ You must place the laptop down to interact with the onsreen UI.
     </RecordThing>
     <RecordThing>
       <Key>ItemKitPassiveLargeRadiator</Key>
-      <Value>Kit (Medium Radiator)</Value>
-      <Description>Creates {THING:StructureMediumRadiator} and {THING:StructureMediumConvectionRadiator}.</Description>
+      <Value>Радиатор средней конвекции</Value>
+      <Description>Этот набор содержит {THING:StructureMediumRadiator} и {THING:StructureMediumConvectionRadiator}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructurePassiveLargeRadiator</Key>
@@ -7480,12 +7467,12 @@ You must place the laptop down to interact with the onsreen UI.
     <RecordThing>
       <Key>ItemKitPassiveLargeRadiatorGas</Key>
       <Value>Радиатор средней конвекции</Value>
-      <Description>Creates {THING:StructureMediumRadiator} and {THING:StructureMediumConvectionRadiator}.</Description>
+      <Description>Этот набор содержит {THING:StructureMediumRadiator} и {THING:StructureMediumConvectionRadiator}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitPassiveLargeRadiatorLiquid</Key>
       <Value>Радиатор средней конвекции</Value>
-      <Description>Creates {THING:StructureMediumRadiatorLiquid} and {THING:StructureMediumConvectionRadiatorLiquid}.</Description>
+      <Description>Этот набор содержит {THING:StructureMediumRadiatorLiquid} и {THING:StructureMediumConvectionRadiatorLiquid}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructurePassiveLargeRadiatorLiquid</Key>
@@ -7609,13 +7596,12 @@ You must place the laptop down to interact with the onsreen UI.
     </RecordThing>
     <RecordThing>
       <Key>ItemDirtyOre</Key>
-      <Value>Грязная руда</Value>
+      <Value>Неочищенная руда</Value>
       <Description>Руда добывается из коренных пород с помощью {THING:StructureDeepMiner}, которую затем можно использовать в {THING:StructureCentrifuge} или {THING:StructureCombustionCentrifuge}. После обработки он производит руду в соотношении, близком к среднему на поверхности планеты.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureChuteFlipFlopSplitter</Key>
-      <Value>Транспортная труба
-Развлетлитель с резким поворотом</Value>
+      <Value>Транспортная труба с развлетлителем с резким поворотом</Value>
       <Description>A chute that toggles between two outputs</Description>
     </RecordThing>
     <RecordThing>
@@ -9454,14 +9440,12 @@ You must place the laptop down to interact with the onsreen UI.
     </Record>
     <Record>
       <Key>MulticonstructorItem</Key>
-      <Value>
-        &lt;color=yellow&gt;Constructing option {0} of {1}
-        Scroll &lt;color=red&gt;Mouse Wheel for more options.
-      </Value>
+      <Value>&lt;color=yellow&gt;Опция постройки {0} из {1}&lt;/color&gt;
+Прокрутите &lt;color=red&gt;Колесо мыши&lt;/color&gt; для выбора других опций.</Value>
     </Record>
     <Record>
       <Key>UnableToConstruct</Key>
-      <Value>&lt;color=red&gt;Unable to Construct.</Value>
+      <Value>&lt;color=red&gt;Невозможно построить&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>PortableConnectionFailure</Key>
@@ -11177,7 +11161,7 @@ You must place the laptop down to interact with the onsreen UI.
     </Record>
     <Record>
       <Key>TraderElectronics</Key>
-      <Value>Дерево Технологий</Value>
+      <Value>Дерево технологий</Value>
     </Record>
     <Record>
       <Key>TraderOrganics</Key>
@@ -12670,7 +12654,7 @@ You must place the laptop down to interact with the onsreen UI.
     </Record>
     <Record>
       <Key>PowerAndData</Key>
-      <Value>Питание и Данные</Value>
+      <Value>Питание и данные</Value>
     </Record>
     <Record>
       <Key>All</Key>
@@ -14217,31 +14201,31 @@ Stationeers, способные строить и поддерживать ба�
     </Record>
     <Record>
       <Key>RightShift</Key>
-      <Value>Правый Shift</Value>
+      <Value>Right Shift</Value>
     </Record>
     <Record>
       <Key>LeftShift</Key>
-      <Value>Левый Shift</Value>
+      <Value>Left Shift</Value>
     </Record>
     <Record>
       <Key>RightControl</Key>
-      <Value>Правый Ctrl</Value>
+      <Value>Right Ctrl</Value>
     </Record>
     <Record>
       <Key>LeftControl</Key>
-      <Value>Левый Ctrl</Value>
+      <Value>Left Ctrl</Value>
     </Record>
     <Record>
       <Key>RightAlt</Key>
-      <Value>Правый Alt</Value>
+      <Value>Right Alt</Value>
     </Record>
     <Record>
       <Key>LeftAlt</Key>
-      <Value>Левый Alt</Value>
+      <Value>Left Alt</Value>
     </Record>
     <Record>
       <Key>RightApple</Key>
-      <Value>Правый Apple</Value>
+      <Value>Right Apple</Value>
     </Record>
     <Record>
       <Key>RightCommand</Key>
