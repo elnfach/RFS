@@ -247,7 +247,7 @@
     </Record>
     <Record>
       <Key>NitrousOxide</Key>
-      <Value>Оксид азота</Value>
+      <Value>Закись азота</Value>
     </Record>
   </Gases>
   <Actions>
@@ -4286,15 +4286,15 @@ OUT VAR - параметр, передаваемый устройству
     </RecordThing>
     <RecordThing>
       <Key>ItemGasFilterNitrousOxide</Key>
-      <Value>Фильтр (Оксид азота)</Value>
+      <Value>Фильтр (Закись азота)</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemGasFilterNitrousOxideL</Key>
-      <Value>Большой фильтр (Оксид азота)</Value>
+      <Value>Большой фильтр (Закись азота)</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemGasFilterNitrousOxideM</Key>
-      <Value>Средний фильтр (Оксид азота)</Value>
+      <Value>Средний фильтр (Закись азота)</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemGasCanisterNitrousOxide</Key>
@@ -14093,19 +14093,19 @@ Stationeers, способные строить и поддерживать ба�
     </Record>
     <Record>
       <Key>UpArrow</Key>
-      <Value>Стрелка вверх</Value>
+      <Value>UpArrow</Value>
     </Record>
     <Record>
       <Key>DownArrow</Key>
-      <Value>Стрелка вниз</Value>
+      <Value>DownArrow</Value>
     </Record>
     <Record>
       <Key>RightArrow</Key>
-      <Value>Стрелка вправо</Value>
+      <Value>RightArrow</Value>
     </Record>
     <Record>
       <Key>LeftArrow</Key>
-      <Value>Стрелка влево</Value>
+      <Value>LeftArrow</Value>
     </Record>
     <Record>
       <Key>Insert</Key>
@@ -14273,23 +14273,23 @@ Stationeers, способные строить и поддерживать ба�
     </Record>
     <Record>
       <Key>Mouse0</Key>
-      <Value>ЛКМ</Value>
+      <Value>Mouse 0</Value>
     </Record>
     <Record>
       <Key>Mouse1</Key>
-      <Value>ПКМ</Value>
+      <Value>Mouse 1</Value>
     </Record>
     <Record>
       <Key>Mouse2</Key>
-      <Value>СКМ</Value>
+      <Value>Mouse2</Value>
     </Record>
     <Record>
       <Key>Mouse3</Key>
-      <Value>ЛБКМ</Value>
+      <Value>Mouse3</Value>
     </Record>
     <Record>
       <Key>Mouse4</Key>
-      <Value>ПБКМ</Value>
+      <Value>Mouse4</Value>
     </Record>
     <Record>
       <Key>Mouse5</Key>
