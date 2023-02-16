@@ -7354,6 +7354,21 @@ To begin splicing, place a plant or seed bag in the left slot (source) and place
       <Value>Structure Trader Waypoint</Value>
       <Description />
     </RecordThing>
+    <RecordThing>
+      <Key>Landingpad_ThreshholdPiece</Key>
+      <Value>Landingpad Threshhold</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>Landingpad_TaxiPieceHold</Key>
+      <Value>Landingpad Taxi Hold</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>Landingpad_TaxiPieceStraight</Key>
+      <Value>Landingpad Taxi Straight</Value>
+      <Description />
+    </RecordThing>
   </Things>
   <Slots>
     <Record>
@@ -8111,6 +8126,14 @@ To begin splicing, place a plant or seed bag in the left slot (source) and place
     <Record>
       <Key>CombustionLimiter</Key>
       <Value>Combustion Limiter</Value>
+    </Record>
+    <Record>
+      <Key>TargetPadIndex</Key>
+      <Value>Target Landingpad Index</Value>
+    </Record>
+    <Record>
+      <Key>InterrogationProgress</Key>
+      <Value>Trader Interrogation Progess</Value>
     </Record>
     <Record>
       <Key>RespawnConditionEasy</Key>
@@ -9987,6 +10010,34 @@ To begin splicing, place a plant or seed bag in the left slot (source) and place
       <Value>The current pressure reading of the device's Output Network</Value>
     </Record>
     <Record>
+      <Key>LogicTypeTargetPadIndex</Key>
+      <Value>The index of the trader landing pad on this devices data network that it will try to call a trader in to land</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeInterrogationProgress</Key>
+      <Value>Progress of this sattellite dish's interrogation of its current target, as a ratio from 0-1</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeSizeX</Key>
+      <Value>Size on the X (right) axis of the object in largeGrids (a largeGrid is 2meters)</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeSizeY</Key>
+      <Value>Size on the Y(Up) axis of the object in largeGrids (a largeGrid is 2meters)</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeSizeZ</Key>
+      <Value>Size on the Z(Forward) axis of the object in largeGrids (a largeGrid is 2meters)</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeMinWattsToContact</Key>
+      <Value>Minimum required amount of watts from the dish hitting the target trader contact to start interrogating the contact</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeWattsReachingContact</Key>
+      <Value>The amount of watts actually hitting the contact. This is effected by the power of the dish and how far off-axis the dish is from the contact vector</Value>
+    </Record>
+    <Record>
       <Key>LogicTypeTemperatureOutput</Key>
       <Value>The current temperature reading of the device's Output Network</Value>
     </Record>
@@ -10477,7 +10528,7 @@ To begin splicing, place a plant or seed bag in the left slot (source) and place
     </Record>
     <Record>
       <Key>LogicTypeSignalStrength</Key>
-      <Value>Returns the strength of the strongest signal received from this Satellite</Value>
+      <Value>Returns the degree offset of the strongest contact</Value>
     </Record>
     <Record>
       <Key>LogicTypeSignalID</Key>
@@ -13205,6 +13256,10 @@ Note: {GAS:Water} was previously treated as a gas, but a new system for liquids 
       <Key>ButtonClose</Key>
       <Value>Close</Value>
     </Record>
+    <Record>
+      <Key>SettingsVoiceLanguage</Key>
+      <Value>Voice Language</Value>
+    </Record>
   </Interface>
   <Colors>
     <Record>
@@ -14624,6 +14679,1692 @@ Note: {GAS:Water} was previously treated as a gas, but a new system for liquids 
   <HelpPage />
   <ThingPageOverride />
   <HomePageButtonsOverride />
-  <GameStrings />
+  <GameStrings>
+    <Record>
+      <Key>ToolRequiredToDeconstruct</Key>
+      <Value>{LOCAL:Tool} required to &lt;color=red&gt;deconstruct&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>FurnaceCurrentlySmelting</Key>
+      <Value>Currently Smelting {LOCAL:OreName} x &lt;color=yellow&gt;{LOCAL:Quantity}&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>FurnaceNothingToSmelt</Key>
+      <Value>&lt;color=red&gt;Nothing to Smelt&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>DeviceAlreadyExporting</Key>
+      <Value>Already exporting {LOCAL:ItemName}</Value>
+    </Record>
+    <Record>
+      <Key>SuitContextAirConState</Key>
+      <Value>A/C {LOCAL:IsTurnedOn}</Value>
+    </Record>
+    <Record>
+      <Key>SuitContextAirPumpState</Key>
+      <Value>Air {LOCAL:IsTurnedOn}</Value>
+    </Record>
+    <Record>
+      <Key>SuitContextFilterState</Key>
+      <Value>Filter {LOCAL:IsTurnedOn}</Value>
+    </Record>
+    <Record>
+      <Key>SaveButtonGameString</Key>
+      <Value>Quick Save &lt;i&gt;{LOCAL:WorldName}&lt;/i&gt;</Value>
+    </Record>
+    <Record>
+      <Key>SaveAsButtonGameString</Key>
+      <Value>Save As...</Value>
+    </Record>
+    <Record>
+      <Key>InputPasswordTitle</Key>
+      <Value>Password</Value>
+    </Record>
+    <Record>
+      <Key>InputPasswordPlaceholder</Key>
+      <Value>Input Password</Value>
+    </Record>
+    <Record>
+      <Key>InputSaveNameTitle</Key>
+      <Value>Save Name</Value>
+    </Record>
+    <Record>
+      <Key>InputSaveNamePlaceholder</Key>
+      <Value>Enter Save Name</Value>
+    </Record>
+    <Record>
+      <Key>InteractableAction</Key>
+      <Value>Set {LOCAL:InteractableAction}</Value>
+    </Record>
+    <Record>
+      <Key>DeleteSavePrompt</Key>
+      <Value>Are you sure?
+This will &lt;color=red&gt;delete {LOCAL:WorldSaveName}&lt;/color&gt; and all it's backups.</Value>
+    </Record>
+    <Record>
+      <Key>DeleteBackSavePrompt</Key>
+      <Value>Are you sure?
+This will &lt;color=red&gt;delete {LOCAL:WorldSaveName}&lt;/color&gt; backup only.</Value>
+    </Record>
+    <Record>
+      <Key>DaysPassedPlayerMessage</Key>
+      <Value>{LOCAL:DaysPassed} days have passed. Your character has survived {LOCAL:DaysLived} without dying.</Value>
+    </Record>
+    <Record>
+      <Key>DaysPassedHudText</Key>
+      <Value>DAY {LOCAL:DaysPassed}</Value>
+    </Record>
+    <Record>
+      <Key>CustomSkeletonName</Key>
+      <Value>Human Skeleton({LOCAL:UserName})</Value>
+    </Record>
+    <Record>
+      <Key>CustomSkullName</Key>
+      <Value>Human Skull({LOCAL:UserName})</Value>
+    </Record>
+    <Record>
+      <Key>RatioTooltip</Key>
+      <Value>Ratio &lt;color=green&gt;{LOCAL:RatioValue1}:{LOCAL:RatioValue2}&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>QuantityAndRatioTooltip</Key>
+      <Value>Quantity &lt;color=green&gt;{LOCAL:QuantityValue}
+&lt;color=white&gt;Mode &lt;color=green&gt;{LOCAL:RatioValue1}:{LOCAL:RatioValue2}</Value>
+    </Record>
+    <Record>
+      <Key>ToggleMode</Key>
+      <Value>Toggle Mode</Value>
+    </Record>
+    <Record>
+      <Key>Ratio</Key>
+      <Value>Ratio</Value>
+    </Record>
+    <Record>
+      <Key>CloseThreshold</Key>
+      <Value>Close Threshold</Value>
+    </Record>
+    <Record>
+      <Key>CloseThresholdToolTip</Key>
+      <Value>Close Threshold &lt;color=green&gt;{LOCAL:ThresholdValue}</Value>
+    </Record>
+    <Record>
+      <Key>CryoN2OPressureOk</Key>
+      <Value>&lt;color=green&gt;N2O pressure ok&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>CryoN2OPressureTooLow</Key>
+      <Value>&lt;color=red&gt;N2O pressure too low&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>CryoTemperatureOk</Key>
+      <Value>&lt;color=green&gt;Temperature ok&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>CryoTemperatureTooHigh</Key>
+      <Value>&lt;color=red&gt;Temperature too high&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>CryoConditionsNotMet</Key>
+      <Value>Conditions not met</Value>
+    </Record>
+    <Record>
+      <Key>CryoReviving</Key>
+      <Value>Reviving</Value>
+    </Record>
+    <Record>
+      <Key>CryoStandby</Key>
+      <Value>Standby</Value>
+    </Record>
+    <Record>
+      <Key>CryoStatus</Key>
+      <Value>{LOCAL:PressureValue}
+{LOCAL:TemperatureValue}
+Status: {LOCAL:StatusValue}</Value>
+    </Record>
+    <Record>
+      <Key>LoadingScreenDeserializeChunks</Key>
+      <Value>Deserializing Chunks</Value>
+    </Record>
+    <Record>
+      <Key>LoadingScreenDeserializingAtmospherics</Key>
+      <Value>Deserializing Atmospherics</Value>
+    </Record>
+    <Record>
+      <Key>LoadingScreenDeserializeCableNetworks</Key>
+      <Value>Deserializing Cable Networks</Value>
+    </Record>
+    <Record>
+      <Key>LoadingScreenPleaseWait</Key>
+      <Value>Please Wait</Value>
+    </Record>
+    <Record>
+      <Key>LoadingScreenClientJoining</Key>
+      <Value>Client Joining</Value>
+    </Record>
+    <Record>
+      <Key>LoadingScreenReceivingJoinData</Key>
+      <Value>Receiving Join Data</Value>
+    </Record>
+    <Record>
+      <Key>LoadingScreenRegisteringPrefabs</Key>
+      <Value>Registering Prefabs</Value>
+    </Record>
+    <Record>
+      <Key>LoadingScreenConnectingToServer</Key>
+      <Value>Connecting to Server</Value>
+    </Record>
+    <Record>
+      <Key>LoadingScreenReadyToJoin</Key>
+      <Value>Ready To Join</Value>
+    </Record>
+    <Record>
+      <Key>LoadingScreenGeneratingTerrain</Key>
+      <Value>Generating Terrain</Value>
+    </Record>
+    <Record>
+      <Key>LoadingScreenFinishingGeneratingTerrain</Key>
+      <Value>Finished Generating Terrain</Value>
+    </Record>
+    <Record>
+      <Key>LoadingScreenDeserializingChuteNetworks</Key>
+      <Value>Deserializing Chute Networks</Value>
+    </Record>
+    <Record>
+      <Key>LoadingScreenProcessingThings</Key>
+      <Value>Processing Things</Value>
+    </Record>
+    <Record>
+      <Key>LoadingScreenDeserializingNetworks</Key>
+      <Value>Deserializing Networks</Value>
+    </Record>
+    <Record>
+      <Key>LoadingScreenDeserializingPipeNetworks</Key>
+      <Value>Deserializing Pipe Networks</Value>
+    </Record>
+    <Record>
+      <Key>LoadingScreenDeserializeRocketNetworks</Key>
+      <Value>Deserializing Rocket Networks</Value>
+    </Record>
+    <Record>
+      <Key>LoadingScreenCalculatingMeshes</Key>
+      <Value>Calculating Meshes</Value>
+    </Record>
+    <Record>
+      <Key>LoadingScreenDeserializingStationContacts</Key>
+      <Value>Deserializing Station Contacts</Value>
+    </Record>
+    <Record>
+      <Key>LoadingScreenInitializing</Key>
+      <Value>Initializing</Value>
+    </Record>
+    <Record>
+      <Key>LoadingScreenInitializingChunks</Key>
+      <Value>Initializing Chunks</Value>
+    </Record>
+    <Record>
+      <Key>LoadingScreenLoadingChunks</Key>
+      <Value>Loading Chunks</Value>
+    </Record>
+    <Record>
+      <Key>LoadingScreenGeneratingRecipes</Key>
+      <Value>Generating Recipes</Value>
+    </Record>
+    <Record>
+      <Key>LoadingScreenNewWorldMenu</Key>
+      <Value>New World Menu</Value>
+    </Record>
+    <Record>
+      <Key>LoadingScreenLoadingStationpedia</Key>
+      <Value>Loading Stationpedia</Value>
+    </Record>
+    <Record>
+      <Key>LoadingScreenCalculatingChunks</Key>
+      <Value>Calculating Chunks</Value>
+    </Record>
+    <Record>
+      <Key>LoadingScreenLoadingRooms</Key>
+      <Value>Loading Rooms</Value>
+    </Record>
+    <Record>
+      <Key>LoadingScreenLoadingAtmosphers</Key>
+      <Value>Loading Atmospheres</Value>
+    </Record>
+    <Record>
+      <Key>LoadingScreenRegeneratingTerrain</Key>
+      <Value>Regenerating Terrain</Value>
+    </Record>
+    <Record>
+      <Key>LoadingScreenPopulatingInventory</Key>
+      <Value>Populating Inventory</Value>
+    </Record>
+    <Record>
+      <Key>LoadingScreenSpawningThings</Key>
+      <Value>Spawning things</Value>
+    </Record>
+    <Record>
+      <Key>LoadingScreenInitializingDevices</Key>
+      <Value>Initializing Devices</Value>
+    </Record>
+    <Record>
+      <Key>LoadingScreenValidatingPrefabs</Key>
+      <Value>Validating Prefabs</Value>
+    </Record>
+    <Record>
+      <Key>LoadingScreenRenderingChunks</Key>
+      <Value>Rendering Chunks</Value>
+    </Record>
+    <Record>
+      <Key>LoadingScreenLoadingThings</Key>
+      <Value>Loading Things ({LOCAL:ThingCount})</Value>
+    </Record>
+    <Record>
+      <Key>LoadingScreenCleaningUpPrefabs</Key>
+      <Value>Cleaning up prefabs</Value>
+    </Record>
+    <Record>
+      <Key>SettingsFullScreenDisplayMode</Key>
+      <Value>Full Screen</Value>
+    </Record>
+    <Record>
+      <Key>SettingsWindowDisplayMode</Key>
+      <Value>Windowed</Value>
+    </Record>
+    <Record>
+      <Key>SetDifficultyTitleConfirmation</Key>
+      <Value>Set Difficulty</Value>
+    </Record>
+    <Record>
+      <Key>SetDifficultyBodyConfirmation</Key>
+      <Value>Difficulty settings not found. Please choose one</Value>
+    </Record>
+    <Record>
+      <Key>PlantSamplerAction</Key>
+      <Value>Sample {LOCAL:Plant}</Value>
+    </Record>
+    <Record>
+      <Key>ActionClearPlant</Key>
+      <Value>Clear {LOCAL:Plant}</Value>
+    </Record>
+    <Record>
+      <Key>ActionHarvestPlant</Key>
+      <Value>Harvest {LOCAL:Plant} Plant</Value>
+    </Record>
+    <Record>
+      <Key>ActionHarvestSeed</Key>
+      <Value>Harvest {LOCAL:Plant} Seed</Value>
+    </Record>
+    <Record>
+      <Key>AlreadyFertalised</Key>
+      <Value>Slot is already fertilized</Value>
+    </Record>
+    <Record>
+      <Key>NotPlantable</Key>
+      <Value>A {0} is not plantable</Value>
+    </Record>
+    <Record>
+      <Key>AddSeedsToSlot</Key>
+      <Value>This will add one {0} to the tray</Value>
+    </Record>
+    <Record>
+      <Key>ClearFertiliser</Key>
+      <Value>Clear fertiliser</Value>
+    </Record>
+    <Record>
+      <Key>NothingToSample</Key>
+      <Value>Nothing to sample</Value>
+    </Record>
+    <Record>
+      <Key>NoPlantToLabel</Key>
+      <Value>No plant to label</Value>
+    </Record>
+    <Record>
+      <Key>NothingToWater</Key>
+      <Value>Nothing to water</Value>
+    </Record>
+    <Record>
+      <Key>AlreadyFullOfWater</Key>
+      <Value>Already full of water</Value>
+    </Record>
+    <Record>
+      <Key>WaterPlantWith</Key>
+      <Value>Water plant with {LOCAL:InHand}</Value>
+    </Record>
+    <Record>
+      <Key>CanOnlyUseLiquidOnPlants</Key>
+      <Value>You can only use liquid gas canisters to water plants</Value>
+    </Record>
+    <Record>
+      <Key>CantHoldAnyMore</Key>
+      <Value>Can't hold any more</Value>
+    </Record>
+    <Record>
+      <Key>SomethingPlantedHere</Key>
+      <Value>There is already something planted here</Value>
+    </Record>
+    <Record>
+      <Key>SomethingInThisSlot</Key>
+      <Value>There is already something in this slot</Value>
+    </Record>
+    <Record>
+      <Key>Fertiliser</Key>
+      <Value>Fertiliser</Value>
+    </Record>
+    <Record>
+      <Key>AddFertiliserToSlot</Key>
+      <Value>Add fertiliser to slot</Value>
+    </Record>
+    <Record>
+      <Key>GrowthTemperatureRange</Key>
+      <Value>Growth temperature range</Value>
+    </Record>
+    <Record>
+      <Key>GrowthPressureRange</Key>
+      <Value>Growth pressure range</Value>
+    </Record>
+    <Record>
+      <Key>GrowthSpeedMultiplier</Key>
+      <Value>Growth speed multiplier</Value>
+    </Record>
+    <Record>
+      <Key>LightPerDay</Key>
+      <Value>Light per day</Value>
+    </Record>
+    <Record>
+      <Key>DarknessPerDay</Key>
+      <Value>Darkness per day</Value>
+    </Record>
+    <Record>
+      <Key>GasProduction</Key>
+      <Value>Gas production</Value>
+    </Record>
+    <Record>
+      <Key>WaterUsage</Key>
+      <Value>Water usage</Value>
+    </Record>
+    <Record>
+      <Key>UndesiredGasResistance</Key>
+      <Value>Undesired gas resistance</Value>
+    </Record>
+    <Record>
+      <Key>TimeUntilDehydrationDamage</Key>
+      <Value>Time until drought damage</Value>
+    </Record>
+    <Record>
+      <Key>TimeUntilUndesiredGasDamage</Key>
+      <Value>Time until toxin damage</Value>
+    </Record>
+    <Record>
+      <Key>TimeUntilFrozenDamage</Key>
+      <Value>Time until frozen damage</Value>
+    </Record>
+    <Record>
+      <Key>TimeUntilOverheatDamage</Key>
+      <Value>Time until overheat damage</Value>
+    </Record>
+    <Record>
+      <Key>TimeUntilSuffocateDamage</Key>
+      <Value>Time until suffocate damage</Value>
+    </Record>
+    <Record>
+      <Key>TimeUntilLowPressureDamage</Key>
+      <Value>Time until low pressure damage</Value>
+    </Record>
+    <Record>
+      <Key>TimeUntilHighPressureDamage</Key>
+      <Value>Time until high pressure damage</Value>
+    </Record>
+    <Record>
+      <Key>TimeUntilLightDamage</Key>
+      <Value>Time until light damage</Value>
+    </Record>
+    <Record>
+      <Key>TimeUntilDarknessDamage</Key>
+      <Value>Time until darkness damage</Value>
+    </Record>
+    <Record>
+      <Key>MinGrowTemperature</Key>
+      <Value>Min grow temperature</Value>
+    </Record>
+    <Record>
+      <Key>MaxGrowTemperature</Key>
+      <Value>Max grow temperature</Value>
+    </Record>
+    <Record>
+      <Key>MinIdealGrowTemperature</Key>
+      <Value>Min ideal grow temperature</Value>
+    </Record>
+    <Record>
+      <Key>MaxIdealGrowTemperature</Key>
+      <Value>Max ideal grow temperature</Value>
+    </Record>
+    <Record>
+      <Key>MinGrowPressure</Key>
+      <Value>Min grow pressure</Value>
+    </Record>
+    <Record>
+      <Key>MaxGrowPressure</Key>
+      <Value>Max grow pressure</Value>
+    </Record>
+    <Record>
+      <Key>MinIdealGrowPressure</Key>
+      <Value>Min ideal grow pressure</Value>
+    </Record>
+    <Record>
+      <Key>MaxIdealGrowPressure</Key>
+      <Value>Max ideal grow pressure</Value>
+    </Record>
+    <Record>
+      <Key>NoSprayPaint</Key>
+      <Value>Not enough paint left to spray paint</Value>
+    </Record>
+    <Record>
+      <Key>SprayPaintExtendedMethod</Key>
+      <Value>The {0} will be painted {1}</Value>
+    </Record>
+    <Record>
+      <Key>GeneGrowthSpeedMultiplier</Key>
+      <Value>Growth speed</Value>
+    </Record>
+    <Record>
+      <Key>GeneDescriptionGrowthSpeedMultiplier</Key>
+      <Value>Increases the growth speed of the plant. Plants with a higher Growth speed multiplier will take less time to grow.</Value>
+    </Record>
+    <Record>
+      <Key>GeneDarkPerDay</Key>
+      <Value>Darkness per day</Value>
+    </Record>
+    <Record>
+      <Key>GeneDescriptionDarkPerDay</Key>
+      <Value>The length of time a plant needs to be in darkness each day-cycle to thrive. The standard length day-cycle is 20 minutes.</Value>
+    </Record>
+    <Record>
+      <Key>GeneLightPerDay</Key>
+      <Value>Light per day</Value>
+    </Record>
+    <Record>
+      <Key>GeneDescriptionLightPerDay</Key>
+      <Value>The length of time a plant needs to be lit by the sun or a grow light each day-cycle to thrive. The standard length day-cycle is 20 minutes.</Value>
+    </Record>
+    <Record>
+      <Key>GeneDroughtTolerance</Key>
+      <Value>Drought tolerance</Value>
+    </Record>
+    <Record>
+      <Key>GeneDescriptionDroughtTolerance</Key>
+      <Value>The length of time a plant can be dehydrated before it starts taking damage.</Value>
+    </Record>
+    <Record>
+      <Key>GeneWaterUsage</Key>
+      <Value>Water usage</Value>
+    </Record>
+    <Record>
+      <Key>GeneDescriptionWaterUsage</Key>
+      <Value>The amount of water this plant consumes.</Value>
+    </Record>
+    <Record>
+      <Key>GeneGasProduction</Key>
+      <Value>Gas production</Value>
+    </Record>
+    <Record>
+      <Key>GeneDescriptionGasProduction</Key>
+      <Value>The amount of gas the plant inhales and exhales.</Value>
+    </Record>
+    <Record>
+      <Key>GeneSuffocationTolerance</Key>
+      <Value>Suffocation tolerance</Value>
+    </Record>
+    <Record>
+      <Key>GeneDescriptionSuffocationTolerance</Key>
+      <Value>The length of time a plant can be starved of its inhaled gas requirements before it starts taking damage.</Value>
+    </Record>
+    <Record>
+      <Key>GeneLowPressureResistance</Key>
+      <Value>Low pressure resistance</Value>
+    </Record>
+    <Record>
+      <Key>GeneDescriptionLowPressureResistance</Key>
+      <Value>The lower limit of pressure that the plant is able to grow at.</Value>
+    </Record>
+    <Record>
+      <Key>GeneLowPressureTolerance</Key>
+      <Value>Low pressure tolerance</Value>
+    </Record>
+    <Record>
+      <Key>GeneDescriptionLowPressureTolerance</Key>
+      <Value>The length of time a plant can stay below its low pressure limit before it starts taking damage.</Value>
+    </Record>
+    <Record>
+      <Key>GeneLowTemperatureResistance</Key>
+      <Value>Low temperature resistance</Value>
+    </Record>
+    <Record>
+      <Key>GeneDescriptionLowTemperatureResistance</Key>
+      <Value>The lower limit of temperature that the plant is able to grow at.</Value>
+    </Record>
+    <Record>
+      <Key>GeneLowTemperatureTolerance</Key>
+      <Value>Low temperature tolerance</Value>
+    </Record>
+    <Record>
+      <Key>GeneDescriptionLowTemperatureTolerance</Key>
+      <Value>The length of time a plant can stay below its low temperature limit before it starts taking damage.</Value>
+    </Record>
+    <Record>
+      <Key>GeneUndesiredGasResistance</Key>
+      <Value>Toxins resistance</Value>
+    </Record>
+    <Record>
+      <Key>GeneDescriptionUndesiredGasResistance</Key>
+      <Value>The partial pressure threshold of toxic gases that the plant is able to grow in.</Value>
+    </Record>
+    <Record>
+      <Key>GeneUndesiredGasTolerance</Key>
+      <Value>Toxins tolerance</Value>
+    </Record>
+    <Record>
+      <Key>GeneDescriptionUndesiredGasTolerance</Key>
+      <Value>The length of time a plant can stay above its toxins resistance threshold before taking damage.</Value>
+    </Record>
+    <Record>
+      <Key>GeneHighPressureResistance</Key>
+      <Value>High pressure resistance</Value>
+    </Record>
+    <Record>
+      <Key>GeneDescriptionHighPressureResistance</Key>
+      <Value>The upper limit of pressure that the plant is able to grow at.</Value>
+    </Record>
+    <Record>
+      <Key>GeneHighPressureTolerance</Key>
+      <Value>High pressure tolerance</Value>
+    </Record>
+    <Record>
+      <Key>GeneDescriptionHighPressureTolerance</Key>
+      <Value>The length of time a plant can stay above its high pressure limit before it starts taking damage.</Value>
+    </Record>
+    <Record>
+      <Key>GeneHighTemperatureResistance</Key>
+      <Value>High temperature resistance</Value>
+    </Record>
+    <Record>
+      <Key>GeneDescriptionHighTemperatureResistance</Key>
+      <Value>The upper limit of temperature that the plant is able to grow at.</Value>
+    </Record>
+    <Record>
+      <Key>GeneHighTemperatureTolerance</Key>
+      <Value>High temperature tolerance</Value>
+    </Record>
+    <Record>
+      <Key>GeneDescriptionHighTemperatureTolerance</Key>
+      <Value>The length of time a plant can stay above its high temperature limit before it starts taking damage.</Value>
+    </Record>
+    <Record>
+      <Key>GeneLightTolerance</Key>
+      <Value>Light tolerance</Value>
+    </Record>
+    <Record>
+      <Key>GeneDescriptionLightTolerance</Key>
+      <Value>The length of time a plant can stay in light before it starts taking damage.</Value>
+    </Record>
+    <Record>
+      <Key>GeneDarknessTolerance</Key>
+      <Value>Darkness tolerance</Value>
+    </Record>
+    <Record>
+      <Key>GeneDescriptionDarknessTolerance</Key>
+      <Value>The length of time a plant can stay in darkness before it starts taking damage.</Value>
+    </Record>
+    <Record>
+      <Key>GeneCurrentSelected</Key>
+      <Value>Currently selected gene &lt;color=yellow&gt;{LOCAL:Gene}&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>GeneDestabilisingOnly</Key>
+      <Value>Destabilising Only</Value>
+    </Record>
+    <Record>
+      <Key>GlobalAttack</Key>
+      <Value>Attack &lt;color=green&gt;{0}&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>GlobalRelease</Key>
+      <Value>Release &lt;color=green&gt;{0}&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>GlobalSpeed</Key>
+      <Value>Speed &lt;color=green&gt;{0}&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>GlobalIntensity</Key>
+      <Value>Intensity &lt;color=green&gt;{0}&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>GlobalWaveForm</Key>
+      <Value>Waveform &lt;color=green&gt;{0}&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>GlobalThrottle</Key>
+      <Value>Throttle &lt;color=green&gt;{0}&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>GlobalCombustionLimiter</Key>
+      <Value>Combustion Limiter &lt;color=green&gt;{0}&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>GlobalCurrentInstrument</Key>
+      <Value>Current Instrument &lt;color=green&gt;{0}&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>GlobalChangeSettingTo</Key>
+      <Value>Cycle to {0}</Value>
+    </Record>
+    <Record>
+      <Key>GlobalChangeSettingToAll</Key>
+      <Value>Cycle to All {0}</Value>
+    </Record>
+    <Record>
+      <Key>GlobalChangeSettingToFor</Key>
+      <Value>Cycle to &lt;color=yellow&gt;{0} for {1}&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>GlobalChangeSettingToForAll</Key>
+      <Value>Cycle to &lt;color=yellow&gt;{0} for all {1}&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>GlobalChangeSettingToForIn</Key>
+      <Value>Cycle to &lt;color=yellow&gt;{0}&lt;/color&gt; for {3} &lt;color=yellow&gt;({2})&lt;/color&gt; in {1}</Value>
+    </Record>
+    <Record>
+      <Key>GlobalChangeSlotSettingToFor</Key>
+      <Value>Cycle to {1}&lt;color=yellow&gt;({0}) for {2}</Value>
+    </Record>
+    <Record>
+      <Key>GlobalChangeReagentSettingTo</Key>
+      <Value>Cycle to {2}.&lt;color=yellow&gt;{0}.&lt;color=yellow&gt;{1}</Value>
+    </Record>
+    <Record>
+      <Key>GlobalAlreadyMax</Key>
+      <Value>Already Max</Value>
+    </Record>
+    <Record>
+      <Key>GlobalAlreadyMin</Key>
+      <Value>Already Min</Value>
+    </Record>
+    <Record>
+      <Key>GlobalStop</Key>
+      <Value>Stop</Value>
+    </Record>
+    <Record>
+      <Key>GlobalStart</Key>
+      <Value>Start</Value>
+    </Record>
+    <Record>
+      <Key>GlobalIncrease</Key>
+      <Value>Increase</Value>
+    </Record>
+    <Record>
+      <Key>GlobalDecrease</Key>
+      <Value>Decrease</Value>
+    </Record>
+    <Record>
+      <Key>GlobalStackSize</Key>
+      <Value>Stacksize &lt;color=green&gt;{0}&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>GlobalMaxMode</Key>
+      <Value>Max &lt;color=green&gt;{0}&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>GlobalValue</Key>
+      <Value>Value &lt;color=green&gt;{0}&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>GlobalPitch</Key>
+      <Value>Pitch &lt;color=green&gt;{0}&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>GlobalVolume</Key>
+      <Value>Volume &lt;color=green&gt;{0}&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>GlobalVolumeLitre</Key>
+      <Value>Volume &lt;color=green&gt;{0} L&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>GlobalRadius</Key>
+      <Value>Radius &lt;color=green&gt;{0} L&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>GlobalAlreadyInUse</Key>
+      <Value>Already in use</Value>
+    </Record>
+    <Record>
+      <Key>Pressure</Key>
+      <Value>Pressure</Value>
+    </Record>
+    <Record>
+      <Key>Temperature</Key>
+      <Value>Temperature</Value>
+    </Record>
+    <Record>
+      <Key>ProgrammableChipErrorCode</Key>
+      <Value>Error {LOCAL:ErrorType} at line {LOCAL:LineNumber}</Value>
+    </Record>
+    <Record>
+      <Key>OutputLitres</Key>
+      <Value>Output &lt;color=green&gt;{0} L&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>InputLitres</Key>
+      <Value>Input &lt;color=green&gt;{0} L&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>OutputKPA</Key>
+      <Value>Output &lt;color=green&gt;{0} kPa&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>OutputWatts</Key>
+      <Value>Output &lt;color=green&gt;{0} W&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>Input1Ratio</Key>
+      <Value>Input 1 &lt;color=green&gt;{0}%&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>Input2Ratio</Key>
+      <Value>Input 2 &lt;color=green&gt;{0}%&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>VerticalDegrees</Key>
+      <Value>&lt;color=yellow&gt;Vertical&lt;/color&gt; &lt;color=green&gt;{0} degrees&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>HorizontalDegrees</Key>
+      <Value>&lt;color=yellow&gt;Horizontal&lt;/color&gt; &lt;color=green&gt;{0} degrees&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>StackerNoContentsToClear</Key>
+      <Value>&lt;color=red&gt;No contents to clear&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>StackerWillForceChangeFromLogicToAutomatic</Key>
+      <Value>Will force change from &lt;color=yellow&gt;Logic&lt;/color&gt; to &lt;color=yellow&gt;Automatic&lt;/color&gt; mode</Value>
+    </Record>
+    <Record>
+      <Key>StackerContainsQuantity</Key>
+      <Value>Contains {LOCAL:Quantity} x {LOCAL:Item}</Value>
+    </Record>
+    <Record>
+      <Key>StackableNotEnoughInStackOf</Key>
+      <Value>Not enough in stack of {LOCAL:Item} to complete, &lt;color=yellow&gt;{LOCAL:Quantity0}&lt;/color&gt;/&lt;color=yellow&gt;{LOCAL:Quantity1}&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>StackableNotEnoughInStack</Key>
+      <Value>Not enough in stack!</Value>
+    </Record>
+    <Record>
+      <Key>InventoryStackIsFull</Key>
+      <Value>Your stack of {LOCAL:Thing} is full</Value>
+    </Record>
+    <Record>
+      <Key>InteractOpenResearchScreen</Key>
+      <Value>Interact to open Research Unlock Screen</Value>
+    </Record>
+    <Record>
+      <Key>InteractCantClose</Key>
+      <Value>Something is preventing this from closing</Value>
+    </Record>
+    <Record>
+      <Key>ThingMoveToWorld</Key>
+      <Value>Move {LOCAL:Thing} to world</Value>
+    </Record>
+    <Record>
+      <Key>ThingCanNotEnterSlot</Key>
+      <Value>{LOCAL:Thing0} cannot enter {LOCAL:Thing1}</Value>
+    </Record>
+    <Record>
+      <Key>ThingCanNotInsertInteractionsDisabled</Key>
+      <Value>Cannot insert {LOCAL:Thing0} interactions are disabled on {LOCAL:Thing1}</Value>
+    </Record>
+    <Record>
+      <Key>ThingCanNotInsertAlreadyContains</Key>
+      <Value>Cannot insert {LOCAL:Thing0} as it already contains {LOCAL:Thing1}</Value>
+    </Record>
+    <Record>
+      <Key>ThingCanNotSwap</Key>
+      <Value>You cannot swap {LOCAL:Thing0} with {LOCAL:Thing1}</Value>
+    </Record>
+    <Record>
+      <Key>ThingCurrentlyNotInteractable</Key>
+      <Value>{LOCAL:Thing} is currently not interactable</Value>
+    </Record>
+    <Record>
+      <Key>ThingCanNotPickUp</Key>
+      <Value>You cannot pick the {LOCAL:Thing} up</Value>
+    </Record>
+    <Record>
+      <Key>ThingIsNotType</Key>
+      <Value>{LOCAL:Thing0} is not type {LOCAL:Thing1}</Value>
+    </Record>
+    <Record>
+      <Key>ThingInteractionDisabled</Key>
+      <Value>Interaction temporary disabled on this object</Value>
+    </Record>
+    <Record>
+      <Key>ThingCurrentlyFlashingError</Key>
+      <Value>Currently flashing an error</Value>
+    </Record>
+    <Record>
+      <Key>ThingCycleTo</Key>
+      <Value>Cycle to {LOCAL:Thing}</Value>
+    </Record>
+    <Record>
+      <Key>ThingNotEnoughReagents</Key>
+      <Value>Not enough reagents for current plan</Value>
+    </Record>
+    <Record>
+      <Key>ThingSelectRecipeFromList</Key>
+      <Value>Select Recipe from List</Value>
+    </Record>
+    <Record>
+      <Key>ThingClearUnknownRecipe</Key>
+      <Value>Clear Unknown Recipe</Value>
+    </Record>
+    <Record>
+      <Key>ThingCreateThing</Key>
+      <Value>Creating {LOCAL:Thing} &lt;color=yellow&gt;{1:F0}%&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>ThingCanNotManufacture</Key>
+      <Value>Cannot manufacture {LOCAL:Thing} without all required reagents</Value>
+    </Record>
+    <Record>
+      <Key>ThingToFarAwayForDrag</Key>
+      <Value>{LOCAL:Thing} is too far away to be dragged</Value>
+    </Record>
+    <Record>
+      <Key>ThingCanNotBeDraggedWithSomethingIn</Key>
+      <Value>Cannot be dragged with something in {LOCAL:Thing}</Value>
+    </Record>
+    <Record>
+      <Key>ThingAlreadyDraggedBy</Key>
+      <Value>{LOCAL:Thing0} is already being dragged by {LOCAL:Thing1}</Value>
+    </Record>
+    <Record>
+      <Key>ThingModeDoesNotSupportLinking</Key>
+      <Value>Mode does not support linking</Value>
+    </Record>
+    <Record>
+      <Key>ThingWillDecayInHours</Key>
+      <Value>This will decay in {0} hours.</Value>
+    </Record>
+    <Record>
+      <Key>ThingWillDecayInMinutes</Key>
+      <Value>This will decay in {0} minutes.</Value>
+    </Record>
+    <Record>
+      <Key>ThingWillDecayInSeconds</Key>
+      <Value>This will decay in {0} seconds.</Value>
+    </Record>
+    <Record>
+      <Key>StructureYouRequireToCompleteTask</Key>
+      <Value>You require {0} in {1} to complete this task</Value>
+    </Record>
+    <Record>
+      <Key>StructureDeconstructionFailed</Key>
+      <Value>Deconstruction failed</Value>
+    </Record>
+    <Record>
+      <Key>StructureIsNotDamaged</Key>
+      <Value>{LOCAL:Structure} is not damaged</Value>
+    </Record>
+    <Record>
+      <Key>WeldingTorchNoFuel</Key>
+      <Value>No fuel left!</Value>
+    </Record>
+    <Record>
+      <Key>PowerItemNoPower</Key>
+      <Value>No battery power!</Value>
+    </Record>
+    <Record>
+      <Key>SlotCanNotUseWith</Key>
+      <Value>You cannot use {LOCAL:Slot0} with {LOCAL:Slot1}</Value>
+    </Record>
+    <Record>
+      <Key>SlotAlreadyOccupied</Key>
+      <Value>{0} is already occupied by {1}</Value>
+    </Record>
+    <Record>
+      <Key>SlotTakeThingFromSlot</Key>
+      <Value>Take {LOCAL:Item} from slot</Value>
+    </Record>
+    <Record>
+      <Key>CartridgeNoCartridgeInSlot</Key>
+      <Value>No {LOCAL:Slot1} in {LOCAL:Slot0} slot to remove</Value>
+    </Record>
+    <Record>
+      <Key>HarvesterBusyDoing</Key>
+      <Value>Currently busy doing {0}</Value>
+    </Record>
+    <Record>
+      <Key>MicrowaveOpenFailure</Key>
+      <Value>Something is preventing this from closing</Value>
+    </Record>
+    <Record>
+      <Key>MicrowaveAddUnitsOf</Key>
+      <Value>Add &lt;color=green&gt;{0}&lt;/color&gt; units of {1}</Value>
+    </Record>
+    <Record>
+      <Key>ComposterNotEnoughProcessItems</Key>
+      <Value>No enough processed items...</Value>
+    </Record>
+    <Record>
+      <Key>ComposterItemsLeftToProcess</Key>
+      <Value>Items left to process {0}</Value>
+    </Record>
+    <Record>
+      <Key>ComposterNotEnoughWater</Key>
+      <Value>Not enough water...</Value>
+    </Record>
+    <Record>
+      <Key>ComposterCurrentlyProcessing</Key>
+      <Value>Currently Processing...</Value>
+    </Record>
+    <Record>
+      <Key>ComposterCurrentlyNotProcessing</Key>
+      <Value>Currently Not Processing...</Value>
+    </Record>
+    <Record>
+      <Key>Processing</Key>
+      <Value>Processing</Value>
+    </Record>
+    <Record>
+      <Key>AccessCardUnableToInteract</Key>
+      <Value>Unable to interact as you do not have the required {LOCAL:AccessCard}</Value>
+    </Record>
+    <Record>
+      <Key>InteractionTemporarilyDisabledOnThisObject</Key>
+      <Value>Interaction temporarily disabled on this object</Value>
+    </Record>
+    <Record>
+      <Key>FertiliserClearFromSlot</Key>
+      <Value>Hold &lt;color=yellow&gt;{0}&lt;/color&gt; to clear {1}</Value>
+    </Record>
+    <Record>
+      <Key>RegentMixString</Key>
+      <Value>{0}</Value>
+    </Record>
+    <Record>
+      <Key>ActionRepairRobot</Key>
+      <Value>Repair</Value>
+    </Record>
+    <Record>
+      <Key>ActionPatchSolarPanels</Key>
+      <Value>Patch</Value>
+    </Record>
+    <Record>
+      <Key>DeviceNoPower</Key>
+      <Value>Cannot interact as the device is not powered</Value>
+    </Record>
+    <Record>
+      <Key>DeviceNotOpen</Key>
+      <Value>Cannot interact as device is not currently open</Value>
+    </Record>
+    <Record>
+      <Key>DeviceIsOpen</Key>
+      <Value>Cannot interact as device is currently open</Value>
+    </Record>
+    <Record>
+      <Key>DeviceNotOn</Key>
+      <Value>Cannot interact as the device is not turned on</Value>
+    </Record>
+    <Record>
+      <Key>DeviceCanNotAdd</Key>
+      <Value>&lt;color=red&gt;You cannot add this to the device&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>DeviceCanNotAddWhileProcessing</Key>
+      <Value>&lt;color=red&gt;Cannot add while the device is processing&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>DeviceNoUseAbleIngredients</Key>
+      <Value>&lt;color=red&gt;There are no usable ingredients in this to add&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>DeviceLocked</Key>
+      <Value>Cannot interact as device is currently locked</Value>
+    </Record>
+    <Record>
+      <Key>DeviceBroken</Key>
+      <Value>Cannot interact as device is completely broken</Value>
+    </Record>
+    <Record>
+      <Key>DeviceEmpty</Key>
+      <Value>This is to empty the device of all reagents</Value>
+    </Record>
+    <Record>
+      <Key>DeviceWillProduce</Key>
+      <Value>Will produce {LOCAL:Device}</Value>
+    </Record>
+    <Record>
+      <Key>DeviceAddReagents</Key>
+      <Value>Add &lt;color=green&gt;{LOCAL:Total}&lt;/color&gt; units of {LOCAL:Thing}</Value>
+    </Record>
+    <Record>
+      <Key>DeviceNothingToClear</Key>
+      <Value>&lt;color=red&gt;There is nothing in this device to clear&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>DeviceOnlyCookedItems</Key>
+      <Value>&lt;color=red&gt;This device only accepts cooked items and empty cans&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>DeviceNoFuel</Key>
+      <Value>There is no fuel left in the device</Value>
+    </Record>
+    <Record>
+      <Key>DeviceNotHotEnough</Key>
+      <Value>The device is not hot enough to operate</Value>
+    </Record>
+    <Record>
+      <Key>DevicePortableConnectionFailureUnknown</Key>
+      <Value>Can only connect Unknown to this {LOCAL:Thing}</Value>
+    </Record>
+    <Record>
+      <Key>DevicePortableConnectionFailureGas</Key>
+      <Value>Can only connect Gas to this {LOCAL:Thing}</Value>
+    </Record>
+    <Record>
+      <Key>DevicePortableConnectionFailureGasLiquid</Key>
+      <Value>Can only connect Liquid to this {LOCAL:Thing}</Value>
+    </Record>
+    <Record>
+      <Key>DeviceCannotDragCollision</Key>
+      <Value>Cannot drag it will result in collision with structures</Value>
+    </Record>
+    <Record>
+      <Key>DeviceManualInputWindow</Key>
+      <Value>Will bring up a manual input window for you to enter a new setting</Value>
+    </Record>
+    <Record>
+      <Key>DeviceNothingToChangeTo</Key>
+      <Value>Nothing inside to change to</Value>
+    </Record>
+    <Record>
+      <Key>DeviceNothingSelectedToDispense</Key>
+      <Value>Nothing selected to dispense</Value>
+    </Record>
+    <Record>
+      <Key>DeepMinerSomethingInTheWay</Key>
+      <Value>Something in the way {LOCAL:Thing}</Value>
+    </Record>
+    <Record>
+      <Key>TorpedoTubeNothingLoadedInto</Key>
+      <Value>Nothing loaded into {LOCAL:Slot}</Value>
+    </Record>
+    <Record>
+      <Key>TorpedoTubeNothingInThe</Key>
+      <Value>Nothing in the {LOCAL:Slot}</Value>
+    </Record>
+    <Record>
+      <Key>TorpedoTubeCanNotWhileExteriorDoorIsClosed</Key>
+      <Value>Cannot {LOCAL:Context} while exterior door is closed</Value>
+    </Record>
+    <Record>
+      <Key>TorpedoTubeCurrentlyObscuring</Key>
+      <Value>{LOCAL:Slot0} is currently obscuring the {LOCAL:Slot1}</Value>
+    </Record>
+    <Record>
+      <Key>LogicNoDevice</Key>
+      <Value>&lt;color=red&gt;No device&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>LogicNoSetting</Key>
+      <Value>&lt;color=red&gt;No setting&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>LogicNoSlot</Key>
+      <Value>&lt;color=red&gt;No slot&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>LogicNoAvailableSlots</Key>
+      <Value>&lt;color=red&gt;No available slots&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>LogicNoWritableDevices</Key>
+      <Value>No other writable devices on network</Value>
+    </Record>
+    <Record>
+      <Key>LogicNoAdditionalSettingsFor</Key>
+      <Value>&lt;color=red&gt;No additional settings for&lt;/color&gt; {LOCAL:Thing}</Value>
+    </Record>
+    <Record>
+      <Key>LogicNoAdditionalSlotsFor</Key>
+      <Value>&lt;color=red&gt;No additional slots for&lt;/color&gt; {LOCAL:Thing}</Value>
+    </Record>
+    <Record>
+      <Key>LogicNoReadableDevices</Key>
+      <Value>No readable devices</Value>
+    </Record>
+    <Record>
+      <Key>LogicNoReadableTypes</Key>
+      <Value>No other readable types on network</Value>
+    </Record>
+    <Record>
+      <Key>LogicCurrentlySetTo</Key>
+      <Value>The {LOCAL:Thing} is currently set to &lt;color=yellow&gt;Logic&lt;/color&gt; mode</Value>
+    </Record>
+    <Record>
+      <Key>AirLockIsCurrently</Key>
+      <Value>The {LOCAL:Airlock} is currently &lt;color=yellow&gt;{LOCAL:AirLockState}&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>RequiresScrewdriver</Key>
+      <Value>Requires screwdriver</Value>
+    </Record>
+    <Record>
+      <Key>RequiresScrewdriverOrLabeler</Key>
+      <Value>You need a Screwdriver or Labeler to change settings</Value>
+    </Record>
+    <Record>
+      <Key>NoAudioReceiverDevices</Key>
+      <Value>No audio receiver devices</Value>
+    </Record>
+    <Record>
+      <Key>ShaftNotOn</Key>
+      <Value>Cannot interact as the current shaft is not turned on</Value>
+    </Record>
+    <Record>
+      <Key>ToolDoesNotHaveAnythingInSlot</Key>
+      <Value>{LOCAL:Tool} does not have anything in its {LOCAL:Slot} slot.</Value>
+    </Record>
+    <Record>
+      <Key>ToolDoesNotHaveEnoughCharge</Key>
+      <Value>{LOCAL:Tool} does not have enough {LOCAL:Battery} charge.</Value>
+    </Record>
+    <Record>
+      <Key>ToolCanNotCompleteTask</Key>
+      <Value>{LOCAL:Tool} cannot complete this task.</Value>
+    </Record>
+    <Record>
+      <Key>ToolNotCurrentlyOperableForTask</Key>
+      <Value>{LOCAL:Tool} is not currently operable for this task</Value>
+    </Record>
+    <Record>
+      <Key>VolumeChangeDirection</Key>
+      <Value>Change Direction</Value>
+    </Record>
+    <Record>
+      <Key>HoldForSmallIncrements</Key>
+      <Value>Hold {KEY:QuantityModifier} for smaller increments</Value>
+    </Record>
+    <Record>
+      <Key>UseLabelerToSet</Key>
+      <Value>Use a &lt;color=yellow&gt;Labeler&lt;/color&gt; to directly enter a value</Value>
+    </Record>
+    <Record>
+      <Key>PlantSamplerNoSample</Key>
+      <Value>No completed sample to view</Value>
+    </Record>
+    <Record>
+      <Key>PlantViewSampleInfo</Key>
+      <Value>&lt;color=green&gt;Left click&lt;/color&gt; to view completed sample information</Value>
+    </Record>
+    <Record>
+      <Key>PlantHoldToClear</Key>
+      <Value>Hold &lt;color=yellow&gt;{KEY:QuantityModifier}&lt;/color&gt; to clear {LOCAL:Plant}</Value>
+    </Record>
+    <Record>
+      <Key>PlantNotGrowingMature</Key>
+      <Value>The {LOCAL:Plant} &lt;color=red&gt;is not growing&lt;/color&gt; and will never fruit</Value>
+    </Record>
+    <Record>
+      <Key>PlantBarelyGrowingMature</Key>
+      <Value>The {LOCAL:Plant} is barely growing toward fruiting</Value>
+    </Record>
+    <Record>
+      <Key>PlantGrowingPoorlyMature</Key>
+      <Value>The {LOCAL:Plant} is growing poorly toward fruiting</Value>
+    </Record>
+    <Record>
+      <Key>PlantGrowingModeratelyMature</Key>
+      <Value>The {LOCAL:Plant} is growing moderately well toward fruiting</Value>
+    </Record>
+    <Record>
+      <Key>PlantThrivingMature</Key>
+      <Value>The {LOCAL:Plant} is thriving toward fruiting</Value>
+    </Record>
+    <Record>
+      <Key>PlantNotGrowingSeed</Key>
+      <Value>The {LOCAL:Plant} &lt;color=red&gt;is not growing&lt;/color&gt; and will never seed</Value>
+    </Record>
+    <Record>
+      <Key>PlantBarelyGrowingSeed</Key>
+      <Value>The {LOCAL:Plant} is barely growing toward seeding</Value>
+    </Record>
+    <Record>
+      <Key>PlantGrowingPoorlySeed</Key>
+      <Value>The {LOCAL:Plant} is growing poorly toward seeding</Value>
+    </Record>
+    <Record>
+      <Key>PlantGrowingModeratelySeed</Key>
+      <Value>The {LOCAL:Plant} is growing moderately well toward seeding</Value>
+    </Record>
+    <Record>
+      <Key>PlantThrivingSeed</Key>
+      <Value>The {LOCAL:Plant} is thriving toward seeding</Value>
+    </Record>
+    <Record>
+      <Key>PlantNotEnoughLight</Key>
+      <Value>The {LOCAL:Plant} &lt;color=red&gt;is not receiving the correct amount of light per day&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>PlantAtmosphereTooHot</Key>
+      <Value>The {LOCAL:Plant} &lt;color=red&gt;atmosphere is too hot&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>PlantAtmosphereTooCold</Key>
+      <Value>The {LOCAL:Plant} &lt;color=red&gt;atmosphere is too cold&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>PlantWaterTooHot</Key>
+      <Value>The {LOCAL:Plant} &lt;color=red&gt;water is too hot&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>PlantWaterTooCold</Key>
+      <Value>The {LOCAL:Plant} &lt;color=red&gt;water is too cold&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>PlantWaterNeeds</Key>
+      <Value>The {LOCAL:Plant} &lt;color=red&gt;needs water&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>PlantNotCorrectAtmosphere</Key>
+      <Value>The {LOCAL:Plant} &lt;color=red&gt;does not have the correct atmosphere gas composition&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>PlantIsPollutedByAir</Key>
+      <Value>The {LOCAL:Plant} &lt;color=red&gt;is being polluted from the air&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>PlantIsReceivingLight</Key>
+      <Value>The {LOCAL:Plant} is receiving light</Value>
+    </Record>
+    <Record>
+      <Key>PlantIsInDarkness</Key>
+      <Value>The {LOCAL:Plant} &lt;color=red&gt;is in darkness&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>PlantIsInLowPressureEnvironment</Key>
+      <Value>The {LOCAL:Plant} &lt;color=red&gt;is in a low pressure environment&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>PlantIsInHighPressureEnvironment</Key>
+      <Value>The {LOCAL:Plant} &lt;color=red&gt;is in a high pressure environment&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>PlantCreate</Key>
+      <Value>This will create &lt;color=yellow&gt;{LOCAL:Count}&lt;/color&gt; x {LOCAL:Plant}</Value>
+    </Record>
+    <Record>
+      <Key>PlantCreateSeeds</Key>
+      <Value>This will create &lt;color=yellow&gt;{LOCAL:Count}&lt;/color&gt; x {LOCAL:Plant} seeds</Value>
+    </Record>
+    <Record>
+      <Key>OreNoMiningBelt</Key>
+      <Value>No mining belt to store in</Value>
+    </Record>
+    <Record>
+      <Key>OreNoSlotInMiningBelt</Key>
+      <Value>No available slot in mining belt</Value>
+    </Record>
+    <Record>
+      <Key>ApcUnableToMoveLocked</Key>
+      <Value>Unable to move as the unit is locked</Value>
+    </Record>
+    <Record>
+      <Key>ApcUnableToMoveTool</Key>
+      <Value>Unable to move as the tool is not in operable condition</Value>
+    </Record>
+    <Record>
+      <Key>ElevatorUnableToForceOpenLocked</Key>
+      <Value>Unable to force open, {LOCAL:Elevator} locked</Value>
+    </Record>
+    <Record>
+      <Key>ElevatorUnableToForceOpenPowered</Key>
+      <Value>Unable to force open, {LOCAL:Elevator} is currently powered</Value>
+    </Record>
+    <Record>
+      <Key>DoorUnableToForceOpenLocked</Key>
+      <Value>Unable to force open, door bolts are locked</Value>
+    </Record>
+    <Record>
+      <Key>DoorUnableToForceOpenPowered</Key>
+      <Value>Unable to force open, door is currently powered</Value>
+    </Record>
+    <Record>
+      <Key>ActivateExplosive</Key>
+      <Value>Activates a {0} second timer. Timer cannot be turned off. Caution is advised.</Value>
+    </Record>
+    <Record>
+      <Key>RocketCanNotEnterCommand</Key>
+      <Value>Cannot enter command module is full</Value>
+    </Record>
+    <Record>
+      <Key>PlantStabilizerToggleModeToStabilize</Key>
+      <Value>Set stabilize</Value>
+    </Record>
+    <Record>
+      <Key>PlantStabilizerToggleModeToDestabilize</Key>
+      <Value>Set destabilize</Value>
+    </Record>
+    <Record>
+      <Key>PlantStabilizerStabilizeMode</Key>
+      <Value>Stabilize</Value>
+    </Record>
+    <Record>
+      <Key>PlantStabilizerDestabilizeMode</Key>
+      <Value>Destabilize</Value>
+    </Record>
+    <Record>
+      <Key>PlantStabilizerStabilizePlant</Key>
+      <Value>Stabilize all genes on {LOCAL:Plant}</Value>
+    </Record>
+    <Record>
+      <Key>PlantStabilizerDestabilizePlant</Key>
+      <Value>Destabilize &lt;color=green&gt;{LOCAL:Gene}&lt;/color&gt; gene on {LOCAL:Plant} </Value>
+    </Record>
+    <Record>
+      <Key>PlantStabilizerStabilizingPlant</Key>
+      <Value>Stabilizing {LOCAL:Plant} &lt;color=yellow&gt;{LOCAL:Value}%&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>PlantStabilizerDestabilizingPlant</Key>
+      <Value>Destabilizing {LOCAL:Plant} &lt;color=yellow&gt;{LOCAL:Value}%&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>PlantStabilizerStartStabilizing</Key>
+      <Value>Start stabilizing</Value>
+    </Record>
+    <Record>
+      <Key>PlantStabilizerStartDestabilizing</Key>
+      <Value>Start destabilizing</Value>
+    </Record>
+    <Record>
+      <Key>PlantStabilizerNoPlantInSlot</Key>
+      <Value>No plant in slot</Value>
+    </Record>
+    <Record>
+      <Key>TraderLocked</Key>
+      <Value>Locked</Value>
+    </Record>
+    <Record>
+      <Key>TraderTrade</Key>
+      <Value>Trade</Value>
+    </Record>
+    <Record>
+      <Key>CommunicateWithShuttle</Key>
+      <Value>Communicate</Value>
+    </Record>
+    <Record>
+      <Key>ContactTradeNoLandingPad</Key>
+      <Value>Trader cannot land as no active landing pad is available</Value>
+    </Record>
+    <Record>
+      <Key>ContactTradePadOff</Key>
+      <Value>Trader cannot land as the target Landing pad is turned off</Value>
+    </Record>
+    <Record>
+      <Key>ContactTradePadUnpowered</Key>
+      <Value>Trader cannot land as the target Landing pad is unpowered</Value>
+    </Record>
+    <Record>
+      <Key>ContactTradeLandingObstructed</Key>
+      <Value>Trader cannot land as the path to the target landing pad is obstructed</Value>
+    </Record>
+    <Record>
+      <Key>ContactTradeDepartingObstructed</Key>
+      <Value>Trader cannot depart as the path is obstructed</Value>
+    </Record>
+    <Record>
+      <Key>ContactTradeLandingPadError</Key>
+      <Value>Trader cannot land as the target landing pad is incorrectly configured</Value>
+    </Record>
+    <Record>
+      <Key>ContactTradeLandingPadToSmall</Key>
+      <Value>Trader cannot land as the target landing pad is too small</Value>
+    </Record>
+    <Record>
+      <Key>ArmControlIdle</Key>
+      <Value>Idle</Value>
+    </Record>
+    <Record>
+      <Key>ArmControlPlant</Key>
+      <Value>Plant</Value>
+    </Record>
+    <Record>
+      <Key>ArmControlHarvest</Key>
+      <Value>Harvest</Value>
+    </Record>
+    <Record>
+      <Key>YouNeedAWrenchForOrientation</Key>
+      <Value>You need a wrench to change orientation</Value>
+    </Record>
+    <Record>
+      <Key>NotApplicableString</Key>
+      <Value>N/A</Value>
+    </Record>
+    <Record>
+      <Key>SlotFull</Key>
+      <Value>Slot is occupied</Value>
+    </Record>
+    <Record>
+      <Key>SplicerCurrentGene</Key>
+      <Value>Current gene: &lt;color=green&gt;{LOCAL:Gene}&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>SplicerNextGene</Key>
+      <Value>Change gene to: {LOCAL:Gene}</Value>
+    </Record>
+    <Record>
+      <Key>SplicerDeviceIsOpen</Key>
+      <Value>Close device before starting splice</Value>
+    </Record>
+    <Record>
+      <Key>SplicerNeedSourceAndTargetPlant</Key>
+      <Value>Need a source and target plant of the same type to start splice</Value>
+    </Record>
+    <Record>
+      <Key>SplicerStartSplice</Key>
+      <Value>Start splice</Value>
+    </Record>
+    <Record>
+      <Key>SplicerChangeGene</Key>
+      <Value>Change gene</Value>
+    </Record>
+    <Record>
+      <Key>SplicerPreviewSplice</Key>
+      <Value>Will splice &lt;color=green&gt;{LOCAL:Gene}&lt;/color&gt; from {LOCAL:SourcePlant} into {LOCAL:TargetPlant}</Value>
+    </Record>
+    <Record>
+      <Key>SplicerBusy</Key>
+      <Value>Currently splicing &lt;color=green&gt;{LOCAL:PercentComplete}%&lt;/color&gt; complete</Value>
+    </Record>
+    <Record>
+      <Key>SplicerAddOneToSlot</Key>
+      <Value>Add {LOCAL:Plant} to slot</Value>
+    </Record>
+    <Record>
+      <Key>GasMixture</Key>
+      <Value>Gas mixture</Value>
+    </Record>
+    <Record>
+      <Key>ItemTransactionClientError</Key>
+      <Value>Item transaction should only be called on Server</Value>
+    </Record>
+    <Record>
+      <Key>TransactionAtmosError</Key>
+      <Value>Landing pad atmosphere not found</Value>
+    </Record>
+    <Record>
+      <Key>TransactionTradableError</Key>
+      <Value>Trader has spawned something that is not an ITradable</Value>
+    </Record>
+    <Record>
+      <Key>TransactionFailRequired</Key>
+      <Value>Cannot complete transaction. You are trying to sell more than the trader wants.</Value>
+    </Record>
+    <Record>
+      <Key>TransactionFailCreditCard</Key>
+      <Value>Cannot complete transaction. No credit card found. Credit card must be in hand or the creditcard slot in your uniform.</Value>
+    </Record>
+    <Record>
+      <Key>TransactionFailInsufficientAvailable</Key>
+      <Value>Cannot complete transaction. You are trying to sell more than you have stored.</Value>
+    </Record>
+    <Record>
+      <Key>TransactionErrorNonTradable</Key>
+      <Value>Non tradable item in inventory:</Value>
+    </Record>
+    <Record>
+      <Key>TransactionFailStorage</Key>
+      <Value>You do not have enough storage space to buy all the items.</Value>
+    </Record>
+    <Record>
+      <Key>TransactionFailVendingMachine</Key>
+      <Value>Cannot complete transaction. No vending machine found.</Value>
+    </Record>
+    <Record>
+      <Key>TransactionFailInsufficientStock</Key>
+      <Value>The trader does not have enough stock to complete this transaction.</Value>
+    </Record>
+    <Record>
+      <Key>TransactionFailInsufficientFunds</Key>
+      <Value>You do not have enough money to complete this transaction.</Value>
+    </Record>
+    <Record>
+      <Key>TransactionErrorTradableCast</Key>
+      <Value>Cannot cast tradable item to thing</Value>
+    </Record>
+    <Record>
+      <Key>TradingToolTipNoInfo</Key>
+      <Value>No additional information</Value>
+    </Record>
+    <Record>
+      <Key>TradingToolTipNoRequirements</Key>
+      <Value>No additional requirements</Value>
+    </Record>
+    <Record>
+      <Key>DegreesCelcius</Key>
+      <Value>°C</Value>
+    </Record>
+    <Record>
+      <Key>DegreesKelvin</Key>
+      <Value>°K</Value>
+    </Record>
+    <Record>
+      <Key>Moles</Key>
+      <Value>Moles</Value>
+    </Record>
+    <Record>
+      <Key>Quantity</Key>
+      <Value>Quantity</Value>
+    </Record>
+    <Record>
+      <Key>Gene</Key>
+      <Value>Gene</Value>
+    </Record>
+    <Record>
+      <Key>OperatorAny</Key>
+      <Value>Any</Value>
+    </Record>
+    <Record>
+      <Key>OperatorNone</Key>
+      <Value>None</Value>
+    </Record>
+    <Record>
+      <Key>OperatorAll</Key>
+      <Value>All</Value>
+    </Record>
+    <Record>
+      <Key>CompareLessThan</Key>
+      <Value>less than</Value>
+    </Record>
+    <Record>
+      <Key>CompareEqualOrLess</Key>
+      <Value>less or equal to</Value>
+    </Record>
+    <Record>
+      <Key>CompareEqual</Key>
+      <Value>equal to</Value>
+    </Record>
+    <Record>
+      <Key>CompareEqualOrGreater</Key>
+      <Value>greater or equal to</Value>
+    </Record>
+    <Record>
+      <Key>CompareGreater</Key>
+      <Value>greater than</Value>
+    </Record>
+    <Record>
+      <Key>EnergyRatio</Key>
+      <Value>Energy ratio</Value>
+    </Record>
+    <Record>
+      <Key>ChildItem</Key>
+      <Value>Has child item</Value>
+    </Record>
+    <Record>
+      <Key>TemperatureBetween</Key>
+      <Value>Temperature between</Value>
+    </Record>
+    <Record>
+      <Key>TradingWith</Key>
+      <Value>Trading with</Value>
+    </Record>
+    <Record>
+      <Key>Buy</Key>
+      <Value>Buy</Value>
+    </Record>
+    <Record>
+      <Key>Sell</Key>
+      <Value>Sell</Value>
+    </Record>
+    <Record>
+      <Key>Available</Key>
+      <Value>Available</Value>
+    </Record>
+    <Record>
+      <Key>Wants</Key>
+      <Value>Wants</Value>
+    </Record>
+    <Record>
+      <Key>SoldOut</Key>
+      <Value>Sold Out</Value>
+    </Record>
+    <Record>
+      <Key>StockFull</Key>
+      <Value>Stock Full</Value>
+    </Record>
+    <Record>
+      <Key>EnvironmentRequirementFail</Key>
+      <Value>The Trader will not exit the shuttle until the atmosphere is safe to breathe.</Value>
+    </Record>
+    <Record>
+      <Key>CycleWaypointHeight</Key>
+      <Value>Cycle height</Value>
+    </Record>
+    <Record>
+      <Key>CycleWaypoint</Key>
+      <Value>Cycle waypoint</Value>
+    </Record>
+    <Record>
+      <Key>CurrentWaypoint</Key>
+      <Value>Next waypoint: {LOCAL:NextWaypoint}</Value>
+    </Record>
+    <Record>
+      <Key>CurrentHeight</Key>
+      <Value>Current height {LOCAL:Height}</Value>
+    </Record>
+  </GameStrings>
   <GameTip />
 </Language>
