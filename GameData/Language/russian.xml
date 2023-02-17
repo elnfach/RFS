@@ -2273,18 +2273,18 @@ An recurring {LINK:Stationeers;Stationeer} complaint focuses on the fact that ev
     </RecordThing>
     <RecordThing>
       <Key>StructureFrame</Key>
-      <Value>Стальной Каркас</Value>
+      <Value>Стальной каркас</Value>
       <Description>Более прочные, чем {THING:StructureFrameIron}, стальные рамы также имеют несколько вариантов для более сложных конструкций, таких как {THING:StructureFrameCorner} и {THING:StructureFrameCornerCut}. Как и железные рамы, они устанавливаются, а затем привариваются {THING:ItemSteelSheets} к открытому каркасу.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureFrameCorner</Key>
-      <Value>Steel Frame (Corner)</Value>
+      <Value>Угловой стальной каркас</Value>
       <Description>More durable than the {THING:StructureFrameIron}, steel frames also offer several variations for more complex lattice constructions. 
 With a little patience and maneuvering, the corner frame's Gothic-inspired silhouette allows the creation of ogival arches and even more ambitious architecture, although they are not airtight and cannot be built on.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureFrameSide</Key>
-      <Value>Стальной Каркас (Склон)</Value>
+      <Value>Скошенный стальной каркас</Value>
       <Description>Более прочные, чем {THING:StructureFrameIron}, стальные рамы также позволяют создавать более изысканные конструкции.</Description>
     </RecordThing>
     <RecordThing>
@@ -2303,7 +2303,7 @@ With a little patience and maneuvering, the corner frame's Gothic-inspired silho
     <RecordThing>
       <Key>StructureGasSensor</Key>
       <Value>Газовый датчик</Value>
-      <Description>Gas sensors are designed to monitor and report basic atmospheric information, including temperature, pressure, and gas ratios. They also make wonderful wedding presents.</Description>
+      <Description>Газовые датчики предназначены для мониторинга и передачи основной информации об атмосфере, включая температуру, давление и соотношение газов. Они также делают замечательные свадебные подарки.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureGasTankStorage</Key>
@@ -2437,7 +2437,7 @@ With a little patience and maneuvering, the corner frame's Gothic-inspired silho
     <RecordThing>
       <Key>StructureRailing</Key>
       <Value>Промышленные перила (Тип 1)</Value>
-      <Description>"Safety third."</Description>
+      <Description>"Безопасность на третьем месте."</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureRocketEngine</Key>
@@ -2522,11 +2522,11 @@ ProKompile может складывать самые разные вещи, т�
     </RecordThing>
     <RecordThing>
       <Key>StructureTorpedoRack</Key>
-      <Value>Torpedo Rack</Value>
+      <Value>Стойка для торпед</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureTorpedoTube</Key>
-      <Value>Torpedo Launcher</Value>
+      <Value>Торпедный аппарат</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureValve</Key>
@@ -2589,27 +2589,27 @@ ProKompile может складывать самые разные вещи, т�
     </RecordThing>
     <RecordThing>
       <Key>StructureCableStraightBurnt</Key>
-      <Value>Burnt Cable (Straight)</Value>
+      <Value>Сгоревший кабель (Straight)</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureCableCorner3Burnt</Key>
-      <Value>Burnt Cable (3-Way Corner)</Value>
+      <Value>Сгоревший кабель (3-Way Corner)</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureCableCornerBurnt</Key>
-      <Value>Burnt Cable (Corner)</Value>
+      <Value>Сгоревший кабель (Corner)</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureCableJunction4Burnt</Key>
-      <Value>Burnt Cable (4-Way Junction)</Value>
+      <Value>Сгоревший кабель (4-Way Junction)</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureCableJunction6Burnt</Key>
-      <Value>Burnt Cable (6-Way Junction)</Value>
+      <Value>Сгоревший кабель (6-Way Junction)</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureCableJunctionBurnt</Key>
-      <Value>Burnt Cable (Junction)</Value>
+      <Value>Сгоревший кабель (Junction)</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureSolidFuelGenerator</Key>
@@ -3371,47 +3371,47 @@ OUT - выбор операции, результат которой будет 
     </RecordThing>
     <RecordThing>
       <Key>StructureCompositeCladdingAngledCorner</Key>
-      <Value>Composite Cladding (Angled Corner)</Value>
+      <Value>Угловое наклонное композитное покрытие</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureCompositeCladdingAngledCornerLong</Key>
-      <Value>Composite Cladding (Long Angled Corner)</Value>
+      <Value>Длинное угловое наклонное композитное покрытие</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureCompositeCladdingAngledLong</Key>
-      <Value>Composite Cladding (Long Angled)</Value>
+      <Value>Длинное наклонное композитное покрытие</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureCompositeCladdingCylindrical</Key>
-      <Value>Composite Cladding (Cylindrical)</Value>
+      <Value>Композитное покрытие цилиндрическое формы</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureCompositeCladdingCylindricalPanel</Key>
-      <Value>Composite Cladding (Cylindrical Panel)</Value>
+      <Value>Композитное покрытие панельной цилиндрической формы</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureCompositeCladdingSphericalCorner</Key>
-      <Value>Composite Cladding (Spherical Corner)</Value>
+      <Value>Композитное покрытие со сферическим углом</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureCompositeCladdingSphericalCap</Key>
-      <Value>Composite Cladding (Spherical Cap)</Value>
+      <Value>Композитное покрытие со сферической крышкой</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureCompositeCladdingSpherical</Key>
-      <Value>Composite Cladding (Spherical)</Value>
+      <Value>Сферическое композитное покрытие</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureCompositeCladdingRoundedCorner</Key>
-      <Value>Composite Cladding (Rounded Corner)</Value>
+      <Value>Композитное покрытие с закругленным углом</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureCompositeCladdingRounded</Key>
-      <Value>Composite Cladding (Rounded)</Value>
+      <Value>Закругленное композитное покрытие</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureCompositeCladdingPanel</Key>
-      <Value>Composite Cladding (Panel)</Value>
+      <Value>Панельное композитное покрытие</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitCompositeCladding</Key>
@@ -3435,15 +3435,15 @@ OUT - выбор операции, результат которой будет 
     </RecordThing>
     <RecordThing>
       <Key>StructureLightLong</Key>
-      <Value>Длинный настенный светильник</Value>
+      <Value>Длинная настенная лампа</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureLightLongAngled</Key>
-      <Value>Длинноугловатый настенный светильник</Value>
+      <Value>Длинноугловатая настенная лампа</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureLightLongWide</Key>
-      <Value>Большой настенный светильник</Value>
+      <Value>Большая настенная лампа</Value>
     </RecordThing>
     <RecordThing>
       <Key>CircuitboardAdvancedAirlockControl</Key>
@@ -4664,15 +4664,15 @@ Note that transformers also operate as data isolators, preventing data flowing i
     </RecordThing>
     <RecordThing>
       <Key>StructurePictureFrameThinMountLandscapeLarge</Key>
-      <Value>Picture Frame Thin Landscape Large</Value>
+      <Value>Фоторамка Тонкая Пейзаж Большая</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructurePictureFrameThinMountLandscapeSmall</Key>
-      <Value>Picture Frame Thin Landscape Small</Value>
+      <Value>Фоторамка Тонкая Пейзаж Маленькая</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructurePictureFrameThinMountPortraitLarge</Key>
-      <Value>Picture Frame Thin Portrait Large</Value>
+      <Value>Фоторамка Тонкая Портрет Большой</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructurePictureFrameThinMountPortraitSmall</Key>
@@ -4959,31 +4959,31 @@ Note that transformers also operate as data isolators, preventing data flowing i
     </RecordThing>
     <RecordThing>
       <Key>StructureWallArchCornerRound</Key>
-      <Value>Wall (Arch Corner Round)</Value>
+      <Value>Стена (Arch Corner Round)</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureWallArchCornerSquare</Key>
-      <Value>Wall (Arch Corner Square)</Value>
+      <Value>Стена (Arch Corner Square)</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureWallArchCornerTriangle</Key>
-      <Value>Wall (Arch Corner Triangle)</Value>
+      <Value>Стена (Arch Corner Triangle)</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureWallFlatCornerRound</Key>
-      <Value>Wall (Flat Corner Round)</Value>
+      <Value>Стена (Flat Corner Round)</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureWallFlatCornerSquare</Key>
-      <Value>Wall (Flat Corner Square)</Value>
+      <Value>Стена (Flat Corner Square)</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureWallFlatCornerTriangle</Key>
-      <Value>Wall (Flat Corner Triangle)</Value>
+      <Value>Стена (Flat Corner Triangle)</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureWallFlatCornerTriangleFlat</Key>
-      <Value>Wall (Flat Corner Triangle Flat)</Value>
+      <Value>Стена (Flat Corner Triangle Flat)</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureWallPaddedArchLightFittingTop</Key>
@@ -5041,15 +5041,15 @@ Note that transformers also operate as data isolators, preventing data flowing i
     </RecordThing>
     <RecordThing>
       <Key>ModularRocketCommand01Lander</Key>
-      <Value>Rocket Command Lander</Value>
+      <Value>Посадочный модуль ракеты</Value>
     </RecordThing>
     <RecordThing>
       <Key>ModularRocketCargo01</Key>
-      <Value>Rocket Cargo</Value>
+      <Value>Ракетный груз</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemSensorProcessingUnitOreScanner</Key>
-      <Value>Sensor Processing Unit (Ore Scanner)</Value>
+      <Value>Блок обработки датчиков (Сканер Руд)</Value>
       <Description>The Sensor Processing unit can be inserted into {THING:ItemSensorLenses} to reveal underground minerals in a HUD.</Description>
     </RecordThing>
     <RecordThing>
@@ -5327,37 +5327,37 @@ On - &lt;1 - выключить устройство, &gt;=1 - включить
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageVendingMachine1</Key>
-      <Value>Wreckage Vending Machine</Value>
+      <Value>Обломки склада</Value>
       <Description>Description coming.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageVendingMachine2</Key>
-      <Value>Wreckage Vending Machine</Value>
+      <Value>Обломки склада</Value>
       <Description>Description coming.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageVendingMachine3</Key>
-      <Value>Wreckage Vending Machine</Value>
+      <Value>Обломки склада</Value>
       <Description>Description coming.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageVendingMachine4</Key>
-      <Value>Wreckage Vending Machine</Value>
+      <Value>Обломки склада</Value>
       <Description>Description coming.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageArcFurnace1</Key>
-      <Value>Обломки Дуговой Печи</Value>
+      <Value>Обломки дуговой печи</Value>
       <Description>Description coming.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageArcFurnace2</Key>
-      <Value>Обломки Дуговой Печи</Value>
+      <Value>Обломки дуговой печи</Value>
       <Description>Description coming.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageArcFurnace3</Key>
-      <Value>Обломки Дуговой Печи</Value>
+      <Value>Обломки дуговой печи</Value>
       <Description>Description coming.</Description>
     </RecordThing>
     <RecordThing>
@@ -5372,12 +5372,12 @@ On - &lt;1 - выключить устройство, &gt;=1 - включить
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageAreaPowerControlReversed1</Key>
-      <Value>Wreckage Area Power Control Reversed</Value>
+      <Value>Обломки обратного ИБП</Value>
       <Description>Description coming.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageAreaPowerControlReversed2</Key>
-      <Value>Wreckage Area Power Control Reversed</Value>
+      <Value>Обломки обратного ИБП</Value>
       <Description>Description coming.</Description>
     </RecordThing>
     <RecordThing>
@@ -5425,227 +5425,227 @@ On - &lt;1 - выключить устройство, &gt;=1 - включить
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageSecurityPrinter1</Key>
-      <Value>Wreckage Security Printer</Value>
+      <Value>Обломки оружейного принтера</Value>
       <Description>Description coming.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageSecurityPrinter2</Key>
-      <Value>Wreckage Security Printer</Value>
+      <Value>Обломки оружейного принтера</Value>
       <Description>Description coming.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageSecurityPrinter3</Key>
-      <Value>Wreckage Security Printer</Value>
+      <Value>Обломки оружейного принтера</Value>
       <Description>Description coming.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageSecurityPrinter4</Key>
-      <Value>Wreckage Security Printer</Value>
+      <Value>Обломки оружейного принтера</Value>
       <Description>Description coming.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageSecurityPrinter5</Key>
-      <Value>Wreckage Security Printer</Value>
+      <Value>Обломки оружейного принтера</Value>
       <Description>Description coming.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageSecurityPrinter6</Key>
-      <Value>Wreckage Security Printer</Value>
+      <Value>Обломки оружейного принтера</Value>
       <Description>Description coming.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageAutolathe1</Key>
-      <Value>Wreckage Autolathe</Value>
+      <Value>Обломки автотокарного станка</Value>
       <Description>Description coming.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageAutolathe2</Key>
-      <Value>Wreckage Autolathe</Value>
+      <Value>Обломки автотокарного станка</Value>
       <Description>Description coming.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageAutolathe3</Key>
-      <Value>Wreckage Autolathe</Value>
+      <Value>Обломки автотокарного станка</Value>
       <Description>Description coming.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageAutolathe4</Key>
-      <Value>Wreckage Autolathe</Value>
+      <Value>Обломки автотокарного станка</Value>
       <Description>Description coming.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageAutolathe5</Key>
-      <Value>Wreckage Autolathe</Value>
+      <Value>Обломки автотокарного станка</Value>
       <Description>Description coming.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageAutolathe6</Key>
-      <Value>Wreckage Autolathe</Value>
+      <Value>Обломки автотокарного станка</Value>
       <Description>Description coming.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageAutolathe7</Key>
-      <Value>Wreckage Autolathe</Value>
+      <Value>Обломки автотокарного станка</Value>
       <Description>Description coming.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageElectronicsPrinter1</Key>
-      <Value>Wreckage Electronics Printer1</Value>
+      <Value>Обломок принтера электроники 1</Value>
       <Description>Description coming.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageElectronicsPrinter2</Key>
-      <Value>Wreckage Electronics Printer2</Value>
+      <Value>Обломок принтера электроники 2</Value>
       <Description>Description coming.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageElectronicsPrinter3</Key>
-      <Value>Wreckage Electronics Printer3</Value>
+      <Value>Обломок принтера электроники 3</Value>
       <Description>Description coming.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageElectronicsPrinter4</Key>
-      <Value>Wreckage Electronics Printer4</Value>
+      <Value>Обломок принтера электроники 4</Value>
       <Description>Description coming.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageElectronicsPrinter5</Key>
-      <Value>Wreckage Electronics Printer5</Value>
+      <Value>Обломок принтера электроники 5</Value>
       <Description>Description coming.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageElectronicsPrinter6</Key>
-      <Value>Item Wreckage Electronics Printer6</Value>
+      <Value>Обломок принтера электроники 6</Value>
       <Description>Description coming.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageCentrifuge1</Key>
-      <Value>Wreckage Centrifuge</Value>
+      <Value>Обломки центрифуги</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageCentrifuge2</Key>
-      <Value>Wreckage Centrifuge</Value>
+      <Value>Обломки центрифуги</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageCentrifuge3</Key>
-      <Value>Wreckage Centrifuge</Value>
+      <Value>Обломки центрифуги</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageCentrifuge4</Key>
-      <Value>Wreckage Centrifuge</Value>
+      <Value>Обломки центрифуги</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageCentrifuge5</Key>
-      <Value>Wreckage Centrifuge</Value>
+      <Value>Обломки центрифуги</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageGasGenerator1</Key>
-      <Value>Wreckage Gas Generator</Value>
+      <Value>Обломки газового генератора</Value>
       <Description>Description coming.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageGasGenerator2</Key>
-      <Value>Wreckage Gas Generator</Value>
+      <Value>Обломки газового генератора</Value>
       <Description>Description coming.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageVent1</Key>
-      <Value>Wreckage Vent</Value>
+      <Value>Обломки вентиляции</Value>
       <Description>Description coming.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageSatelliteDish1</Key>
-      <Value>Wreckage Medium Satellite Dish</Value>
+      <Value>>Обломки спутниковой тарелки</Value>
       <Description>Description coming.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageSatelliteDish2</Key>
-      <Value>Wreckage Medium Satellite Dish</Value>
+      <Value>Обломки спутниковой тарелки</Value>
       <Description>Description coming.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageSatelliteDish3</Key>
-      <Value>Wreckage Medium Satellite Dish</Value>
+      <Value>Обломки спутниковой тарелки</Value>
       <Description>Description coming.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageElectrolysis1</Key>
-      <Value>Wreckage Electrolysis</Value>
+      <Value>Обломки электролизера</Value>
       <Description>Description coming.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageElectrolysis2</Key>
-      <Value>Wreckage Electrolysis</Value>
+      <Value>Обломки электролизера</Value>
       <Description>Description coming.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageLight1</Key>
-      <Value>Wreckage Light</Value>
+      <Value>Обломки лампы</Value>
       <Description>Description coming.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageLight2</Key>
-      <Value>Wreckage Light</Value>
+      <Value>Обломки лампы</Value>
       <Description>Description coming.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageLightLongAngled1</Key>
-      <Value>Wreckage Light Long Angled</Value>
+      <Value>Обломки длинноугловатой настенной лампы</Value>
       <Description>Description coming.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageLightLongAngled2</Key>
-      <Value>Wreckage Light Long Angled</Value>
+      <Value>Обломки длинноугловатой настенной лампы</Value>
       <Description>Description coming.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageLightLongWide1</Key>
-      <Value>Wreckage Light Long Wide</Value>
+      <Value>Обломки большой настенной лампы</Value>
       <Description>Description coming.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageLightLongWide2</Key>
-      <Value>Wreckage Light Long Wide</Value>
+      <Value>Обломки большой настенной лампы</Value>
       <Description>Description coming.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageWallLightBatteryPowered1</Key>
-      <Value>Wreckage Wall Light Battery Powered</Value>
+      <Value>Обломки настенной лампы с аккумулятором</Value>
       <Description>Description coming.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageWallLightBatteryPowered2</Key>
-      <Value>Wreckage Wall Light Battery Powered</Value>
+      <Value>Обломки настенной лампы с аккумулятором</Value>
       <Description>Description coming.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageRecycler1</Key>
-      <Value>Wreckage Recycler</Value>
+      <Value>Обломки Утилизатора</Value>
       <Description>Description coming.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageRecycler2</Key>
-      <Value>Wreckage Recycler</Value>
+      <Value>Обломки Утилизатора</Value>
       <Description>Description coming.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageRecycler3</Key>
-      <Value>Wreckage Recycler</Value>
+      <Value>Обломки Утилизатора</Value>
       <Description>Description coming.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageRecycler4</Key>
-      <Value>Wreckage Recycler</Value>
+      <Value>Обломки Утилизатора</Value>
       <Description>Description coming.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageRecycler5</Key>
-      <Value>Wreckage Recycler</Value>
+      <Value>Обломки Утилизатора</Value>
       <Description>Description coming.</Description>
     </RecordThing>
     <RecordThing>
@@ -5655,142 +5655,142 @@ On - &lt;1 - выключить устройство, &gt;=1 - включить
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageFlashingLight1</Key>
-      <Value>Wreckage Flashing Light</Value>
+      <Value>Обломки мигающей лампы</Value>
       <Description>Description coming.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageFlashingLight2</Key>
-      <Value>Wreckage Flashing Light</Value>
+      <Value>Обломки мигающей лампы</Value>
       <Description>Description coming.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageActiveVent1</Key>
-      <Value>Wreckage Active Vent</Value>
+      <Value>Обломки активной вентиляции</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckagePassiveVent1</Key>
-      <Value>Wreckage Passive Vent</Value>
+      <Value>Обломки пассивной вентиляции</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageCoalGenerator1</Key>
-      <Value>Wreckage Coal Generator</Value>
+      <Value>Обломки твердотопливного генератора</Value>
       <Description>Description coming.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageCoalGenerator2</Key>
-      <Value>Wreckage Coal Generator</Value>
+      <Value>Обломки твердотопливного генератора</Value>
       <Description>Description coming.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageCoalGenerator3</Key>
-      <Value>Wreckage Coal Generator</Value>
+      <Value>Обломки твердотопливного генератора</Value>
       <Description>Description coming.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageH2Combustor1</Key>
-      <Value>Wreckage H2 Combustor</Value>
+      <Value>Обломки cжигателя водорода</Value>
       <Description>Description coming.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageHydroponicsAutomatic1</Key>
-      <Value>Wreckage Hydroponics Automatic</Value>
+      <Value>Обломки автоматической гидропоники</Value>
       <Description>Description coming.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageHydroponicsAutomatic2</Key>
-      <Value>Wreckage Hydroponics Automatic</Value>
+      <Value>Обломки автоматической гидропоники</Value>
       <Description>Description coming.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageHydroponicsAutomatic3</Key>
-      <Value>Wreckage Hydroponics Automatic</Value>
+      <Value>Обломки автоматической гидропоники</Value>
       <Description>Description coming.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageHydroponicsStation1</Key>
-      <Value>Wreckage Hydroponics Station</Value>
+      <Value>Обломки гидропонной станции</Value>
       <Description>Description coming.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageHydroponicsStation2</Key>
-      <Value>Wreckage Hydroponics Station</Value>
+      <Value>Обломки гидропонной станции</Value>
       <Description>Description coming.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageSDBSilo1</Key>
-      <Value>Wreckage SDB Silo</Value>
+      <Value>Обломки SDB хранилища</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageSDBSilo2</Key>
-      <Value>Wreckage SDB Silo</Value>
+      <Value>Обломки SDB хранилища</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageSDBSilo3</Key>
-      <Value>Wreckage SDB Silo</Value>
+      <Value>Обломки SDB хранилища</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageSDBSilo4</Key>
-      <Value>Wreckage SDB Silo</Value>
+      <Value>Обломки SDB хранилища</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageSDBSilo5</Key>
-      <Value>Wreckage SDB Silo</Value>
+      <Value>Обломки SDB хранилища</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageShuttleLandingPad1</Key>
-      <Value>Wreckage Shuttle Landing Pad</Value>
+      <Value>Обломки посадочной площадки шаттлов</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageShuttleLandingPad2</Key>
-      <Value>Wreckage Shuttle Landing Pad</Value>
+      <Value>Обломки посадочной площадки шаттлов</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageShuttleLandingPad3</Key>
-      <Value>Wreckage Shuttle Landing Pad</Value>
+      <Value>Обломки посадочной площадки шаттлов</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageShuttleLandingPad4</Key>
-      <Value>Wreckage Shuttle Landing Pad</Value>
+      <Value>Обломки посадочной площадки шаттлов</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageShuttleLandingPad5</Key>
-      <Value>Wreckage Shuttle Landing Pad</Value>
+      <Value>Обломки посадочной площадки шаттлов</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageBlastDoor1</Key>
-      <Value>Wreckage Blast Door</Value>
+      <Value>Обломки усиленной двери</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageBlastDoor2</Key>
-      <Value>Wreckage Blast Door</Value>
+      <Value>Обломки усиленной двери</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageCompositeDoor1</Key>
-      <Value>Wreckage Composite Door</Value>
+      <Value>Обломки композитной двери</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageCompositeDoor2</Key>
-      <Value>Wreckage Composite Door</Value>
+      <Value>Обломки композитной двери</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageCompositeDoor3</Key>
-      <Value>Wreckage Composite Door</Value>
+      <Value>Обломки композитной двери</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -5879,7 +5879,7 @@ On - &lt;1 - выключить устройство, &gt;=1 - включить
     </RecordThing>
     <RecordThing>
       <Key>StructurePlinth</Key>
-      <Value>Plinth</Value>
+      <Value>Постамент</Value>
       <Description />
     </RecordThing>
     <RecordThing>
