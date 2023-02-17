@@ -1702,7 +1702,7 @@ To use on yourself: put duct tape in your active hand, hold RIGHT MOUSE BUTTON t
     </RecordThing>
     <RecordThing>
       <Key>ItemRTG</Key>
-      <Value>РТ генератор</Value>
+      <Value>РИТЭГ</Value>
       <Description>Этот набор создает чудо современной науки, {THING:ItemRTG}.</Description>
     </RecordThing>
     <RecordThing>
@@ -2092,7 +2092,7 @@ Be there, even when you're not.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureChuteBin</Key>
-      <Value>Транспортная труба для мусора</Value>
+      <Value>Корзина</Value>
       <Description>The {LINK:Stationeers;Stationeer's} goal is to make off-world survival less of a struggle for themselves, and those who will follow in their footsteps.
 Like most {LINK:Recurso;Recurso}-designed systems, chute bins are simple and robust powered items, allowing items to be manually passed into chute networks by pulling a lever. They can also be programmed with {LINK:LogicUnitPage;logic} to operate automatically, although full automation requires the use items such as a {THING:StructureSDBHopper}.</Description>
     </RecordThing>
@@ -2117,7 +2117,7 @@ Chute junctions are fundamental components of chute networks, allowing merging o
     </RecordThing>
     <RecordThing>
       <Key>StructureChuteOutlet</Key>
-      <Value>Выбрасыватель из транспортной трубы</Value>
+      <Value>Выбрасыватель</Value>
       <Description>The aim for any {LINK:Stationeers;Stationeer} is to make off-world survival less of a struggle for themselves, and those who will follow in their footsteps.
 The chute outlet is an aperture for exiting items from {LINK:ImportExportPage;import/export} networks. Note that the outlet's origins in zero-gravity mining means they are permanently open, rather than interactable, but can be connected to {LINK:LogicUnitPage;logic} systems to monitor throughput.</Description>
     </RecordThing>
@@ -2454,7 +2454,7 @@ With a little patience and maneuvering, the corner frame's Gothic-inspired silho
     <RecordThing>
       <Key>StructureRTG</Key>
       <Value>РТ генератор</Value>
-      <Description>РТГ, разработанный {LINK:Norsec;Norsec}, (Радиоизотопный Термоэлектрический Генератор) использует тепловыделение радиоактивного распада для создания напряжения за счет перепада температур на термопаре. Обычно предназначенный для устройств с низким энергопотреблением, РТГ, по слухам, использует технологию Zrillian для достижения невероятно высокой выходной мощности.</Description>
+      <Description>РИТЭГ, разработанный {LINK:Norsec;Norsec}, (Радиоизотопный Термоэлектрический Генератор) использует тепловыделение радиоактивного распада для создания напряжения за счет перепада температур на термопаре. Обычно предназначенный для устройств с низким энергопотреблением, РИТЭГ, по слухам, использует технологию Zrillian для достижения невероятно высокой выходной мощности.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureSleeper</Key>
@@ -4544,22 +4544,22 @@ RobotMode.None = 6 = автоматически назначенное сост�
     <RecordThing>
       <Key>ElectronicPrinterMod</Key>
       <Value>Модуль принтера электроники</Value>
-      <Description>Apply to an {THING:StructureElectronicsPrinter} with a {THING:ItemWeldingTorch} or {THING:ItemArcWelder} to upgrade for increased processing speed and more recipe options.</Description>
+      <Description>Улучшите этим модулем {THING:StructureElectronicsPrinter} с помощью {THING:ItemWeldingTorch} или {THING:ItemArcWelder}, чтобы повысить скорость обработки и получить больше вариантов рецептов.</Description>
     </RecordThing>
     <RecordThing>
       <Key>AutolathePrinterMod</Key>
-      <Value>Autolathe Printer Mod</Value>
-      <Description>Apply to an {THING:StructureAutolathe} with a {THING:ItemWeldingTorch} or {THING:ItemArcWelder} to upgrade for increased processing speed and more recipe options.</Description>
+      <Value>Модуль автотокарного станка</Value>
+      <Description>Улучшите этим модулем {THING:StructureAutolathe} с помощью {THING:ItemWeldingTorch} или {THING:ItemArcWelder}, чтобы повысить скорость обработки и получить больше вариантов рецептов.</Description>
     </RecordThing>
     <RecordThing>
       <Key>PipeBenderMod</Key>
-      <Value>Pipe Bender Mod</Value>
-      <Description>Apply to an {THING:StructureHydraulicPipeBender} with a {THING:ItemWeldingTorch} or {THING:ItemArcWelder} to upgrade for increased processing speed and more recipe options.</Description>
+      <Value>Модуль гидравлического сгибателя труб</Value>
+      <Description>Улучшите этим модулем {THING:StructureHydraulicPipeBender} с помощью {THING:ItemWeldingTorch} или {THING:ItemArcWelder}, чтобы повысить скорость обработки и получить больше вариантов рецептов.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ToolPrinterMod</Key>
-      <Value>Tool Printer Mod</Value>
-      <Description>Apply to an {THING:StructureToolManufactory} with a {THING:ItemWeldingTorch} or {THING:ItemArcWelder} to upgrade for increased processing speed and more recipe options.</Description>
+      <Value>Модуль принтера инструментов</Value>
+      <Description>Улучшите этим модулем {THING:StructureToolManufactory} с помощью {THING:ItemWeldingTorch} или {THING:ItemArcWelder}, чтобы получить повышение скорости обработки и  получить больше вариантов рецептов.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureTransformerMedium</Key>
@@ -4571,9 +4571,9 @@ Note that transformers also operate as data isolators, preventing data flowing i
     <RecordThing>
       <Key>StructureTransformerMediumReversed</Key>
       <Value>Средний обратный трансформатор</Value>
-      <Description>Transformers control the maximum power that will flow down a sub-network of cables, to prevent overloading {LINK:ElectronicPage;electrical} systems. 
-Medium transformers are used in larger setups where more than 5000W is required, with output that can be set to a maximum of 25000W.
-Note that transformers also operate as data isolators, preventing data flowing into any network beyond it.</Description>
+      <Description>Трансформаторы контролируют максимальную мощность, которая будет передаваться по подсети кабелей, чтобы предотвратить перегрузку {LINK:ElectronicPage;электрических} систем.
+Средние трансформаторы используются в более крупных установках, где требуется более 5000 Вт, при этом выходная мощность может быть установлена на максимум 25000 Вт.
+Обратите внимание, что преобразователи также работают как изоляторы данных, предотвращая передачу данных в любую сеть за ее пределами.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureTransformerMedium(Reversed)</Key>
@@ -5027,12 +5027,12 @@ Note that transformers also operate as data isolators, preventing data flowing i
     </RecordThing>
     <RecordThing>
       <Key>StructurePipeOrgan</Key>
-      <Value>Труба Органа</Value>
+      <Value>Труба орган</Value>
       <Description>Орган можно присоединить к одному концу {THING:ItemPipeValve}. Длина трубы после того, как орган меняет высоту ноты, которую он будет играть при открытии клапана. Используйте {LINK:LogicPage;логические устройства}, чтобы открывать и закрывать клапаны, чтобы создавать собственные мелодии для вашей базы или звуковое предупреждение.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitPipeOrgan</Key>
-      <Value>Труба Органа</Value>
+      <Value>Труба орган</Value>
       <Description>Содержит {THING:StructurePipeOrgan}.</Description>
     </RecordThing>
     <RecordThing>
@@ -7601,7 +7601,7 @@ You must place the laptop down to interact with the onsreen UI.
     </RecordThing>
     <RecordThing>
       <Key>StructureChuteFlipFlopSplitter</Key>
-      <Value>Транспортная труба с развлетлителем с резким поворотом</Value>
+      <Value>Развлетлителем с резким поворотом</Value>
       <Description>A chute that toggles between two outputs</Description>
     </RecordThing>
     <RecordThing>
@@ -7618,8 +7618,8 @@ You must place the laptop down to interact with the onsreen UI.
     </RecordThing>
     <RecordThing>
       <Key>StructureChuteOverflow</Key>
-      <Value>Транспортная труба при переполнении</Value>
-      <Description>Перепускной желоб направит материалы к порту перелива, когда вещь, подключенная к порту по умолчанию, уже занята..</Description>
+      <Value>Транспортная труба для избытков</Value>
+      <Description>Транспортная труба для избытков направит материалы к порту для избытка, когда вещь, подключенная к порту по умолчанию, уже занята.</Description>
     </RecordThing>
     <RecordThing>
       <Key>KitStructureCombustionCentrifuge</Key>
@@ -7628,28 +7628,28 @@ You must place the laptop down to interact with the onsreen UI.
     </RecordThing>
     <RecordThing>
       <Key>StructureChuteDigitalValveLeft</Key>
-      <Value>Chute Digital Valve Left</Value>
+      <Value>Заслонка слева</Value>
       <Description>The Digital Chute Valve will stop the flow of materials when set to closed and when set to open, will act like a straight chute. The valve will automatically close after a certain number of items have passed through. This threshold can be set using the dial.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureChuteDigitalValveRight</Key>
-      <Value>Chute Digital Valve Right</Value>
+      <Value>Заслонка справо</Value>
       <Description>The Digital Chute Valve will stop the flow of materials when set to closed and when set to open, will act like a straight chute. The valve will automatically close after a certain number of items have passed through. This threshold can be set using the dial.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureChuteDigitalFlipFlopSplitterLeft</Key>
-      <Value>Chute Digital Flip Flop Splitter Left</Value>
+      <Value>Разветвитель с резким поворотом влево</Value>
       <Description>The digital flip flop will toggle between two outputs using a specified ratio (n:1). For example, setting the dial to 2 would allow two items to pass through the primary output before flipping to the secondary output.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureChuteDigitalFlipFlopSplitterRight</Key>
-      <Value>Chute Digital Flip Flop Splitter Right</Value>
-      <Description>Цифровой триггер будет переключаться между двумя выходами с заданным соотношением (n:1). Например, установка циферблата на 2 позволит двум элементам пройти через первичный выход, прежде чем переключиться на вторичный выход.</Description>
+      <Value>Разветвитель с резким поворотом вправо</Value>
+      <Description>Электрический триггер будет переключаться между двумя выходами с заданным соотношением (n:1). Например, установка циферблата на 2 позволит двум элементам пройти через первичный выход, прежде чем переключиться на вторичный выход.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitStandardChute</Key>
-      <Value>Лотки с электроприводом</Value>
-      <Description>This kit produces a variety of powered chutes</Description>
+      <Value>Электрическая транспортная труба</Value>
+      <Description>Этот набор содержит различные транспортные трубы, которым требуется электричество</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemPlantSampler</Key>
@@ -11596,7 +11596,8 @@ You must place the laptop down to interact with the onsreen UI.
     </Record>
     <Record>
       <Key>CartridgeElectronicReaderAutoFlashTitle</Key>    
-      <Value>Воспламенение при:</Value>
+      <Value>Воспламенение 
+при:</Value>
     </Record>
     <Record>
       <Key>CartridgeElectronicReaderAutoITitle</Key>
@@ -11813,7 +11814,7 @@ You must place the laptop down to interact with the onsreen UI.
     </Record>
     <Record>
       <Key>NetworkAnalyserActual</Key>
-      <Value>ТЕКУЩЕЕ</Value>
+      <Value>НАГРУЗКА</Value>
     </Record>
     <Record>
       <Key>NetworkAnalyserPotential</Key>
@@ -11985,7 +11986,7 @@ You must place the laptop down to interact with the onsreen UI.
 	</Record>
 	<Record>
 	  <Key>ScriptCommandLR</Key>
-	  <Value>Loads reagent of device's reagentMode to register. Contents (0), Required (1), Recipe (2). Can use either the word, or the number.</Value>
+	  <Value>Загружает реагент из reagentMode устройства для регистрации. Содержимое (0), Необходимо (1), Рецепт (2). Можно использовать либо слово, либо число.</Value>
 	</Record>
 	<Record>
 	  <Key>ScriptCommandAlias</Key>
@@ -12193,7 +12194,7 @@ You must place the laptop down to interact with the onsreen UI.
 	</Record>
 	<Record>
 	  <Key>ScriptCommandBrdse</Key>
-	  <Value>Относительный переход на строку a, если устройство не установлено</Value>
+	  <Value>Относительный переход к строке a, если устройство установлено</Value>
 	</Record>
 	<Record>
 	  <Key>ScriptCommandBrdns</Key>
@@ -15198,11 +15199,11 @@ Stationeers, способные строить и поддерживать ба�
     </Record>
     <Record>
       <Key>DaysPassedPlayerMessage</Key>
-      <Value>{LOCAL:DaysPassed} days have passed. Your character has survived {LOCAL:DaysLived} without dying.</Value>
+      <Value>Прошло {LOCAL:DaysPassed} дней. Ваш персонаж выжил {LOCAL:DaysLived} не умирая.</Value>
     </Record>
     <Record>
       <Key>DaysPassedHudText</Key>
-      <Value>ДЕНЬ {LOCAL:DaysPassed}</Value>
+      <Value>DAY {LOCAL:DaysPassed}</Value>
     </Record>
     <Record>
       <Key>CustomSkeletonName</Key>
@@ -15218,7 +15219,7 @@ Stationeers, способные строить и поддерживать ба�
     </Record>
     <Record>
       <Key>QuantityAndRatioTooltip</Key>
-      <Value>Quantity &lt;color=green&gt;{LOCAL:QuantityValue}
+      <Value>Количество &lt;color=green&gt;{LOCAL:QuantityValue}
 &lt;color=white&gt;Mode &lt;color=green&gt;{LOCAL:RatioValue1}:{LOCAL:RatioValue2}</Value>
     </Record>
     <Record>
@@ -15259,11 +15260,11 @@ Stationeers, способные строить и поддерживать ба�
     </Record>
     <Record>
       <Key>CryoReviving</Key>
-      <Value>Reviving</Value>
+      <Value>Возрождение</Value>
     </Record>
     <Record>
       <Key>CryoStandby</Key>
-      <Value>Standby</Value>
+      <Value>Поддерживать</Value>
     </Record>
     <Record>
       <Key>CryoStatus</Key>
@@ -16189,7 +16190,7 @@ Stationeers, способные строить и поддерживать ба�
     </Record>
     <Record>
       <Key>DeviceEmpty</Key>
-      <Value>TЭто необходимо для очистки устройства от всех реагентов</Value>
+      <Value>Это необходимо для очистки устройства от всех реагентов</Value>
     </Record>
     <Record>
       <Key>DeviceWillProduce</Key>
@@ -16301,83 +16302,83 @@ Stationeers, способные строить и поддерживать ба�
     </Record>
     <Record>
       <Key>LogicCurrentlySetTo</Key>
-      <Value>The {LOCAL:Thing} is currently set to &lt;color=yellow&gt;Logic&lt;/color&gt; mode</Value>
+      <Value>{LOCAL:Thing} в настоящее время имеет значение &lt;color=yellow&gt;Логический&lt;/color&gt; режим</Value>
     </Record>
     <Record>
       <Key>AirLockIsCurrently</Key>
-      <Value>The {LOCAL:Airlock} is currently &lt;color=yellow&gt;{LOCAL:AirLockState}&lt;/color&gt;</Value>
+      <Value>{LOCAL:Airlock} в настоящее время &lt;color=yellow&gt;{LOCAL:AirLockState}&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>RequiresScrewdriver</Key>
-      <Value>Requires screwdriver</Value>
+      <Value>Требуется отвертка</Value>
     </Record>
     <Record>
       <Key>RequiresScrewdriverOrLabeler</Key>
-      <Value>You need a Screwdriver or Labeler to change settings</Value>
+      <Value>Для изменения настроек вам понадобится отвертка или маркировщик для изменения настроек.</Value>
     </Record>
     <Record>
       <Key>NoAudioReceiverDevices</Key>
-      <Value>No audio receiver devices</Value>
+      <Value>Нет аудиоустройств</Value>
     </Record>
     <Record>
       <Key>ShaftNotOn</Key>
-      <Value>Cannot interact as the current shaft is not turned on</Value>
+      <Value>Невозможно взаимодействовать, так как текущий вал не включен</Value>
     </Record>
     <Record>
       <Key>ToolDoesNotHaveAnythingInSlot</Key>
-      <Value>{LOCAL:Tool} does not have anything in its {LOCAL:Slot} slot.</Value>
+      <Value>{LOCAL:Tool} ничего не имеет в слоте {LOCAL:Slot}.</Value>
     </Record>
     <Record>
       <Key>ToolDoesNotHaveEnoughCharge</Key>
-      <Value>{LOCAL:Tool} does not have enough {LOCAL:Battery} charge.</Value>
+      <Value>{LOCAL:Tool} недостаточно заряжен {LOCAL:Battery}.</Value>
     </Record>
     <Record>
       <Key>ToolCanNotCompleteTask</Key>
-      <Value>{LOCAL:Tool} cannot complete this task.</Value>
+      <Value>{LOCAL:Tool} не может выполнить эту задачу.</Value>
     </Record>
     <Record>
       <Key>ToolNotCurrentlyOperableForTask</Key>
-      <Value>{LOCAL:Tool} is not currently operable for this task</Value>
+      <Value>{LOCAL:Tool} в настоящее время не работает для этой задачи</Value>
     </Record>
     <Record>
       <Key>VolumeChangeDirection</Key>
-      <Value>Change Direction</Value>
+      <Value>Изменить направление</Value>
     </Record>
     <Record>
       <Key>HoldForSmallIncrements</Key>
-      <Value>Hold {KEY:QuantityModifier} for smaller increments</Value>
+      <Value>Удерживайте {KEY:QuantityModifier} для меньших приращений</Value>
     </Record>
     <Record>
       <Key>UseLabelerToSet</Key>
-      <Value>Use a &lt;color=yellow&gt;Labeler&lt;/color&gt; to directly enter a value</Value>
+      <Value>Используйте &lt;color=yellow&gt;Маркировщик&lt;/color&gt; чтобы напрямую ввести значение</Value>
     </Record>
     <Record>
       <Key>PlantSamplerNoSample</Key>
-      <Value>No completed sample to view</Value>
+      <Value>Нет заполненного образца для просмотра</Value>
     </Record>
     <Record>
       <Key>PlantViewSampleInfo</Key>
-      <Value>&lt;color=green&gt;Left click&lt;/color&gt; to view completed sample information</Value>
+      <Value>&lt;color=green&gt;Щелкните ЛКМ&lt;/color&gt; для просмотра информации о заполненном образце</Value>
     </Record>
     <Record>
       <Key>PlantHoldToClear</Key>
-      <Value>Hold &lt;color=yellow&gt;{KEY:QuantityModifier}&lt;/color&gt; to clear {LOCAL:Plant}</Value>
+      <Value>Удерживайте &lt;color=yellow&gt;{KEY:QuantityModifier}&lt;/color&gt;, чтобы убрать {LOCAL:Plant}</Value>
     </Record>
     <Record>
       <Key>PlantNotGrowingMature</Key>
-      <Value>The {LOCAL:Plant} &lt;color=red&gt;is not growing&lt;/color&gt; and will never fruit</Value>
+      <Value>{LOCAL:Plant} &lt;color=red&gt;не растет&lt;/color&gt; и никогда не будет плодоносить</Value>
     </Record>
     <Record>
       <Key>PlantBarelyGrowingMature</Key>
-      <Value>The {LOCAL:Plant} is barely growing toward fruiting</Value>
+      <Value>The {LOCAL:Plant} едва растет</Value>
     </Record>
     <Record>
       <Key>PlantGrowingPoorlyMature</Key>
-      <Value>The {LOCAL:Plant} is growing poorly toward fruiting</Value>
+      <Value>{LOCAL:Plant} плохо растет</Value>
     </Record>
     <Record>
       <Key>PlantGrowingModeratelyMature</Key>
-      <Value>The {LOCAL:Plant} is growing moderately well toward fruiting</Value>
+      <Value>{LOCAL:Plant} растет умеренно хорошо</Value>
     </Record>
     <Record>
       <Key>PlantThrivingMature</Key>
@@ -16385,207 +16386,207 @@ Stationeers, способные строить и поддерживать ба�
     </Record>
     <Record>
       <Key>PlantNotGrowingSeed</Key>
-      <Value>The {LOCAL:Plant} &lt;color=red&gt;is not growing&lt;/color&gt; and will never seed</Value>
+      <Value>{LOCAL:Plant} &lt;color=red&gt;не растет&lt;/color&gt; и никогда не будет сеять</Value>
     </Record>
     <Record>
       <Key>PlantBarelyGrowingSeed</Key>
-      <Value>The {LOCAL:Plant} is barely growing toward seeding</Value>
+      <Value>{LOCAL:Plant} едва растет к посевному</Value>
     </Record>
     <Record>
       <Key>PlantGrowingPoorlySeed</Key>
-      <Value>The {LOCAL:Plant} is growing poorly toward seeding</Value>
+      <Value>{LOCAL:Plant} плохо растет к посевному</Value>
     </Record>
     <Record>
       <Key>PlantGrowingModeratelySeed</Key>
-      <Value>The {LOCAL:Plant} is growing moderately well toward seeding</Value>
+      <Value>{LOCAL:Plant}растет умеренно хорошо к посеву</Value>
     </Record>
     <Record>
       <Key>PlantThrivingSeed</Key>
-      <Value>The {LOCAL:Plant} is thriving toward seeding</Value>
+      <Value>{LOCAL:Plant}стремится к посевной</Value>
     </Record>
     <Record>
       <Key>PlantNotEnoughLight</Key>
-      <Value>The {LOCAL:Plant} &lt;color=red&gt;is not receiving the correct amount of light per day&lt;/color&gt;</Value>
+      <Value>{LOCAL:Plant} &lt;color=red&gt;не получает нужное количество света в день&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>PlantAtmosphereTooHot</Key>
-      <Value>The {LOCAL:Plant} &lt;color=red&gt;atmosphere is too hot&lt;/color&gt;</Value>
+      <Value>Для {LOCAL:Plant} &lt;color=red&gt;атмосфера слишком горячая&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>PlantAtmosphereTooCold</Key>
-      <Value>The {LOCAL:Plant} &lt;color=red&gt;atmosphere is too cold&lt;/color&gt;</Value>
+      <Value>Для {LOCAL:Plant} &lt;color=red&gt;атмосфера слишком холодная&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>PlantWaterTooHot</Key>
-      <Value>The {LOCAL:Plant} &lt;color=red&gt;water is too hot&lt;/color&gt;</Value>
+      <Value>Для {LOCAL:Plant} &lt;color=red&gt;цода слишком горячая&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>PlantWaterTooCold</Key>
-      <Value>The {LOCAL:Plant} &lt;color=red&gt;water is too cold&lt;/color&gt;</Value>
+      <Value>Для {LOCAL:Plant} &lt;color=red&gt;вода очень холодная&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>PlantWaterNeeds</Key>
-      <Value>The {LOCAL:Plant} &lt;color=red&gt;needs water&lt;/color&gt;</Value>
+      <Value>Для {LOCAL:Plant} &lt;color=red&gt;требуется вода&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>PlantNotCorrectAtmosphere</Key>
-      <Value>The {LOCAL:Plant} &lt;color=red&gt;does not have the correct atmosphere gas composition&lt;/color&gt;</Value>
+      <Value>Для {LOCAL:Plant} &lt;color=red&gt;требуется правильный состав атмосферного газа&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>PlantIsPollutedByAir</Key>
-      <Value>The {LOCAL:Plant} &lt;color=red&gt;is being polluted from the air&lt;/color&gt;</Value>
+      <Value>{LOCAL:Plant} &lt;color=red&gt;загрязняется&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>PlantIsReceivingLight</Key>
-      <Value>The {LOCAL:Plant} is receiving light</Value>
+      <Value>{LOCAL:Plant} получает свет</Value>
     </Record>
     <Record>
       <Key>PlantIsInDarkness</Key>
-      <Value>The {LOCAL:Plant} &lt;color=red&gt;is in darkness&lt;/color&gt;</Value>
+      <Value>{LOCAL:Plant} &lt;color=red&gt;находится в темноте&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>PlantIsInLowPressureEnvironment</Key>
-      <Value>The {LOCAL:Plant} &lt;color=red&gt;is in a low pressure environment&lt;/color&gt;</Value>
+      <Value>{LOCAL:Plant} &lt;color=red&gt;находится в среде низкого давления&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>PlantIsInHighPressureEnvironment</Key>
-      <Value>The {LOCAL:Plant} &lt;color=red&gt;is in a high pressure environment&lt;/color&gt;</Value>
+      <Value>{LOCAL:Plant} &lt;color=red&gt;находится в среде высокого давления&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>PlantCreate</Key>
-      <Value>This will create &lt;color=yellow&gt;{LOCAL:Count}&lt;/color&gt; x {LOCAL:Plant}</Value>
+      <Value>Это создаст &lt;color=yellow&gt;{LOCAL:Count}&lt;/color&gt; x {LOCAL:Plant}</Value>
     </Record>
     <Record>
       <Key>PlantCreateSeeds</Key>
-      <Value>This will create &lt;color=yellow&gt;{LOCAL:Count}&lt;/color&gt; x {LOCAL:Plant} seeds</Value>
+      <Value>Это создаст &lt;color=yellow&gt;{LOCAL:Count}&lt;/color&gt; x {LOCAL:Plant} семян</Value>
     </Record>
     <Record>
       <Key>OreNoMiningBelt</Key>
-      <Value>No mining belt to store in</Value>
+      <Value>Нет шахтерского пояса для хранения руды</Value>
     </Record>
     <Record>
       <Key>OreNoSlotInMiningBelt</Key>
-      <Value>No available slot in mining belt</Value>
+      <Value>Нет свободной ячейки в шахтерском поясе</Value>
     </Record>
     <Record>
       <Key>ApcUnableToMoveLocked</Key>
-      <Value>Unable to move as the unit is locked</Value>
+      <Value>Невозможно двигаться, так как устройство заблокировано</Value>
     </Record>
     <Record>
       <Key>ApcUnableToMoveTool</Key>
-      <Value>Unable to move as the tool is not in operable condition</Value>
+      <Value>Невозможно двигаться, так как инструмент не в рабочем состоянии</Value>
     </Record>
     <Record>
       <Key>ElevatorUnableToForceOpenLocked</Key>
-      <Value>Unable to force open, {LOCAL:Elevator} locked</Value>
+      <Value>Не удалось открыть принудительно. {LOCAL:Elevator} заблокирован</Value>
     </Record>
     <Record>
       <Key>ElevatorUnableToForceOpenPowered</Key>
-      <Value>Unable to force open, {LOCAL:Elevator} is currently powered</Value>
+      <Value>Не удалось открыть принудительно. {LOCAL:Elevator} в настоящее время включен.</Value>
     </Record>
     <Record>
       <Key>DoorUnableToForceOpenLocked</Key>
-      <Value>Unable to force open, door bolts are locked</Value>
+      <Value>Невозможно открыть силой, дверные засовы заблокированы</Value>
     </Record>
     <Record>
       <Key>DoorUnableToForceOpenPowered</Key>
-      <Value>Unable to force open, door is currently powered</Value>
+      <Value>Невозможно принудительно открыть, дверь в настоящее питаеся от сети</Value>
     </Record>
     <Record>
       <Key>ActivateExplosive</Key>
-      <Value>Activates a {0} second timer. Timer cannot be turned off. Caution is advised.</Value>
+      <Value>Активирует секундный таймер {0}. Таймер нельзя отключить. Рекомендуется соблюдать осторожность.</Value>
     </Record>
     <Record>
       <Key>RocketCanNotEnterCommand</Key>
-      <Value>Cannot enter command module is full</Value>
+      <Value>Невозможно войти. Командный модуль заполнен</Value>
     </Record>
     <Record>
       <Key>PlantStabilizerToggleModeToStabilize</Key>
-      <Value>Set stabilize</Value>
+      <Value>Установить стабилизацию</Value>
     </Record>
     <Record>
       <Key>PlantStabilizerToggleModeToDestabilize</Key>
-      <Value>Set destabilize</Value>
+      <Value>Установить дестабилизировать</Value>
     </Record>
     <Record>
       <Key>PlantStabilizerStabilizeMode</Key>
-      <Value>Stabilize</Value>
+      <Value>Стабилизировать</Value>
     </Record>
     <Record>
       <Key>PlantStabilizerDestabilizeMode</Key>
-      <Value>Destabilize</Value>
+      <Value>Дестабилизировать</Value>
     </Record>
     <Record>
       <Key>PlantStabilizerStabilizePlant</Key>
-      <Value>Stabilize all genes on {LOCAL:Plant}</Value>
+      <Value>Стабилизировать все гены в {LOCAL:Plant}</Value>
     </Record>
     <Record>
       <Key>PlantStabilizerDestabilizePlant</Key>
-      <Value>Destabilize &lt;color=green&gt;{LOCAL:Gene}&lt;/color&gt; gene on {LOCAL:Plant} </Value>
+      <Value>Дестабилизировать &lt;color=green&gt;{LOCAL:Gene}&lt;/color&gt; ген в {LOCAL:Plant}</Value>
     </Record>
     <Record>
       <Key>PlantStabilizerStabilizingPlant</Key>
-      <Value>Stabilizing {LOCAL:Plant} &lt;color=yellow&gt;{LOCAL:Value}%&lt;/color&gt;</Value>
+      <Value>Стабилизация {LOCAL:Plant} &lt;color=yellow&gt;{LOCAL:Value}%&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>PlantStabilizerDestabilizingPlant</Key>
-      <Value>Destabilizing {LOCAL:Plant} &lt;color=yellow&gt;{LOCAL:Value}%&lt;/color&gt;</Value>
+      <Value>Дестабилизация {LOCAL:Plant} &lt;color=yellow&gt;{LOCAL:Value}%&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>PlantStabilizerStartStabilizing</Key>
-      <Value>Start stabilizing</Value>
+      <Value>Начать стабилизацию</Value>
     </Record>
     <Record>
       <Key>PlantStabilizerStartDestabilizing</Key>
-      <Value>Start destabilizing</Value>
+      <Value>Начать дестабилизацию</Value>
     </Record>
     <Record>
       <Key>PlantStabilizerNoPlantInSlot</Key>
-      <Value>No plant in slot</Value>
+      <Value>Нет растения в ячейке</Value>
     </Record>
     <Record>
       <Key>TraderLocked</Key>
-      <Value>Locked</Value>
+      <Value>Заблокировано</Value>
     </Record>
     <Record>
       <Key>TraderTrade</Key>
-      <Value>Trade</Value>
+      <Value>Торговать</Value>
     </Record>
     <Record>
       <Key>CommunicateWithShuttle</Key>
-      <Value>Communicate</Value>
+      <Value>Связаться</Value>
     </Record>
     <Record>
       <Key>ContactTradeNoLandingPad</Key>
-      <Value>Trader cannot land as no active landing pad is available</Value>
+      <Value>Торговец не может приземлиться, так как нет активной посадочной площадки.</Value>
     </Record>
     <Record>
       <Key>ContactTradePadOff</Key>
-      <Value>Trader cannot land as the target Landing pad is turned off</Value>
+      <Value>Торговец не может приземлиться, поскольку целевая посадочная площадка отключена.</Value>
     </Record>
     <Record>
       <Key>ContactTradePadUnpowered</Key>
-      <Value>Trader cannot land as the target Landing pad is unpowered</Value>
+      <Value>Торговец не может приземлиться, поскольку целевая посадочная площадка обесточена.</Value>
     </Record>
     <Record>
       <Key>ContactTradeLandingObstructed</Key>
-      <Value>Trader cannot land as the path to the target landing pad is obstructed</Value>
+      <Value>Торговец не может приземлиться, так как путь к целевой посадочной площадке перекрыт.</Value>
     </Record>
     <Record>
       <Key>ContactTradeDepartingObstructed</Key>
-      <Value>Trader cannot depart as the path is obstructed</Value>
+      <Value>Торговец не может улететь, так как путь перекрыт</Value>
     </Record>
     <Record>
       <Key>ContactTradeLandingPadError</Key>
-      <Value>Trader cannot land as the target landing pad is incorrectly configured</Value>
+      <Value>Торговец не может приземлиться, так как целевая посадочная площадка настроена неправильно</Value>
     </Record>
     <Record>
       <Key>ContactTradeLandingPadToSmall</Key>
-      <Value>Trader cannot land as the target landing pad is too small</Value>
+      <Value>Торговец не может приземлиться, так как целевая посадочная площадка слишком мала</Value>
     </Record>
     <Record>
       <Key>ArmControlIdle</Key>
-      <Value>Idle</Value>
+      <Value>Нейтралка</Value>
     </Record>
     <Record>
       <Key>ArmControlPlant</Key>
@@ -16609,95 +16610,95 @@ Stationeers, способные строить и поддерживать ба�
     </Record>
     <Record>
       <Key>SplicerCurrentGene</Key>
-      <Value>Current gene: &lt;color=green&gt;{LOCAL:Gene}&lt;/color&gt;</Value>
+      <Value>Текущий ген: &lt;color=green&gt;{LOCAL:Gene}&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>SplicerNextGene</Key>
-      <Value>Change gene to: {LOCAL:Gene}</Value>
+      <Value>Изменить ген на: {LOCAL:Gene}</Value>
     </Record>
     <Record>
       <Key>SplicerDeviceIsOpen</Key>
-      <Value>Close device before starting splice</Value>
+      <Value>Закройте устройство перед началом сварки</Value>
     </Record>
     <Record>
       <Key>SplicerNeedSourceAndTargetPlant</Key>
-      <Value>Need a source and target plant of the same type to start splice</Value>
+      <Value>Нужны исходная и целевая установки одного типа для начала сплайсинга.</Value>
     </Record>
     <Record>
       <Key>SplicerStartSplice</Key>
-      <Value>Start splice</Value>
+      <Value>Начать сращивание</Value>
     </Record>
     <Record>
       <Key>SplicerChangeGene</Key>
-      <Value>Change gene</Value>
+      <Value>Изменить ген</Value>
     </Record>
     <Record>
       <Key>SplicerPreviewSplice</Key>
-      <Value>Will splice &lt;color=green&gt;{LOCAL:Gene}&lt;/color&gt; from {LOCAL:SourcePlant} into {LOCAL:TargetPlant}</Value>
+      <Value>Будет сращиваться &lt;color=green&gt;{LOCAL:Gene}&lt;/color&gt; из {LOCAL:SourcePlant} в {LOCAL:TargetPlant}</Value>
     </Record>
     <Record>
       <Key>SplicerBusy</Key>
-      <Value>Currently splicing &lt;color=green&gt;{LOCAL:PercentComplete}%&lt;/color&gt; complete</Value>
+      <Value>В настоящее время сращивание &lt;color=green&gt;{LOCAL:PercentComplete}%&lt;/color&gt; завершено</Value>
     </Record>
     <Record>
       <Key>SplicerAddOneToSlot</Key>
-      <Value>Add {LOCAL:Plant} to slot</Value>
+      <Value>Добавьте {LOCAL:Plant} в ячейку</Value>
     </Record>
     <Record>
       <Key>GasMixture</Key>
-      <Value>Gas mixture</Value>
+      <Value>Газовая смесь</Value>
     </Record>
     <Record>
       <Key>ItemTransactionClientError</Key>
-      <Value>Item transaction should only be called on Server</Value>
+      <Value>Транзакция элемента должна вызываться только на сервере</Value>
     </Record>
     <Record>
       <Key>TransactionAtmosError</Key>
-      <Value>Landing pad atmosphere not found</Value>
+      <Value>Атмосфера посадочной площадки не найдена</Value>
     </Record>
     <Record>
       <Key>TransactionTradableError</Key>
-      <Value>Trader has spawned something that is not an ITradable</Value>
+      <Value>[Ошибка сделки] Торговец породил что-то, что не является ITradable</Value>
     </Record>
     <Record>
       <Key>TransactionFailRequired</Key>
-      <Value>Cannot complete transaction. You are trying to sell more than the trader wants.</Value>
+      <Value>Не удается завершить сделку. Вы пытаетесь продать больше, чем хочет торговец.</Value>
     </Record>
     <Record>
       <Key>TransactionFailCreditCard</Key>
-      <Value>Cannot complete transaction. No credit card found. Credit card must be in hand or the creditcard slot in your uniform.</Value>
+      <Value>Не удается завершить сделку. Не найдена кредитная карта. Кредитная карта должна быть в руке или в ячейке для кредитной карты в вашей униформе.</Value>
     </Record>
     <Record>
       <Key>TransactionFailInsufficientAvailable</Key>
-      <Value>Cannot complete transaction. You are trying to sell more than you have stored.</Value>
+      <Value>Не удается завершить сделку. Вы пытаетесь продать больше, чем у вас есть.</Value>
     </Record>
     <Record>
       <Key>TransactionErrorNonTradable</Key>
-      <Value>Non tradable item in inventory:</Value>
+      <Value>Неторгуемый предмет в инвентаре:</Value>
     </Record>
     <Record>
       <Key>TransactionFailStorage</Key>
-      <Value>You do not have enough storage space to buy all the items.</Value>
+      <Value>У вас недостаточно места для хранения, чтобы купить все предметы.</Value>
     </Record>
     <Record>
       <Key>TransactionFailVendingMachine</Key>
-      <Value>Cannot complete transaction. No vending machine found.</Value>
+      <Value>Не удается завершить транзакцию. Торговый автомат не найден.</Value>
     </Record>
     <Record>
       <Key>TransactionFailInsufficientStock</Key>
-      <Value>The trader does not have enough stock to complete this transaction.</Value>
+      <Value>У трейдера недостаточно запасов для завершения этой сделки.</Value>
     </Record>
     <Record>
       <Key>TransactionFailInsufficientFunds</Key>
-      <Value>You do not have enough money to complete this transaction.</Value>
+      <Value>У вас недостаточно денег, чтобы завершить эту сделку.</Value>
     </Record>
     <Record>
       <Key>TransactionErrorTradableCast</Key>
-      <Value>Cannot cast tradable item to thing</Value>
+      <Value>Невозможно передать предмет для обмена на вещь</Value>
     </Record>
     <Record>
       <Key>TradingToolTipNoInfo</Key>
-      <Value>No additional information</Value>
+      <Value>Нет дополнительной информации</Value>
     </Record>
     <Record>
       <Key>TradingToolTipNoRequirements</Key>
@@ -16737,31 +16738,31 @@ Stationeers, способные строить и поддерживать ба�
     </Record>
     <Record>
       <Key>CompareLessThan</Key>
-      <Value>less than</Value>
+      <Value>меньше, чемn</Value>
     </Record>
     <Record>
       <Key>CompareEqualOrLess</Key>
-      <Value>less or equal to</Value>
+      <Value>меньше или равно</Value>
     </Record>
     <Record>
       <Key>CompareEqual</Key>
-      <Value>equal to</Value>
+      <Value>равно</Value>
     </Record>
     <Record>
       <Key>CompareEqualOrGreater</Key>
-      <Value>greater or equal to</Value>
+      <Value>больше или равно</Value>
     </Record>
     <Record>
       <Key>CompareGreater</Key>
-      <Value>greater than</Value>
+      <Value>больше чем</Value>
     </Record>
     <Record>
       <Key>EnergyRatio</Key>
-      <Value>Energy ratio</Value>
+      <Value>Коэффициент энергии</Value>
     </Record>
     <Record>
       <Key>ChildItem</Key>
-      <Value>Has child item</Value>
+      <Value>Имеет дочерний элемент</Value>
     </Record>
     <Record>
       <Key>TemperatureBetween</Key>
@@ -16801,19 +16802,19 @@ Stationeers, способные строить и поддерживать ба�
     </Record>
     <Record>
       <Key>CycleWaypointHeight</Key>
-      <Value>Cycle height</Value>
+      <Value>Высота цикла</Value>
     </Record>
     <Record>
       <Key>CycleWaypoint</Key>
-      <Value>Cycle waypoint</Value>
+      <Value>Цикл путевой точки</Value>
     </Record>
     <Record>
       <Key>CurrentWaypoint</Key>
-      <Value>Next waypoint: {LOCAL:NextWaypoint}</Value>
+      <Value>Следующая путевая точка: {LOCAL:NextWaypoint}</Value>
     </Record>
     <Record>
       <Key>CurrentHeight</Key>
-      <Value>Current height {LOCAL:Height}</Value>
+      <Value>Текущая высота {LOCAL:Height}</Value>
     </Record>
   </GameStrings>
   <GameTip />
