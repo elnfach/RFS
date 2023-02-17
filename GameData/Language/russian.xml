@@ -1386,7 +1386,7 @@ To use on yourself: put duct tape in your active hand, hold RIGHT MOUSE BUTTON t
     </RecordThing>
     <RecordThing>
       <Key>ItemHydroponicTray</Key>
-      <Value>Гидропонный Лоток</Value>
+      <Value>Гидропонный лоток</Value>
       <Description>Этот набор содержит {THING:StructureHydroponicsTray} для выращивания различных растений.</Description>
     </RecordThing>
     <RecordThing>
@@ -11404,7 +11404,7 @@ You must place the laptop down to interact with the onsreen UI.
     </Record>
     <Record>
       <Key>SettingsDifficulty</Key>
-      <Value>Настройки сложности</Value>
+      <Value>Настройка сложности</Value>
     </Record>
     <Record>
       <Key>WorldCustomTerrainLabel</Key>
@@ -12673,7 +12673,7 @@ You must place the laptop down to interact with the onsreen UI.
     </Record>
     <Record>
       <Key>holdhotkey</Key>
-      <Value>(держать)</Value>
+      <Value>(удерживать)</Value>
     </Record>
     <Record>
       <Key>Pipe</Key>
@@ -15132,31 +15132,31 @@ Stationeers, способные строить и поддерживать ба�
   <GameStrings>
     <Record>
       <Key>ToolRequiredToDeconstruct</Key>
-      <Value>{LOCAL:Tool} required to &lt;color=red&gt;deconstruct&lt;/color&gt;</Value>
+      <Value>{LOCAL:Tool} требуется, чтобы &lt;color=red&gt;разобрать&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>FurnaceCurrentlySmelting</Key>
-      <Value>Currently Smelting {LOCAL:OreName} x &lt;color=yellow&gt;{LOCAL:Quantity}&lt;/color&gt;</Value>
+      <Value>В настоящее время плавится {LOCAL:OreName} x &lt;color=yellow&gt;{LOCAL:Quantity}&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>FurnaceNothingToSmelt</Key>
-      <Value>&lt;color=red&gt;Nothing to Smelt&lt;/color&gt;</Value>
+      <Value>&lt;color=red&gt;Ничего не плавится&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>DeviceAlreadyExporting</Key>
-      <Value>Already exporting {LOCAL:ItemName}</Value>
+      <Value>Уже экспортируется {LOCAL:ItemName}</Value>
     </Record>
     <Record>
       <Key>SuitContextAirConState</Key>
-      <Value>Кондиционер {LOCAL:IsTurnedOn}</Value>
+      <Value>{LOCAL:IsTurnedOn} кондиционер</Value>
     </Record>
     <Record>
       <Key>SuitContextAirPumpState</Key>
-      <Value>Насос {LOCAL:IsTurnedOn}</Value>
+      <Value>{LOCAL:IsTurnedOn} насос</Value>
     </Record>
     <Record>
       <Key>SuitContextFilterState</Key>
-      <Value>Фильтр {LOCAL:IsTurnedOn}</Value>
+      <Value>{LOCAL:IsTurnedOn} фильтр</Value>
     </Record>
     <Record>
       <Key>SaveButtonGameString</Key>
@@ -15239,23 +15239,23 @@ Stationeers, способные строить и поддерживать ба�
     </Record>
     <Record>
       <Key>CryoN2OPressureOk</Key>
-      <Value>&lt;color=green&gt;N2O pressure ok&lt;/color&gt;</Value>
+      <Value>&lt;color=green&gt;N2O давление в норме&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>CryoN2OPressureTooLow</Key>
-      <Value>&lt;color=red&gt;N2O pressure too low&lt;/color&gt;</Value>
+      <Value>&lt;color=red&gt;N2O очень низкое давление&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>CryoTemperatureOk</Key>
-      <Value>&lt;color=green&gt;Temperature ok&lt;/color&gt;</Value>
+      <Value>&lt;color=green&gt;Температура в норме&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>CryoTemperatureTooHigh</Key>
-      <Value>&lt;color=red&gt;Temperature too high&lt;/color&gt;</Value>
+      <Value>&lt;color=red&gt;Очень высокая температура&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>CryoConditionsNotMet</Key>
-      <Value>Conditions not met</Value>
+      <Value>Условия не выполнены</Value>
     </Record>
     <Record>
       <Key>CryoReviving</Key>
@@ -15269,19 +15269,19 @@ Stationeers, способные строить и поддерживать ба�
       <Key>CryoStatus</Key>
       <Value>{LOCAL:PressureValue}
 {LOCAL:TemperatureValue}
-Status: {LOCAL:StatusValue}</Value>
+Состояние: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>LoadingScreenDeserializeChunks</Key>
-      <Value>Deserializing Chunks</Value>
+      <Value>Десериализация чанков</Value>
     </Record>
     <Record>
       <Key>LoadingScreenDeserializingAtmospherics</Key>
-      <Value>Deserializing Atmospherics</Value>
+      <Value>Десериализация атмосферы</Value>
     </Record>
     <Record>
       <Key>LoadingScreenDeserializeCableNetworks</Key>
-      <Value>Deserializing Cable Networks</Value>
+      <Value>Десериализация кабельных сетей</Value>
     </Record>
     <Record>
       <Key>LoadingScreenPleaseWait</Key>
@@ -15297,11 +15297,11 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>LoadingScreenRegisteringPrefabs</Key>
-      <Value>Registering Prefabs</Value>
+      <Value>Регистрация префабов</Value>
     </Record>
     <Record>
       <Key>LoadingScreenConnectingToServer</Key>
-      <Value>Connecting to Server</Value>
+      <Value>Подключение к серверу</Value>
     </Record>
     <Record>
       <Key>LoadingScreenReadyToJoin</Key>
@@ -15309,39 +15309,39 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>LoadingScreenGeneratingTerrain</Key>
-      <Value>Generating Terrain</Value>
+      <Value>Создание ландшафта</Value>
     </Record>
     <Record>
       <Key>LoadingScreenFinishingGeneratingTerrain</Key>
-      <Value>Finished Generating Terrain</Value>
+      <Value>Завершение создания ландшафта</Value>
     </Record>
     <Record>
       <Key>LoadingScreenDeserializingChuteNetworks</Key>
-      <Value>Deserializing Chute Networks</Value>
+      <Value>Десериализация сетей транспортных труб</Value>
     </Record>
     <Record>
       <Key>LoadingScreenProcessingThings</Key>
-      <Value>Processing Things</Value>
+      <Value>Обработка предметов</Value>
     </Record>
     <Record>
       <Key>LoadingScreenDeserializingNetworks</Key>
-      <Value>Deserializing Networks</Value>
+      <Value>Десериализация сетей</Value>
     </Record>
     <Record>
       <Key>LoadingScreenDeserializingPipeNetworks</Key>
-      <Value>Deserializing Pipe Networks</Value>
+      <Value>Десериализация трубопроводных сетей</Value>
     </Record>
     <Record>
       <Key>LoadingScreenDeserializeRocketNetworks</Key>
-      <Value>Deserializing Rocket Networks</Value>
+      <Value>Десериализация Rocket Networks</Value>
     </Record>
     <Record>
       <Key>LoadingScreenCalculatingMeshes</Key>
-      <Value>Calculating Meshes</Value>
+      <Value>Расчет сеток</Value>
     </Record>
     <Record>
       <Key>LoadingScreenDeserializingStationContacts</Key>
-      <Value>Deserializing Station Contacts</Value>
+      <Value>Десериализация контактов станции</Value>
     </Record>
     <Record>
       <Key>LoadingScreenInitializing</Key>
@@ -15349,7 +15349,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>LoadingScreenInitializingChunks</Key>
-      <Value>Initializing Chunks</Value>
+      <Value>Инициализация чанков</Value>
     </Record>
     <Record>
       <Key>LoadingScreenLoadingChunks</Key>
@@ -15373,43 +15373,43 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>LoadingScreenLoadingRooms</Key>
-      <Value>Loading Rooms</Value>
+      <Value>Загрузка комнат</Value>
     </Record>
     <Record>
       <Key>LoadingScreenLoadingAtmosphers</Key>
-      <Value>Loading Atmospheres</Value>
+      <Value>Загрузка атмосфер</Value>
     </Record>
     <Record>
       <Key>LoadingScreenRegeneratingTerrain</Key>
-      <Value>Regenerating Terrain</Value>
+      <Value>Регенерация местности</Value>
     </Record>
     <Record>
       <Key>LoadingScreenPopulatingInventory</Key>
-      <Value>Populating Inventory</Value>
+      <Value>Заполнение инвентаря</Value>
     </Record>
     <Record>
       <Key>LoadingScreenSpawningThings</Key>
-      <Value>Spawning things</Value>
+      <Value>Создание предметов</Value>
     </Record>
     <Record>
       <Key>LoadingScreenInitializingDevices</Key>
-      <Value>Initializing Devices</Value>
+      <Value>Инициализация устройств</Value>
     </Record>
     <Record>
       <Key>LoadingScreenValidatingPrefabs</Key>
-      <Value>Validating Prefabs</Value>
+      <Value>Проверка префабов</Value>
     </Record>
     <Record>
       <Key>LoadingScreenRenderingChunks</Key>
-      <Value>Rendering Chunks</Value>
+      <Value>Рендеринг фрагментов</Value>
     </Record>
     <Record>
       <Key>LoadingScreenLoadingThings</Key>
-      <Value>Loading Things ({LOCAL:ThingCount})</Value>
+      <Value>Загрузка предметов ({LOCAL:ThingCount})</Value>
     </Record>
     <Record>
       <Key>LoadingScreenCleaningUpPrefabs</Key>
-      <Value>Cleaning up prefabs</Value>
+      <Value>Очистка префабов</Value>
     </Record>
     <Record>
       <Key>SettingsFullScreenDisplayMode</Key>
@@ -15449,175 +15449,175 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>NotPlantable</Key>
-      <Value>A {0} is not plantable</Value>
+      <Value>{0} нельзя сажать</Value>
     </Record>
     <Record>
       <Key>AddSeedsToSlot</Key>
-      <Value>This will add one {0} to the tray</Value>
+      <Value>Это добавит один {0} в гидропонный лоток</Value>
     </Record>
     <Record>
       <Key>ClearFertiliser</Key>
-      <Value>Clear fertiliser</Value>
+      <Value>Убрать удобрение</Value>
     </Record>
     <Record>
       <Key>NothingToSample</Key>
-      <Value>Nothing to sample</Value>
+      <Value>Нечего пробовать</Value>
     </Record>
     <Record>
       <Key>NoPlantToLabel</Key>
-      <Value>No plant to label</Value>
+      <Value>Нет растений для маркировки</Value>
     </Record>
     <Record>
       <Key>NothingToWater</Key>
-      <Value>Nothing to water</Value>
+      <Value>Нечего поливать</Value>
     </Record>
     <Record>
       <Key>AlreadyFullOfWater</Key>
-      <Value>Already full of water</Value>
+      <Value>Уже полно воды</Value>
     </Record>
     <Record>
       <Key>WaterPlantWith</Key>
-      <Value>Water plant with {LOCAL:InHand}</Value>
+      <Value>Водное растение с {LOCAL:InHand}</Value>
     </Record>
     <Record>
       <Key>CanOnlyUseLiquidOnPlants</Key>
-      <Value>You can only use liquid gas canisters to water plants</Value>
+      <Value>Для полива растений можно использовать только баллоны со сжиженным газом.</Value>
     </Record>
     <Record>
       <Key>CantHoldAnyMore</Key>
-      <Value>Can't hold any more</Value>
+      <Value>Не могу больше держать</Value>
     </Record>
     <Record>
       <Key>SomethingPlantedHere</Key>
-      <Value>There is already something planted here</Value>
+      <Value>Здесь уже что-то посажено</Value>
     </Record>
     <Record>
       <Key>SomethingInThisSlot</Key>
-      <Value>There is already something in this slot</Value>
+      <Value>В этом слоте уже что-то есть</Value>
     </Record>
     <Record>
       <Key>Fertiliser</Key>
-      <Value>Fertiliser</Value>
+      <Value>Удобрение</Value>
     </Record>
     <Record>
       <Key>AddFertiliserToSlot</Key>
-      <Value>Add fertiliser to slot</Value>
+      <Value>Добавить удобрение в ячейку</Value>
     </Record>
     <Record>
       <Key>GrowthTemperatureRange</Key>
-      <Value>Growth temperature range</Value>
+      <Value>Диапазон температур роста</Value>
     </Record>
     <Record>
       <Key>GrowthPressureRange</Key>
-      <Value>Growth pressure range</Value>
+      <Value>Диапазон давления роста</Value>
     </Record>
     <Record>
       <Key>GrowthSpeedMultiplier</Key>
-      <Value>Growth speed multiplier</Value>
+      <Value>Множитель скорости роста</Value>
     </Record>
     <Record>
       <Key>LightPerDay</Key>
-      <Value>Light per day</Value>
+      <Value>Требуемое количество света в день</Value>
     </Record>
     <Record>
       <Key>DarknessPerDay</Key>
-      <Value>Darkness per day</Value>
+      <Value>Требуемое количество темноты в день</Value>
     </Record>
     <Record>
       <Key>GasProduction</Key>
-      <Value>Gas production</Value>
+      <Value>Производимый газ</Value>
     </Record>
     <Record>
       <Key>WaterUsage</Key>
-      <Value>Water usage</Value>
+      <Value>Количество потребляемой воды</Value>
     </Record>
     <Record>
       <Key>UndesiredGasResistance</Key>
-      <Value>Undesired gas resistance</Value>
+      <Value>Нежелательная газостойкость</Value>
     </Record>
     <Record>
       <Key>TimeUntilDehydrationDamage</Key>
-      <Value>Time until drought damage</Value>
+      <Value>Время до гибели от засухи</Value>
     </Record>
     <Record>
       <Key>TimeUntilUndesiredGasDamage</Key>
-      <Value>Time until toxin damage</Value>
+      <Value>Время до гибели от токсинов</Value>
     </Record>
     <Record>
       <Key>TimeUntilFrozenDamage</Key>
-      <Value>Time until frozen damage</Value>
+      <Value>Время до вымерзания растения</Value>
     </Record>
     <Record>
       <Key>TimeUntilOverheatDamage</Key>
-      <Value>Time until overheat damage</Value>
+      <Value>Время до гибели от жары</Value>
     </Record>
     <Record>
       <Key>TimeUntilSuffocateDamage</Key>
-      <Value>Time until suffocate damage</Value>
+      <Value>Время до удушья</Value>
     </Record>
     <Record>
       <Key>TimeUntilLowPressureDamage</Key>
-      <Value>Time until low pressure damage</Value>
+      <Value>Время до гибели из-за низкого давления</Value>
     </Record>
     <Record>
       <Key>TimeUntilHighPressureDamage</Key>
-      <Value>Time until high pressure damage</Value>
+      <Value>Время до гибели высоким давлением</Value>
     </Record>
     <Record>
       <Key>TimeUntilLightDamage</Key>
-      <Value>Time until light damage</Value>
+      <Value>Время до гибели от большого кол. света</Value>
     </Record>
     <Record>
       <Key>TimeUntilDarknessDamage</Key>
-      <Value>Time until darkness damage</Value>
+      <Value>Время до гибели от малого кол. света</Value>
     </Record>
     <Record>
       <Key>MinGrowTemperature</Key>
-      <Value>Min grow temperature</Value>
+      <Value>Минимальная температура для выращивания</Value>
     </Record>
     <Record>
       <Key>MaxGrowTemperature</Key>
-      <Value>Max grow temperature</Value>
+      <Value>Максимальная температура для выращивания</Value>
     </Record>
     <Record>
       <Key>MinIdealGrowTemperature</Key>
-      <Value>Min ideal grow temperature</Value>
+      <Value>Идеальная мин. температура для роста</Value>
     </Record>
     <Record>
       <Key>MaxIdealGrowTemperature</Key>
-      <Value>Max ideal grow temperature</Value>
+      <Value>Идеальная макс. температура для роста</Value>
     </Record>
     <Record>
       <Key>MinGrowPressure</Key>
-      <Value>Min grow pressure</Value>
+      <Value>Минимальное давление для роста</Value>
     </Record>
     <Record>
       <Key>MaxGrowPressure</Key>
-      <Value>Max grow pressure</Value>
+      <Value>Максимальное давление для роста</Value>
     </Record>
     <Record>
       <Key>MinIdealGrowPressure</Key>
-      <Value>Min ideal grow pressure</Value>
+      <Value>Идеальное мин. давление для роста</Value>
     </Record>
     <Record>
       <Key>MaxIdealGrowPressure</Key>
-      <Value>Max ideal grow pressure</Value>
+      <Value>Идеальное макс. давление для роста</Value>
     </Record>
     <Record>
       <Key>NoSprayPaint</Key>
-      <Value>Not enough paint left to spray paint</Value>
+      <Value>Недостаточно краски для распыления</Value>
     </Record>
     <Record>
       <Key>SprayPaintExtendedMethod</Key>
-      <Value>The {0} will be painted {1}</Value>
+      <Value>{0} будет окрашен в {1}</Value>
     </Record>
     <Record>
       <Key>GeneGrowthSpeedMultiplier</Key>
-      <Value>Growth speed</Value>
+      <Value>Скорость роста</Value>
     </Record>
     <Record>
       <Key>GeneDescriptionGrowthSpeedMultiplier</Key>
-      <Value>Increases the growth speed of the plant. Plants with a higher Growth speed multiplier will take less time to grow.</Value>
+      <Value>Увеличивает скорость роста растения. Растениям с более высоким множителем скорости роста потребуется меньше времени для роста..</Value>
     </Record>
     <Record>
       <Key>GeneDarkPerDay</Key>
@@ -15625,7 +15625,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>GeneDescriptionDarkPerDay</Key>
-      <Value>The length of time a plant needs to be in darkness each day-cycle to thrive. The standard length day-cycle is 20 minutes.</Value>
+      <Value>Продолжительность времени, которое растение должно находиться в темноте каждый день, чтобы рости. Стандартная продолжительность дневного цикла составляет 20 минут.</Value>
     </Record>
     <Record>
       <Key>GeneLightPerDay</Key>
@@ -15633,7 +15633,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>GeneDescriptionLightPerDay</Key>
-      <Value>The length of time a plant needs to be lit by the sun or a grow light each day-cycle to thrive. The standard length day-cycle is 20 minutes.</Value>
+      <Value>Продолжительность времени, в течение которого растение должно быть освещено солнцем или светом каждый день, чтобы рости. Стандартная продолжительность дневного цикла составляет 20 минут.</Value>
     </Record>
     <Record>
       <Key>GeneDroughtTolerance</Key>
@@ -15641,7 +15641,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>GeneDescriptionDroughtTolerance</Key>
-      <Value>The length of time a plant can be dehydrated before it starts taking damage.</Value>
+      <Value>Время, в течение которого растение может быть обезвожено, прежде чем оно начнет погибать.</Value>
     </Record>
     <Record>
       <Key>GeneWaterUsage</Key>
@@ -15649,7 +15649,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>GeneDescriptionWaterUsage</Key>
-      <Value>The amount of water this plant consumes.</Value>
+      <Value>Количество воды, которое потребляет это растение.</Value>
     </Record>
     <Record>
       <Key>GeneGasProduction</Key>
@@ -15657,7 +15657,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>GeneDescriptionGasProduction</Key>
-      <Value>The amount of gas the plant inhales and exhales.</Value>
+      <Value>Количество газа, которое растение вдыхает и выдыхает.</Value>
     </Record>
     <Record>
       <Key>GeneSuffocationTolerance</Key>
@@ -15665,7 +15665,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>GeneDescriptionSuffocationTolerance</Key>
-      <Value>The length of time a plant can be starved of its inhaled gas requirements before it starts taking damage.</Value>
+      <Value>Продолжительность времени, в течение которого растение может не удовлетворять свои потребности во вдыхаемом газе, прежде чем оно начнет повреждаться..</Value>
     </Record>
     <Record>
       <Key>GeneLowPressureResistance</Key>
@@ -15673,7 +15673,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>GeneDescriptionLowPressureResistance</Key>
-      <Value>The lower limit of pressure that the plant is able to grow at.</Value>
+      <Value>Нижний предел давления, при котором растение способно расти.</Value>
     </Record>
     <Record>
       <Key>GeneLowPressureTolerance</Key>
@@ -15681,7 +15681,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>GeneDescriptionLowPressureTolerance</Key>
-      <Value>The length of time a plant can stay below its low pressure limit before it starts taking damage.</Value>
+      <Value>Продолжительность времени, в течение которого растение может оставаться ниже нижнего предела давления, прежде чем оно начнет повреждаться..</Value>
     </Record>
     <Record>
       <Key>GeneLowTemperatureResistance</Key>
@@ -15689,7 +15689,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>GeneDescriptionLowTemperatureResistance</Key>
-      <Value>The lower limit of temperature that the plant is able to grow at.</Value>
+      <Value>Нижний предел температуры, при которой растение способно расти.</Value>
     </Record>
     <Record>
       <Key>GeneLowTemperatureTolerance</Key>
@@ -15697,7 +15697,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>GeneDescriptionLowTemperatureTolerance</Key>
-      <Value>The length of time a plant can stay below its low temperature limit before it starts taking damage.</Value>
+      <Value>Продолжительность времени, в течение которого растение может оставаться ниже своего нижнего температурного предела, прежде чем оно начнет повреждаться..</Value>
     </Record>
     <Record>
       <Key>GeneUndesiredGasResistance</Key>
@@ -15705,7 +15705,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>GeneDescriptionUndesiredGasResistance</Key>
-      <Value>The partial pressure threshold of toxic gases that the plant is able to grow in.</Value>
+      <Value>Порог парциального давления ядовитых газов, при котором растение способно расти.</Value>
     </Record>
     <Record>
       <Key>GeneUndesiredGasTolerance</Key>
@@ -15713,7 +15713,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>GeneDescriptionUndesiredGasTolerance</Key>
-      <Value>The length of time a plant can stay above its toxins resistance threshold before taking damage.</Value>
+      <Value>Продолжительность времени, в течение которого растение может оставаться выше порога устойчивости к токсинам, прежде чем пострадает.</Value>
     </Record>
     <Record>
       <Key>GeneHighPressureResistance</Key>
@@ -15721,7 +15721,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>GeneDescriptionHighPressureResistance</Key>
-      <Value>The upper limit of pressure that the plant is able to grow at.</Value>
+      <Value>Верхний предел давления, при котором растение способно расти.</Value>
     </Record>
     <Record>
       <Key>GeneHighPressureTolerance</Key>
@@ -15729,7 +15729,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>GeneDescriptionHighPressureTolerance</Key>
-      <Value>The length of time a plant can stay above its high pressure limit before it starts taking damage.</Value>
+      <Value>Продолжительность времени, в течение которого растение может оставаться выше предела высокого давления, прежде чем оно начнет повреждаться.</Value>
     </Record>
     <Record>
       <Key>GeneHighTemperatureResistance</Key>
@@ -15737,7 +15737,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>GeneDescriptionHighTemperatureResistance</Key>
-      <Value>The upper limit of temperature that the plant is able to grow at.</Value>
+      <Value>Верхний предел температуры, при которой растение способно расти.</Value>
     </Record>
     <Record>
       <Key>GeneHighTemperatureTolerance</Key>
@@ -15745,7 +15745,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>GeneDescriptionHighTemperatureTolerance</Key>
-      <Value>The length of time a plant can stay above its high temperature limit before it starts taking damage.</Value>
+      <Value>Продолжительность времени, в течение которого растение может оставаться выше своего верхнего предела температуры, прежде чем оно начнет повреждаться.</Value>
     </Record>
     <Record>
       <Key>GeneLightTolerance</Key>
@@ -15753,7 +15753,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>GeneDescriptionLightTolerance</Key>
-      <Value>The length of time a plant can stay in light before it starts taking damage.</Value>
+      <Value>Время, в течение которого растение может оставаться на свету, прежде чем оно начнет повреждаться.</Value>
     </Record>
     <Record>
       <Key>GeneDarknessTolerance</Key>
@@ -15761,383 +15761,383 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>GeneDescriptionDarknessTolerance</Key>
-      <Value>The length of time a plant can stay in darkness before it starts taking damage.</Value>
+      <Value>Продолжительность времени, в течение которого растение может оставаться в темноте, прежде чем оно начнет получать повреждения.</Value>
     </Record>
     <Record>
       <Key>GeneCurrentSelected</Key>
-      <Value>Currently selected gene &lt;color=yellow&gt;{LOCAL:Gene}&lt;/color&gt;</Value>
+      <Value>Текущий выбранный ген &lt;color=yellow&gt;{LOCAL:Gene}&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>GeneDestabilisingOnly</Key>
-      <Value>Destabilising Only</Value>
+      <Value>Только дестабилизация</Value>
     </Record>
     <Record>
       <Key>GlobalAttack</Key>
-      <Value>Attack &lt;color=green&gt;{0}&lt;/color&gt;</Value>
+      <Value>Атаковать &lt;color=green&gt;{0}&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>GlobalRelease</Key>
-      <Value>Release &lt;color=green&gt;{0}&lt;/color&gt;</Value>
+      <Value>Выпустить &lt;color=green&gt;{0}&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>GlobalSpeed</Key>
-      <Value>Speed &lt;color=green&gt;{0}&lt;/color&gt;</Value>
+      <Value>Скорость &lt;color=green&gt;{0}&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>GlobalIntensity</Key>
-      <Value>Intensity &lt;color=green&gt;{0}&lt;/color&gt;</Value>
+      <Value>Интенсивность &lt;color=green&gt;{0}&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>GlobalWaveForm</Key>
-      <Value>Waveform &lt;color=green&gt;{0}&lt;/color&gt;</Value>
+      <Value>Форма волны &lt;color=green&gt;{0}&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>GlobalThrottle</Key>
-      <Value>Throttle &lt;color=green&gt;{0}&lt;/color&gt;</Value>
+      <Value>Дроссель &lt;color=green&gt;{0}&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>GlobalCombustionLimiter</Key>
-      <Value>Combustion Limiter &lt;color=green&gt;{0}&lt;/color&gt;</Value>
+      <Value>Ограничитель горения &lt;color=green&gt;{0}&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>GlobalCurrentInstrument</Key>
-      <Value>Current Instrument &lt;color=green&gt;{0}&lt;/color&gt;</Value>
+      <Value>Текущий инструмент &lt;color=green&gt;{0}&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>GlobalChangeSettingTo</Key>
-      <Value>Cycle to {0}</Value>
+      <Value>Перейти к {0}</Value>
     </Record>
     <Record>
       <Key>GlobalChangeSettingToAll</Key>
-      <Value>Cycle to All {0}</Value>
+      <Value>Перейти к всем {0}</Value>
     </Record>
     <Record>
       <Key>GlobalChangeSettingToFor</Key>
-      <Value>Cycle to &lt;color=yellow&gt;{0} for {1}&lt;/color&gt;</Value>
+      <Value>Перейти к &lt;color=yellow&gt;{0} для {1}&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>GlobalChangeSettingToForAll</Key>
-      <Value>Cycle to &lt;color=yellow&gt;{0} for all {1}&lt;/color&gt;</Value>
+      <Value>Перейти к &lt;color=yellow&gt;{0} для всех {1}&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>GlobalChangeSettingToForIn</Key>
-      <Value>Cycle to &lt;color=yellow&gt;{0}&lt;/color&gt; for {3} &lt;color=yellow&gt;({2})&lt;/color&gt; in {1}</Value>
+      <Value>Перейти к &lt;color=yellow&gt;{0}&lt;/color&gt; для {3} &lt;color=yellow&gt;({2})&lt;/color&gt; in {1}</Value>
     </Record>
     <Record>
       <Key>GlobalChangeSlotSettingToFor</Key>
-      <Value>Cycle to {1}&lt;color=yellow&gt;({0}) for {2}</Value>
+      <Value>Перейти к {1}&lt;color=yellow&gt;({0}) для {2}</Value>
     </Record>
     <Record>
       <Key>GlobalChangeReagentSettingTo</Key>
-      <Value>Cycle to {2}.&lt;color=yellow&gt;{0}.&lt;color=yellow&gt;{1}</Value>
+      <Value>Перейти к {2}.&lt;color=yellow&gt;{0}.&lt;color=yellow&gt;{1}</Value>
     </Record>
     <Record>
       <Key>GlobalAlreadyMax</Key>
-      <Value>Already Max</Value>
+      <Value>Уже максимально</Value>
     </Record>
     <Record>
       <Key>GlobalAlreadyMin</Key>
-      <Value>Already Min</Value>
+      <Value>Уже минимально</Value>
     </Record>
     <Record>
       <Key>GlobalStop</Key>
-      <Value>Stop</Value>
+      <Value>Остановить</Value>
     </Record>
     <Record>
       <Key>GlobalStart</Key>
-      <Value>Start</Value>
+      <Value>Запустить</Value>
     </Record>
     <Record>
       <Key>GlobalIncrease</Key>
-      <Value>Increase</Value>
+      <Value>Увеличивать</Value>
     </Record>
     <Record>
       <Key>GlobalDecrease</Key>
-      <Value>Decrease</Value>
+      <Value>Уменьшить</Value>
     </Record>
     <Record>
       <Key>GlobalStackSize</Key>
-      <Value>Stacksize &lt;color=green&gt;{0}&lt;/color&gt;</Value>
+      <Value>Размер стека &lt;color=green&gt;{0}&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>GlobalMaxMode</Key>
-      <Value>Max &lt;color=green&gt;{0}&lt;/color&gt;</Value>
+      <Value>Максильмальный &lt;color=green&gt;{0}&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>GlobalValue</Key>
-      <Value>Value &lt;color=green&gt;{0}&lt;/color&gt;</Value>
+      <Value>Значение &lt;color=green&gt;{0}&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>GlobalPitch</Key>
-      <Value>Pitch &lt;color=green&gt;{0}&lt;/color&gt;</Value>
+      <Value>Подача &lt;color=green&gt;{0}&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>GlobalVolume</Key>
-      <Value>Volume &lt;color=green&gt;{0}&lt;/color&gt;</Value>
+      <Value>Звук &lt;color=green&gt;{0}&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>GlobalVolumeLitre</Key>
-      <Value>Volume &lt;color=green&gt;{0} L&lt;/color&gt;</Value>
+      <Value>Объем &lt;color=green&gt;{0} L&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>GlobalRadius</Key>
-      <Value>Radius &lt;color=green&gt;{0} L&lt;/color&gt;</Value>
+      <Value>Радиус &lt;color=green&gt;{0} L&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>GlobalAlreadyInUse</Key>
-      <Value>Already in use</Value>
+      <Value>Уже в использовании</Value>
     </Record>
     <Record>
       <Key>Pressure</Key>
-      <Value>Pressure</Value>
+      <Value>Давление</Value>
     </Record>
     <Record>
       <Key>Temperature</Key>
-      <Value>Temperature</Value>
+      <Value>Температура</Value>
     </Record>
     <Record>
       <Key>ProgrammableChipErrorCode</Key>
-      <Value>Error {LOCAL:ErrorType} at line {LOCAL:LineNumber}</Value>
+      <Value>Ошибка {LOCAL:ErrorType} в строке {LOCAL:LineNumber}</Value>
     </Record>
     <Record>
       <Key>OutputLitres</Key>
-      <Value>Output &lt;color=green&gt;{0} L&lt;/color&gt;</Value>
+      <Value>Выходит &lt;color=green&gt;{0} литров&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>InputLitres</Key>
-      <Value>Input &lt;color=green&gt;{0} L&lt;/color&gt;</Value>
+      <Value>Входит &lt;color=green&gt;{0} литров&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>OutputKPA</Key>
-      <Value>Output &lt;color=green&gt;{0} kPa&lt;/color&gt;</Value>
+      <Value>Выходит &lt;color=green&gt;{0} кПа&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>OutputWatts</Key>
-      <Value>Output &lt;color=green&gt;{0} W&lt;/color&gt;</Value>
+      <Value>Выходит &lt;color=green&gt;{0} W&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>Input1Ratio</Key>
-      <Value>Input 1 &lt;color=green&gt;{0}%&lt;/color&gt;</Value>
+      <Value>Вход 1 &lt;color=green&gt;{0}%&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>Input2Ratio</Key>
-      <Value>Input 2 &lt;color=green&gt;{0}%&lt;/color&gt;</Value>
+      <Value>Вход 2 &lt;color=green&gt;{0}%&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>VerticalDegrees</Key>
-      <Value>&lt;color=yellow&gt;Vertical&lt;/color&gt; &lt;color=green&gt;{0} degrees&lt;/color&gt;</Value>
+      <Value>&lt;color=yellow&gt;Вертикаль&lt;/color&gt; &lt;color=green&gt;{0} градусов&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>HorizontalDegrees</Key>
-      <Value>&lt;color=yellow&gt;Horizontal&lt;/color&gt; &lt;color=green&gt;{0} degrees&lt;/color&gt;</Value>
+      <Value>&lt;color=yellow&gt;Горизонталь&lt;/color&gt; &lt;color=green&gt;{0} градусов&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>StackerNoContentsToClear</Key>
-      <Value>&lt;color=red&gt;No contents to clear&lt;/color&gt;</Value>
+      <Value>&lt;color=red&gt;Нет содержимого для очистки&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>StackerWillForceChangeFromLogicToAutomatic</Key>
-      <Value>Will force change from &lt;color=yellow&gt;Logic&lt;/color&gt; to &lt;color=yellow&gt;Automatic&lt;/color&gt; mode</Value>
+      <Value>Принудительно изменить с &lt;color=yellow&gt;Логического&lt;/color&gt; на &lt;color=yellow&gt;Автоматический&lt;/color&gt; режим</Value>
     </Record>
     <Record>
       <Key>StackerContainsQuantity</Key>
-      <Value>Contains {LOCAL:Quantity} x {LOCAL:Item}</Value>
+      <Value>Содержит {LOCAL:Quantity} x {LOCAL:Item}</Value>
     </Record>
     <Record>
       <Key>StackableNotEnoughInStackOf</Key>
-      <Value>Not enough in stack of {LOCAL:Item} to complete, &lt;color=yellow&gt;{LOCAL:Quantity0}&lt;/color&gt;/&lt;color=yellow&gt;{LOCAL:Quantity1}&lt;/color&gt;</Value>
+      <Value>Недостаточно в стеке {LOCAL:Item} для завершения, &lt;color=yellow&gt;{LOCAL:Quantity0}&lt;/color&gt;/&lt;color=yellow&gt;{LOCAL:Quantity1}&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>StackableNotEnoughInStack</Key>
-      <Value>Not enough in stack!</Value>
+      <Value>Недостаточно в стеке!</Value>
     </Record>
     <Record>
       <Key>InventoryStackIsFull</Key>
-      <Value>Your stack of {LOCAL:Thing} is full</Value>
+      <Value>Ваш стек {LOCAL:Thing} заполнен</Value>
     </Record>
     <Record>
       <Key>InteractOpenResearchScreen</Key>
-      <Value>Interact to open Research Unlock Screen</Value>
+      <Value>Взаимодействуйте, чтобы открыть экран разблокировки исследований.</Value>
     </Record>
     <Record>
       <Key>InteractCantClose</Key>
-      <Value>Something is preventing this from closing</Value>
+      <Value>Что-то мешает закрыться</Value>
     </Record>
     <Record>
       <Key>ThingMoveToWorld</Key>
-      <Value>Move {LOCAL:Thing} to world</Value>
+      <Value>Переместить {LOCAL:Thing} в мир</Value>
     </Record>
     <Record>
       <Key>ThingCanNotEnterSlot</Key>
-      <Value>{LOCAL:Thing0} cannot enter {LOCAL:Thing1}</Value>
+      <Value>{LOCAL:Thing0} не может войти в {LOCAL:Thing1}</Value>
     </Record>
     <Record>
       <Key>ThingCanNotInsertInteractionsDisabled</Key>
-      <Value>Cannot insert {LOCAL:Thing0} interactions are disabled on {LOCAL:Thing1}</Value>
+      <Value>Невозможно вставить в {LOCAL:Thing0}, потому что взаимодействия отключены на {LOCAL:Thing1}</Value>
     </Record>
     <Record>
       <Key>ThingCanNotInsertAlreadyContains</Key>
-      <Value>Cannot insert {LOCAL:Thing0} as it already contains {LOCAL:Thing1}</Value>
+      <Value>Невозможно вставить в {LOCAL:Thing0}, так как он уже содержит {LOCAL:Thing1}</Value>
     </Record>
     <Record>
       <Key>ThingCanNotSwap</Key>
-      <Value>You cannot swap {LOCAL:Thing0} with {LOCAL:Thing1}</Value>
+      <Value>Вы не можете поменять местами {LOCAL:Thing0} с {LOCAL:Thing1}.</Value>
     </Record>
     <Record>
       <Key>ThingCurrentlyNotInteractable</Key>
-      <Value>{LOCAL:Thing} is currently not interactable</Value>
+      <Value>{LOCAL:Thing} в настоящее время недоступно для взаимодействия</Value>
     </Record>
     <Record>
       <Key>ThingCanNotPickUp</Key>
-      <Value>You cannot pick the {LOCAL:Thing} up</Value>
+      <Value>Вы не можете подобрать {LOCAL:Thing}</Value>
     </Record>
     <Record>
       <Key>ThingIsNotType</Key>
-      <Value>{LOCAL:Thing0} is not type {LOCAL:Thing1}</Value>
+      <Value>{LOCAL:Thing0} не относится к типу {LOCAL:Thing1}</Value>
     </Record>
     <Record>
       <Key>ThingInteractionDisabled</Key>
-      <Value>Interaction temporary disabled on this object</Value>
+      <Value>Взаимодействие с этим объектом временно отключено</Value>
     </Record>
     <Record>
       <Key>ThingCurrentlyFlashingError</Key>
-      <Value>Currently flashing an error</Value>
+      <Value>Сейчас мигает ошибка</Value>
     </Record>
     <Record>
       <Key>ThingCycleTo</Key>
-      <Value>Cycle to {LOCAL:Thing}</Value>
+      <Value>Перейти к {LOCAL:Thing}</Value>
     </Record>
     <Record>
       <Key>ThingNotEnoughReagents</Key>
-      <Value>Not enough reagents for current plan</Value>
+      <Value>Недостаточно реагентов для текущего плана</Value>
     </Record>
     <Record>
       <Key>ThingSelectRecipeFromList</Key>
-      <Value>Select Recipe from List</Value>
+      <Value>Выберите рецепт из списка</Value>
     </Record>
     <Record>
       <Key>ThingClearUnknownRecipe</Key>
-      <Value>Clear Unknown Recipe</Value>
+      <Value>Очистить неизвестный рецепт</Value>
     </Record>
     <Record>
       <Key>ThingCreateThing</Key>
-      <Value>Creating {LOCAL:Thing} &lt;color=yellow&gt;{1:F0}%&lt;/color&gt;</Value>
+      <Value>Создание {LOCAL:Thing} &lt;color=yellow&gt;{1:F0}%&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>ThingCanNotManufacture</Key>
-      <Value>Cannot manufacture {LOCAL:Thing} without all required reagents</Value>
+      <Value>Невозможно произвести {LOCAL:Thing} без всех необходимых реагентов</Value>
     </Record>
     <Record>
       <Key>ThingToFarAwayForDrag</Key>
-      <Value>{LOCAL:Thing} is too far away to be dragged</Value>
+      <Value>{LOCAL:Thing} слишком далеко, чтобы его тащили</Value>
     </Record>
     <Record>
       <Key>ThingCanNotBeDraggedWithSomethingIn</Key>
-      <Value>Cannot be dragged with something in {LOCAL:Thing}</Value>
+      <Value>Нельзя перетащить что-либо в {LOCAL:Thing}</Value>
     </Record>
     <Record>
       <Key>ThingAlreadyDraggedBy</Key>
-      <Value>{LOCAL:Thing0} is already being dragged by {LOCAL:Thing1}</Value>
+      <Value>{LOCAL:Thing0} уже таскают {LOCAL:Thing1}</Value>
     </Record>
     <Record>
       <Key>ThingModeDoesNotSupportLinking</Key>
-      <Value>Mode does not support linking</Value>
+      <Value>Режим не поддерживает связывание</Value>
     </Record>
     <Record>
       <Key>ThingWillDecayInHours</Key>
-      <Value>This will decay in {0} hours.</Value>
+      <Value>Он исчезнет через {0} часов.</Value>
     </Record>
     <Record>
       <Key>ThingWillDecayInMinutes</Key>
-      <Value>This will decay in {0} minutes.</Value>
+      <Value>Он исчезнет через {0} минут.</Value>
     </Record>
     <Record>
       <Key>ThingWillDecayInSeconds</Key>
-      <Value>This will decay in {0} seconds.</Value>
+      <Value>Он исчезнет через {0} секунд.</Value>
     </Record>
     <Record>
       <Key>StructureYouRequireToCompleteTask</Key>
-      <Value>You require {0} in {1} to complete this task</Value>
+      <Value>Для выполнения этой задачи требуется {0} в {1}.</Value>
     </Record>
     <Record>
       <Key>StructureDeconstructionFailed</Key>
-      <Value>Deconstruction failed</Value>
+      <Value>Деконструкция не удалась</Value>
     </Record>
     <Record>
       <Key>StructureIsNotDamaged</Key>
-      <Value>{LOCAL:Structure} is not damaged</Value>
+      <Value>{LOCAL:Structure} не поврежден</Value>
     </Record>
     <Record>
       <Key>WeldingTorchNoFuel</Key>
-      <Value>No fuel left!</Value>
+      <Value>Топлива не осталось!</Value>
     </Record>
     <Record>
       <Key>PowerItemNoPower</Key>
-      <Value>No battery power!</Value>
+      <Value>Нет заряда батареи!</Value>
     </Record>
     <Record>
       <Key>SlotCanNotUseWith</Key>
-      <Value>You cannot use {LOCAL:Slot0} with {LOCAL:Slot1}</Value>
+      <Value>Вы не можете использовать {LOCAL:Slot0} с {LOCAL:Slot1}</Value>
     </Record>
     <Record>
       <Key>SlotAlreadyOccupied</Key>
-      <Value>{0} is already occupied by {1}</Value>
+      <Value>{0} уже занят {1}</Value>
     </Record>
     <Record>
       <Key>SlotTakeThingFromSlot</Key>
-      <Value>Take {LOCAL:Item} from slot</Value>
+      <Value>Возьмите {LOCAL:Item} из ячейки</Value>
     </Record>
     <Record>
       <Key>CartridgeNoCartridgeInSlot</Key>
-      <Value>No {LOCAL:Slot1} in {LOCAL:Slot0} slot to remove</Value>
+      <Value>Нет {LOCAL:Slot1} в слоте {LOCAL:Slot0} для удаления</Value>
     </Record>
     <Record>
       <Key>HarvesterBusyDoing</Key>
-      <Value>Currently busy doing {0}</Value>
+      <Value>В данный момент занят {0}</Value>
     </Record>
     <Record>
       <Key>MicrowaveOpenFailure</Key>
-      <Value>Something is preventing this from closing</Value>
+      <Value>Что-то мешает закрыться</Value>
     </Record>
     <Record>
       <Key>MicrowaveAddUnitsOf</Key>
-      <Value>Add &lt;color=green&gt;{0}&lt;/color&gt; units of {1}</Value>
+      <Value>Добавьте &lt;color=green&gt;{0}&lt;/color&gt; единицы {1}</Value>
     </Record>
     <Record>
       <Key>ComposterNotEnoughProcessItems</Key>
-      <Value>No enough processed items...</Value>
+      <Value>Недостаточно обработанных элементов...</Value>
     </Record>
     <Record>
       <Key>ComposterItemsLeftToProcess</Key>
-      <Value>Items left to process {0}</Value>
+      <Value>Элементов осталось обработать {0}</Value>
     </Record>
     <Record>
       <Key>ComposterNotEnoughWater</Key>
-      <Value>Not enough water...</Value>
+      <Value>Не хватает воды...</Value>
     </Record>
     <Record>
       <Key>ComposterCurrentlyProcessing</Key>
-      <Value>Currently Processing...</Value>
+      <Value>В настоящее время обрабатывается...</Value>
     </Record>
     <Record>
       <Key>ComposterCurrentlyNotProcessing</Key>
-      <Value>Currently Not Processing...</Value>
+      <Value>В настоящее время не обрабатывается...</Value>
     </Record>
     <Record>
       <Key>Processing</Key>
-      <Value>Processing</Value>
+      <Value>Обработка</Value>
     </Record>
     <Record>
       <Key>AccessCardUnableToInteract</Key>
-      <Value>Unable to interact as you do not have the required {LOCAL:AccessCard}</Value>
+      <Value>Невозможно взаимодействовать, так как у вас нет необходимой {LOCAL:Access Card}</Value>
     </Record>
     <Record>
       <Key>InteractionTemporarilyDisabledOnThisObject</Key>
-      <Value>Interaction temporarily disabled on this object</Value>
+      <Value>Взаимодействие с этим объектом временно отключено</Value>
     </Record>
     <Record>
       <Key>FertiliserClearFromSlot</Key>
-      <Value>Hold &lt;color=yellow&gt;{0}&lt;/color&gt; to clear {1}</Value>
+      <Value>Удерживайте &lt;color=yellow&gt;{0}&lt;/color&gt;, чтобы очистить {1}</Value>
     </Record>
     <Record>
       <Key>RegentMixString</Key>
@@ -16145,159 +16145,159 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>ActionRepairRobot</Key>
-      <Value>Repair</Value>
+      <Value>Ремонт</Value>
     </Record>
     <Record>
       <Key>ActionPatchSolarPanels</Key>
-      <Value>Patch</Value>
+      <Value>Ремонт</Value>
     </Record>
     <Record>
       <Key>DeviceNoPower</Key>
-      <Value>Cannot interact as the device is not powered</Value>
+      <Value>Невозможно взаимодействовать, так как устройство не запитано</Value>
     </Record>
     <Record>
       <Key>DeviceNotOpen</Key>
-      <Value>Cannot interact as device is not currently open</Value>
+      <Value>Невозможно взаимодействовать, так как устройство в данный момент не открыто</Value>
     </Record>
     <Record>
       <Key>DeviceIsOpen</Key>
-      <Value>Cannot interact as device is currently open</Value>
+      <Value>Невозможно взаимодействовать, так как устройство в данный момент открыто</Value>
     </Record>
     <Record>
       <Key>DeviceNotOn</Key>
-      <Value>Cannot interact as the device is not turned on</Value>
+      <Value>Невозможно взаимодействовать, так как устройство не включено</Value>
     </Record>
     <Record>
       <Key>DeviceCanNotAdd</Key>
-      <Value>&lt;color=red&gt;You cannot add this to the device&lt;/color&gt;</Value>
+      <Value>&lt;color=red&gt;Вы не можете добавить это на устройство&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>DeviceCanNotAddWhileProcessing</Key>
-      <Value>&lt;color=red&gt;Cannot add while the device is processing&lt;/color&gt;</Value>
+      <Value>&lt;color=red&gt;Невозможно добавить, пока устройство обрабатывает&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>DeviceNoUseAbleIngredients</Key>
-      <Value>&lt;color=red&gt;There are no usable ingredients in this to add&lt;/color&gt;</Value>
+      <Value>&lt;color=red&gt;Здесь нет полезных ингредиентов, которые можно было бы добавить&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>DeviceLocked</Key>
-      <Value>Cannot interact as device is currently locked</Value>
+      <Value>Невозможно взаимодействовать, так как устройство в настоящее время заблокировано</Value>
     </Record>
     <Record>
       <Key>DeviceBroken</Key>
-      <Value>Cannot interact as device is completely broken</Value>
+      <Value>Невозможно взаимодействовать, так как устройство полностью сломано</Value>
     </Record>
     <Record>
       <Key>DeviceEmpty</Key>
-      <Value>This is to empty the device of all reagents</Value>
+      <Value>TЭто необходимо для очистки устройства от всех реагентов</Value>
     </Record>
     <Record>
       <Key>DeviceWillProduce</Key>
-      <Value>Will produce {LOCAL:Device}</Value>
+      <Value>Будет производить {LOCAL:Device}</Value>
     </Record>
     <Record>
       <Key>DeviceAddReagents</Key>
-      <Value>Add &lt;color=green&gt;{LOCAL:Total}&lt;/color&gt; units of {LOCAL:Thing}</Value>
+      <Value>Добавьте &lt;color=green&gt;{LOCAL:Total}&lt;/color&gt; единиц {LOCAL:Thing}</Value>
     </Record>
     <Record>
       <Key>DeviceNothingToClear</Key>
-      <Value>&lt;color=red&gt;There is nothing in this device to clear&lt;/color&gt;</Value>
+      <Value>&lt;color=red&gt;В этом устройстве нечего очищать&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>DeviceOnlyCookedItems</Key>
-      <Value>&lt;color=red&gt;This device only accepts cooked items and empty cans&lt;/color&gt;</Value>
+      <Value>&lt;color=red&gt;Это устройство принимает только приготовленные продукты и пустые банки.&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>DeviceNoFuel</Key>
-      <Value>There is no fuel left in the device</Value>
+      <Value>В устройстве не осталось топлива</Value>
     </Record>
     <Record>
       <Key>DeviceNotHotEnough</Key>
-      <Value>The device is not hot enough to operate</Value>
+      <Value>Устройство недостаточно горячее для работы</Value>
     </Record>
     <Record>
       <Key>DevicePortableConnectionFailureUnknown</Key>
-      <Value>Can only connect Unknown to this {LOCAL:Thing}</Value>
+      <Value>К этому можно подключить только неизвестный {LOCAL:Thing}</Value>
     </Record>
     <Record>
       <Key>DevicePortableConnectionFailureGas</Key>
-      <Value>Can only connect Gas to this {LOCAL:Thing}</Value>
+      <Value>К этому можно подключить только газ. {LOCAL:Thing}</Value>
     </Record>
     <Record>
       <Key>DevicePortableConnectionFailureGasLiquid</Key>
-      <Value>Can only connect Liquid to this {LOCAL:Thing}</Value>
+      <Value>К этому можно подключить только жидкостный {LOCAL:Thing}</Value>
     </Record>
     <Record>
       <Key>DeviceCannotDragCollision</Key>
-      <Value>Cannot drag it will result in collision with structures</Value>
+      <Value>Невозможно перетащить, это приведет к столкновению со структурами</Value>
     </Record>
     <Record>
       <Key>DeviceManualInputWindow</Key>
-      <Value>Will bring up a manual input window for you to enter a new setting</Value>
+      <Value>Появится окно ручного ввода, чтобы вы могли ввести новую настройку.</Value>
     </Record>
     <Record>
       <Key>DeviceNothingToChangeTo</Key>
-      <Value>Nothing inside to change to</Value>
+      <Value>Ничего внутри, чтобы изменить на</Value>
     </Record>
     <Record>
       <Key>DeviceNothingSelectedToDispense</Key>
-      <Value>Nothing selected to dispense</Value>
+      <Value>Ничего не выбрано для дозирования</Value>
     </Record>
     <Record>
       <Key>DeepMinerSomethingInTheWay</Key>
-      <Value>Something in the way {LOCAL:Thing}</Value>
+      <Value>Что-то мешает {LOCAL:Thing}</Value>
     </Record>
     <Record>
       <Key>TorpedoTubeNothingLoadedInto</Key>
-      <Value>Nothing loaded into {LOCAL:Slot}</Value>
+      <Value>Ничего не загружено в {LOCAL:Slot}</Value>
     </Record>
     <Record>
       <Key>TorpedoTubeNothingInThe</Key>
-      <Value>Nothing in the {LOCAL:Slot}</Value>
+      <Value>Ничего в {LOCAL:Slot}</Value>
     </Record>
     <Record>
       <Key>TorpedoTubeCanNotWhileExteriorDoorIsClosed</Key>
-      <Value>Cannot {LOCAL:Context} while exterior door is closed</Value>
+      <Value>Невозможно {LOCAL:Context}, пока закрыта наружная дверь</Value>
     </Record>
     <Record>
       <Key>TorpedoTubeCurrentlyObscuring</Key>
-      <Value>{LOCAL:Slot0} is currently obscuring the {LOCAL:Slot1}</Value>
+      <Value>{LOCAL:Slot0} в настоящее время закрывает {LOCAL:Slot1}</Value>
     </Record>
     <Record>
       <Key>LogicNoDevice</Key>
-      <Value>&lt;color=red&gt;No device&lt;/color&gt;</Value>
+      <Value>&lt;color=red&gt;Нет устройства&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>LogicNoSetting</Key>
-      <Value>&lt;color=red&gt;No setting&lt;/color&gt;</Value>
+      <Value>&lt;color=red&gt;Нет настройки&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>LogicNoSlot</Key>
-      <Value>&lt;color=red&gt;No slot&lt;/color&gt;</Value>
+      <Value>&lt;color=red&gt;Нет ячейки&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>LogicNoAvailableSlots</Key>
-      <Value>&lt;color=red&gt;No available slots&lt;/color&gt;</Value>
+      <Value>&lt;color=red&gt;Нет доступных ячеек&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>LogicNoWritableDevices</Key>
-      <Value>No other writable devices on network</Value>
+      <Value>Нет других доступных для записи устройств в сети</Value>
     </Record>
     <Record>
       <Key>LogicNoAdditionalSettingsFor</Key>
-      <Value>&lt;color=red&gt;No additional settings for&lt;/color&gt; {LOCAL:Thing}</Value>
+      <Value>&lt;color=red&gt;Никаких дополнительных настроек для&lt;/color&gt; {LOCAL:Thing}</Value>
     </Record>
     <Record>
       <Key>LogicNoAdditionalSlotsFor</Key>
-      <Value>&lt;color=red&gt;No additional slots for&lt;/color&gt; {LOCAL:Thing}</Value>
+      <Value>&lt;color=red&gt;Нет дополнительных ячеек для&lt;/color&gt; {LOCAL:Thing}</Value>
     </Record>
     <Record>
       <Key>LogicNoReadableDevices</Key>
-      <Value>No readable devices</Value>
+      <Value>Нет устройств для чтения</Value>
     </Record>
     <Record>
       <Key>LogicNoReadableTypes</Key>
-      <Value>No other readable types on network</Value>
+      <Value>Нет других читаемых типов в сети</Value>
     </Record>
     <Record>
       <Key>LogicCurrentlySetTo</Key>
