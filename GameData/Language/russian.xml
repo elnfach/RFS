@@ -2029,7 +2029,7 @@ On - &gt;1 - выключить устройство, &lt;=1 - включить
     </RecordThing>
     <RecordThing>
       <Key>StructureBench</Key>
-      <Value>Электрический верстак</Value>
+      <Value>Верстак</Value>
       <Description>Когда пришло время сесть, ничто так не поддерживает вас, как скамья. Эта скамья подключена к источнику питания, поэтому вы можете использовать такие устройства, как {THING:ApplianceMicrowave}.</Description>
     </RecordThing>
     <RecordThing>
@@ -2135,7 +2135,7 @@ Chutes are fundamental components of chute networks, which allow the transport o
     </RecordThing>
     <RecordThing>
       <Key>StructureCompositeFloorGrating</Key>
-      <Value>Composite Floor Grating</Value>
+      <Value>Композитный решетчатый настил</Value>
       <Description>While aesthetics rank low on the ladder of {LINK:Stationeers;Stationeer} concerns, composite gratings allow the concealment of unsightly cables on floors, walls and ceilings.</Description>
     </RecordThing>
     <RecordThing>
@@ -3488,7 +3488,7 @@ OUT - выбор операции, результат которой будет 
     </RecordThing>
     <RecordThing>
       <Key>StructureCompositeWallPanelling1</Key>
-      <Value>Composite Wall Panelling</Value>
+      <Value>Композитная настенная панель</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitCompositeFloorGrating</Key>
@@ -3600,35 +3600,35 @@ OUT - выбор операции, результат которой будет 
     </RecordThing>
     <RecordThing>
       <Key>StructureWallArch</Key>
-      <Value>Wall (Arch)</Value>
+      <Value>Арочная стена (Тип 1)</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureWallArchArrow</Key>
-      <Value>Wall (Arch Arrow)</Value>
+      <Value>Арочная стена (Тип 2)</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureWallArchPlating</Key>
-      <Value>Wall (Arch Plating)</Value>
+      <Value>Арочная стена (Тип 3)</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureWallArchTwoTone</Key>
-      <Value>Wall (Arch Two Tone)</Value>
+      <Value>Арочная стена (Тип 4)</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureWallGeometryCorner</Key>
-      <Value>Wall (Geometry Corner)</Value>
+      <Value>Геометрическая стена (Тип 1)</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureWallGeometryStreight</Key>
-      <Value>Wall (Geometry Straight)</Value>
+      <Value>Геометрическая стена (Тип 2)</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureWallGeometryT</Key>
-      <Value>Wall (Geometry T)</Value>
+      <Value>Геометрическая стена (Тип 4)</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureWallGeometryTMirrored</Key>
-      <Value>Wall (Geometry T Mirrored)</Value>
+      <Value>Геометрическая стена (Тип 3)</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureWallPaddedArch</Key>
@@ -3991,7 +3991,7 @@ MODE - группа чтения
     </RecordThing>
     <RecordThing>
       <Key>ReagentSilver</Key>
-      <Value>Серебряный порошок</Value>
+      <Value>Silver Powder</Value>
     </RecordThing>
     <RecordThing>
       <Key>ReagentPotassiumIodide</Key>
@@ -4025,7 +4025,7 @@ MODE - группа чтения
     </RecordThing>
     <RecordThing>
       <Key>StructurePlatformLadderOpen</Key>
-      <Value>Ladder Platform</Value>
+      <Value>Платформа для лестницы</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureLadderEnd</Key>
@@ -4664,67 +4664,67 @@ Note that transformers also operate as data isolators, preventing data flowing i
     </RecordThing>
     <RecordThing>
       <Key>StructurePictureFrameThinMountLandscapeLarge</Key>
-      <Value>Фоторамка Тонкая Пейзаж Большая</Value>
+      <Value>Тонкая фоторамка с большим пейзажем</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructurePictureFrameThinMountLandscapeSmall</Key>
-      <Value>Фоторамка Тонкая Пейзаж Маленькая</Value>
+      <Value>Тонкая фоторамка с маленьким пейзажем</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructurePictureFrameThinMountPortraitLarge</Key>
-      <Value>Фоторамка Тонкая Портрет Большой</Value>
+      <Value>Тонкая фоторамка с большим портретом</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructurePictureFrameThinMountPortraitSmall</Key>
-      <Value>Picture Frame Thin Portrait Small</Value>
+      <Value>Тонкая фоторамка с маленьким портретом</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructurePictureFrameThinPortraitSmall</Key>
-      <Value>Picture Frame Thin Portrait Small</Value>
+      <Value>Тонкая фоторамка с маленьким портретом</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructurePictureFrameThinLandscapeSmall</Key>
-      <Value>Picture Frame Thin Landscape Small</Value>
+      <Value>Тонкая фоторамка с маленьким пейзажем</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructurePictureFrameThinLandscapeLarge</Key>
-      <Value>Picture Frame Thin Landscape Large</Value>
+      <Value>Тонкая фоторамка с большим пейзажем</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructurePictureFrameThickPortraitSmall</Key>
-      <Value>Picture Frame Thick Portrait Small</Value>
+      <Value>Толстая фоторамка с маленьким портретом</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructurePictureFrameThickMountPortraitSmall</Key>
-      <Value>Picture Frame Thick Mount Portrait Small</Value>
+      <Value>Толстая фоторамка с маленьким портретом</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructurePictureFrameThickMountPortraitLarge</Key>
-      <Value>Picture Frame Thick Mount Portrait Large</Value>
+      <Value>Толстая фоторамка с большим портретом</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructurePictureFrameThickMountLandscapeSmall</Key>
-      <Value>Picture Frame Thick Landscape Small</Value>
+      <Value>Толстая фоторамка с маленьким пейзажем</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructurePictureFrameThickMountLandscapeLarge</Key>
-      <Value>Picture Frame Thick Landscape Large</Value>
+      <Value>Толстая фоторамка с большим пейзажем</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructurePictureFrameThickLandscapeSmall</Key>
-      <Value>Picture Frame Thick Landscape Small</Value>
+      <Value>Толстая фоторамка с маленьким пейзажем</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructurePictureFrameThickLandscapeLarge</Key>
-      <Value>Picture Frame Thick Landscape Large</Value>
+      <Value>Толстая фоторамка с большим пейзажем</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructurePictureFrameThickPortraitLarge</Key>
-      <Value>Picture Frame Thick Portrait Large</Value>
+      <Value>Толстая фоторамка с большим портретом</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructurePictureFrameThinPortraitLarge</Key>
-      <Value>Picture Frame Thin Portrait Large</Value>
+      <Value>Толстая фоторамка с большим портретом</Value>
     </RecordThing>
     <RecordThing>
       <Key>ApplianceDeskLampLeft</Key>
@@ -4959,31 +4959,31 @@ Note that transformers also operate as data isolators, preventing data flowing i
     </RecordThing>
     <RecordThing>
       <Key>StructureWallArchCornerRound</Key>
-      <Value>Стена (Arch Corner Round)</Value>
+      <Value>Арочный угол (Тип 1)</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureWallArchCornerSquare</Key>
-      <Value>Стена (Arch Corner Square)</Value>
+      <Value>Арочный угол (Тип 2)</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureWallArchCornerTriangle</Key>
-      <Value>Стена (Arch Corner Triangle)</Value>
+      <Value>Арочный угол (Тип 3)</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureWallFlatCornerRound</Key>
-      <Value>Стена (Flat Corner Round)</Value>
+      <Value>Плоский угол (Тип 1)</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureWallFlatCornerSquare</Key>
-      <Value>Стена (Flat Corner Square)</Value>
+      <Value>Плоский угол (Тип 2)</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureWallFlatCornerTriangle</Key>
-      <Value>Стена (Flat Corner Triangle)</Value>
+      <Value>Плоский угол (Тип 3)</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureWallFlatCornerTriangleFlat</Key>
-      <Value>Стена (Flat Corner Triangle Flat)</Value>
+      <Value>Плоский угол (Тип 4)</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureWallPaddedArchLightFittingTop</Key>
@@ -4999,31 +4999,31 @@ Note that transformers also operate as data isolators, preventing data flowing i
     </RecordThing>
     <RecordThing>
       <Key>StructureWallPaddedWindowThin</Key>
-      <Value>Сайдинг (Тип 11)</Value>
+      <Value>Мягкое окно (Тип 2)</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureWallPaddedThinNoBorderCorner</Key>
-      <Value>Сайдинг (Тип 16)</Value>
+      <Value>Мягкий арочный угол (Тип 5)</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureWallPaddedNoBorderCorner</Key>
-      <Value>Сайдинг (Тип 15)</Value>
+      <Value>Мягкий арочный угол (Тип 4)</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureWallPaddedCorner</Key>
-      <Value>Сайдинг (Тип 13)</Value>
+      <Value>Мягкий арочный угол (Тип 2)</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureWallPaddedCornerThin</Key>
-      <Value>Сайдинг (Тип 14)</Value>
+      <Value>Мягкий арочный угол (Тип 3)</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureWallPaddedArchCorner</Key>
-      <Value>Сайдинг (Тип 12)</Value>
+      <Value>Мягкий арочный угол (Тип 1)</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureWallPaddedWindow</Key>
-      <Value>Сайдинг (Тип 10)</Value>
+      <Value>Мягкое окно (Тип 1)</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructurePipeOrgan</Key>
@@ -7228,23 +7228,23 @@ When closed, has the heat transfer characteristics of a basic wall. Requires pow
     </RecordThing>
     <RecordThing>
       <Key>StructureReinforcedCompositeWindow</Key>
-      <Value>Reinforced Window (Composite)</Value>
-      <Description>Enjoy vistas of even the most savage, alien landscapes with these heavy duty window frames, which are resistant to pressure differentials up to 1MPa.</Description>
+      <Value>Армированное композитное окно</Value>
+      <Description>Наслаждайтесь видом даже на самые дикие, инопланетные пейзажи с этими прочными оконными рамами, устойчивыми к перепадам давления до 1 МПа.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureReinforcedCompositeWindowSteel</Key>
-      <Value>Reinforced Window (Composite Steel)</Value>
-      <Description>Enjoy vistas of even the most savage, alien landscapes with these heavy duty window frames, which are resistant to pressure differentials up to 1MPa.</Description>
+      <Value>Армированное композитное стальное окно</Value>
+      <Description>Наслаждайтесь видом даже на самые дикие, инопланетные пейзажи с этими прочными оконными рамами, устойчивыми к перепадам давления до 1 МПа.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureReinforcedWallPaddedWindow</Key>
-      <Value>Reinforced Window (Padded)</Value>
-      <Description>Enjoy vistas of even the most savage, alien landscapes with these heavy duty window frames, which are resistant to pressure differentials up to 1MPa.</Description>
+      <Value>Мягкое армированное окно</Value>
+      <Description>Наслаждайтесь видом даже на самые дикие, инопланетные пейзажи с этими прочными оконными рамами, устойчивыми к перепадам давления до 1 МПа.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureReinforcedWallPaddedWindowThin</Key>
-      <Value>Reinforced Window (Thin)</Value>
-      <Description>Enjoy vistas of even the most savage, alien landscapes with these heavy duty window frames, which are resistant to pressure differentials up to 1MPa.</Description>
+      <Value>Армированное окно</Value>
+      <Description>Наслаждайтесь видом даже на самые дикие, инопланетные пейзажи с этими прочными оконными рамами, устойчивыми к перепадам давления до 1 МПа.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemStelliteGlassSheets</Key>
@@ -7253,8 +7253,8 @@ When closed, has the heat transfer characteristics of a basic wall. Requires pow
     </RecordThing>
     <RecordThing>
       <Key>ItemKitReinforcedWindows</Key>
-      <Value>Усиленные окна</Value>
-      <Description>Creates {THING:StructureReinforcedCompositeWindow} and other variants.</Description>
+      <Value>Армированные окна</Value>
+      <Description>Этот набор содержит {THING:StructureReinforcedCompositeWindow}, {THING:StructureReinforcedCompositeWindowSteel}, {THING:StructureReinforcedWallPaddedWindow} и {THING:StructureReinforcedWallPaddedWindowThin}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitHorizontalAutoMiner</Key>
@@ -7264,10 +7264,9 @@ When closed, has the heat transfer characteristics of a basic wall. Requires pow
     <RecordThing>
       <Key>ItemLaptop</Key>
       <Value>Ноутбук</Value>
-      <Description>The Laptop functions as a portable IC editor. To operate the Laptop it must be powered with a battery, have a {THING:MotherboardProgrammableChip} in the motherboard slot, and an {THING:ItemIntegratedCircuit10} in the Programmable Chip Slot.
+      <Description>Ноутбук работает как портативный редактор ИС. Для работы ноутбука он должен питаться от батареи, иметь {THING:MotherboardProgrammableChip} в слоте материнской платы и {THING:ItemIntegratedCircuit10} в слоте Programmable Chip.
 
-You must place the laptop down to interact with the onsreen UI.
-        
+Вы должны положить ноутбук, чтобы взаимодействовать с интерфейсом на экране.
 </Description>
     </RecordThing>
     <RecordThing>
@@ -7953,7 +7952,7 @@ You must place the laptop down to interact with the onsreen UI.
     </Record>
     <Record>
       <Key>Entity</Key>
-      <Value>Сущность</Value>
+      <Value>Игрок</Value>
     </Record>
     <Record>
       <Key>Occupant</Key>
@@ -7977,7 +7976,7 @@ You must place the laptop down to interact with the onsreen UI.
     </Record>
     <Record>
       <Key>LoadingRail</Key>
-      <Value>Loading Rail</Value>
+      <Value>Загрузочный шлюз</Value>
     </Record>
     <Record>
       <Key>AccessCard</Key>
@@ -11818,7 +11817,7 @@ You must place the laptop down to interact with the onsreen UI.
     </Record>
     <Record>
       <Key>NetworkAnalyserPotential</Key>
-      <Value>ЛИМИТ СЕТИ</Value>
+      <Value>ПОТЕНЦИАЛ</Value>
     </Record>
     <Record>
       <Key>NetworkAnalyserDevices</Key>
