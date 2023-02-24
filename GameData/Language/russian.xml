@@ -2189,20 +2189,26 @@ Chutes are fundamental components of chute networks, which allow the transport o
     <RecordThing>
       <Key>StructureConsole</Key>
       <Value>Консоль</Value>
-      <Description>Этот {LINK:Norsec;разработанный Norsec} блок управления управляет такими устройствами, как {THING:StructureActiveVent}, {THING:StructurePassiveVent}, {THING:StructureGasSensor} и {THING:StructureCompositeDoor}, в зависимости от того, какая {LINK:LogicPage;печатная плата } вставляется в устройство. Он имеет общий порт данных/питания.
-Готовая консоль отображает все устройства, подключенные к текущей сети электропитания. Любые устройства, не связанные с установленной платой, будут выделены серым цветом и не будут работать. Консоли блокируются после удаления {THING:ItemDataDisk}.</Description>
+      <Description>Этот, {LINK:Norsec;разработанный Norsec}, блок управления управляет такими устройствами, как {THING:StructureActiveVent}, {THING:StructurePassiveVent}, {THING:StructureGasSensor} и {THING:StructureCompositeDoor}, в зависимости от того, какая {LINK:LogicPage;печатная плата } вставляется в устройство. Он имеет общий порт данных/питания.
+Готовая консоль отображает все устройства, подключенные к текущей сети электропитания. Любые устройства, не связанные с установленной платой, будут выделены серым цветом и не будут работать. Консоли блокируются после удаления {THING:ItemDataDisk}.
+К сведению, консоль имеет порты данных и питания снизу.
+	  </Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureConsoleDual</Key>
-      <Value>Консоль (Раздельные порты)</Value>
-      <Description>Этот {LINK:Norsec;разработанный Norsec} блок управления управляет такими устройствами, как {THING:StructureActiveVent}, {THING:StructureGasSensor}, {THING:StructureCompositeDoor} и другими, в зависимости от того, какая {LINK:LogicPage;печатная плата} вставлена в Единица. Он имеет отдельные порты данных и питания.
-Готовая консоль отображает все устройства, подключенные к текущей сети электропитания. Любые устройства, не связанные с установленной платой, будут выделены серым цветом и не будут работать. Консоли блокируются после удаления {THING:ItemDataDisk}.</Description>
+      <Value>Консоль</Value>
+      <Description>Этот, {LINK:Norsec;разработанный Norsec}, блок управления управляет такими устройствами, как {THING:StructureActiveVent}, {THING:StructureGasSensor}, {THING:StructureCompositeDoor} и другими, в зависимости от того, какая {LINK:LogicPage;печатная плата} вставлена в Единица. Он имеет отдельные порты данных и питания.
+Готовая консоль отображает все устройства, подключенные к текущей сети электропитания. Любые устройства, не связанные с установленной платой, будут выделены серым цветом и не будут работать. Консоли блокируются после удаления {THING:ItemDataDisk}.
+К сведению, консоль имеет раздельные порты данных и питания.
+	  </Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureConsoleMonitor</Key>
-      <Value>Консоль (Монитор)</Value>
-      <Description>Этот {LINK:Norsec;разработанный Norsec} блок управления управляет такими устройствами, как {THING:StructureActiveVent}, {THING:StructurePassiveVent}, {THING:StructureGasSensor}, {THING:ItemSecurityCamera} и {THING:StructureCompositeDoor}, в зависимости от того, какие {LINK:LogicPage;монтажная плата} вставлена в устройство. Он имеет общий порт данных/питания и очаровательный наклонный интерфейс.
-Готовая консоль отображает все устройства, подключенные к текущей сети электропитания. Любые устройства, не связанные с установленной платой, будут выделены серым цветом и не будут работать. Консоли блокируются после удаления {THING:ItemDataDisk}.</Description>
+      <Value>Консоль</Value>
+      <Description>Этот, {LINK:Norsec;разработанный Norsec}, блок управления управляет такими устройствами, как {THING:StructureActiveVent}, {THING:StructurePassiveVent}, {THING:StructureGasSensor}, {THING:ItemSecurityCamera} и {THING:StructureCompositeDoor}, в зависимости от того, какие {LINK:LogicPage;монтажная плата} вставлена в устройство. Он имеет общий порт данных/питания и очаровательный наклонный интерфейс.
+Готовая консоль отображает все устройства, подключенные к текущей сети электропитания. Любые устройства, не связанные с установленной платой, будут выделены серым цветом и не будут работать. Консоли блокируются после удаления {THING:ItemDataDisk}.
+К сведению, консоль имеет порты данных и питания сверху и монитор расположен под углом.
+	  </Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureControlChair</Key>
@@ -3736,15 +3742,15 @@ OUT - выбор операции, результат которой будет 
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckage2</Key>
-      <Value>Wreckage</Value>
+      <Value>Обломок</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckage3</Key>
-      <Value>Wreckage</Value>
+      <Value>Обломок</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckage4</Key>
-      <Value>Wreckage</Value>
+      <Value>Обломок</Value>
     </RecordThing>
     <RecordThing>
       <Key>CartridgeAccessController</Key>
@@ -3752,51 +3758,51 @@ OUT - выбор операции, результат которой будет 
     </RecordThing>
     <RecordThing>
       <Key>AccessCardBlack</Key>
-      <Value>Карта доступа (Черная)</Value>
+      <Value>Карта доступа</Value>
     </RecordThing>
     <RecordThing>
       <Key>AccessCardBlue</Key>
-      <Value>Карта доступа (Синяя)</Value>
+      <Value>Карта доступа</Value>
     </RecordThing>
     <RecordThing>
       <Key>AccessCardBrown</Key>
-      <Value>Карта доступа (Коричневый)</Value>
+      <Value>Карта доступа</Value>
     </RecordThing>
     <RecordThing>
       <Key>AccessCardGray</Key>
-      <Value>Карта доступа (Серая)</Value>
+      <Value>Карта доступа</Value>
     </RecordThing>
     <RecordThing>
       <Key>AccessCardGreen</Key>
-      <Value>Карта доступа (Зеленая)</Value>
+      <Value>Карта доступа</Value>
     </RecordThing>
     <RecordThing>
       <Key>AccessCardKhaki</Key>
-      <Value>Карта доступа (Хаки)</Value>
+      <Value>Карта доступа</Value>
     </RecordThing>
     <RecordThing>
       <Key>AccessCardOrange</Key>
-      <Value>Карта доступа (Оранжевая)</Value>
+      <Value>Карта доступа</Value>
     </RecordThing>
     <RecordThing>
       <Key>AccessCardPink</Key>
-      <Value>Карта доступа (Розовая)</Value>
+      <Value>Карта доступа</Value>
     </RecordThing>
     <RecordThing>
       <Key>AccessCardPurple</Key>
-      <Value>Карта доступа (Пурпурная)</Value>
+      <Value>Карта доступа</Value>
     </RecordThing>
     <RecordThing>
       <Key>AccessCardRed</Key>
-      <Value>Карта доступа (Красная)</Value>
+      <Value>Карта доступа</Value>
     </RecordThing>
     <RecordThing>
       <Key>AccessCardWhite</Key>
-      <Value>Карта доступа (Белая)</Value>
+      <Value>Карта доступа</Value>
     </RecordThing>
     <RecordThing>
       <Key>AccessCardYellow</Key>
-      <Value>Карта доступа (Желтая)</Value>
+      <Value>Карта доступа</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureSecurityPrinter</Key>
@@ -4768,8 +4774,8 @@ Note that transformers also operate as data isolators, preventing data flowing i
     </RecordThing>
     <RecordThing>
       <Key>StructureAutoMinerSmall</Key>
-      <Value>Autominer (Small)</Value>
-      <Description>The {LINK:Recurso;Recurso} SquareDig autominer is a structure that when built will mine a vertical 2x2 shaft until it hits bedrock. The autominer can be connected to a chute system, and is controllable by a logic network. Note that the autominer outputs more {LINK:OrePage;руды} than a conventional {THING:ItemMiningDrill} over the same area.</Description>
+      <Value>Небольшой автоматический рудокоп</Value>
+      <Description>Небольшой автоматический рудокоп от {LINK:Recurso;Recurso} SquareDig представляет собой вертикальную конструкцию 2 на 2, которая после постройки будет добывать до тех пор, пока не упрется в коренную породу. Автомайнер может быть подключен к желобной системе и управляется логической сетью. Обратите внимание, что автомайнер выдает больше {LINK:OrePage;руды}, чем обычный {THING:ItemMiningDrill} на той же площади.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitAutoMinerSmall</Key>
@@ -5625,32 +5631,32 @@ On - &lt;1 - выключить устройство, &gt;=1 - включить
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageRecycler1</Key>
-      <Value>Обломки Утилизатора</Value>
+      <Value>Обломки утилизатора</Value>
       <Description>Description coming.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageRecycler2</Key>
-      <Value>Обломки Утилизатора</Value>
+      <Value>Обломки утилизатора</Value>
       <Description>Description coming.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageRecycler3</Key>
-      <Value>Обломки Утилизатора</Value>
+      <Value>Обломки утилизатора</Value>
       <Description>Description coming.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageRecycler4</Key>
-      <Value>Обломки Утилизатора</Value>
+      <Value>Обломки утилизатора</Value>
       <Description>Description coming.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageRecycler5</Key>
-      <Value>Обломки Утилизатора</Value>
+      <Value>Обломки утилизатора</Value>
       <Description>Description coming.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageRecycler6</Key>
-      <Value>Wreckage Recycler</Value>
+      <Value>Обломки утилизатора</Value>
       <Description>Description coming.</Description>
     </RecordThing>
     <RecordThing>
@@ -6362,7 +6368,7 @@ To use on yourself: put duct tape in your active hand, hold RIGHT MOUSE BUTTON t
     </RecordThing>
     <RecordThing>
       <Key>ItemKitWaterBottleFiller</Key>
-      <Value>Машина для разливки воды</Value>
+      <Value>Разливочная машина</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -6547,7 +6553,7 @@ To use on yourself: put duct tape in your active hand, hold RIGHT MOUSE BUTTON t
     </RecordThing>
     <RecordThing>
       <Key>StructureWaterBottleFillerBottom</Key>
-      <Value>Water Bottle Filler Bottom</Value>
+      <Value>Разливочная машина воды книзу</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -7026,7 +7032,7 @@ Fertilizer is produced at a 1:3 ratio of fertilizer to ingredients. The fertiliz
     </RecordThing>
     <RecordThing>
       <Key>ItemKitInsulatedWaterPipe</Key>
-      <Value>Insulated Water Pipe Kit</Value>
+      <Value>Изолированная труба</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -7432,17 +7438,17 @@ When closed, has the heat transfer characteristics of a basic wall. Requires pow
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageLargeExtendableRadiator01</Key>
-      <Value>Wreckage Large Extendable Radiator</Value>
+      <Value>Обломки большого выдвижного радиатора</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureWaterBottleFillerPoweredBottom</Key>
-      <Value>Waterbottle Filler</Value>
+      <Value>Разливочная машина</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureWaterBottleFillerPowered</Key>
-      <Value>Waterbottle Filler</Value>
+      <Value>Разливочная машина</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -12605,7 +12611,7 @@ When closed, has the heat transfer characteristics of a basic wall. Requires pow
     </Record>
     <Record>
       <Key>Contents</Key>
-      <Value>Содержание</Value>
+      <Value>Содержимое</Value>
     </Record>
     <Record>
       <Key>InputRight</Key>
