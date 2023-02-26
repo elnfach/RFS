@@ -593,137 +593,137 @@ Just bolt it to a {THING:StructureBench} using a {THING:ItemWrench} to power it,
     </RecordThing>
     <RecordThing>
       <Key>BodyPartChickHead</Key>
-      <Value>Body Part Chick Head</Value>
+      <Value>Часть цыпленка, голова</Value>
       <Description>The head of a chicken. Once, it had the heart of a tiger.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartChickLegL</Key>
-      <Value>Body Part Chick Leg)</Value>
+      <Value>Часть цыпленка, левая нога</Value>
       <Description>A chicken leg.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartChickLegR</Key>
-      <Value>Body Part Chick Leg R</Value>
+      <Value>Часть цыпленка, правая нога</Value>
       <Description>A chicken leg.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartChickTail</Key>
-      <Value>Body Part Chick Tail</Value>
+      <Value>Часть цыпленка, хвост</Value>
       <Description>A chicken's tail.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartChickWingL</Key>
-      <Value>Body Part Chick Wing)</Value>
+      <Value>Часть цыпленка , левое крыло</Value>
       <Description>A chicken wing.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartChickWingR</Key>
-      <Value>Body Part Chick Wing R</Value>
+      <Value>Часть цыпленка, правое крыло</Value>
       <Description>A chicken wing.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartGraylienArmL</Key>
-      <Value>Body Part Graylien Arm L</Value>
+      <Value>Часть грейлина, левая рука</Value>
       <Description>An alien's arm.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartGraylienArmR</Key>
-      <Value>Body Part Graylien Arm R</Value>
+      <Value>Часть грейлина, правая рука</Value>
       <Description>An alien's arm.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartGraylienBody</Key>
-      <Value>Body Part Graylien Body</Value>
+      <Value>Часть грейлина, тело</Value>
       <Description>An alien's body, or a very convincing fake.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartGraylienHead</Key>
-      <Value>Body Part Graylien Head</Value>
+      <Value>Часть грейлина, голова</Value>
       <Description>An alien's head.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartGraylienLegL</Key>
-      <Value>Body Part Graylien Leg L</Value>
+      <Value>Часть грейлина, левая нога</Value>
       <Description>An alien's leg.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartGraylienLegR</Key>
-      <Value>Body Part Graylien Leg R</Value>
+      <Value>Часть грейлина, правая нога</Value>
       <Description>An alien's other leg.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartGraylienPelvis</Key>
-      <Value>Body Part Graylien Pelvis</Value>
+      <Value>Часть грейлина, таз</Value>
       <Description>An alien's pelvis.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartRoosterBlackBody</Key>
-      <Value>Body Part Rooster Black Body</Value>
+      <Value>Часть черного петуха, тушка</Value>
       <Description>A rooster's body.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartRoosterBlackHead</Key>
-      <Value>Body Part Rooster Black Head</Value>
+      <Value>Часть черного петуха, голова</Value>
       <Description>A rooster's head. The perfect gift for mother's day.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartRoosterBlackLegL</Key>
-      <Value>Body Part Rooster Black Leg)</Value>
+      <Value>Часть черного петуха, левая нога</Value>
       <Description>A rooster's leg.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartRoosterBlackLegR</Key>
-      <Value>Body Part Rooster Black Leg R</Value>
+      <Value>Часть черного петуха, правая нога</Value>
       <Description>A rooster's leg.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartRoosterBlackTail</Key>
-      <Value>Body Part Rooster Black Tail</Value>
+      <Value>Часть черного петуха, хвост</Value>
       <Description>A rooster's tail.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartRoosterBlackWingL</Key>
-      <Value>Body Part Rooster Black Wing)</Value>
+      <Value>Часть черного петуха, левое крыло</Value>
       <Description>A rooster's wing.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartRoosterBlackWingR</Key>
-      <Value>Body Part Rooster Black Wing R</Value>
+      <Value>BЧасть черного петуха, правое крыло</Value>
       <Description>A rooster's wing.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartRoosterBrownBody</Key>
-      <Value>Body Part Rooster Brown Body</Value>
+      <Value>Часть коричневого петуха, тушка</Value>
       <Description>A rooster's body.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartRoosterBrownHead</Key>
-      <Value>Body Part Rooster Brown Head</Value>
+      <Value>Часть коричневого петуха, голова</Value>
       <Description>The head of a brown rooster.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartRoosterBrownLegL</Key>
-      <Value>Body Part Rooster Brown Leg)</Value>
+      <Value>Часть коричневого петуха, левая нога</Value>
       <Description>A brown rooster's leg.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartRoosterBrownLegR</Key>
-      <Value>Body Part Rooster Brown Leg R</Value>
+      <Value>Часть коричневого петуха, правая нога</Value>
       <Description>A rooster's leg.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartRoosterBrownTail</Key>
-      <Value>Body Part Rooster Brown Tail</Value>
+      <Value>Часть коричневого петуха, хвост</Value>
       <Description>A rooster's tail.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartRoosterBrownWingL</Key>
-      <Value>Body Part Rooster Brown Wing)</Value>
+      <Value>Часть коричневого петуха, левое крыло</Value>
       <Description>A rooster's wing.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartRoosterBrownWingR</Key>
-      <Value>Body Part Rooster Brown Wing R</Value>
+      <Value>Часть коричневого петуха, правое крыло</Value>
       <Description>A brown rooster's wing. Well, brownish.</Description>
     </RecordThing>
     <RecordThing>
@@ -973,47 +973,47 @@ VERTICAL - вертикальный поворот панелей, %
     </RecordThing>
     <RecordThing>
       <Key>EffectSplatEgg</Key>
-      <Value>Effect Splat Egg</Value>
+      <Value>Эффект разбитого яйца</Value>
     </RecordThing>
     <RecordThing>
       <Key>EntityAlien</Key>
-      <Value>Entity Alien</Value>
-      <Description>The answer to the age-old question, 'Is there life on other planets?', is 'I guess so.'</Description>
+      <Value>Инопланетянин</Value>
+      <Description>Ответ на извечный вопрос: "Есть ли жизнь на других планетах?" - "Я думаю, что да".</Description>
     </RecordThing>
     <RecordThing>
       <Key>EntityChick</Key>
-      <Value>Entity Chick</Value>
-      <Description>Once a chick is hatched, it gets hungry. It will eat soybeans, corn, and wheat, and lay eggs. Some will be fertilized, producing further chickens. Some will not.</Description>
+      <Value>Цыпленок</Value>
+      <Description>Как только птенец вылупится, он проголодается. Он будет есть соевые бобы, кукурузу и пшеницу и откладывать яйца. Некоторые из них будут оплодотворены, производя новых цыплят. Некоторые не будут.</Description>
     </RecordThing>
     <RecordThing>
       <Key>EntityChickenBrown</Key>
-      <Value>Entity Chicken Brown</Value>
-      <Description>Like so many of its brethren, this is a chicken. A brown one. It will eat soybeans, corn, and wheat, and lay eggs. Some will be fertilized, producing further chickens. Some will not.</Description>
+      <Value>Коричневая курица</Value>
+      <Description>Как и многие его собратья, это курица. Коричневый. Он будет есть соевые бобы, кукурузу и пшеницу и откладывать яйца. Некоторые из них будут оплодотворены, производя новых цыплят. Некоторые не будут.</Description>
     </RecordThing>
     <RecordThing>
       <Key>EntityChickenWhite</Key>
-      <Value>Entity Chicken White</Value>
-      <Description>It's a chicken, as white as moondust. It will eat soybeans, corn, and wheat, and lay eggs. Some will be fertilized, producing further chickens. Some will not.</Description>
+      <Value>Белая курица</Value>
+      <Description>Это цыпленок, белый, как лунная пыль. Он будет есть соевые бобы, кукурузу и пшеницу и откладывать яйца. Некоторые из них будут оплодотворены, производя новых цыплят. Некоторые не будут.</Description>
     </RecordThing>
     <RecordThing>
       <Key>EntityGraylien</Key>
-      <Value>Entity Graylien</Value>
-      <Description>While humanity has historically referred to these creatures as 'Greys', they prefer the more inclusive 'Trans-beige' label.</Description>
+      <Value>Грейлин</Value>
+      <Description>Хотя человечество исторически называло этих существ «серыми», они предпочитают более широкий ярлык «транс-бежевый».</Description>
     </RecordThing>
     <RecordThing>
       <Key>EntityRoosterBlack</Key>
-      <Value>Entity Rooster Black</Value>
-      <Description>This is a rooster. It is black. There is dignity in this.</Description>
+      <Value>Черный петух</Value>
+      <Description>Это петух. Оно черное. В этом есть достоинство.</Description>
     </RecordThing>
     <RecordThing>
       <Key>EntityRoosterBrown</Key>
-      <Value>Entity Rooster Brown</Value>
-      <Description>The common brown rooster. Don't let it hear you say that.</Description>
+      <Value>Коричневый петух</Value>
+      <Description>Обыкновенный коричневый петух. Не позволяйте ему слышать, как вы это говорите.</Description>
     </RecordThing>
     <RecordThing>
       <Key>GasTankAir</Key>
       <Value>Резервуар (воздух)</Value>
-      <Description>Portable gas tanks store gas, and gas only. To refill one, bolt it to a {THING:ItemTankConnector} using a {THING:ItemWrench}, then connect it to a pipe network. Try to avoid pushing it above 100 atmospheres, or you'll taste the delicate flavor of regret. Use tanks to fill a {THING:ItemGasCanisterEmpty} by attaching it to the tank's striped section. Or you could vent it into a sealed room to create an atmosphere, attach it to a rover and take it for a drive, or just use it for loud, expensive target practice.</Description>
+      <Description>Переносные газовые баллоны хранят газ, и только газ. Чтобы пополнить один, прикрутите его к {THING:ItemTankConnector} с помощью {THING:ItemWrench}, затем подключите его к сети трубопроводов. Старайтесь не поднимать температуру выше 100 атмосфер, иначе вы почувствуете тонкий привкус сожаления. Используйте баки, чтобы заполнить {THING:ItemGasCanisterEmpty}, прикрепив его к полосатой части бака. Или вы можете выпустить его в герметичную комнату, чтобы создать атмосферу, прикрепить его к марсоходу и взять его на прогулку или просто использовать его для громкой и дорогостоящей стрельбы по мишеням.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemActiveVent</Key>
@@ -1104,7 +1104,7 @@ VERTICAL - вертикальный поворот панелей, %
     <RecordThing>
       <Key>ItemBook</Key>
       <Value>Книга</Value>
-      <Description>Unlike 8-tracks, laser-disks and email, books never totally vanished. Technology may have evolved, but something about the texture and sexiness of the physical book has seen them endure in a unique, if slightly irrational informational niche.</Description>
+      <Description>В отличие от восьмидорожек, лазерных дисков и электронной почты, книги никогда полностью не исчезали. Технологии, возможно, развивались, но что-то в текстуре и сексуальности физической книги заставило их выжить в уникальной, хотя и немного иррациональной информационной нише..</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemCableCoil</Key>
