@@ -458,272 +458,272 @@ Just bolt it to a {THING:StructureBench} using a {THING:ItemWrench} to power it,
     </RecordThing>
     <RecordThing>
       <Key>BodyPartAstronautFemaleArmL</Key>
-      <Value>Body Part Astronaut Female Arm</Value>
+      <Value>Часть тела астронавта, женская правая рука</Value>
       <Description>As far as left arms go, this is an acceptable, if slightly forgettable example of its kind. It's seen better days.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartAstronautFemaleArmR</Key>
-      <Value>Body Part Astronaut Female Arm R</Value>
+      <Value>Часть тела астронавта, женская левая рука</Value>
       <Description>One of a pair. The other is probably nearby.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartAstronautFemaleHead</Key>
-      <Value>Body Part Astronaut Female Head</Value>
+      <Value>Часть тела астронавта, женская голова</Value>
       <Description>If the eyes are windows to the soul, what does that make the head?</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartAstronautFemaleLegL</Key>
-      <Value>Body Part Astronaut Female Leg L</Value>
+      <Value>Часть тела астронавта, женская левая нога</Value>
       <Description>A leg, is a leg, is a leg.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartAstronautFemaleLegR</Key>
-      <Value>Body Part Astronaut Female Leg R</Value>
+      <Value>Часть тела астронавта, женская правая нога</Value>
       <Description>This is a woman's right leg. To judge by its state, she was fairly healthy, of average height, with a tendency to walk on the balls of her feet.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartAstronautFemaleTorso</Key>
-      <Value>Body Part Astronaut Female Torso</Value>
+      <Value>Часть тела астронавта, женский торс</Value>
       <Description>This isn't going anywhere by itself.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartAstronautMaleArmL</Key>
-      <Value>Body Part Astronaut Male Arm L</Value>
+      <Value>Часть тела астронавта, мужская левая рука</Value>
       <Description>Your arm is your fourth most important body part.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartAstronautMaleArmR</Key>
-      <Value>Body Part Astronaut Male Arm R</Value>
+      <Value>Часть тела астронавта, мужская правая рука</Value>
       <Description>There's nothing funny about this humerus.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartAstronautMaleHead</Key>
-      <Value>Body Part Astronaut Male Head</Value>
+      <Value>Часть тела астронавта, голова</Value>
       <Description>{LINK:Stationeers;Stationeer}s need to keep their heads at all times.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartAstronautMaleLegL</Key>
-      <Value>Body Part Astronaut Male Leg)</Value>
+      <Value>Часть тела астронавта, мужская левая нога</Value>
       <Description>This is a leg. Someone probably misses it.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartAstronautMaleLegR</Key>
-      <Value>Body Part Astronaut Male Leg R</Value>
+      <Value>Часть тела астронавта, мужская правая нога</Value>
       <Description>Legs are really useful things, but wheels would have been cool.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartAstronautTorso</Key>
-      <Value>Body Part Astronaut Torso</Value>
+      <Value>Часть тела астронавта, торс</Value>
       <Description>Once, this was most of someone.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartChickBody</Key>
-      <Value>Body Part Chick Body</Value>
+      <Value>Часть тела, тело цыпленка</Value>
       <Description>The fluffy heart of a harmless proto-hen.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartChickenBrownBody</Key>
-      <Value>Body Part Chicken Brown Body</Value>
+      <Value>Часть корчиневой курицы, тушка</Value>
       <Description>Let's not over-complicate things. It's a chicken.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartChickenBrownHead</Key>
-      <Value>Body Part Chicken Brown Head</Value>
+      <Value>Часть корчиневой курицы, голова</Value>
       <Description>A chicken head is useful for many things, but principally voodoo and space curses.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartChickenBrownLegL</Key>
-      <Value>Body Part Chicken Brown Leg)</Value>
+      <Value>Часть корчиневой курицы, левая нога</Value>
       <Description>A chicken leg.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartChickenBrownLegR</Key>
-      <Value>Body Part Chicken Brown Leg R</Value>
+      <Value>Часть корчиневой курицы, правая нога</Value>
       <Description>Also a chicken leg.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartChickenBrownTail</Key>
-      <Value>Body Part Chicken Brown Tail</Value>
+      <Value>Часть корчиневой курицы, хвост</Value>
       <Description>A chicken's tail is arguably its least endearing feature.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartChickenBrownWingL</Key>
-      <Value>Body Part Chicken Brown Wing)</Value>
+      <Value>Часть корчиневой курицы, левое крыло</Value>
       <Description>A chicken wing.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartChickenBrownWingR</Key>
-      <Value>Body Part Chicken Brown Wing R</Value>
+      <Value>Часть корчиневой курицы, правое крыло</Value>
       <Description>A chicken wing.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartChickenWhiteBody</Key>
-      <Value>Body Part Chicken White Body</Value>
+      <Value>Часть белой курицы, тушка</Value>
       <Description>Part of a chicken.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartChickenWhiteHead</Key>
-      <Value>Body Part Chicken White Head</Value>
+      <Value>Часть белой курицы, голова</Value>
       <Description>A chicken's head. Once used as currency by long-departed alien races.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartChickenWhiteLegL</Key>
-      <Value>Body Part Chicken White Leg)</Value>
+      <Value>Часть белой курицы, правая нога</Value>
       <Description>A chicken leg.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartChickenWhiteLegR</Key>
-      <Value>Body Part Chicken White Leg R</Value>
+      <Value>Часть белой курицы, левая нога</Value>
       <Description>A chicken leg.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartChickenWhiteTail</Key>
-      <Value>Body Part Chicken White Tail</Value>
+      <Value>Часть белой курицы, хвост</Value>
       <Description>A chicken tail.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartChickenWhiteWingL</Key>
-      <Value>Body Part Chicken White Wing)</Value>
-      <Description>It's a chicken wing.</Description>
+      <Value>Часть белой курицы, левое крыло</Value>
+      <Description>Это куриное крылышко.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartChickenWhiteWingR</Key>
-      <Value>Body Part Chicken White Wing R</Value>
-      <Description>A chicken wing.</Description>
+      <Value>Часть белой курицы, правое крыло</Value>
+      <Description>куриное крылышко.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartChickHead</Key>
-      <Value>Body Part Chick Head</Value>
+      <Value>Часть цыпленка, голова</Value>
       <Description>The head of a chicken. Once, it had the heart of a tiger.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartChickLegL</Key>
-      <Value>Body Part Chick Leg)</Value>
+      <Value>Часть цыпленка, левая нога</Value>
       <Description>A chicken leg.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartChickLegR</Key>
-      <Value>Body Part Chick Leg R</Value>
+      <Value>Часть цыпленка, правая нога</Value>
       <Description>A chicken leg.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartChickTail</Key>
-      <Value>Body Part Chick Tail</Value>
+      <Value>Часть цыпленка, хвост</Value>
       <Description>A chicken's tail.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartChickWingL</Key>
-      <Value>Body Part Chick Wing)</Value>
+      <Value>Часть цыпленка , левое крыло</Value>
       <Description>A chicken wing.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartChickWingR</Key>
-      <Value>Body Part Chick Wing R</Value>
+      <Value>Часть цыпленка, правое крыло</Value>
       <Description>A chicken wing.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartGraylienArmL</Key>
-      <Value>Body Part Graylien Arm L</Value>
+      <Value>Часть грейлина, левая рука</Value>
       <Description>An alien's arm.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartGraylienArmR</Key>
-      <Value>Body Part Graylien Arm R</Value>
+      <Value>Часть грейлина, правая рука</Value>
       <Description>An alien's arm.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartGraylienBody</Key>
-      <Value>Body Part Graylien Body</Value>
+      <Value>Часть грейлина, тело</Value>
       <Description>An alien's body, or a very convincing fake.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartGraylienHead</Key>
-      <Value>Body Part Graylien Head</Value>
+      <Value>Часть грейлина, голова</Value>
       <Description>An alien's head.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartGraylienLegL</Key>
-      <Value>Body Part Graylien Leg L</Value>
+      <Value>Часть грейлина, левая нога</Value>
       <Description>An alien's leg.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartGraylienLegR</Key>
-      <Value>Body Part Graylien Leg R</Value>
+      <Value>Часть грейлина, правая нога</Value>
       <Description>An alien's other leg.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartGraylienPelvis</Key>
-      <Value>Body Part Graylien Pelvis</Value>
+      <Value>Часть грейлина, таз</Value>
       <Description>An alien's pelvis.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartRoosterBlackBody</Key>
-      <Value>Body Part Rooster Black Body</Value>
+      <Value>Часть черного петуха, тушка</Value>
       <Description>A rooster's body.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartRoosterBlackHead</Key>
-      <Value>Body Part Rooster Black Head</Value>
+      <Value>Часть черного петуха, голова</Value>
       <Description>A rooster's head. The perfect gift for mother's day.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartRoosterBlackLegL</Key>
-      <Value>Body Part Rooster Black Leg)</Value>
+      <Value>Часть черного петуха, левая нога</Value>
       <Description>A rooster's leg.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartRoosterBlackLegR</Key>
-      <Value>Body Part Rooster Black Leg R</Value>
+      <Value>Часть черного петуха, правая нога</Value>
       <Description>A rooster's leg.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartRoosterBlackTail</Key>
-      <Value>Body Part Rooster Black Tail</Value>
+      <Value>Часть черного петуха, хвост</Value>
       <Description>A rooster's tail.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartRoosterBlackWingL</Key>
-      <Value>Body Part Rooster Black Wing)</Value>
+      <Value>Часть черного петуха, левое крыло</Value>
       <Description>A rooster's wing.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartRoosterBlackWingR</Key>
-      <Value>Body Part Rooster Black Wing R</Value>
+      <Value>BЧасть черного петуха, правое крыло</Value>
       <Description>A rooster's wing.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartRoosterBrownBody</Key>
-      <Value>Body Part Rooster Brown Body</Value>
+      <Value>Часть коричневого петуха, тушка</Value>
       <Description>A rooster's body.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartRoosterBrownHead</Key>
-      <Value>Body Part Rooster Brown Head</Value>
+      <Value>Часть коричневого петуха, голова</Value>
       <Description>The head of a brown rooster.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartRoosterBrownLegL</Key>
-      <Value>Body Part Rooster Brown Leg)</Value>
+      <Value>Часть коричневого петуха, левая нога</Value>
       <Description>A brown rooster's leg.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartRoosterBrownLegR</Key>
-      <Value>Body Part Rooster Brown Leg R</Value>
+      <Value>Часть коричневого петуха, правая нога</Value>
       <Description>A rooster's leg.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartRoosterBrownTail</Key>
-      <Value>Body Part Rooster Brown Tail</Value>
+      <Value>Часть коричневого петуха, хвост</Value>
       <Description>A rooster's tail.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartRoosterBrownWingL</Key>
-      <Value>Body Part Rooster Brown Wing)</Value>
+      <Value>Часть коричневого петуха, левое крыло</Value>
       <Description>A rooster's wing.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartRoosterBrownWingR</Key>
-      <Value>Body Part Rooster Brown Wing R</Value>
+      <Value>Часть коричневого петуха, правое крыло</Value>
       <Description>A brown rooster's wing. Well, brownish.</Description>
     </RecordThing>
     <RecordThing>
@@ -973,47 +973,47 @@ VERTICAL - вертикальный поворот панелей, %
     </RecordThing>
     <RecordThing>
       <Key>EffectSplatEgg</Key>
-      <Value>Effect Splat Egg</Value>
+      <Value>Эффект разбитого яйца</Value>
     </RecordThing>
     <RecordThing>
       <Key>EntityAlien</Key>
-      <Value>Entity Alien</Value>
-      <Description>The answer to the age-old question, 'Is there life on other planets?', is 'I guess so.'</Description>
+      <Value>Инопланетянин</Value>
+      <Description>Ответ на извечный вопрос: "Есть ли жизнь на других планетах?" - "Я думаю, что да".</Description>
     </RecordThing>
     <RecordThing>
       <Key>EntityChick</Key>
-      <Value>Entity Chick</Value>
-      <Description>Once a chick is hatched, it gets hungry. It will eat soybeans, corn, and wheat, and lay eggs. Some will be fertilized, producing further chickens. Some will not.</Description>
+      <Value>Цыпленок</Value>
+      <Description>Как только птенец вылупится, он проголодается. Он будет есть соевые бобы, кукурузу и пшеницу и откладывать яйца. Некоторые из них будут оплодотворены, производя новых цыплят. Некоторые не будут.</Description>
     </RecordThing>
     <RecordThing>
       <Key>EntityChickenBrown</Key>
-      <Value>Entity Chicken Brown</Value>
-      <Description>Like so many of its brethren, this is a chicken. A brown one. It will eat soybeans, corn, and wheat, and lay eggs. Some will be fertilized, producing further chickens. Some will not.</Description>
+      <Value>Коричневая курица</Value>
+      <Description>Как и многие его собратья, это курица. Коричневый. Он будет есть соевые бобы, кукурузу и пшеницу и откладывать яйца. Некоторые из них будут оплодотворены, производя новых цыплят. Некоторые не будут.</Description>
     </RecordThing>
     <RecordThing>
       <Key>EntityChickenWhite</Key>
-      <Value>Entity Chicken White</Value>
-      <Description>It's a chicken, as white as moondust. It will eat soybeans, corn, and wheat, and lay eggs. Some will be fertilized, producing further chickens. Some will not.</Description>
+      <Value>Белая курица</Value>
+      <Description>Это цыпленок, белый, как лунная пыль. Он будет есть соевые бобы, кукурузу и пшеницу и откладывать яйца. Некоторые из них будут оплодотворены, производя новых цыплят. Некоторые не будут.</Description>
     </RecordThing>
     <RecordThing>
       <Key>EntityGraylien</Key>
-      <Value>Entity Graylien</Value>
-      <Description>While humanity has historically referred to these creatures as 'Greys', they prefer the more inclusive 'Trans-beige' label.</Description>
+      <Value>Грейлин</Value>
+      <Description>Хотя человечество исторически называло этих существ «серыми», они предпочитают более широкий ярлык «транс-бежевый».</Description>
     </RecordThing>
     <RecordThing>
       <Key>EntityRoosterBlack</Key>
-      <Value>Entity Rooster Black</Value>
-      <Description>This is a rooster. It is black. There is dignity in this.</Description>
+      <Value>Черный петух</Value>
+      <Description>Это петух. Оно черное. В этом есть достоинство.</Description>
     </RecordThing>
     <RecordThing>
       <Key>EntityRoosterBrown</Key>
-      <Value>Entity Rooster Brown</Value>
-      <Description>The common brown rooster. Don't let it hear you say that.</Description>
+      <Value>Коричневый петух</Value>
+      <Description>Обыкновенный коричневый петух. Не позволяйте ему слышать, как вы это говорите.</Description>
     </RecordThing>
     <RecordThing>
       <Key>GasTankAir</Key>
       <Value>Резервуар (воздух)</Value>
-      <Description>Portable gas tanks store gas, and gas only. To refill one, bolt it to a {THING:ItemTankConnector} using a {THING:ItemWrench}, then connect it to a pipe network. Try to avoid pushing it above 100 atmospheres, or you'll taste the delicate flavor of regret. Use tanks to fill a {THING:ItemGasCanisterEmpty} by attaching it to the tank's striped section. Or you could vent it into a sealed room to create an atmosphere, attach it to a rover and take it for a drive, or just use it for loud, expensive target practice.</Description>
+      <Description>Переносные газовые баллоны хранят газ, и только газ. Чтобы пополнить один, прикрутите его к {THING:ItemTankConnector} с помощью {THING:ItemWrench}, затем подключите его к сети трубопроводов. Старайтесь не поднимать температуру выше 100 атмосфер, иначе вы почувствуете тонкий привкус сожаления. Используйте баки, чтобы заполнить {THING:ItemGasCanisterEmpty}, прикрепив его к полосатой части бака. Или вы можете выпустить его в герметичную комнату, чтобы создать атмосферу, прикрепить его к марсоходу и взять его на прогулку или просто использовать его для громкой и дорогостоящей стрельбы по мишеням.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemActiveVent</Key>
@@ -1104,7 +1104,7 @@ VERTICAL - вертикальный поворот панелей, %
     <RecordThing>
       <Key>ItemBook</Key>
       <Value>Книга</Value>
-      <Description>Unlike 8-tracks, laser-disks and email, books never totally vanished. Technology may have evolved, but something about the texture and sexiness of the physical book has seen them endure in a unique, if slightly irrational informational niche.</Description>
+      <Description>В отличие от восьмидорожек, лазерных дисков и электронной почты, книги никогда полностью не исчезали. Технологии, возможно, развивались, но что-то в текстуре и сексуальности физической книги заставило их выжить в уникальной, хотя и немного иррациональной информационной нише..</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemCableCoil</Key>
@@ -1386,7 +1386,7 @@ To use on yourself: put duct tape in your active hand, hold RIGHT MOUSE BUTTON t
     </RecordThing>
     <RecordThing>
       <Key>ItemHydroponicTray</Key>
-      <Value>Гидропонный Лоток</Value>
+      <Value>Гидропонный лоток</Value>
       <Description>Этот набор содержит {THING:StructureHydroponicsTray} для выращивания различных растений.</Description>
     </RecordThing>
     <RecordThing>
@@ -1702,7 +1702,7 @@ To use on yourself: put duct tape in your active hand, hold RIGHT MOUSE BUTTON t
     </RecordThing>
     <RecordThing>
       <Key>ItemRTG</Key>
-      <Value>РТ генератор</Value>
+      <Value>РИТЭГ</Value>
       <Description>Этот набор создает чудо современной науки, {THING:ItemRTG}.</Description>
     </RecordThing>
     <RecordThing>
@@ -1722,19 +1722,19 @@ To use on yourself: put duct tape in your active hand, hold RIGHT MOUSE BUTTON t
     </RecordThing>
     <RecordThing>
       <Key>ItemSecurityCamera</Key>
-      <Value>Security Camera</Value>
-      <Description>Security cameras can be paired with a {THING:StructureMotionSensor}, then connected to a {THING:StructureConsole} fitted with a {THING:CircuitboardCameraDisplay} for that 'always watched' feeling.</Description>
+      <Value>Камера безопасности</Value>
+      <Description>Камеры видеонаблюдения могут быть сопряжены с {THING:StructureMotionSensor}, а затем подключены к {THING:StructureConsole} с {THING:CircuitboardCameraDisplay} для ощущения «всегда наблюдаемого».</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemSpaceCleaner</Key>
-      <Value>Space Cleaner</Value>
-      <Description>There was a time when humanity really wanted to keep space clean. That time has passed.</Description>
+      <Value>Чистящее средство</Value>
+      <Description>Было время, когда человечество очень хотело сохранить космос в чистоте. Это время прошло.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemSpaceHelmet</Key>
       <Value>Космический шлем</Value>
-      <Description>The basic space helmet insulates {LINK:Stationeers;Stationeers} against everything from hard vacuum to weird cooking smells. Providing a pressure-controlled, breathable atmosphere, it comes with a built-in light powered by your {THING:ItemEvaSuit} {THING:ItemBatteryCell}.
-It also incorporates a lock/unlock feature to avoid accidental opening, as well as a flush function to expel and replace the internal atmosphere. If damaged, use {THING:ItemDuctTape} to fix it, or paint it any color you like using the {THING:AppliancePaintMixer}.</Description>
+      <Description>Базовый космический шлем изолирует {LINK:Stationeers;Stationeers} от всего, от сильного вакуума до странных кухонных запахов. Создавая регулируемую по давлению, пригодную для дыхания атмосферу, он оснащен встроенным источником света, который питается от вашего {THING:ItemEvaSuit} {THING:ItemBatteryCell}.
+Он также включает функцию блокировки / разблокировки, чтобы избежать случайного открытия, а также функцию промывки для удаления и замены внутренней атмосферы. Если он поврежден, используйте {THING:ItemDuctTape}, чтобы исправить его, или покрасьте его в любой цвет, который вам нравится, с помощью {THING:AppliancePaintMixer}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemSpacepack</Key>
@@ -1943,13 +1943,13 @@ It also incorporates a lock/unlock feature to avoid accidental opening, as well 
       <Value>Кондиционер</Value>
       <Description>Созданный с использованием {THING:ItemKitAtmospherics} кондиционер от {LINK:ExMin;ExMin} используется для повышения или понижения температуры входного газа.
 		  
-		  Установка имеет три соединения для труб: вход, выход и для отходов. Газ, подаваемый на вход, будет нагреваться или охлаждаться до достижения заданной температуры, в то время как с газом в сети отходов произойдет обратное.
+Установка имеет три соединения для труб: вход, выход и для отходов. Газ, подаваемый на вход, будет нагреваться или охлаждаться до достижения заданной температуры, в то время как с газом в сети отходов произойдет обратное.
 		  
-		  Несколько множителей эффективности могут влиять на количество энергии, используемой кондиционером, и их можно просмотреть на зеленой информационной панели устройства. По мере увеличения разницы температур между входом и отходами множитель температурной разницы эффективности будет уменьшаться. Если температура на входе или отходах очень высокая или низкая, эффективность работы при температуре снизится. Если входная или сточная труба имеет низкое давление, эффективность давления снизится.
+Несколько множителей эффективности могут влиять на количество энергии, используемой кондиционером, и их можно просмотреть на зеленой информационной панели устройства. По мере увеличения разницы температур между входом и отходами множитель температурной разницы эффективности будет уменьшаться. Если температура на входе или отходах очень высокая или низкая, эффективность работы при температуре снизится. Если входная или сточная труба имеет низкое давление, эффективность давления снизится.
 		  
-		  {THING:StructurePipeRadiator} могут быть полезны для приведения экстремальных температур труб к нормальным мировым температурам.
+{THING:StructurePipeRadiator} могут быть полезны для приведения экстремальных температур труб к нормальным мировым температурам.
 		  
-		  Дополнительные сведения об использовании кондиционера см. на странице руководств {LINK:TemperatureControlPage;температурный контроль}.
+Дополнительные сведения об использовании кондиционера см. на странице руководств {LINK:TemperatureControlPage;температурный контроль}.
 	  </Description>
     </RecordThing>
     <RecordThing>
@@ -2029,7 +2029,7 @@ On - &gt;1 - выключить устройство, &lt;=1 - включить
     </RecordThing>
     <RecordThing>
       <Key>StructureBench</Key>
-      <Value>Электрический верстак</Value>
+      <Value>Верстак</Value>
       <Description>Когда пришло время сесть, ничто так не поддерживает вас, как скамья. Эта скамья подключена к источнику питания, поэтому вы можете использовать такие устройства, как {THING:ApplianceMicrowave}.</Description>
     </RecordThing>
     <RecordThing>
@@ -2092,7 +2092,7 @@ Be there, even when you're not.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureChuteBin</Key>
-      <Value>Транспортная труба для мусора</Value>
+      <Value>Корзина</Value>
       <Description>The {LINK:Stationeers;Stationeer's} goal is to make off-world survival less of a struggle for themselves, and those who will follow in their footsteps.
 Like most {LINK:Recurso;Recurso}-designed systems, chute bins are simple and robust powered items, allowing items to be manually passed into chute networks by pulling a lever. They can also be programmed with {LINK:LogicUnitPage;logic} to operate automatically, although full automation requires the use items such as a {THING:StructureSDBHopper}.</Description>
     </RecordThing>
@@ -2117,7 +2117,7 @@ Chute junctions are fundamental components of chute networks, allowing merging o
     </RecordThing>
     <RecordThing>
       <Key>StructureChuteOutlet</Key>
-      <Value>Выбрасыватель из транспортной трубы</Value>
+      <Value>Выбрасыватель</Value>
       <Description>The aim for any {LINK:Stationeers;Stationeer} is to make off-world survival less of a struggle for themselves, and those who will follow in their footsteps.
 The chute outlet is an aperture for exiting items from {LINK:ImportExportPage;import/export} networks. Note that the outlet's origins in zero-gravity mining means they are permanently open, rather than interactable, but can be connected to {LINK:LogicUnitPage;logic} systems to monitor throughput.</Description>
     </RecordThing>
@@ -2135,7 +2135,7 @@ Chutes are fundamental components of chute networks, which allow the transport o
     </RecordThing>
     <RecordThing>
       <Key>StructureCompositeFloorGrating</Key>
-      <Value>Composite Floor Grating</Value>
+      <Value>Композитный решетчатый настил</Value>
       <Description>While aesthetics rank low on the ladder of {LINK:Stationeers;Stationeer} concerns, composite gratings allow the concealment of unsightly cables on floors, walls and ceilings.</Description>
     </RecordThing>
     <RecordThing>
@@ -2189,20 +2189,26 @@ Chutes are fundamental components of chute networks, which allow the transport o
     <RecordThing>
       <Key>StructureConsole</Key>
       <Value>Консоль</Value>
-      <Description>Этот {LINK:Norsec;разработанный Norsec} блок управления управляет такими устройствами, как {THING:StructureActiveVent}, {THING:StructurePassiveVent}, {THING:StructureGasSensor} и {THING:StructureCompositeDoor}, в зависимости от того, какая {LINK:LogicPage;печатная плата } вставляется в устройство. Он имеет общий порт данных/питания.
-Готовая консоль отображает все устройства, подключенные к текущей сети электропитания. Любые устройства, не связанные с установленной платой, будут выделены серым цветом и не будут работать. Консоли блокируются после удаления {THING:ItemDataDisk}.</Description>
+      <Description>Этот, {LINK:Norsec;разработанный Norsec}, блок управления управляет такими устройствами, как {THING:StructureActiveVent}, {THING:StructurePassiveVent}, {THING:StructureGasSensor} и {THING:StructureCompositeDoor}, в зависимости от того, какая {LINK:LogicPage;печатная плата } вставляется в устройство. Он имеет общий порт данных/питания.
+Готовая консоль отображает все устройства, подключенные к текущей сети электропитания. Любые устройства, не связанные с установленной платой, будут выделены серым цветом и не будут работать. Консоли блокируются после удаления {THING:ItemDataDisk}.
+К сведению, консоль имеет порты данных и питания снизу.
+	  </Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureConsoleDual</Key>
-      <Value>Консоль (Раздельные порты)</Value>
-      <Description>Этот {LINK:Norsec;разработанный Norsec} блок управления управляет такими устройствами, как {THING:StructureActiveVent}, {THING:StructureGasSensor}, {THING:StructureCompositeDoor} и другими, в зависимости от того, какая {LINK:LogicPage;печатная плата} вставлена в Единица. Он имеет отдельные порты данных и питания.
-Готовая консоль отображает все устройства, подключенные к текущей сети электропитания. Любые устройства, не связанные с установленной платой, будут выделены серым цветом и не будут работать. Консоли блокируются после удаления {THING:ItemDataDisk}.</Description>
+      <Value>Консоль</Value>
+      <Description>Этот, {LINK:Norsec;разработанный Norsec}, блок управления управляет такими устройствами, как {THING:StructureActiveVent}, {THING:StructureGasSensor}, {THING:StructureCompositeDoor} и другими, в зависимости от того, какая {LINK:LogicPage;печатная плата} вставлена в Единица. Он имеет отдельные порты данных и питания.
+Готовая консоль отображает все устройства, подключенные к текущей сети электропитания. Любые устройства, не связанные с установленной платой, будут выделены серым цветом и не будут работать. Консоли блокируются после удаления {THING:ItemDataDisk}.
+К сведению, консоль имеет раздельные порты данных и питания.
+	  </Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureConsoleMonitor</Key>
-      <Value>Консоль (Монитор)</Value>
-      <Description>Этот {LINK:Norsec;разработанный Norsec} блок управления управляет такими устройствами, как {THING:StructureActiveVent}, {THING:StructurePassiveVent}, {THING:StructureGasSensor}, {THING:ItemSecurityCamera} и {THING:StructureCompositeDoor}, в зависимости от того, какие {LINK:LogicPage;монтажная плата} вставлена в устройство. Он имеет общий порт данных/питания и очаровательный наклонный интерфейс.
-Готовая консоль отображает все устройства, подключенные к текущей сети электропитания. Любые устройства, не связанные с установленной платой, будут выделены серым цветом и не будут работать. Консоли блокируются после удаления {THING:ItemDataDisk}.</Description>
+      <Value>Консоль</Value>
+      <Description>Этот, {LINK:Norsec;разработанный Norsec}, блок управления управляет такими устройствами, как {THING:StructureActiveVent}, {THING:StructurePassiveVent}, {THING:StructureGasSensor}, {THING:ItemSecurityCamera} и {THING:StructureCompositeDoor}, в зависимости от того, какие {LINK:LogicPage;монтажная плата} вставлена в устройство. Он имеет общий порт данных/питания и очаровательный наклонный интерфейс.
+Готовая консоль отображает все устройства, подключенные к текущей сети электропитания. Любые устройства, не связанные с установленной платой, будут выделены серым цветом и не будут работать. Консоли блокируются после удаления {THING:ItemDataDisk}.
+К сведению, консоль имеет порты данных и питания сверху и монитор расположен под углом.
+	  </Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureControlChair</Key>
@@ -2273,18 +2279,18 @@ An recurring {LINK:Stationeers;Stationeer} complaint focuses on the fact that ev
     </RecordThing>
     <RecordThing>
       <Key>StructureFrame</Key>
-      <Value>Стальной Каркас</Value>
+      <Value>Стальной каркас</Value>
       <Description>Более прочные, чем {THING:StructureFrameIron}, стальные рамы также имеют несколько вариантов для более сложных конструкций, таких как {THING:StructureFrameCorner} и {THING:StructureFrameCornerCut}. Как и железные рамы, они устанавливаются, а затем привариваются {THING:ItemSteelSheets} к открытому каркасу.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureFrameCorner</Key>
-      <Value>Steel Frame (Corner)</Value>
+      <Value>Угловой стальной каркас</Value>
       <Description>More durable than the {THING:StructureFrameIron}, steel frames also offer several variations for more complex lattice constructions. 
 With a little patience and maneuvering, the corner frame's Gothic-inspired silhouette allows the creation of ogival arches and even more ambitious architecture, although they are not airtight and cannot be built on.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureFrameSide</Key>
-      <Value>Стальной Каркас (Склон)</Value>
+      <Value>Скошенный стальной каркас</Value>
       <Description>Более прочные, чем {THING:StructureFrameIron}, стальные рамы также позволяют создавать более изысканные конструкции.</Description>
     </RecordThing>
     <RecordThing>
@@ -2303,7 +2309,7 @@ With a little patience and maneuvering, the corner frame's Gothic-inspired silho
     <RecordThing>
       <Key>StructureGasSensor</Key>
       <Value>Газовый датчик</Value>
-      <Description>Gas sensors are designed to monitor and report basic atmospheric information, including temperature, pressure, and gas ratios. They also make wonderful wedding presents.</Description>
+      <Description>Газовые датчики предназначены для мониторинга и передачи основной информации об атмосфере, включая температуру, давление и соотношение газов. Они также делают замечательные свадебные подарки.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureGasTankStorage</Key>
@@ -2360,7 +2366,7 @@ With a little patience and maneuvering, the corner frame's Gothic-inspired silho
       <Key>StructurePipeAnalysizer</Key>
       <Value>Анализатор труб</Value>
       <Description>Предположительно результат проекта электроники отца и дочери на выходных чрезмерно усердного инженера {LINK:ExMin;ExMin}, анализатор труб, по сути, является более продвинутой версией {THING:StructurePipeMeter}.
-		  Отображая внутреннее давление в трубопроводных сетях, он также считывает температуру и содержание газа и может быть подключен к {THING:StructureConsole} или {THING:StructureComputer} через {LINK:LogicPage;логическую} систему .
+Отображая внутреннее давление в трубопроводных сетях, он также считывает температуру и содержание газа и может быть подключен к {THING:StructureConsole} или {THING:StructureComputer} через {LINK:LogicPage;логическую} систему .
 	  </Description>
     </RecordThing>
     <RecordThing>
@@ -2437,7 +2443,7 @@ With a little patience and maneuvering, the corner frame's Gothic-inspired silho
     <RecordThing>
       <Key>StructureRailing</Key>
       <Value>Промышленные перила (Тип 1)</Value>
-      <Description>"Safety third."</Description>
+      <Description>"Безопасность на третьем месте."</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureRocketEngine</Key>
@@ -2454,7 +2460,7 @@ With a little patience and maneuvering, the corner frame's Gothic-inspired silho
     <RecordThing>
       <Key>StructureRTG</Key>
       <Value>РТ генератор</Value>
-      <Description>РТГ, разработанный {LINK:Norsec;Norsec}, (Радиоизотопный Термоэлектрический Генератор) использует тепловыделение радиоактивного распада для создания напряжения за счет перепада температур на термопаре. Обычно предназначенный для устройств с низким энергопотреблением, РТГ, по слухам, использует технологию Zrillian для достижения невероятно высокой выходной мощности.</Description>
+      <Description>РИТЭГ, разработанный {LINK:Norsec;Norsec}, (Радиоизотопный Термоэлектрический Генератор) использует тепловыделение радиоактивного распада для создания напряжения за счет перепада температур на термопаре. Обычно предназначенный для устройств с низким энергопотреблением, РИТЭГ, по слухам, использует технологию Zrillian для достижения невероятно высокой выходной мощности.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureSleeper</Key>
@@ -2522,11 +2528,11 @@ ProKompile может складывать самые разные вещи, т�
     </RecordThing>
     <RecordThing>
       <Key>StructureTorpedoRack</Key>
-      <Value>Torpedo Rack</Value>
+      <Value>Стойка для торпед</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureTorpedoTube</Key>
-      <Value>Torpedo Launcher</Value>
+      <Value>Торпедный аппарат</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureValve</Key>
@@ -2577,11 +2583,11 @@ ProKompile может складывать самые разные вещи, т�
     </RecordThing>
     <RecordThing>
       <Key>WeaponEnergy</Key>
-      <Value>Weapon Energy</Value>
+      <Value>Энергетическое оружие</Value>
     </RecordThing>
     <RecordThing>
       <Key>WeaponTorpedo</Key>
-      <Value>Torpedo</Value>
+      <Value>Торпеда</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemWasteIngot</Key>
@@ -2589,27 +2595,27 @@ ProKompile может складывать самые разные вещи, т�
     </RecordThing>
     <RecordThing>
       <Key>StructureCableStraightBurnt</Key>
-      <Value>Burnt Cable (Straight)</Value>
+      <Value>Сгоревший кабель (Straight)</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureCableCorner3Burnt</Key>
-      <Value>Burnt Cable (3-Way Corner)</Value>
+      <Value>Сгоревший кабель (3-Way Corner)</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureCableCornerBurnt</Key>
-      <Value>Burnt Cable (Corner)</Value>
+      <Value>Сгоревший кабель (Corner)</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureCableJunction4Burnt</Key>
-      <Value>Burnt Cable (4-Way Junction)</Value>
+      <Value>Сгоревший кабель (4-Way Junction)</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureCableJunction6Burnt</Key>
-      <Value>Burnt Cable (6-Way Junction)</Value>
+      <Value>Сгоревший кабель (6-Way Junction)</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureCableJunctionBurnt</Key>
-      <Value>Burnt Cable (Junction)</Value>
+      <Value>Сгоревший кабель (Junction)</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureSolidFuelGenerator</Key>
@@ -2875,19 +2881,17 @@ Note that transformers operate as data isolators, preventing data flowing into a
     <RecordThing>
       <Key>ItemVolatiles</Key>
       <Value>Лёд из летучих веществ</Value>
-      <Description>
-		  Чрезвычайно реактивный лед с большим количеством углеводородов внутри. Для простоты они часто отображаются как H2 такими устройствами, как {THING:CartridgeAtmosAnalyser}.
+      <Description>Чрезвычайно реактивный лед с большим количеством углеводородов внутри. Для простоты они часто отображаются как H2 такими устройствами, как {THING:CartridgeAtmosAnalyser}.
 
-		  Летучие вещества сгорают в соотношении 2:1 с {GAS:Oxygen}, создавая {GAS:CarbonDioxide} и загрязняющие вещества. Однако при катализе с помощью таких устройств, как {THING:H2Combustor} в присутствии {GAS:Oxygen}, они производят воду и тепло с небольшим количеством {GAS:CarbonDioxide} и {GAS:Pollutant} из-за самовоспламенения летучих веществ. в камере. Наряду с {GAS:Oxygen} летучие газы также являются основным компонентом топлива для таких устройств, как {THING:ItemWeldingTorch}.
+Летучие вещества сгорают в соотношении 2:1 с {GAS:Oxygen}, создавая {GAS:CarbonDioxide} и загрязняющие вещества. Однако при катализе с помощью таких устройств, как {THING:H2Combustor} в присутствии {GAS:Oxygen}, они производят воду и тепло с небольшим количеством {GAS:CarbonDioxide} и {GAS:Pollutant} из-за самовоспламенения летучих веществ. в камере. Наряду с {GAS:Oxygen} летучие газы также являются основным компонентом топлива для таких устройств, как {THING:ItemWeldingTorch}.
 	  </Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemOxite</Key>
       <Value>Окситный лёд</Value>
-      <Description>
-		  Окситный лёд в основном состоит из замороженного {GAS:Oxygen} и встречается на многих планетах Солнечной системы. Очень ценный и востребованный, не на всех планетах, которые посещает {LINK:Stationeers;Stationeer}, есть некоторые.
+      <Description>Окситный лёд в основном состоит из замороженного {GAS:Oxygen} и встречается на многих планетах Солнечной системы. Очень ценный и востребованный, не на всех планетах, которые посещает {LINK:Stationeers;Stationeer}, есть некоторые.
 
-		  Высокочувствительный к температуре оксит начинает плавиться, как только его добывают, если только температура не ниже нуля, или если он не хранится в {THING:ItemMiningBelt}, {THING:ItemMiningBeltAdvanced} или таких устройствах, как {THING:StructureIceCrusher}. или {THING:StructureFridgeSmall}. При плавлении оксит образует смесь {GAS:Oxygen} и {GAS:Nitrogen}.
+Высокочувствительный к температуре оксит начинает плавиться, как только его добывают, если только температура не ниже нуля, или если он не хранится в {THING:ItemMiningBelt}, {THING:ItemMiningBeltAdvanced} или таких устройствах, как {THING:StructureIceCrusher}. или {THING:StructureFridgeSmall}. При плавлении оксит образует смесь {GAS:Oxygen} и {GAS:Nitrogen}.
 	  </Description>
     </RecordThing>
     <RecordThing>
@@ -3009,8 +3013,8 @@ Note that transformers operate as data isolators, preventing data flowing into a
     <RecordThing>
       <Key>StructureTransformerSmallReversed</Key>
       <Value>Небольшой трансформатор</Value>
-      <Description>Transformers control the maximum power that will flow down a cable subnetwork, to prevent overloading {LINK:ElectronicPage;electrical} systems. Output on small transformers can be set from 0 to 5000W.
-Note that transformers operate as data isolators, preventing data flowing into any network beyond it.</Description>
+      <Description>Трансформаторы контролируют максимальную мощность, которая будет передаваться по кабельной подсети, чтобы предотвратить перегрузку {LINK:ElectronicPage;электрических} систем. Выходная мощность на малых трансформаторах может быть установлена от 0 до 5000 Вт.
+Обратите внимание, что преобразователи работают как изоляторы данных, предотвращая поток данных в любую сеть за ее пределами.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureLogicUnit</Key>
@@ -3371,47 +3375,47 @@ OUT - выбор операции, результат которой будет 
     </RecordThing>
     <RecordThing>
       <Key>StructureCompositeCladdingAngledCorner</Key>
-      <Value>Composite Cladding (Angled Corner)</Value>
+      <Value>Угловое наклонное композитное покрытие</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureCompositeCladdingAngledCornerLong</Key>
-      <Value>Composite Cladding (Long Angled Corner)</Value>
+      <Value>Длинное угловое наклонное композитное покрытие</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureCompositeCladdingAngledLong</Key>
-      <Value>Composite Cladding (Long Angled)</Value>
+      <Value>Длинное наклонное композитное покрытие</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureCompositeCladdingCylindrical</Key>
-      <Value>Composite Cladding (Cylindrical)</Value>
+      <Value>Композитное покрытие цилиндрическое формы</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureCompositeCladdingCylindricalPanel</Key>
-      <Value>Composite Cladding (Cylindrical Panel)</Value>
+      <Value>Композитное покрытие панельной цилиндрической формы</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureCompositeCladdingSphericalCorner</Key>
-      <Value>Composite Cladding (Spherical Corner)</Value>
+      <Value>Композитное покрытие со сферическим углом</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureCompositeCladdingSphericalCap</Key>
-      <Value>Composite Cladding (Spherical Cap)</Value>
+      <Value>Композитное покрытие со сферической крышкой</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureCompositeCladdingSpherical</Key>
-      <Value>Composite Cladding (Spherical)</Value>
+      <Value>Сферическое композитное покрытие</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureCompositeCladdingRoundedCorner</Key>
-      <Value>Composite Cladding (Rounded Corner)</Value>
+      <Value>Композитное покрытие с закругленным углом</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureCompositeCladdingRounded</Key>
-      <Value>Composite Cladding (Rounded)</Value>
+      <Value>Закругленное композитное покрытие</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureCompositeCladdingPanel</Key>
-      <Value>Composite Cladding (Panel)</Value>
+      <Value>Панельное композитное покрытие</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitCompositeCladding</Key>
@@ -3435,15 +3439,15 @@ OUT - выбор операции, результат которой будет 
     </RecordThing>
     <RecordThing>
       <Key>StructureLightLong</Key>
-      <Value>Длинный настенный светильник</Value>
+      <Value>Длинная настенная лампа</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureLightLongAngled</Key>
-      <Value>Длинноугловатый настенный светильник</Value>
+      <Value>Длинноугловатая настенная лампа</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureLightLongWide</Key>
-      <Value>Большой настенный светильник</Value>
+      <Value>Большая настенная лампа</Value>
     </RecordThing>
     <RecordThing>
       <Key>CircuitboardAdvancedAirlockControl</Key>
@@ -3488,7 +3492,7 @@ OUT - выбор операции, результат которой будет 
     </RecordThing>
     <RecordThing>
       <Key>StructureCompositeWallPanelling1</Key>
-      <Value>Composite Wall Panelling</Value>
+      <Value>Композитная настенная панель</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitCompositeFloorGrating</Key>
@@ -3600,35 +3604,35 @@ OUT - выбор операции, результат которой будет 
     </RecordThing>
     <RecordThing>
       <Key>StructureWallArch</Key>
-      <Value>Wall (Arch)</Value>
+      <Value>Арочная стена (Тип 1)</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureWallArchArrow</Key>
-      <Value>Wall (Arch Arrow)</Value>
+      <Value>Арочная стена (Тип 2)</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureWallArchPlating</Key>
-      <Value>Wall (Arch Plating)</Value>
+      <Value>Арочная стена (Тип 3)</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureWallArchTwoTone</Key>
-      <Value>Wall (Arch Two Tone)</Value>
+      <Value>Арочная стена (Тип 4)</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureWallGeometryCorner</Key>
-      <Value>Wall (Geometry Corner)</Value>
+      <Value>Геометрическая стена (Тип 1)</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureWallGeometryStreight</Key>
-      <Value>Wall (Geometry Straight)</Value>
+      <Value>Геометрическая стена (Тип 2)</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureWallGeometryT</Key>
-      <Value>Wall (Geometry T)</Value>
+      <Value>Геометрическая стена (Тип 4)</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureWallGeometryTMirrored</Key>
-      <Value>Wall (Geometry T Mirrored)</Value>
+      <Value>Геометрическая стена (Тип 3)</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureWallPaddedArch</Key>
@@ -3736,15 +3740,15 @@ OUT - выбор операции, результат которой будет 
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckage2</Key>
-      <Value>Wreckage</Value>
+      <Value>Обломок</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckage3</Key>
-      <Value>Wreckage</Value>
+      <Value>Обломок</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckage4</Key>
-      <Value>Wreckage</Value>
+      <Value>Обломок</Value>
     </RecordThing>
     <RecordThing>
       <Key>CartridgeAccessController</Key>
@@ -3752,51 +3756,51 @@ OUT - выбор операции, результат которой будет 
     </RecordThing>
     <RecordThing>
       <Key>AccessCardBlack</Key>
-      <Value>Карта доступа (Черная)</Value>
+      <Value>Карта доступа</Value>
     </RecordThing>
     <RecordThing>
       <Key>AccessCardBlue</Key>
-      <Value>Карта доступа (Синяя)</Value>
+      <Value>Карта доступа</Value>
     </RecordThing>
     <RecordThing>
       <Key>AccessCardBrown</Key>
-      <Value>Карта доступа (Коричневый)</Value>
+      <Value>Карта доступа</Value>
     </RecordThing>
     <RecordThing>
       <Key>AccessCardGray</Key>
-      <Value>Карта доступа (Серая)</Value>
+      <Value>Карта доступа</Value>
     </RecordThing>
     <RecordThing>
       <Key>AccessCardGreen</Key>
-      <Value>Карта доступа (Зеленая)</Value>
+      <Value>Карта доступа</Value>
     </RecordThing>
     <RecordThing>
       <Key>AccessCardKhaki</Key>
-      <Value>Карта доступа (Хаки)</Value>
+      <Value>Карта доступа</Value>
     </RecordThing>
     <RecordThing>
       <Key>AccessCardOrange</Key>
-      <Value>Карта доступа (Оранжевая)</Value>
+      <Value>Карта доступа</Value>
     </RecordThing>
     <RecordThing>
       <Key>AccessCardPink</Key>
-      <Value>Карта доступа (Розовая)</Value>
+      <Value>Карта доступа</Value>
     </RecordThing>
     <RecordThing>
       <Key>AccessCardPurple</Key>
-      <Value>Карта доступа (Пурпурная)</Value>
+      <Value>Карта доступа</Value>
     </RecordThing>
     <RecordThing>
       <Key>AccessCardRed</Key>
-      <Value>Карта доступа (Красная)</Value>
+      <Value>Карта доступа</Value>
     </RecordThing>
     <RecordThing>
       <Key>AccessCardWhite</Key>
-      <Value>Карта доступа (Белая)</Value>
+      <Value>Карта доступа</Value>
     </RecordThing>
     <RecordThing>
       <Key>AccessCardYellow</Key>
-      <Value>Карта доступа (Желтая)</Value>
+      <Value>Карта доступа</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureSecurityPrinter</Key>
@@ -3991,7 +3995,7 @@ MODE - группа чтения
     </RecordThing>
     <RecordThing>
       <Key>ReagentSilver</Key>
-      <Value>Серебряный порошок</Value>
+      <Value>Silver Powder</Value>
     </RecordThing>
     <RecordThing>
       <Key>ReagentPotassiumIodide</Key>
@@ -4025,7 +4029,7 @@ MODE - группа чтения
     </RecordThing>
     <RecordThing>
       <Key>StructurePlatformLadderOpen</Key>
-      <Value>Ladder Platform</Value>
+      <Value>Платформа для лестницы</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureLadderEnd</Key>
@@ -4298,7 +4302,7 @@ OUT VAR - параметр, передаваемый устройству
     </RecordThing>
     <RecordThing>
       <Key>ItemGasCanisterNitrousOxide</Key>
-      <Value>Газовый баллон (Закись азота)</Value>
+      <Value>Баллон с закисью азота</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemNVG</Key>
@@ -4409,11 +4413,11 @@ OUT VAR - параметр, передаваемый устройству
     </RecordThing>
     <RecordThing>
       <Key>Phobos</Key>
-      <Value>Phobos</Value>
+      <Value>Фобос</Value>
     </RecordThing>
     <RecordThing>
       <Key>Meteorite</Key>
-      <Value>Meteorite</Value>
+      <Value>Метеорит</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitAutoMiner</Key>
@@ -4523,43 +4527,43 @@ RobotMode.None = 6 = автоматически назначенное сост�
     </RecordThing>
     <RecordThing>
       <Key>StructureCompositeCladdingRoundedCornerInner</Key>
-      <Value>Composite Cladding (Rounded Corner Inner)</Value>
+      <Value>Композитное покрытие с закругленным внутрь уголом</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureCompositeCladdingAngledCornerInnerLongR</Key>
-      <Value>Composite Cladding (Angled Corner Inner Long R)</Value>
+      <Value>Композитное покрытие с длинным внутрь углом вправо</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureCompositeCladdingAngledCornerInnerLongL</Key>
-      <Value>Composite Cladding (Angled Corner Inner Long L)</Value>
+      <Value>Композитное покрытие с длинным внутрь углом влево</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureCompositeCladdingAngledCornerInnerLong</Key>
-      <Value>Composite Cladding (Angled Corner Inner Long)</Value>
+      <Value>Композитное покрытие с длинным внутрь углом</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureCompositeCladdingAngledCornerInner</Key>
-      <Value>Composite Cladding (Angled Corner Inner)</Value>
+      <Value>Композитное покрытие с углом внутрь</Value>
     </RecordThing>
     <RecordThing>
       <Key>ElectronicPrinterMod</Key>
       <Value>Модуль принтера электроники</Value>
-      <Description>Apply to an {THING:StructureElectronicsPrinter} with a {THING:ItemWeldingTorch} or {THING:ItemArcWelder} to upgrade for increased processing speed and more recipe options.</Description>
+      <Description>Улучшите этим модулем {THING:StructureElectronicsPrinter} с помощью {THING:ItemWeldingTorch} или {THING:ItemArcWelder}, чтобы повысить скорость обработки и получить больше вариантов рецептов.</Description>
     </RecordThing>
     <RecordThing>
       <Key>AutolathePrinterMod</Key>
-      <Value>Autolathe Printer Mod</Value>
-      <Description>Apply to an {THING:StructureAutolathe} with a {THING:ItemWeldingTorch} or {THING:ItemArcWelder} to upgrade for increased processing speed and more recipe options.</Description>
+      <Value>Модуль автотокарного станка</Value>
+      <Description>Улучшите этим модулем {THING:StructureAutolathe} с помощью {THING:ItemWeldingTorch} или {THING:ItemArcWelder}, чтобы повысить скорость обработки и получить больше вариантов рецептов.</Description>
     </RecordThing>
     <RecordThing>
       <Key>PipeBenderMod</Key>
-      <Value>Pipe Bender Mod</Value>
-      <Description>Apply to an {THING:StructureHydraulicPipeBender} with a {THING:ItemWeldingTorch} or {THING:ItemArcWelder} to upgrade for increased processing speed and more recipe options.</Description>
+      <Value>Модуль гидравлического сгибателя труб</Value>
+      <Description>Улучшите этим модулем {THING:StructureHydraulicPipeBender} с помощью {THING:ItemWeldingTorch} или {THING:ItemArcWelder}, чтобы повысить скорость обработки и получить больше вариантов рецептов.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ToolPrinterMod</Key>
-      <Value>Tool Printer Mod</Value>
-      <Description>Apply to an {THING:StructureToolManufactory} with a {THING:ItemWeldingTorch} or {THING:ItemArcWelder} to upgrade for increased processing speed and more recipe options.</Description>
+      <Value>Модуль принтера инструментов</Value>
+      <Description>Улучшите этим модулем {THING:StructureToolManufactory} с помощью {THING:ItemWeldingTorch} или {THING:ItemArcWelder}, чтобы получить повышение скорости обработки и  получить больше вариантов рецептов.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureTransformerMedium</Key>
@@ -4571,9 +4575,9 @@ Note that transformers also operate as data isolators, preventing data flowing i
     <RecordThing>
       <Key>StructureTransformerMediumReversed</Key>
       <Value>Средний обратный трансформатор</Value>
-      <Description>Transformers control the maximum power that will flow down a sub-network of cables, to prevent overloading {LINK:ElectronicPage;electrical} systems. 
-Medium transformers are used in larger setups where more than 5000W is required, with output that can be set to a maximum of 25000W.
-Note that transformers also operate as data isolators, preventing data flowing into any network beyond it.</Description>
+      <Description>Трансформаторы контролируют максимальную мощность, которая будет передаваться по подсети кабелей, чтобы предотвратить перегрузку {LINK:ElectronicPage;электрических} систем.
+Средние трансформаторы используются в более крупных установках, где требуется более 5000 Вт, при этом выходная мощность может быть установлена на максимум 25000 Вт.
+Обратите внимание, что преобразователи также работают как изоляторы данных, предотвращая передачу данных в любую сеть за ее пределами.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureTransformerMedium(Reversed)</Key>
@@ -4664,67 +4668,67 @@ Note that transformers also operate as data isolators, preventing data flowing i
     </RecordThing>
     <RecordThing>
       <Key>StructurePictureFrameThinMountLandscapeLarge</Key>
-      <Value>Picture Frame Thin Landscape Large</Value>
+      <Value>Тонкая фоторамка с большим пейзажем</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructurePictureFrameThinMountLandscapeSmall</Key>
-      <Value>Picture Frame Thin Landscape Small</Value>
+      <Value>Тонкая фоторамка с маленьким пейзажем</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructurePictureFrameThinMountPortraitLarge</Key>
-      <Value>Picture Frame Thin Portrait Large</Value>
+      <Value>Тонкая фоторамка с большим портретом</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructurePictureFrameThinMountPortraitSmall</Key>
-      <Value>Picture Frame Thin Portrait Small</Value>
+      <Value>Тонкая фоторамка с маленьким портретом</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructurePictureFrameThinPortraitSmall</Key>
-      <Value>Picture Frame Thin Portrait Small</Value>
+      <Value>Тонкая фоторамка с маленьким портретом</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructurePictureFrameThinLandscapeSmall</Key>
-      <Value>Picture Frame Thin Landscape Small</Value>
+      <Value>Тонкая фоторамка с маленьким пейзажем</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructurePictureFrameThinLandscapeLarge</Key>
-      <Value>Picture Frame Thin Landscape Large</Value>
+      <Value>Тонкая фоторамка с большим пейзажем</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructurePictureFrameThickPortraitSmall</Key>
-      <Value>Picture Frame Thick Portrait Small</Value>
+      <Value>Толстая фоторамка с маленьким портретом</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructurePictureFrameThickMountPortraitSmall</Key>
-      <Value>Picture Frame Thick Mount Portrait Small</Value>
+      <Value>Толстая фоторамка с маленьким портретом</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructurePictureFrameThickMountPortraitLarge</Key>
-      <Value>Picture Frame Thick Mount Portrait Large</Value>
+      <Value>Толстая фоторамка с большим портретом</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructurePictureFrameThickMountLandscapeSmall</Key>
-      <Value>Picture Frame Thick Landscape Small</Value>
+      <Value>Толстая фоторамка с маленьким пейзажем</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructurePictureFrameThickMountLandscapeLarge</Key>
-      <Value>Picture Frame Thick Landscape Large</Value>
+      <Value>Толстая фоторамка с большим пейзажем</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructurePictureFrameThickLandscapeSmall</Key>
-      <Value>Picture Frame Thick Landscape Small</Value>
+      <Value>Толстая фоторамка с маленьким пейзажем</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructurePictureFrameThickLandscapeLarge</Key>
-      <Value>Picture Frame Thick Landscape Large</Value>
+      <Value>Толстая фоторамка с большим пейзажем</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructurePictureFrameThickPortraitLarge</Key>
-      <Value>Picture Frame Thick Portrait Large</Value>
+      <Value>Толстая фоторамка с большим портретом</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructurePictureFrameThinPortraitLarge</Key>
-      <Value>Picture Frame Thin Portrait Large</Value>
+      <Value>Толстая фоторамка с большим портретом</Value>
     </RecordThing>
     <RecordThing>
       <Key>ApplianceDeskLampLeft</Key>
@@ -4768,8 +4772,8 @@ Note that transformers also operate as data isolators, preventing data flowing i
     </RecordThing>
     <RecordThing>
       <Key>StructureAutoMinerSmall</Key>
-      <Value>Autominer (Small)</Value>
-      <Description>The {LINK:Recurso;Recurso} SquareDig autominer is a structure that when built will mine a vertical 2x2 shaft until it hits bedrock. The autominer can be connected to a chute system, and is controllable by a logic network. Note that the autominer outputs more {LINK:OrePage;руды} than a conventional {THING:ItemMiningDrill} over the same area.</Description>
+      <Value>Небольшой автоматический рудокоп</Value>
+      <Description>Небольшой автоматический рудокоп от {LINK:Recurso;Recurso} SquareDig представляет собой вертикальную конструкцию 2 на 2, которая после постройки будет добывать до тех пор, пока не упрется в коренную породу. Автомайнер может быть подключен к желобной системе и управляется логической сетью. Обратите внимание, что автомайнер выдает больше {LINK:OrePage;руды}, чем обычный {THING:ItemMiningDrill} на той же площади.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitAutoMinerSmall</Key>
@@ -4959,31 +4963,31 @@ Note that transformers also operate as data isolators, preventing data flowing i
     </RecordThing>
     <RecordThing>
       <Key>StructureWallArchCornerRound</Key>
-      <Value>Wall (Arch Corner Round)</Value>
+      <Value>Арочный угол (Тип 1)</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureWallArchCornerSquare</Key>
-      <Value>Wall (Arch Corner Square)</Value>
+      <Value>Арочный угол (Тип 2)</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureWallArchCornerTriangle</Key>
-      <Value>Wall (Arch Corner Triangle)</Value>
+      <Value>Арочный угол (Тип 3)</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureWallFlatCornerRound</Key>
-      <Value>Wall (Flat Corner Round)</Value>
+      <Value>Плоский угол (Тип 1)</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureWallFlatCornerSquare</Key>
-      <Value>Wall (Flat Corner Square)</Value>
+      <Value>Плоский угол (Тип 2)</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureWallFlatCornerTriangle</Key>
-      <Value>Wall (Flat Corner Triangle)</Value>
+      <Value>Плоский угол (Тип 3)</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureWallFlatCornerTriangleFlat</Key>
-      <Value>Wall (Flat Corner Triangle Flat)</Value>
+      <Value>Плоский угол (Тип 4)</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureWallPaddedArchLightFittingTop</Key>
@@ -4999,40 +5003,40 @@ Note that transformers also operate as data isolators, preventing data flowing i
     </RecordThing>
     <RecordThing>
       <Key>StructureWallPaddedWindowThin</Key>
-      <Value>Сайдинг (Тип 11)</Value>
+      <Value>Мягкое окно (Тип 2)</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureWallPaddedThinNoBorderCorner</Key>
-      <Value>Сайдинг (Тип 16)</Value>
+      <Value>Мягкий арочный угол (Тип 5)</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureWallPaddedNoBorderCorner</Key>
-      <Value>Сайдинг (Тип 15)</Value>
+      <Value>Мягкий арочный угол (Тип 4)</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureWallPaddedCorner</Key>
-      <Value>Сайдинг (Тип 13)</Value>
+      <Value>Мягкий арочный угол (Тип 2)</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureWallPaddedCornerThin</Key>
-      <Value>Сайдинг (Тип 14)</Value>
+      <Value>Мягкий арочный угол (Тип 3)</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureWallPaddedArchCorner</Key>
-      <Value>Сайдинг (Тип 12)</Value>
+      <Value>Мягкий арочный угол (Тип 1)</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureWallPaddedWindow</Key>
-      <Value>Сайдинг (Тип 10)</Value>
+      <Value>Мягкое окно (Тип 1)</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructurePipeOrgan</Key>
-      <Value>Труба Органа</Value>
+      <Value>Труба орган</Value>
       <Description>Орган можно присоединить к одному концу {THING:ItemPipeValve}. Длина трубы после того, как орган меняет высоту ноты, которую он будет играть при открытии клапана. Используйте {LINK:LogicPage;логические устройства}, чтобы открывать и закрывать клапаны, чтобы создавать собственные мелодии для вашей базы или звуковое предупреждение.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitPipeOrgan</Key>
-      <Value>Труба Органа</Value>
+      <Value>Труба орган</Value>
       <Description>Содержит {THING:StructurePipeOrgan}.</Description>
     </RecordThing>
     <RecordThing>
@@ -5041,15 +5045,15 @@ Note that transformers also operate as data isolators, preventing data flowing i
     </RecordThing>
     <RecordThing>
       <Key>ModularRocketCommand01Lander</Key>
-      <Value>Rocket Command Lander</Value>
+      <Value>Посадочный модуль ракеты</Value>
     </RecordThing>
     <RecordThing>
       <Key>ModularRocketCargo01</Key>
-      <Value>Rocket Cargo</Value>
+      <Value>Ракетный груз</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemSensorProcessingUnitOreScanner</Key>
-      <Value>Sensor Processing Unit (Ore Scanner)</Value>
+      <Value>Блок обработки датчиков (Сканер Руд)</Value>
       <Description>The Sensor Processing unit can be inserted into {THING:ItemSensorLenses} to reveal underground minerals in a HUD.</Description>
     </RecordThing>
     <RecordThing>
@@ -5327,37 +5331,37 @@ On - &lt;1 - выключить устройство, &gt;=1 - включить
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageVendingMachine1</Key>
-      <Value>Wreckage Vending Machine</Value>
+      <Value>Обломки склада</Value>
       <Description>Description coming.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageVendingMachine2</Key>
-      <Value>Wreckage Vending Machine</Value>
+      <Value>Обломки склада</Value>
       <Description>Description coming.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageVendingMachine3</Key>
-      <Value>Wreckage Vending Machine</Value>
+      <Value>Обломки склада</Value>
       <Description>Description coming.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageVendingMachine4</Key>
-      <Value>Wreckage Vending Machine</Value>
+      <Value>Обломки склада</Value>
       <Description>Description coming.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageArcFurnace1</Key>
-      <Value>Обломки Дуговой Печи</Value>
+      <Value>Обломки дуговой печи</Value>
       <Description>Description coming.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageArcFurnace2</Key>
-      <Value>Обломки Дуговой Печи</Value>
+      <Value>Обломки дуговой печи</Value>
       <Description>Description coming.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageArcFurnace3</Key>
-      <Value>Обломки Дуговой Печи</Value>
+      <Value>Обломки дуговой печи</Value>
       <Description>Description coming.</Description>
     </RecordThing>
     <RecordThing>
@@ -5372,12 +5376,12 @@ On - &lt;1 - выключить устройство, &gt;=1 - включить
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageAreaPowerControlReversed1</Key>
-      <Value>Wreckage Area Power Control Reversed</Value>
+      <Value>Обломки обратного ИБП</Value>
       <Description>Description coming.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageAreaPowerControlReversed2</Key>
-      <Value>Wreckage Area Power Control Reversed</Value>
+      <Value>Обломки обратного ИБП</Value>
       <Description>Description coming.</Description>
     </RecordThing>
     <RecordThing>
@@ -5425,372 +5429,372 @@ On - &lt;1 - выключить устройство, &gt;=1 - включить
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageSecurityPrinter1</Key>
-      <Value>Wreckage Security Printer</Value>
+      <Value>Обломки оружейного принтера</Value>
       <Description>Description coming.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageSecurityPrinter2</Key>
-      <Value>Wreckage Security Printer</Value>
+      <Value>Обломки оружейного принтера</Value>
       <Description>Description coming.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageSecurityPrinter3</Key>
-      <Value>Wreckage Security Printer</Value>
+      <Value>Обломки оружейного принтера</Value>
       <Description>Description coming.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageSecurityPrinter4</Key>
-      <Value>Wreckage Security Printer</Value>
+      <Value>Обломки оружейного принтера</Value>
       <Description>Description coming.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageSecurityPrinter5</Key>
-      <Value>Wreckage Security Printer</Value>
+      <Value>Обломки оружейного принтера</Value>
       <Description>Description coming.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageSecurityPrinter6</Key>
-      <Value>Wreckage Security Printer</Value>
+      <Value>Обломки оружейного принтера</Value>
       <Description>Description coming.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageAutolathe1</Key>
-      <Value>Wreckage Autolathe</Value>
+      <Value>Обломки автотокарного станка</Value>
       <Description>Description coming.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageAutolathe2</Key>
-      <Value>Wreckage Autolathe</Value>
+      <Value>Обломки автотокарного станка</Value>
       <Description>Description coming.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageAutolathe3</Key>
-      <Value>Wreckage Autolathe</Value>
+      <Value>Обломки автотокарного станка</Value>
       <Description>Description coming.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageAutolathe4</Key>
-      <Value>Wreckage Autolathe</Value>
+      <Value>Обломки автотокарного станка</Value>
       <Description>Description coming.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageAutolathe5</Key>
-      <Value>Wreckage Autolathe</Value>
+      <Value>Обломки автотокарного станка</Value>
       <Description>Description coming.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageAutolathe6</Key>
-      <Value>Wreckage Autolathe</Value>
+      <Value>Обломки автотокарного станка</Value>
       <Description>Description coming.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageAutolathe7</Key>
-      <Value>Wreckage Autolathe</Value>
+      <Value>Обломки автотокарного станка</Value>
       <Description>Description coming.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageElectronicsPrinter1</Key>
-      <Value>Wreckage Electronics Printer1</Value>
+      <Value>Обломок принтера электроники 1</Value>
       <Description>Description coming.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageElectronicsPrinter2</Key>
-      <Value>Wreckage Electronics Printer2</Value>
+      <Value>Обломок принтера электроники 2</Value>
       <Description>Description coming.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageElectronicsPrinter3</Key>
-      <Value>Wreckage Electronics Printer3</Value>
+      <Value>Обломок принтера электроники 3</Value>
       <Description>Description coming.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageElectronicsPrinter4</Key>
-      <Value>Wreckage Electronics Printer4</Value>
+      <Value>Обломок принтера электроники 4</Value>
       <Description>Description coming.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageElectronicsPrinter5</Key>
-      <Value>Wreckage Electronics Printer5</Value>
+      <Value>Обломок принтера электроники 5</Value>
       <Description>Description coming.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageElectronicsPrinter6</Key>
-      <Value>Item Wreckage Electronics Printer6</Value>
+      <Value>Обломок принтера электроники 6</Value>
       <Description>Description coming.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageCentrifuge1</Key>
-      <Value>Wreckage Centrifuge</Value>
+      <Value>Обломки центрифуги</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageCentrifuge2</Key>
-      <Value>Wreckage Centrifuge</Value>
+      <Value>Обломки центрифуги</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageCentrifuge3</Key>
-      <Value>Wreckage Centrifuge</Value>
+      <Value>Обломки центрифуги</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageCentrifuge4</Key>
-      <Value>Wreckage Centrifuge</Value>
+      <Value>Обломки центрифуги</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageCentrifuge5</Key>
-      <Value>Wreckage Centrifuge</Value>
+      <Value>Обломки центрифуги</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageGasGenerator1</Key>
-      <Value>Wreckage Gas Generator</Value>
+      <Value>Обломки газового генератора</Value>
       <Description>Description coming.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageGasGenerator2</Key>
-      <Value>Wreckage Gas Generator</Value>
+      <Value>Обломки газового генератора</Value>
       <Description>Description coming.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageVent1</Key>
-      <Value>Wreckage Vent</Value>
+      <Value>Обломки вентиляции</Value>
       <Description>Description coming.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageSatelliteDish1</Key>
-      <Value>Wreckage Medium Satellite Dish</Value>
+      <Value>>Обломки спутниковой тарелки</Value>
       <Description>Description coming.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageSatelliteDish2</Key>
-      <Value>Wreckage Medium Satellite Dish</Value>
+      <Value>Обломки спутниковой тарелки</Value>
       <Description>Description coming.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageSatelliteDish3</Key>
-      <Value>Wreckage Medium Satellite Dish</Value>
+      <Value>Обломки спутниковой тарелки</Value>
       <Description>Description coming.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageElectrolysis1</Key>
-      <Value>Wreckage Electrolysis</Value>
+      <Value>Обломки электролизера</Value>
       <Description>Description coming.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageElectrolysis2</Key>
-      <Value>Wreckage Electrolysis</Value>
+      <Value>Обломки электролизера</Value>
       <Description>Description coming.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageLight1</Key>
-      <Value>Wreckage Light</Value>
+      <Value>Обломки лампы</Value>
       <Description>Description coming.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageLight2</Key>
-      <Value>Wreckage Light</Value>
+      <Value>Обломки лампы</Value>
       <Description>Description coming.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageLightLongAngled1</Key>
-      <Value>Wreckage Light Long Angled</Value>
+      <Value>Обломки длинноугловатой настенной лампы</Value>
       <Description>Description coming.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageLightLongAngled2</Key>
-      <Value>Wreckage Light Long Angled</Value>
+      <Value>Обломки длинноугловатой настенной лампы</Value>
       <Description>Description coming.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageLightLongWide1</Key>
-      <Value>Wreckage Light Long Wide</Value>
+      <Value>Обломки большой настенной лампы</Value>
       <Description>Description coming.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageLightLongWide2</Key>
-      <Value>Wreckage Light Long Wide</Value>
+      <Value>Обломки большой настенной лампы</Value>
       <Description>Description coming.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageWallLightBatteryPowered1</Key>
-      <Value>Wreckage Wall Light Battery Powered</Value>
+      <Value>Обломки настенной лампы с аккумулятором</Value>
       <Description>Description coming.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageWallLightBatteryPowered2</Key>
-      <Value>Wreckage Wall Light Battery Powered</Value>
+      <Value>Обломки настенной лампы с аккумулятором</Value>
       <Description>Description coming.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageRecycler1</Key>
-      <Value>Wreckage Recycler</Value>
+      <Value>Обломки утилизатора</Value>
       <Description>Description coming.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageRecycler2</Key>
-      <Value>Wreckage Recycler</Value>
+      <Value>Обломки утилизатора</Value>
       <Description>Description coming.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageRecycler3</Key>
-      <Value>Wreckage Recycler</Value>
+      <Value>Обломки утилизатора</Value>
       <Description>Description coming.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageRecycler4</Key>
-      <Value>Wreckage Recycler</Value>
+      <Value>Обломки утилизатора</Value>
       <Description>Description coming.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageRecycler5</Key>
-      <Value>Wreckage Recycler</Value>
+      <Value>Обломки утилизатора</Value>
       <Description>Description coming.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageRecycler6</Key>
-      <Value>Wreckage Recycler</Value>
+      <Value>Обломки утилизатора</Value>
       <Description>Description coming.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageFlashingLight1</Key>
-      <Value>Wreckage Flashing Light</Value>
+      <Value>Обломки мигающей лампы</Value>
       <Description>Description coming.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageFlashingLight2</Key>
-      <Value>Wreckage Flashing Light</Value>
+      <Value>Обломки мигающей лампы</Value>
       <Description>Description coming.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageActiveVent1</Key>
-      <Value>Wreckage Active Vent</Value>
+      <Value>Обломки активной вентиляции</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckagePassiveVent1</Key>
-      <Value>Wreckage Passive Vent</Value>
+      <Value>Обломки пассивной вентиляции</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageCoalGenerator1</Key>
-      <Value>Wreckage Coal Generator</Value>
+      <Value>Обломки твердотопливного генератора</Value>
       <Description>Description coming.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageCoalGenerator2</Key>
-      <Value>Wreckage Coal Generator</Value>
+      <Value>Обломки твердотопливного генератора</Value>
       <Description>Description coming.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageCoalGenerator3</Key>
-      <Value>Wreckage Coal Generator</Value>
+      <Value>Обломки твердотопливного генератора</Value>
       <Description>Description coming.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageH2Combustor1</Key>
-      <Value>Wreckage H2 Combustor</Value>
+      <Value>Обломки cжигателя водорода</Value>
       <Description>Description coming.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageHydroponicsAutomatic1</Key>
-      <Value>Wreckage Hydroponics Automatic</Value>
+      <Value>Обломки автоматической гидропоники</Value>
       <Description>Description coming.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageHydroponicsAutomatic2</Key>
-      <Value>Wreckage Hydroponics Automatic</Value>
+      <Value>Обломки автоматической гидропоники</Value>
       <Description>Description coming.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageHydroponicsAutomatic3</Key>
-      <Value>Wreckage Hydroponics Automatic</Value>
+      <Value>Обломки автоматической гидропоники</Value>
       <Description>Description coming.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageHydroponicsStation1</Key>
-      <Value>Wreckage Hydroponics Station</Value>
+      <Value>Обломки гидропонной станции</Value>
       <Description>Description coming.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageHydroponicsStation2</Key>
-      <Value>Wreckage Hydroponics Station</Value>
+      <Value>Обломки гидропонной станции</Value>
       <Description>Description coming.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageSDBSilo1</Key>
-      <Value>Wreckage SDB Silo</Value>
+      <Value>Обломки SDB хранилища</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageSDBSilo2</Key>
-      <Value>Wreckage SDB Silo</Value>
+      <Value>Обломки SDB хранилища</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageSDBSilo3</Key>
-      <Value>Wreckage SDB Silo</Value>
+      <Value>Обломки SDB хранилища</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageSDBSilo4</Key>
-      <Value>Wreckage SDB Silo</Value>
+      <Value>Обломки SDB хранилища</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageSDBSilo5</Key>
-      <Value>Wreckage SDB Silo</Value>
+      <Value>Обломки SDB хранилища</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageShuttleLandingPad1</Key>
-      <Value>Wreckage Shuttle Landing Pad</Value>
+      <Value>Обломки посадочной площадки шаттлов</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageShuttleLandingPad2</Key>
-      <Value>Wreckage Shuttle Landing Pad</Value>
+      <Value>Обломки посадочной площадки шаттлов</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageShuttleLandingPad3</Key>
-      <Value>Wreckage Shuttle Landing Pad</Value>
+      <Value>Обломки посадочной площадки шаттлов</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageShuttleLandingPad4</Key>
-      <Value>Wreckage Shuttle Landing Pad</Value>
+      <Value>Обломки посадочной площадки шаттлов</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageShuttleLandingPad5</Key>
-      <Value>Wreckage Shuttle Landing Pad</Value>
+      <Value>Обломки посадочной площадки шаттлов</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageBlastDoor1</Key>
-      <Value>Wreckage Blast Door</Value>
+      <Value>Обломки усиленной двери</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageBlastDoor2</Key>
-      <Value>Wreckage Blast Door</Value>
+      <Value>Обломки усиленной двери</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageCompositeDoor1</Key>
-      <Value>Wreckage Composite Door</Value>
+      <Value>Обломки композитной двери</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageCompositeDoor2</Key>
-      <Value>Wreckage Composite Door</Value>
+      <Value>Обломки композитной двери</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageCompositeDoor3</Key>
-      <Value>Wreckage Composite Door</Value>
+      <Value>Обломки композитной двери</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -5879,7 +5883,7 @@ On - &lt;1 - выключить устройство, &gt;=1 - включить
     </RecordThing>
     <RecordThing>
       <Key>StructurePlinth</Key>
-      <Value>Plinth</Value>
+      <Value>Постамент</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -6362,7 +6366,7 @@ To use on yourself: put duct tape in your active hand, hold RIGHT MOUSE BUTTON t
     </RecordThing>
     <RecordThing>
       <Key>ItemKitWaterBottleFiller</Key>
-      <Value>Машина для разливки воды</Value>
+      <Value>Разливочная машина</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -6547,7 +6551,7 @@ To use on yourself: put duct tape in your active hand, hold RIGHT MOUSE BUTTON t
     </RecordThing>
     <RecordThing>
       <Key>StructureWaterBottleFillerBottom</Key>
-      <Value>Water Bottle Filler Bottom</Value>
+      <Value>Разливочная машина воды книзу</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -7026,7 +7030,7 @@ Fertilizer is produced at a 1:3 ratio of fertilizer to ingredients. The fertiliz
     </RecordThing>
     <RecordThing>
       <Key>ItemKitInsulatedWaterPipe</Key>
-      <Value>Insulated Water Pipe Kit</Value>
+      <Value>Изолированная труба</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -7228,23 +7232,23 @@ When closed, has the heat transfer characteristics of a basic wall. Requires pow
     </RecordThing>
     <RecordThing>
       <Key>StructureReinforcedCompositeWindow</Key>
-      <Value>Reinforced Window (Composite)</Value>
-      <Description>Enjoy vistas of even the most savage, alien landscapes with these heavy duty window frames, which are resistant to pressure differentials up to 1MPa.</Description>
+      <Value>Армированное композитное окно</Value>
+      <Description>Наслаждайтесь видом даже на самые дикие, инопланетные пейзажи с этими прочными оконными рамами, устойчивыми к перепадам давления до 1 МПа.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureReinforcedCompositeWindowSteel</Key>
-      <Value>Reinforced Window (Composite Steel)</Value>
-      <Description>Enjoy vistas of even the most savage, alien landscapes with these heavy duty window frames, which are resistant to pressure differentials up to 1MPa.</Description>
+      <Value>Армированное композитное стальное окно</Value>
+      <Description>Наслаждайтесь видом даже на самые дикие, инопланетные пейзажи с этими прочными оконными рамами, устойчивыми к перепадам давления до 1 МПа.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureReinforcedWallPaddedWindow</Key>
-      <Value>Reinforced Window (Padded)</Value>
-      <Description>Enjoy vistas of even the most savage, alien landscapes with these heavy duty window frames, which are resistant to pressure differentials up to 1MPa.</Description>
+      <Value>Мягкое армированное окно</Value>
+      <Description>Наслаждайтесь видом даже на самые дикие, инопланетные пейзажи с этими прочными оконными рамами, устойчивыми к перепадам давления до 1 МПа.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureReinforcedWallPaddedWindowThin</Key>
-      <Value>Reinforced Window (Thin)</Value>
-      <Description>Enjoy vistas of even the most savage, alien landscapes with these heavy duty window frames, which are resistant to pressure differentials up to 1MPa.</Description>
+      <Value>Армированное окно</Value>
+      <Description>Наслаждайтесь видом даже на самые дикие, инопланетные пейзажи с этими прочными оконными рамами, устойчивыми к перепадам давления до 1 МПа.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemStelliteGlassSheets</Key>
@@ -7253,8 +7257,8 @@ When closed, has the heat transfer characteristics of a basic wall. Requires pow
     </RecordThing>
     <RecordThing>
       <Key>ItemKitReinforcedWindows</Key>
-      <Value>Усиленные окна</Value>
-      <Description>Creates {THING:StructureReinforcedCompositeWindow} and other variants.</Description>
+      <Value>Армированные окна</Value>
+      <Description>Этот набор содержит {THING:StructureReinforcedCompositeWindow}, {THING:StructureReinforcedCompositeWindowSteel}, {THING:StructureReinforcedWallPaddedWindow} и {THING:StructureReinforcedWallPaddedWindowThin}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitHorizontalAutoMiner</Key>
@@ -7264,10 +7268,9 @@ When closed, has the heat transfer characteristics of a basic wall. Requires pow
     <RecordThing>
       <Key>ItemLaptop</Key>
       <Value>Ноутбук</Value>
-      <Description>The Laptop functions as a portable IC editor. To operate the Laptop it must be powered with a battery, have a {THING:MotherboardProgrammableChip} in the motherboard slot, and an {THING:ItemIntegratedCircuit10} in the Programmable Chip Slot.
+      <Description>Ноутбук работает как портативный редактор ИС. Для работы ноутбука он должен питаться от батареи, иметь {THING:MotherboardProgrammableChip} в слоте материнской платы и {THING:ItemIntegratedCircuit10} в слоте Programmable Chip.
 
-You must place the laptop down to interact with the onsreen UI.
-        
+Вы должны положить ноутбук, чтобы взаимодействовать с интерфейсом на экране.
 </Description>
     </RecordThing>
     <RecordThing>
@@ -7433,17 +7436,17 @@ You must place the laptop down to interact with the onsreen UI.
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageLargeExtendableRadiator01</Key>
-      <Value>Wreckage Large Extendable Radiator</Value>
+      <Value>Обломки большого выдвижного радиатора</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureWaterBottleFillerPoweredBottom</Key>
-      <Value>Waterbottle Filler</Value>
+      <Value>Разливочная машина</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureWaterBottleFillerPowered</Key>
-      <Value>Waterbottle Filler</Value>
+      <Value>Разливочная машина</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -7601,8 +7604,8 @@ You must place the laptop down to interact with the onsreen UI.
     </RecordThing>
     <RecordThing>
       <Key>StructureChuteFlipFlopSplitter</Key>
-      <Value>Транспортная труба с развлетлителем с резким поворотом</Value>
-      <Description>A chute that toggles between two outputs</Description>
+      <Value>Развлетлитель с резким поворотом</Value>
+      <Description>Желоб, который переключается между двумя выходами</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureChuteValve</Key>
@@ -7618,8 +7621,8 @@ You must place the laptop down to interact with the onsreen UI.
     </RecordThing>
     <RecordThing>
       <Key>StructureChuteOverflow</Key>
-      <Value>Транспортная труба при переполнении</Value>
-      <Description>Перепускной желоб направит материалы к порту перелива, когда вещь, подключенная к порту по умолчанию, уже занята..</Description>
+      <Value>Транспортная труба для избытков</Value>
+      <Description>Транспортная труба для избытков направит материалы к порту для избытка, когда вещь, подключенная к порту по умолчанию, уже занята.</Description>
     </RecordThing>
     <RecordThing>
       <Key>KitStructureCombustionCentrifuge</Key>
@@ -7628,28 +7631,28 @@ You must place the laptop down to interact with the onsreen UI.
     </RecordThing>
     <RecordThing>
       <Key>StructureChuteDigitalValveLeft</Key>
-      <Value>Chute Digital Valve Left</Value>
+      <Value>Заслонка слева</Value>
       <Description>The Digital Chute Valve will stop the flow of materials when set to closed and when set to open, will act like a straight chute. The valve will automatically close after a certain number of items have passed through. This threshold can be set using the dial.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureChuteDigitalValveRight</Key>
-      <Value>Chute Digital Valve Right</Value>
+      <Value>Заслонка справо</Value>
       <Description>The Digital Chute Valve will stop the flow of materials when set to closed and when set to open, will act like a straight chute. The valve will automatically close after a certain number of items have passed through. This threshold can be set using the dial.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureChuteDigitalFlipFlopSplitterLeft</Key>
-      <Value>Chute Digital Flip Flop Splitter Left</Value>
+      <Value>Разветвитель с резким поворотом влево</Value>
       <Description>The digital flip flop will toggle between two outputs using a specified ratio (n:1). For example, setting the dial to 2 would allow two items to pass through the primary output before flipping to the secondary output.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureChuteDigitalFlipFlopSplitterRight</Key>
-      <Value>Chute Digital Flip Flop Splitter Right</Value>
-      <Description>Цифровой триггер будет переключаться между двумя выходами с заданным соотношением (n:1). Например, установка циферблата на 2 позволит двум элементам пройти через первичный выход, прежде чем переключиться на вторичный выход.</Description>
+      <Value>Разветвитель с резким поворотом вправо</Value>
+      <Description>Электрический триггер будет переключаться между двумя выходами с заданным соотношением (n:1). Например, установка циферблата на 2 позволит двум элементам пройти через первичный выход, прежде чем переключиться на вторичный выход.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitStandardChute</Key>
-      <Value>Лотки с электроприводом</Value>
-      <Description>This kit produces a variety of powered chutes</Description>
+      <Value>Электрическая транспортная труба</Value>
+      <Description>Этот набор содержит различные транспортные трубы, которым требуется электричество</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemPlantSampler</Key>
@@ -7794,6 +7797,21 @@ You must place the laptop down to interact with the onsreen UI.
 	  <Value>Путевая точка торговца</Value>
 	  <Description>Нет описания.</Description>
 	</RecordThing>
+	<RecordThing>
+      <Key>Landingpad_ThreshholdPiece</Key>
+      <Value>Предел посадочной площадки</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>Landingpad_TaxiPieceHold</Key>
+      <Value>Такси на посадочной площадки</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>Landingpad_TaxiPieceStraight</Key>
+      <Value>Прямое такси на посадочной площадки</Value>
+      <Description />
+    </RecordThing>
   </Things>
   <Slots>
     <Record>
@@ -7938,7 +7956,7 @@ You must place the laptop down to interact with the onsreen UI.
     </Record>
     <Record>
       <Key>Entity</Key>
-      <Value>Сущность</Value>
+      <Value>Игрок</Value>
     </Record>
     <Record>
       <Key>Occupant</Key>
@@ -7962,7 +7980,7 @@ You must place the laptop down to interact with the onsreen UI.
     </Record>
     <Record>
       <Key>LoadingRail</Key>
-      <Value>Loading Rail</Value>
+      <Value>Загрузочный шлюз</Value>
     </Record>
     <Record>
       <Key>AccessCard</Key>
@@ -8560,6 +8578,14 @@ You must place the laptop down to interact with the onsreen UI.
       <Key>CombustionLimiter</Key>
       <Value>Ограничитель горения</Value>
     </Record>
+	<Record>
+      <Key>TargetPadIndex</Key>
+      <Value>Целевой индекс посадочной площадки</Value>
+    </Record>
+    <Record>
+      <Key>InterrogationProgress</Key>
+      <Value>Процесс допрашивания торговца</Value>
+    </Record>
     <Record>
       <Key>RespawnConditionEasy</Key>
       <Value>Лёгкий</Value>
@@ -9024,18 +9050,10 @@ You must place the laptop down to interact with the onsreen UI.
       <Key>GameMenuButtonReturn</Key>
       <Value>Вернуться в игру</Value>
     </Record>
-	<Record>
-	  <Key>SaveButtonGameString</Key>
-	  <Value>Быстрое сохранение</Value>
-	</Record>
     <Record>
       <Key>GameMenuButtonSave</Key>
       <Value>Сохранить мир</Value>
     </Record>
-	<Record>
-      <Key>SaveAsButtonGameString</Key>
-      <Value>Сохранить мир как</Value>
-	</Record>
     <Record>
       <Key>GameMenuButtonChangeCharacter</Key>
       <Value>Изменить внешность</Value>
@@ -9374,7 +9392,7 @@ You must place the laptop down to interact with the onsreen UI.
     </Record>
     <Record>
       <Key>SettingsServerMaxPlayers</Key>
-      <Value>Максимум игроков</Value>
+      <Value>Количество игроков</Value>
     </Record>
     <Record>
       <Key>SettingsTitleMultiplayer</Key>
@@ -10443,9 +10461,37 @@ You must place the laptop down to interact with the onsreen UI.
       <Key>LogicTypePressureOutput</Key>
       <Value>Текущие показания давления выходной сети устройства.</Value>
     </Record>
+	<Record>
+      <Key>LogicTypeTargetPadIndex</Key>
+      <Value>Индекс посадочной площадки торговца в сети передачи данных этого устройства, в которую он попытается вызвать товговца для посадки.</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeInterrogationProgress</Key>
+      <Value>Прогресс допрашивания этой спутниковой антенной своей текущей цели в соотношении от 0 до 1</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeSizeX</Key>
+      <Value>Размер по оси X (справа) объекта в больших сетках (большая сетка равна 2 метрам)</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeSizeY</Key>
+      <Value>Размер по оси Y(Up) объекта в больших сетках (большая сетка равна 2 метрам)</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeSizeZ</Key>
+      <Value>Размер по оси Z (вперед) объекта в больших сетках (большая сетка составляет 2 метра)</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeMinWattsToContact</Key>
+      <Value>Минимальное необходимое количество Вт от тарелки, попадающей на целевой контакт трейдера, чтобы начать опрос контакта</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeWattsReachingContact</Key>
+      <Value>Количество Вт, фактически попадающих на контакт. На это влияет мощность тарелки и то, насколько далеко от оси тарелки находится контактный вектор.</Value>
+    </Record>
     <Record>
       <Key>LogicTypeTemperatureOutput</Key>
-      <Value>TТекущее показание температуры выходной сети устройства.</Value>
+      <Value>Tекущее показание температуры выходной сети устройства.</Value>
     </Record>
     <Record>
       <Key>LogicTypePressureOutput2</Key>
@@ -10933,7 +10979,7 @@ You must place the laptop down to interact with the onsreen UI.
     </Record>
     <Record>
       <Key>LogicTypeSignalStrength</Key>
-      <Value>Возвращает мощность самого сильного сигнала, полученного от этого спутника.</Value>
+      <Value>Возвращает смещение в градусах самого сильного контакта.</Value>
     </Record>
     <Record>
       <Key>LogicTypeSignalID</Key>
@@ -11361,7 +11407,7 @@ You must place the laptop down to interact with the onsreen UI.
     </Record>
     <Record>
       <Key>SettingsDifficulty</Key>
-      <Value>Настройки сложности</Value>
+      <Value>Настройка сложности</Value>
     </Record>
     <Record>
       <Key>WorldCustomTerrainLabel</Key>
@@ -11553,7 +11599,8 @@ You must place the laptop down to interact with the onsreen UI.
     </Record>
     <Record>
       <Key>CartridgeElectronicReaderAutoFlashTitle</Key>    
-      <Value>Воспламенение при:</Value>
+      <Value>Воспламенение 
+при:</Value>
     </Record>
     <Record>
       <Key>CartridgeElectronicReaderAutoITitle</Key>
@@ -11770,11 +11817,11 @@ You must place the laptop down to interact with the onsreen UI.
     </Record>
     <Record>
       <Key>NetworkAnalyserActual</Key>
-      <Value>ТЕКУЩЕЕ</Value>
+      <Value>НАГРУЗКА</Value>
     </Record>
     <Record>
       <Key>NetworkAnalyserPotential</Key>
-      <Value>ЛИМИТ СЕТИ</Value>
+      <Value>ПОТЕНЦИАЛ</Value>
     </Record>
     <Record>
       <Key>NetworkAnalyserDevices</Key>
@@ -11942,7 +11989,7 @@ You must place the laptop down to interact with the onsreen UI.
 	</Record>
 	<Record>
 	  <Key>ScriptCommandLR</Key>
-	  <Value>Loads reagent of device's reagentMode to register. Contents (0), Required (1), Recipe (2). Can use either the word, or the number.</Value>
+	  <Value>Загружает реагент из reagentMode устройства для регистрации. Содержимое (0), Необходимо (1), Рецепт (2). Можно использовать либо слово, либо число.</Value>
 	</Record>
 	<Record>
 	  <Key>ScriptCommandAlias</Key>
@@ -12150,7 +12197,7 @@ You must place the laptop down to interact with the onsreen UI.
 	</Record>
 	<Record>
 	  <Key>ScriptCommandBrdse</Key>
-	  <Value>Относительный переход на строку a, если устройство не установлено</Value>
+	  <Value>Относительный переход к строке a, если устройство установлено</Value>
 	</Record>
 	<Record>
 	  <Key>ScriptCommandBrdns</Key>
@@ -12562,7 +12609,7 @@ You must place the laptop down to interact with the onsreen UI.
     </Record>
     <Record>
       <Key>Contents</Key>
-      <Value>Содержание</Value>
+      <Value>Содержимое</Value>
     </Record>
     <Record>
       <Key>InputRight</Key>
@@ -12630,7 +12677,7 @@ You must place the laptop down to interact with the onsreen UI.
     </Record>
     <Record>
       <Key>holdhotkey</Key>
-      <Value>(держать)</Value>
+      <Value>(удерживать)</Value>
     </Record>
     <Record>
       <Key>Pipe</Key>
@@ -13663,6 +13710,10 @@ Stationeers, способные строить и поддерживать ба�
 	  <Key>ButtonClose</Key>
 	  <Value>Закрыть</Value>
 	</Record>
+	<Record>
+      <Key>SettingsVoiceLanguage</Key>
+      <Value>Язык озвучки</Value>
+    </Record>
   </Interface>
   <Colors>
     <Record>
@@ -15082,6 +15133,1692 @@ Stationeers, способные строить и поддерживать ба�
   <HelpPage />
   <ThingPageOverride />
   <HomePageButtonsOverride />
-  <GameStrings />
+  <GameStrings>
+    <Record>
+      <Key>ToolRequiredToDeconstruct</Key>
+      <Value>{LOCAL:Tool} требуется, чтобы &lt;color=red&gt;разобрать&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>FurnaceCurrentlySmelting</Key>
+      <Value>В настоящее время плавится {LOCAL:OreName} x &lt;color=yellow&gt;{LOCAL:Quantity}&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>FurnaceNothingToSmelt</Key>
+      <Value>&lt;color=red&gt;Ничего не плавится&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>DeviceAlreadyExporting</Key>
+      <Value>Уже экспортируется {LOCAL:ItemName}</Value>
+    </Record>
+    <Record>
+      <Key>SuitContextAirConState</Key>
+      <Value>{LOCAL:IsTurnedOn} кондиционер</Value>
+    </Record>
+    <Record>
+      <Key>SuitContextAirPumpState</Key>
+      <Value>{LOCAL:IsTurnedOn} насос</Value>
+    </Record>
+    <Record>
+      <Key>SuitContextFilterState</Key>
+      <Value>{LOCAL:IsTurnedOn} фильтр</Value>
+    </Record>
+    <Record>
+      <Key>SaveButtonGameString</Key>
+      <Value>Быстрое сохранение &lt;i&gt;{LOCAL:WorldName}&lt;/i&gt;</Value>
+    </Record>
+    <Record>
+      <Key>SaveAsButtonGameString</Key>
+      <Value>Сохранить мир как...</Value>
+    </Record>
+    <Record>
+      <Key>InputPasswordTitle</Key>
+      <Value>Пароль</Value>
+    </Record>
+    <Record>
+      <Key>InputPasswordPlaceholder</Key>
+      <Value>Введите пароль</Value>
+    </Record>
+    <Record>
+      <Key>InputSaveNameTitle</Key>
+      <Value>Имя сохранения</Value>
+    </Record>
+    <Record>
+      <Key>InputSaveNamePlaceholder</Key>
+      <Value>Введите имя сохранения</Value>
+    </Record>
+    <Record>
+      <Key>InteractableAction</Key>
+      <Value>Установить {LOCAL:InteractableAction}</Value>
+    </Record>
+    <Record>
+      <Key>DeleteSavePrompt</Key>
+      <Value>Вы уверены?
+Это &lt;color=red&gt;удалит {LOCAL:WorldSaveName}&lt;/color&gt; и все его резервные копии.</Value>
+    </Record>
+    <Record>
+      <Key>DeleteBackSavePrompt</Key>
+      <Value>Вы уверены?
+Это &lt;color=red&gt;удалит {LOCAL:WorldSaveName}&lt;/color&gt; только его резервные копии.</Value>
+    </Record>
+    <Record>
+      <Key>DaysPassedPlayerMessage</Key>
+      <Value>Прошло {LOCAL:DaysPassed} дней. Ваш персонаж выжил {LOCAL:DaysLived} не умирая.</Value>
+    </Record>
+    <Record>
+      <Key>DaysPassedHudText</Key>
+      <Value>DAY {LOCAL:DaysPassed}</Value>
+    </Record>
+    <Record>
+      <Key>CustomSkeletonName</Key>
+      <Value>Этот скелет принадлежит {LOCAL:UserName}</Value>
+    </Record>
+    <Record>
+      <Key>CustomSkullName</Key>
+      <Value>Этот череп принадлежит {LOCAL:UserName}</Value>
+    </Record>
+    <Record>
+      <Key>RatioTooltip</Key>
+      <Value>Соотношение &lt;color=green&gt;{LOCAL:RatioValue1}:{LOCAL:RatioValue2}&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>QuantityAndRatioTooltip</Key>
+      <Value>Количество &lt;color=green&gt;{LOCAL:QuantityValue}
+&lt;color=white&gt;Mode &lt;color=green&gt;{LOCAL:RatioValue1}:{LOCAL:RatioValue2}</Value>
+    </Record>
+    <Record>
+      <Key>ToggleMode</Key>
+      <Value>Переключить режим</Value>
+    </Record>
+    <Record>
+      <Key>Ratio</Key>
+      <Value>Соотношение</Value>
+    </Record>
+    <Record>
+      <Key>CloseThreshold</Key>
+      <Value>Порог закрытия</Value>
+    </Record>
+    <Record>
+      <Key>CloseThresholdToolTip</Key>
+      <Value>Порог закрытия &lt;color=green&gt;{LOCAL:ThresholdValue}</Value>
+    </Record>
+    <Record>
+      <Key>CryoN2OPressureOk</Key>
+      <Value>&lt;color=green&gt;N2O давление в норме&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>CryoN2OPressureTooLow</Key>
+      <Value>&lt;color=red&gt;N2O очень низкое давление&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>CryoTemperatureOk</Key>
+      <Value>&lt;color=green&gt;Температура в норме&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>CryoTemperatureTooHigh</Key>
+      <Value>&lt;color=red&gt;Очень высокая температура&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>CryoConditionsNotMet</Key>
+      <Value>Условия не выполнены</Value>
+    </Record>
+    <Record>
+      <Key>CryoReviving</Key>
+      <Value>Возрождение</Value>
+    </Record>
+    <Record>
+      <Key>CryoStandby</Key>
+      <Value>Поддерживать</Value>
+    </Record>
+    <Record>
+      <Key>CryoStatus</Key>
+      <Value>{LOCAL:PressureValue}
+{LOCAL:TemperatureValue}
+Состояние: {LOCAL:StatusValue}</Value>
+    </Record>
+    <Record>
+      <Key>LoadingScreenDeserializeChunks</Key>
+      <Value>Десериализация чанков</Value>
+    </Record>
+    <Record>
+      <Key>LoadingScreenDeserializingAtmospherics</Key>
+      <Value>Десериализация атмосферы</Value>
+    </Record>
+    <Record>
+      <Key>LoadingScreenDeserializeCableNetworks</Key>
+      <Value>Десериализация кабельных сетей</Value>
+    </Record>
+    <Record>
+      <Key>LoadingScreenPleaseWait</Key>
+      <Value>Пожалуйста, подождите</Value>
+    </Record>
+    <Record>
+      <Key>LoadingScreenClientJoining</Key>
+      <Value>Присоединение клиента</Value>
+    </Record>
+    <Record>
+      <Key>LoadingScreenReceivingJoinData</Key>
+      <Value>Получение данных присоединения</Value>
+    </Record>
+    <Record>
+      <Key>LoadingScreenRegisteringPrefabs</Key>
+      <Value>Регистрация префабов</Value>
+    </Record>
+    <Record>
+      <Key>LoadingScreenConnectingToServer</Key>
+      <Value>Подключение к серверу</Value>
+    </Record>
+    <Record>
+      <Key>LoadingScreenReadyToJoin</Key>
+      <Value>Все готово!</Value>
+    </Record>
+    <Record>
+      <Key>LoadingScreenGeneratingTerrain</Key>
+      <Value>Создание ландшафта</Value>
+    </Record>
+    <Record>
+      <Key>LoadingScreenFinishingGeneratingTerrain</Key>
+      <Value>Завершение создания ландшафта</Value>
+    </Record>
+    <Record>
+      <Key>LoadingScreenDeserializingChuteNetworks</Key>
+      <Value>Десериализация сетей транспортных труб</Value>
+    </Record>
+    <Record>
+      <Key>LoadingScreenProcessingThings</Key>
+      <Value>Обработка предметов</Value>
+    </Record>
+    <Record>
+      <Key>LoadingScreenDeserializingNetworks</Key>
+      <Value>Десериализация сетей</Value>
+    </Record>
+    <Record>
+      <Key>LoadingScreenDeserializingPipeNetworks</Key>
+      <Value>Десериализация трубопроводных сетей</Value>
+    </Record>
+    <Record>
+      <Key>LoadingScreenDeserializeRocketNetworks</Key>
+      <Value>Десериализация Rocket Networks</Value>
+    </Record>
+    <Record>
+      <Key>LoadingScreenCalculatingMeshes</Key>
+      <Value>Расчет сеток</Value>
+    </Record>
+    <Record>
+      <Key>LoadingScreenDeserializingStationContacts</Key>
+      <Value>Десериализация контактов станции</Value>
+    </Record>
+    <Record>
+      <Key>LoadingScreenInitializing</Key>
+      <Value>Инициализация</Value>
+    </Record>
+    <Record>
+      <Key>LoadingScreenInitializingChunks</Key>
+      <Value>Инициализация чанков</Value>
+    </Record>
+    <Record>
+      <Key>LoadingScreenLoadingChunks</Key>
+      <Value>Загрузка чанков</Value>
+    </Record>
+    <Record>
+      <Key>LoadingScreenGeneratingRecipes</Key>
+      <Value>Создание рецептов</Value>
+    </Record>
+    <Record>
+      <Key>LoadingScreenNewWorldMenu</Key>
+      <Value>Меню нового мира</Value>
+    </Record>
+    <Record>
+      <Key>LoadingScreenLoadingStationpedia</Key>
+      <Value>Загрузка Stationpedia</Value>
+    </Record>
+    <Record>
+      <Key>LoadingScreenCalculatingChunks</Key>
+      <Value>Вычисление чанков</Value>
+    </Record>
+    <Record>
+      <Key>LoadingScreenLoadingRooms</Key>
+      <Value>Загрузка комнат</Value>
+    </Record>
+    <Record>
+      <Key>LoadingScreenLoadingAtmosphers</Key>
+      <Value>Загрузка атмосфер</Value>
+    </Record>
+    <Record>
+      <Key>LoadingScreenRegeneratingTerrain</Key>
+      <Value>Регенерация местности</Value>
+    </Record>
+    <Record>
+      <Key>LoadingScreenPopulatingInventory</Key>
+      <Value>Заполнение инвентаря</Value>
+    </Record>
+    <Record>
+      <Key>LoadingScreenSpawningThings</Key>
+      <Value>Создание предметов</Value>
+    </Record>
+    <Record>
+      <Key>LoadingScreenInitializingDevices</Key>
+      <Value>Инициализация устройств</Value>
+    </Record>
+    <Record>
+      <Key>LoadingScreenValidatingPrefabs</Key>
+      <Value>Проверка префабов</Value>
+    </Record>
+    <Record>
+      <Key>LoadingScreenRenderingChunks</Key>
+      <Value>Рендеринг фрагментов</Value>
+    </Record>
+    <Record>
+      <Key>LoadingScreenLoadingThings</Key>
+      <Value>Загрузка предметов ({LOCAL:ThingCount})</Value>
+    </Record>
+    <Record>
+      <Key>LoadingScreenCleaningUpPrefabs</Key>
+      <Value>Очистка префабов</Value>
+    </Record>
+    <Record>
+      <Key>SettingsFullScreenDisplayMode</Key>
+      <Value>Полный экран</Value>
+    </Record>
+    <Record>
+      <Key>SettingsWindowDisplayMode</Key>
+      <Value>Оконный режим</Value>
+    </Record>
+    <Record>
+      <Key>SetDifficultyTitleConfirmation</Key>
+      <Value>Установить сложность</Value>
+    </Record>
+    <Record>
+      <Key>SetDifficultyBodyConfirmation</Key>
+      <Value>Настройки сложности не найдены. Пожалуйста, выберите один</Value>
+    </Record>
+    <Record>
+      <Key>PlantSamplerAction</Key>
+      <Value>Образец {LOCAL:Plant}</Value>
+    </Record>
+    <Record>
+      <Key>ActionClearPlant</Key>
+      <Value>Убрать {LOCAL:Plant}</Value>
+    </Record>
+    <Record>
+      <Key>ActionHarvestPlant</Key>
+      <Value>Собрать с {LOCAL:Plant} урожай</Value>
+    </Record>
+    <Record>
+      <Key>ActionHarvestSeed</Key>
+      <Value>Собрать с {LOCAL:Plant} семена</Value>
+    </Record>
+    <Record>
+      <Key>AlreadyFertalised</Key>
+      <Value>Слот уже удобрен</Value>
+    </Record>
+    <Record>
+      <Key>NotPlantable</Key>
+      <Value>{0} нельзя сажать</Value>
+    </Record>
+    <Record>
+      <Key>AddSeedsToSlot</Key>
+      <Value>Это добавит один {0} в гидропонный лоток</Value>
+    </Record>
+    <Record>
+      <Key>ClearFertiliser</Key>
+      <Value>Убрать удобрение</Value>
+    </Record>
+    <Record>
+      <Key>NothingToSample</Key>
+      <Value>Нечего пробовать</Value>
+    </Record>
+    <Record>
+      <Key>NoPlantToLabel</Key>
+      <Value>Нет растений для маркировки</Value>
+    </Record>
+    <Record>
+      <Key>NothingToWater</Key>
+      <Value>Нечего поливать</Value>
+    </Record>
+    <Record>
+      <Key>AlreadyFullOfWater</Key>
+      <Value>Уже полно воды</Value>
+    </Record>
+    <Record>
+      <Key>WaterPlantWith</Key>
+      <Value>Водное растение с {LOCAL:InHand}</Value>
+    </Record>
+    <Record>
+      <Key>CanOnlyUseLiquidOnPlants</Key>
+      <Value>Для полива растений можно использовать только баллоны со сжиженным газом.</Value>
+    </Record>
+    <Record>
+      <Key>CantHoldAnyMore</Key>
+      <Value>Не могу больше держать</Value>
+    </Record>
+    <Record>
+      <Key>SomethingPlantedHere</Key>
+      <Value>Здесь уже что-то посажено</Value>
+    </Record>
+    <Record>
+      <Key>SomethingInThisSlot</Key>
+      <Value>В этом слоте уже что-то есть</Value>
+    </Record>
+    <Record>
+      <Key>Fertiliser</Key>
+      <Value>Удобрение</Value>
+    </Record>
+    <Record>
+      <Key>AddFertiliserToSlot</Key>
+      <Value>Добавить удобрение в ячейку</Value>
+    </Record>
+    <Record>
+      <Key>GrowthTemperatureRange</Key>
+      <Value>Диапазон температур роста</Value>
+    </Record>
+    <Record>
+      <Key>GrowthPressureRange</Key>
+      <Value>Диапазон давления роста</Value>
+    </Record>
+    <Record>
+      <Key>GrowthSpeedMultiplier</Key>
+      <Value>Множитель скорости роста</Value>
+    </Record>
+    <Record>
+      <Key>LightPerDay</Key>
+      <Value>Требуемое количество света в день</Value>
+    </Record>
+    <Record>
+      <Key>DarknessPerDay</Key>
+      <Value>Требуемое количество темноты в день</Value>
+    </Record>
+    <Record>
+      <Key>GasProduction</Key>
+      <Value>Производимый газ</Value>
+    </Record>
+    <Record>
+      <Key>WaterUsage</Key>
+      <Value>Количество потребляемой воды</Value>
+    </Record>
+    <Record>
+      <Key>UndesiredGasResistance</Key>
+      <Value>Нежелательная газостойкость</Value>
+    </Record>
+    <Record>
+      <Key>TimeUntilDehydrationDamage</Key>
+      <Value>Время до гибели от засухи</Value>
+    </Record>
+    <Record>
+      <Key>TimeUntilUndesiredGasDamage</Key>
+      <Value>Время до гибели от токсинов</Value>
+    </Record>
+    <Record>
+      <Key>TimeUntilFrozenDamage</Key>
+      <Value>Время до вымерзания растения</Value>
+    </Record>
+    <Record>
+      <Key>TimeUntilOverheatDamage</Key>
+      <Value>Время до гибели от жары</Value>
+    </Record>
+    <Record>
+      <Key>TimeUntilSuffocateDamage</Key>
+      <Value>Время до удушья</Value>
+    </Record>
+    <Record>
+      <Key>TimeUntilLowPressureDamage</Key>
+      <Value>Время до гибели из-за низкого давления</Value>
+    </Record>
+    <Record>
+      <Key>TimeUntilHighPressureDamage</Key>
+      <Value>Время до гибели высоким давлением</Value>
+    </Record>
+    <Record>
+      <Key>TimeUntilLightDamage</Key>
+      <Value>Время до гибели от большого кол. света</Value>
+    </Record>
+    <Record>
+      <Key>TimeUntilDarknessDamage</Key>
+      <Value>Время до гибели от малого кол. света</Value>
+    </Record>
+    <Record>
+      <Key>MinGrowTemperature</Key>
+      <Value>Минимальная температура для выращивания</Value>
+    </Record>
+    <Record>
+      <Key>MaxGrowTemperature</Key>
+      <Value>Максимальная температура для выращивания</Value>
+    </Record>
+    <Record>
+      <Key>MinIdealGrowTemperature</Key>
+      <Value>Идеальная мин. температура для роста</Value>
+    </Record>
+    <Record>
+      <Key>MaxIdealGrowTemperature</Key>
+      <Value>Идеальная макс. температура для роста</Value>
+    </Record>
+    <Record>
+      <Key>MinGrowPressure</Key>
+      <Value>Минимальное давление для роста</Value>
+    </Record>
+    <Record>
+      <Key>MaxGrowPressure</Key>
+      <Value>Максимальное давление для роста</Value>
+    </Record>
+    <Record>
+      <Key>MinIdealGrowPressure</Key>
+      <Value>Идеальное мин. давление для роста</Value>
+    </Record>
+    <Record>
+      <Key>MaxIdealGrowPressure</Key>
+      <Value>Идеальное макс. давление для роста</Value>
+    </Record>
+    <Record>
+      <Key>NoSprayPaint</Key>
+      <Value>Недостаточно краски для распыления</Value>
+    </Record>
+    <Record>
+      <Key>SprayPaintExtendedMethod</Key>
+      <Value>{0} будет окрашен в {1}</Value>
+    </Record>
+    <Record>
+      <Key>GeneGrowthSpeedMultiplier</Key>
+      <Value>Скорость роста</Value>
+    </Record>
+    <Record>
+      <Key>GeneDescriptionGrowthSpeedMultiplier</Key>
+      <Value>Увеличивает скорость роста растения. Растениям с более высоким множителем скорости роста потребуется меньше времени для роста..</Value>
+    </Record>
+    <Record>
+      <Key>GeneDarkPerDay</Key>
+      <Value>Darkness per day</Value>
+    </Record>
+    <Record>
+      <Key>GeneDescriptionDarkPerDay</Key>
+      <Value>Продолжительность времени, которое растение должно находиться в темноте каждый день, чтобы рости. Стандартная продолжительность дневного цикла составляет 20 минут.</Value>
+    </Record>
+    <Record>
+      <Key>GeneLightPerDay</Key>
+      <Value>Light per day</Value>
+    </Record>
+    <Record>
+      <Key>GeneDescriptionLightPerDay</Key>
+      <Value>Продолжительность времени, в течение которого растение должно быть освещено солнцем или светом каждый день, чтобы рости. Стандартная продолжительность дневного цикла составляет 20 минут.</Value>
+    </Record>
+    <Record>
+      <Key>GeneDroughtTolerance</Key>
+      <Value>Drought tolerance</Value>
+    </Record>
+    <Record>
+      <Key>GeneDescriptionDroughtTolerance</Key>
+      <Value>Время, в течение которого растение может быть обезвожено, прежде чем оно начнет погибать.</Value>
+    </Record>
+    <Record>
+      <Key>GeneWaterUsage</Key>
+      <Value>Water usage</Value>
+    </Record>
+    <Record>
+      <Key>GeneDescriptionWaterUsage</Key>
+      <Value>Количество воды, которое потребляет это растение.</Value>
+    </Record>
+    <Record>
+      <Key>GeneGasProduction</Key>
+      <Value>Gas production</Value>
+    </Record>
+    <Record>
+      <Key>GeneDescriptionGasProduction</Key>
+      <Value>Количество газа, которое растение вдыхает и выдыхает.</Value>
+    </Record>
+    <Record>
+      <Key>GeneSuffocationTolerance</Key>
+      <Value>Suffocation tolerance</Value>
+    </Record>
+    <Record>
+      <Key>GeneDescriptionSuffocationTolerance</Key>
+      <Value>Продолжительность времени, в течение которого растение может не удовлетворять свои потребности во вдыхаемом газе, прежде чем оно начнет повреждаться..</Value>
+    </Record>
+    <Record>
+      <Key>GeneLowPressureResistance</Key>
+      <Value>Low pressure resistance</Value>
+    </Record>
+    <Record>
+      <Key>GeneDescriptionLowPressureResistance</Key>
+      <Value>Нижний предел давления, при котором растение способно расти.</Value>
+    </Record>
+    <Record>
+      <Key>GeneLowPressureTolerance</Key>
+      <Value>Low pressure tolerance</Value>
+    </Record>
+    <Record>
+      <Key>GeneDescriptionLowPressureTolerance</Key>
+      <Value>Продолжительность времени, в течение которого растение может оставаться ниже нижнего предела давления, прежде чем оно начнет повреждаться..</Value>
+    </Record>
+    <Record>
+      <Key>GeneLowTemperatureResistance</Key>
+      <Value>Low temperature resistance</Value>
+    </Record>
+    <Record>
+      <Key>GeneDescriptionLowTemperatureResistance</Key>
+      <Value>Нижний предел температуры, при которой растение способно расти.</Value>
+    </Record>
+    <Record>
+      <Key>GeneLowTemperatureTolerance</Key>
+      <Value>Low temperature tolerance</Value>
+    </Record>
+    <Record>
+      <Key>GeneDescriptionLowTemperatureTolerance</Key>
+      <Value>Продолжительность времени, в течение которого растение может оставаться ниже своего нижнего температурного предела, прежде чем оно начнет повреждаться..</Value>
+    </Record>
+    <Record>
+      <Key>GeneUndesiredGasResistance</Key>
+      <Value>Toxins resistance</Value>
+    </Record>
+    <Record>
+      <Key>GeneDescriptionUndesiredGasResistance</Key>
+      <Value>Порог парциального давления ядовитых газов, при котором растение способно расти.</Value>
+    </Record>
+    <Record>
+      <Key>GeneUndesiredGasTolerance</Key>
+      <Value>Toxins tolerance</Value>
+    </Record>
+    <Record>
+      <Key>GeneDescriptionUndesiredGasTolerance</Key>
+      <Value>Продолжительность времени, в течение которого растение может оставаться выше порога устойчивости к токсинам, прежде чем пострадает.</Value>
+    </Record>
+    <Record>
+      <Key>GeneHighPressureResistance</Key>
+      <Value>High pressure resistance</Value>
+    </Record>
+    <Record>
+      <Key>GeneDescriptionHighPressureResistance</Key>
+      <Value>Верхний предел давления, при котором растение способно расти.</Value>
+    </Record>
+    <Record>
+      <Key>GeneHighPressureTolerance</Key>
+      <Value>High pressure tolerance</Value>
+    </Record>
+    <Record>
+      <Key>GeneDescriptionHighPressureTolerance</Key>
+      <Value>Продолжительность времени, в течение которого растение может оставаться выше предела высокого давления, прежде чем оно начнет повреждаться.</Value>
+    </Record>
+    <Record>
+      <Key>GeneHighTemperatureResistance</Key>
+      <Value>High temperature resistance</Value>
+    </Record>
+    <Record>
+      <Key>GeneDescriptionHighTemperatureResistance</Key>
+      <Value>Верхний предел температуры, при которой растение способно расти.</Value>
+    </Record>
+    <Record>
+      <Key>GeneHighTemperatureTolerance</Key>
+      <Value>High temperature tolerance</Value>
+    </Record>
+    <Record>
+      <Key>GeneDescriptionHighTemperatureTolerance</Key>
+      <Value>Продолжительность времени, в течение которого растение может оставаться выше своего верхнего предела температуры, прежде чем оно начнет повреждаться.</Value>
+    </Record>
+    <Record>
+      <Key>GeneLightTolerance</Key>
+      <Value>Light tolerance</Value>
+    </Record>
+    <Record>
+      <Key>GeneDescriptionLightTolerance</Key>
+      <Value>Время, в течение которого растение может оставаться на свету, прежде чем оно начнет повреждаться.</Value>
+    </Record>
+    <Record>
+      <Key>GeneDarknessTolerance</Key>
+      <Value>Darkness tolerance</Value>
+    </Record>
+    <Record>
+      <Key>GeneDescriptionDarknessTolerance</Key>
+      <Value>Продолжительность времени, в течение которого растение может оставаться в темноте, прежде чем оно начнет получать повреждения.</Value>
+    </Record>
+    <Record>
+      <Key>GeneCurrentSelected</Key>
+      <Value>Текущий выбранный ген &lt;color=yellow&gt;{LOCAL:Gene}&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>GeneDestabilisingOnly</Key>
+      <Value>Только дестабилизация</Value>
+    </Record>
+    <Record>
+      <Key>GlobalAttack</Key>
+      <Value>Атаковать &lt;color=green&gt;{0}&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>GlobalRelease</Key>
+      <Value>Выпустить &lt;color=green&gt;{0}&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>GlobalSpeed</Key>
+      <Value>Скорость &lt;color=green&gt;{0}&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>GlobalIntensity</Key>
+      <Value>Интенсивность &lt;color=green&gt;{0}&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>GlobalWaveForm</Key>
+      <Value>Форма волны &lt;color=green&gt;{0}&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>GlobalThrottle</Key>
+      <Value>Дроссель &lt;color=green&gt;{0}&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>GlobalCombustionLimiter</Key>
+      <Value>Ограничитель горения &lt;color=green&gt;{0}&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>GlobalCurrentInstrument</Key>
+      <Value>Текущий инструмент &lt;color=green&gt;{0}&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>GlobalChangeSettingTo</Key>
+      <Value>Перейти к {0}</Value>
+    </Record>
+    <Record>
+      <Key>GlobalChangeSettingToAll</Key>
+      <Value>Перейти к всем {0}</Value>
+    </Record>
+    <Record>
+      <Key>GlobalChangeSettingToFor</Key>
+      <Value>Перейти к &lt;color=yellow&gt;{0} для {1}&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>GlobalChangeSettingToForAll</Key>
+      <Value>Перейти к &lt;color=yellow&gt;{0} для всех {1}&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>GlobalChangeSettingToForIn</Key>
+      <Value>Перейти к &lt;color=yellow&gt;{0}&lt;/color&gt; для {3} &lt;color=yellow&gt;({2})&lt;/color&gt; in {1}</Value>
+    </Record>
+    <Record>
+      <Key>GlobalChangeSlotSettingToFor</Key>
+      <Value>Перейти к {1}&lt;color=yellow&gt;({0}) для {2}</Value>
+    </Record>
+    <Record>
+      <Key>GlobalChangeReagentSettingTo</Key>
+      <Value>Перейти к {2}.&lt;color=yellow&gt;{0}.&lt;color=yellow&gt;{1}</Value>
+    </Record>
+    <Record>
+      <Key>GlobalAlreadyMax</Key>
+      <Value>Уже максимально</Value>
+    </Record>
+    <Record>
+      <Key>GlobalAlreadyMin</Key>
+      <Value>Уже минимально</Value>
+    </Record>
+    <Record>
+      <Key>GlobalStop</Key>
+      <Value>Остановить</Value>
+    </Record>
+    <Record>
+      <Key>GlobalStart</Key>
+      <Value>Запустить</Value>
+    </Record>
+    <Record>
+      <Key>GlobalIncrease</Key>
+      <Value>Увеличивать</Value>
+    </Record>
+    <Record>
+      <Key>GlobalDecrease</Key>
+      <Value>Уменьшить</Value>
+    </Record>
+    <Record>
+      <Key>GlobalStackSize</Key>
+      <Value>Размер стека &lt;color=green&gt;{0}&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>GlobalMaxMode</Key>
+      <Value>Максильмальный &lt;color=green&gt;{0}&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>GlobalValue</Key>
+      <Value>Значение &lt;color=green&gt;{0}&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>GlobalPitch</Key>
+      <Value>Подача &lt;color=green&gt;{0}&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>GlobalVolume</Key>
+      <Value>Звук &lt;color=green&gt;{0}&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>GlobalVolumeLitre</Key>
+      <Value>Объем &lt;color=green&gt;{0} L&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>GlobalRadius</Key>
+      <Value>Радиус &lt;color=green&gt;{0} L&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>GlobalAlreadyInUse</Key>
+      <Value>Уже в использовании</Value>
+    </Record>
+    <Record>
+      <Key>Pressure</Key>
+      <Value>Давление</Value>
+    </Record>
+    <Record>
+      <Key>Temperature</Key>
+      <Value>Температура</Value>
+    </Record>
+    <Record>
+      <Key>ProgrammableChipErrorCode</Key>
+      <Value>Ошибка {LOCAL:ErrorType} в строке {LOCAL:LineNumber}</Value>
+    </Record>
+    <Record>
+      <Key>OutputLitres</Key>
+      <Value>Выходит &lt;color=green&gt;{0} литров&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>InputLitres</Key>
+      <Value>Входит &lt;color=green&gt;{0} литров&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>OutputKPA</Key>
+      <Value>Выходит &lt;color=green&gt;{0} кПа&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>OutputWatts</Key>
+      <Value>Выходит &lt;color=green&gt;{0} W&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>Input1Ratio</Key>
+      <Value>Вход 1 &lt;color=green&gt;{0}%&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>Input2Ratio</Key>
+      <Value>Вход 2 &lt;color=green&gt;{0}%&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>VerticalDegrees</Key>
+      <Value>&lt;color=yellow&gt;Вертикаль&lt;/color&gt; &lt;color=green&gt;{0} градусов&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>HorizontalDegrees</Key>
+      <Value>&lt;color=yellow&gt;Горизонталь&lt;/color&gt; &lt;color=green&gt;{0} градусов&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>StackerNoContentsToClear</Key>
+      <Value>&lt;color=red&gt;Нет содержимого для очистки&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>StackerWillForceChangeFromLogicToAutomatic</Key>
+      <Value>Принудительно изменить с &lt;color=yellow&gt;Логического&lt;/color&gt; на &lt;color=yellow&gt;Автоматический&lt;/color&gt; режим</Value>
+    </Record>
+    <Record>
+      <Key>StackerContainsQuantity</Key>
+      <Value>Содержит {LOCAL:Quantity} x {LOCAL:Item}</Value>
+    </Record>
+    <Record>
+      <Key>StackableNotEnoughInStackOf</Key>
+      <Value>Недостаточно в стеке {LOCAL:Item} для завершения, &lt;color=yellow&gt;{LOCAL:Quantity0}&lt;/color&gt;/&lt;color=yellow&gt;{LOCAL:Quantity1}&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>StackableNotEnoughInStack</Key>
+      <Value>Недостаточно в стеке!</Value>
+    </Record>
+    <Record>
+      <Key>InventoryStackIsFull</Key>
+      <Value>Ваш стек {LOCAL:Thing} заполнен</Value>
+    </Record>
+    <Record>
+      <Key>InteractOpenResearchScreen</Key>
+      <Value>Взаимодействуйте, чтобы открыть экран разблокировки исследований.</Value>
+    </Record>
+    <Record>
+      <Key>InteractCantClose</Key>
+      <Value>Что-то мешает закрыться</Value>
+    </Record>
+    <Record>
+      <Key>ThingMoveToWorld</Key>
+      <Value>Переместить {LOCAL:Thing} в мир</Value>
+    </Record>
+    <Record>
+      <Key>ThingCanNotEnterSlot</Key>
+      <Value>{LOCAL:Thing0} не может войти в {LOCAL:Thing1}</Value>
+    </Record>
+    <Record>
+      <Key>ThingCanNotInsertInteractionsDisabled</Key>
+      <Value>Невозможно вставить в {LOCAL:Thing0}, потому что взаимодействия отключены на {LOCAL:Thing1}</Value>
+    </Record>
+    <Record>
+      <Key>ThingCanNotInsertAlreadyContains</Key>
+      <Value>Невозможно вставить в {LOCAL:Thing0}, так как он уже содержит {LOCAL:Thing1}</Value>
+    </Record>
+    <Record>
+      <Key>ThingCanNotSwap</Key>
+      <Value>Вы не можете поменять местами {LOCAL:Thing0} с {LOCAL:Thing1}.</Value>
+    </Record>
+    <Record>
+      <Key>ThingCurrentlyNotInteractable</Key>
+      <Value>{LOCAL:Thing} в настоящее время недоступно для взаимодействия</Value>
+    </Record>
+    <Record>
+      <Key>ThingCanNotPickUp</Key>
+      <Value>Вы не можете подобрать {LOCAL:Thing}</Value>
+    </Record>
+    <Record>
+      <Key>ThingIsNotType</Key>
+      <Value>{LOCAL:Thing0} не относится к типу {LOCAL:Thing1}</Value>
+    </Record>
+    <Record>
+      <Key>ThingInteractionDisabled</Key>
+      <Value>Взаимодействие с этим объектом временно отключено</Value>
+    </Record>
+    <Record>
+      <Key>ThingCurrentlyFlashingError</Key>
+      <Value>Сейчас мигает ошибка</Value>
+    </Record>
+    <Record>
+      <Key>ThingCycleTo</Key>
+      <Value>Перейти к {LOCAL:Thing}</Value>
+    </Record>
+    <Record>
+      <Key>ThingNotEnoughReagents</Key>
+      <Value>Недостаточно реагентов для текущего плана</Value>
+    </Record>
+    <Record>
+      <Key>ThingSelectRecipeFromList</Key>
+      <Value>Выберите рецепт из списка</Value>
+    </Record>
+    <Record>
+      <Key>ThingClearUnknownRecipe</Key>
+      <Value>Очистить неизвестный рецепт</Value>
+    </Record>
+    <Record>
+      <Key>ThingCreateThing</Key>
+      <Value>Создание {LOCAL:Thing} &lt;color=yellow&gt;{1:F0}%&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>ThingCanNotManufacture</Key>
+      <Value>Невозможно произвести {LOCAL:Thing} без всех необходимых реагентов</Value>
+    </Record>
+    <Record>
+      <Key>ThingToFarAwayForDrag</Key>
+      <Value>{LOCAL:Thing} слишком далеко, чтобы его тащили</Value>
+    </Record>
+    <Record>
+      <Key>ThingCanNotBeDraggedWithSomethingIn</Key>
+      <Value>Нельзя перетащить что-либо в {LOCAL:Thing}</Value>
+    </Record>
+    <Record>
+      <Key>ThingAlreadyDraggedBy</Key>
+      <Value>{LOCAL:Thing0} уже таскают {LOCAL:Thing1}</Value>
+    </Record>
+    <Record>
+      <Key>ThingModeDoesNotSupportLinking</Key>
+      <Value>Режим не поддерживает связывание</Value>
+    </Record>
+    <Record>
+      <Key>ThingWillDecayInHours</Key>
+      <Value>Он исчезнет через {0} часов.</Value>
+    </Record>
+    <Record>
+      <Key>ThingWillDecayInMinutes</Key>
+      <Value>Он исчезнет через {0} минут.</Value>
+    </Record>
+    <Record>
+      <Key>ThingWillDecayInSeconds</Key>
+      <Value>Он исчезнет через {0} секунд.</Value>
+    </Record>
+    <Record>
+      <Key>StructureYouRequireToCompleteTask</Key>
+      <Value>Для выполнения этой задачи требуется {0} в {1}.</Value>
+    </Record>
+    <Record>
+      <Key>StructureDeconstructionFailed</Key>
+      <Value>Деконструкция не удалась</Value>
+    </Record>
+    <Record>
+      <Key>StructureIsNotDamaged</Key>
+      <Value>{LOCAL:Structure} не поврежден</Value>
+    </Record>
+    <Record>
+      <Key>WeldingTorchNoFuel</Key>
+      <Value>Топлива не осталось!</Value>
+    </Record>
+    <Record>
+      <Key>PowerItemNoPower</Key>
+      <Value>Нет заряда батареи!</Value>
+    </Record>
+    <Record>
+      <Key>SlotCanNotUseWith</Key>
+      <Value>Вы не можете использовать {LOCAL:Slot0} с {LOCAL:Slot1}</Value>
+    </Record>
+    <Record>
+      <Key>SlotAlreadyOccupied</Key>
+      <Value>{0} уже занят {1}</Value>
+    </Record>
+    <Record>
+      <Key>SlotTakeThingFromSlot</Key>
+      <Value>Возьмите {LOCAL:Item} из ячейки</Value>
+    </Record>
+    <Record>
+      <Key>CartridgeNoCartridgeInSlot</Key>
+      <Value>Нет {LOCAL:Slot1} в слоте {LOCAL:Slot0} для удаления</Value>
+    </Record>
+    <Record>
+      <Key>HarvesterBusyDoing</Key>
+      <Value>В данный момент занят {0}</Value>
+    </Record>
+    <Record>
+      <Key>MicrowaveOpenFailure</Key>
+      <Value>Что-то мешает закрыться</Value>
+    </Record>
+    <Record>
+      <Key>MicrowaveAddUnitsOf</Key>
+      <Value>Добавьте &lt;color=green&gt;{0}&lt;/color&gt; единицы {1}</Value>
+    </Record>
+    <Record>
+      <Key>ComposterNotEnoughProcessItems</Key>
+      <Value>Недостаточно обработанных элементов...</Value>
+    </Record>
+    <Record>
+      <Key>ComposterItemsLeftToProcess</Key>
+      <Value>Элементов осталось обработать {0}</Value>
+    </Record>
+    <Record>
+      <Key>ComposterNotEnoughWater</Key>
+      <Value>Не хватает воды...</Value>
+    </Record>
+    <Record>
+      <Key>ComposterCurrentlyProcessing</Key>
+      <Value>В настоящее время обрабатывается...</Value>
+    </Record>
+    <Record>
+      <Key>ComposterCurrentlyNotProcessing</Key>
+      <Value>В настоящее время не обрабатывается...</Value>
+    </Record>
+    <Record>
+      <Key>Processing</Key>
+      <Value>Обработка</Value>
+    </Record>
+    <Record>
+      <Key>AccessCardUnableToInteract</Key>
+      <Value>Невозможно взаимодействовать, так как у вас нет необходимой {LOCAL:Access Card}</Value>
+    </Record>
+    <Record>
+      <Key>InteractionTemporarilyDisabledOnThisObject</Key>
+      <Value>Взаимодействие с этим объектом временно отключено</Value>
+    </Record>
+    <Record>
+      <Key>FertiliserClearFromSlot</Key>
+      <Value>Удерживайте &lt;color=yellow&gt;{0}&lt;/color&gt;, чтобы очистить {1}</Value>
+    </Record>
+    <Record>
+      <Key>RegentMixString</Key>
+      <Value>{0}</Value>
+    </Record>
+    <Record>
+      <Key>ActionRepairRobot</Key>
+      <Value>Ремонт</Value>
+    </Record>
+    <Record>
+      <Key>ActionPatchSolarPanels</Key>
+      <Value>Ремонт</Value>
+    </Record>
+    <Record>
+      <Key>DeviceNoPower</Key>
+      <Value>Невозможно взаимодействовать, так как устройство не запитано</Value>
+    </Record>
+    <Record>
+      <Key>DeviceNotOpen</Key>
+      <Value>Невозможно взаимодействовать, так как устройство в данный момент не открыто</Value>
+    </Record>
+    <Record>
+      <Key>DeviceIsOpen</Key>
+      <Value>Невозможно взаимодействовать, так как устройство в данный момент открыто</Value>
+    </Record>
+    <Record>
+      <Key>DeviceNotOn</Key>
+      <Value>Невозможно взаимодействовать, так как устройство не включено</Value>
+    </Record>
+    <Record>
+      <Key>DeviceCanNotAdd</Key>
+      <Value>&lt;color=red&gt;Вы не можете добавить это на устройство&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>DeviceCanNotAddWhileProcessing</Key>
+      <Value>&lt;color=red&gt;Невозможно добавить, пока устройство обрабатывает&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>DeviceNoUseAbleIngredients</Key>
+      <Value>&lt;color=red&gt;Здесь нет полезных ингредиентов, которые можно было бы добавить&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>DeviceLocked</Key>
+      <Value>Невозможно взаимодействовать, так как устройство в настоящее время заблокировано</Value>
+    </Record>
+    <Record>
+      <Key>DeviceBroken</Key>
+      <Value>Невозможно взаимодействовать, так как устройство полностью сломано</Value>
+    </Record>
+    <Record>
+      <Key>DeviceEmpty</Key>
+      <Value>Это необходимо для очистки устройства от всех реагентов</Value>
+    </Record>
+    <Record>
+      <Key>DeviceWillProduce</Key>
+      <Value>Будет производить {LOCAL:Device}</Value>
+    </Record>
+    <Record>
+      <Key>DeviceAddReagents</Key>
+      <Value>Добавьте &lt;color=green&gt;{LOCAL:Total}&lt;/color&gt; единиц {LOCAL:Thing}</Value>
+    </Record>
+    <Record>
+      <Key>DeviceNothingToClear</Key>
+      <Value>&lt;color=red&gt;В этом устройстве нечего очищать&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>DeviceOnlyCookedItems</Key>
+      <Value>&lt;color=red&gt;Это устройство принимает только приготовленные продукты и пустые банки.&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>DeviceNoFuel</Key>
+      <Value>В устройстве не осталось топлива</Value>
+    </Record>
+    <Record>
+      <Key>DeviceNotHotEnough</Key>
+      <Value>Устройство недостаточно горячее для работы</Value>
+    </Record>
+    <Record>
+      <Key>DevicePortableConnectionFailureUnknown</Key>
+      <Value>К этому можно подключить только неизвестный {LOCAL:Thing}</Value>
+    </Record>
+    <Record>
+      <Key>DevicePortableConnectionFailureGas</Key>
+      <Value>К этому можно подключить только газ. {LOCAL:Thing}</Value>
+    </Record>
+    <Record>
+      <Key>DevicePortableConnectionFailureGasLiquid</Key>
+      <Value>К этому можно подключить только жидкостный {LOCAL:Thing}</Value>
+    </Record>
+    <Record>
+      <Key>DeviceCannotDragCollision</Key>
+      <Value>Невозможно перетащить, это приведет к столкновению со структурами</Value>
+    </Record>
+    <Record>
+      <Key>DeviceManualInputWindow</Key>
+      <Value>Появится окно ручного ввода, чтобы вы могли ввести новую настройку.</Value>
+    </Record>
+    <Record>
+      <Key>DeviceNothingToChangeTo</Key>
+      <Value>Ничего внутри, чтобы изменить на</Value>
+    </Record>
+    <Record>
+      <Key>DeviceNothingSelectedToDispense</Key>
+      <Value>Ничего не выбрано для дозирования</Value>
+    </Record>
+    <Record>
+      <Key>DeepMinerSomethingInTheWay</Key>
+      <Value>Что-то мешает {LOCAL:Thing}</Value>
+    </Record>
+    <Record>
+      <Key>TorpedoTubeNothingLoadedInto</Key>
+      <Value>Ничего не загружено в {LOCAL:Slot}</Value>
+    </Record>
+    <Record>
+      <Key>TorpedoTubeNothingInThe</Key>
+      <Value>Ничего в {LOCAL:Slot}</Value>
+    </Record>
+    <Record>
+      <Key>TorpedoTubeCanNotWhileExteriorDoorIsClosed</Key>
+      <Value>Невозможно {LOCAL:Context}, пока закрыта наружная дверь</Value>
+    </Record>
+    <Record>
+      <Key>TorpedoTubeCurrentlyObscuring</Key>
+      <Value>{LOCAL:Slot0} в настоящее время закрывает {LOCAL:Slot1}</Value>
+    </Record>
+    <Record>
+      <Key>LogicNoDevice</Key>
+      <Value>&lt;color=red&gt;Нет устройства&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>LogicNoSetting</Key>
+      <Value>&lt;color=red&gt;Нет настройки&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>LogicNoSlot</Key>
+      <Value>&lt;color=red&gt;Нет ячейки&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>LogicNoAvailableSlots</Key>
+      <Value>&lt;color=red&gt;Нет доступных ячеек&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>LogicNoWritableDevices</Key>
+      <Value>Нет других доступных для записи устройств в сети</Value>
+    </Record>
+    <Record>
+      <Key>LogicNoAdditionalSettingsFor</Key>
+      <Value>&lt;color=red&gt;Никаких дополнительных настроек для&lt;/color&gt; {LOCAL:Thing}</Value>
+    </Record>
+    <Record>
+      <Key>LogicNoAdditionalSlotsFor</Key>
+      <Value>&lt;color=red&gt;Нет дополнительных ячеек для&lt;/color&gt; {LOCAL:Thing}</Value>
+    </Record>
+    <Record>
+      <Key>LogicNoReadableDevices</Key>
+      <Value>Нет устройств для чтения</Value>
+    </Record>
+    <Record>
+      <Key>LogicNoReadableTypes</Key>
+      <Value>Нет других читаемых типов в сети</Value>
+    </Record>
+    <Record>
+      <Key>LogicCurrentlySetTo</Key>
+      <Value>{LOCAL:Thing} в настоящее время имеет значение &lt;color=yellow&gt;Логический&lt;/color&gt; режим</Value>
+    </Record>
+    <Record>
+      <Key>AirLockIsCurrently</Key>
+      <Value>{LOCAL:Airlock} в настоящее время &lt;color=yellow&gt;{LOCAL:AirLockState}&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>RequiresScrewdriver</Key>
+      <Value>Требуется отвертка</Value>
+    </Record>
+    <Record>
+      <Key>RequiresScrewdriverOrLabeler</Key>
+      <Value>Для изменения настроек вам понадобится отвертка или маркировщик для изменения настроек.</Value>
+    </Record>
+    <Record>
+      <Key>NoAudioReceiverDevices</Key>
+      <Value>Нет аудиоустройств</Value>
+    </Record>
+    <Record>
+      <Key>ShaftNotOn</Key>
+      <Value>Невозможно взаимодействовать, так как текущий вал не включен</Value>
+    </Record>
+    <Record>
+      <Key>ToolDoesNotHaveAnythingInSlot</Key>
+      <Value>{LOCAL:Tool} ничего не имеет в слоте {LOCAL:Slot}.</Value>
+    </Record>
+    <Record>
+      <Key>ToolDoesNotHaveEnoughCharge</Key>
+      <Value>{LOCAL:Tool} недостаточно заряжен {LOCAL:Battery}.</Value>
+    </Record>
+    <Record>
+      <Key>ToolCanNotCompleteTask</Key>
+      <Value>{LOCAL:Tool} не может выполнить эту задачу.</Value>
+    </Record>
+    <Record>
+      <Key>ToolNotCurrentlyOperableForTask</Key>
+      <Value>{LOCAL:Tool} в настоящее время не работает для этой задачи</Value>
+    </Record>
+    <Record>
+      <Key>VolumeChangeDirection</Key>
+      <Value>Изменить направление</Value>
+    </Record>
+    <Record>
+      <Key>HoldForSmallIncrements</Key>
+      <Value>Удерживайте {KEY:QuantityModifier} для меньших приращений</Value>
+    </Record>
+    <Record>
+      <Key>UseLabelerToSet</Key>
+      <Value>Используйте &lt;color=yellow&gt;Маркировщик&lt;/color&gt; чтобы напрямую ввести значение</Value>
+    </Record>
+    <Record>
+      <Key>PlantSamplerNoSample</Key>
+      <Value>Нет заполненного образца для просмотра</Value>
+    </Record>
+    <Record>
+      <Key>PlantViewSampleInfo</Key>
+      <Value>&lt;color=green&gt;Щелкните ЛКМ&lt;/color&gt; для просмотра информации о заполненном образце</Value>
+    </Record>
+    <Record>
+      <Key>PlantHoldToClear</Key>
+      <Value>Удерживайте &lt;color=yellow&gt;{KEY:QuantityModifier}&lt;/color&gt;, чтобы убрать {LOCAL:Plant}</Value>
+    </Record>
+    <Record>
+      <Key>PlantNotGrowingMature</Key>
+      <Value>{LOCAL:Plant} &lt;color=red&gt;не растет&lt;/color&gt; и никогда не будет плодоносить</Value>
+    </Record>
+    <Record>
+      <Key>PlantBarelyGrowingMature</Key>
+      <Value>The {LOCAL:Plant} едва растет</Value>
+    </Record>
+    <Record>
+      <Key>PlantGrowingPoorlyMature</Key>
+      <Value>{LOCAL:Plant} плохо растет</Value>
+    </Record>
+    <Record>
+      <Key>PlantGrowingModeratelyMature</Key>
+      <Value>{LOCAL:Plant} растет умеренно хорошо</Value>
+    </Record>
+    <Record>
+      <Key>PlantThrivingMature</Key>
+      <Value>The {LOCAL:Plant} is thriving toward fruiting</Value>
+    </Record>
+    <Record>
+      <Key>PlantNotGrowingSeed</Key>
+      <Value>{LOCAL:Plant} &lt;color=red&gt;не растет&lt;/color&gt; и никогда не будет сеять</Value>
+    </Record>
+    <Record>
+      <Key>PlantBarelyGrowingSeed</Key>
+      <Value>{LOCAL:Plant} едва растет к посевному</Value>
+    </Record>
+    <Record>
+      <Key>PlantGrowingPoorlySeed</Key>
+      <Value>{LOCAL:Plant} плохо растет к посевному</Value>
+    </Record>
+    <Record>
+      <Key>PlantGrowingModeratelySeed</Key>
+      <Value>{LOCAL:Plant}растет умеренно хорошо к посеву</Value>
+    </Record>
+    <Record>
+      <Key>PlantThrivingSeed</Key>
+      <Value>{LOCAL:Plant}стремится к посевной</Value>
+    </Record>
+    <Record>
+      <Key>PlantNotEnoughLight</Key>
+      <Value>{LOCAL:Plant} &lt;color=red&gt;не получает нужное количество света в день&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>PlantAtmosphereTooHot</Key>
+      <Value>Для {LOCAL:Plant} &lt;color=red&gt;атмосфера слишком горячая&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>PlantAtmosphereTooCold</Key>
+      <Value>Для {LOCAL:Plant} &lt;color=red&gt;атмосфера слишком холодная&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>PlantWaterTooHot</Key>
+      <Value>Для {LOCAL:Plant} &lt;color=red&gt;цода слишком горячая&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>PlantWaterTooCold</Key>
+      <Value>Для {LOCAL:Plant} &lt;color=red&gt;вода очень холодная&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>PlantWaterNeeds</Key>
+      <Value>Для {LOCAL:Plant} &lt;color=red&gt;требуется вода&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>PlantNotCorrectAtmosphere</Key>
+      <Value>Для {LOCAL:Plant} &lt;color=red&gt;требуется правильный состав атмосферного газа&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>PlantIsPollutedByAir</Key>
+      <Value>{LOCAL:Plant} &lt;color=red&gt;загрязняется&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>PlantIsReceivingLight</Key>
+      <Value>{LOCAL:Plant} получает свет</Value>
+    </Record>
+    <Record>
+      <Key>PlantIsInDarkness</Key>
+      <Value>{LOCAL:Plant} &lt;color=red&gt;находится в темноте&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>PlantIsInLowPressureEnvironment</Key>
+      <Value>{LOCAL:Plant} &lt;color=red&gt;находится в среде низкого давления&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>PlantIsInHighPressureEnvironment</Key>
+      <Value>{LOCAL:Plant} &lt;color=red&gt;находится в среде высокого давления&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>PlantCreate</Key>
+      <Value>Это создаст &lt;color=yellow&gt;{LOCAL:Count}&lt;/color&gt; x {LOCAL:Plant}</Value>
+    </Record>
+    <Record>
+      <Key>PlantCreateSeeds</Key>
+      <Value>Это создаст &lt;color=yellow&gt;{LOCAL:Count}&lt;/color&gt; x {LOCAL:Plant} семян</Value>
+    </Record>
+    <Record>
+      <Key>OreNoMiningBelt</Key>
+      <Value>Нет шахтерского пояса для хранения руды</Value>
+    </Record>
+    <Record>
+      <Key>OreNoSlotInMiningBelt</Key>
+      <Value>Нет свободной ячейки в шахтерском поясе</Value>
+    </Record>
+    <Record>
+      <Key>ApcUnableToMoveLocked</Key>
+      <Value>Невозможно двигаться, так как устройство заблокировано</Value>
+    </Record>
+    <Record>
+      <Key>ApcUnableToMoveTool</Key>
+      <Value>Невозможно двигаться, так как инструмент не в рабочем состоянии</Value>
+    </Record>
+    <Record>
+      <Key>ElevatorUnableToForceOpenLocked</Key>
+      <Value>Не удалось открыть принудительно. {LOCAL:Elevator} заблокирован</Value>
+    </Record>
+    <Record>
+      <Key>ElevatorUnableToForceOpenPowered</Key>
+      <Value>Не удалось открыть принудительно. {LOCAL:Elevator} в настоящее время включен.</Value>
+    </Record>
+    <Record>
+      <Key>DoorUnableToForceOpenLocked</Key>
+      <Value>Невозможно открыть силой, дверные засовы заблокированы</Value>
+    </Record>
+    <Record>
+      <Key>DoorUnableToForceOpenPowered</Key>
+      <Value>Невозможно принудительно открыть, дверь в настоящее питаеся от сети</Value>
+    </Record>
+    <Record>
+      <Key>ActivateExplosive</Key>
+      <Value>Активирует секундный таймер {0}. Таймер нельзя отключить. Рекомендуется соблюдать осторожность.</Value>
+    </Record>
+    <Record>
+      <Key>RocketCanNotEnterCommand</Key>
+      <Value>Невозможно войти. Командный модуль заполнен</Value>
+    </Record>
+    <Record>
+      <Key>PlantStabilizerToggleModeToStabilize</Key>
+      <Value>Установить стабилизацию</Value>
+    </Record>
+    <Record>
+      <Key>PlantStabilizerToggleModeToDestabilize</Key>
+      <Value>Установить дестабилизировать</Value>
+    </Record>
+    <Record>
+      <Key>PlantStabilizerStabilizeMode</Key>
+      <Value>Стабилизировать</Value>
+    </Record>
+    <Record>
+      <Key>PlantStabilizerDestabilizeMode</Key>
+      <Value>Дестабилизировать</Value>
+    </Record>
+    <Record>
+      <Key>PlantStabilizerStabilizePlant</Key>
+      <Value>Стабилизировать все гены в {LOCAL:Plant}</Value>
+    </Record>
+    <Record>
+      <Key>PlantStabilizerDestabilizePlant</Key>
+      <Value>Дестабилизировать &lt;color=green&gt;{LOCAL:Gene}&lt;/color&gt; ген в {LOCAL:Plant}</Value>
+    </Record>
+    <Record>
+      <Key>PlantStabilizerStabilizingPlant</Key>
+      <Value>Стабилизация {LOCAL:Plant} &lt;color=yellow&gt;{LOCAL:Value}%&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>PlantStabilizerDestabilizingPlant</Key>
+      <Value>Дестабилизация {LOCAL:Plant} &lt;color=yellow&gt;{LOCAL:Value}%&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>PlantStabilizerStartStabilizing</Key>
+      <Value>Начать стабилизацию</Value>
+    </Record>
+    <Record>
+      <Key>PlantStabilizerStartDestabilizing</Key>
+      <Value>Начать дестабилизацию</Value>
+    </Record>
+    <Record>
+      <Key>PlantStabilizerNoPlantInSlot</Key>
+      <Value>Нет растения в ячейке</Value>
+    </Record>
+    <Record>
+      <Key>TraderLocked</Key>
+      <Value>Заблокировано</Value>
+    </Record>
+    <Record>
+      <Key>TraderTrade</Key>
+      <Value>Торговать</Value>
+    </Record>
+    <Record>
+      <Key>CommunicateWithShuttle</Key>
+      <Value>Связаться</Value>
+    </Record>
+    <Record>
+      <Key>ContactTradeNoLandingPad</Key>
+      <Value>Торговец не может приземлиться, так как нет активной посадочной площадки.</Value>
+    </Record>
+    <Record>
+      <Key>ContactTradePadOff</Key>
+      <Value>Торговец не может приземлиться, поскольку целевая посадочная площадка отключена.</Value>
+    </Record>
+    <Record>
+      <Key>ContactTradePadUnpowered</Key>
+      <Value>Торговец не может приземлиться, поскольку целевая посадочная площадка обесточена.</Value>
+    </Record>
+    <Record>
+      <Key>ContactTradeLandingObstructed</Key>
+      <Value>Торговец не может приземлиться, так как путь к целевой посадочной площадке перекрыт.</Value>
+    </Record>
+    <Record>
+      <Key>ContactTradeDepartingObstructed</Key>
+      <Value>Торговец не может улететь, так как путь перекрыт</Value>
+    </Record>
+    <Record>
+      <Key>ContactTradeLandingPadError</Key>
+      <Value>Торговец не может приземлиться, так как целевая посадочная площадка настроена неправильно</Value>
+    </Record>
+    <Record>
+      <Key>ContactTradeLandingPadToSmall</Key>
+      <Value>Торговец не может приземлиться, так как целевая посадочная площадка слишком мала</Value>
+    </Record>
+    <Record>
+      <Key>ArmControlIdle</Key>
+      <Value>Нейтралка</Value>
+    </Record>
+    <Record>
+      <Key>ArmControlPlant</Key>
+      <Value>Растение</Value>
+    </Record>
+    <Record>
+      <Key>ArmControlHarvest</Key>
+      <Value>Собрать</Value>
+    </Record>
+    <Record>
+      <Key>YouNeedAWrenchForOrientation</Key>
+      <Value>Вам нужен гаечный ключ, чтобы изменить положение</Value>
+    </Record>
+    <Record>
+      <Key>NotApplicableString</Key>
+      <Value>Н/Д</Value>
+    </Record>
+    <Record>
+      <Key>SlotFull</Key>
+      <Value>Слот занят </Value>
+    </Record>
+    <Record>
+      <Key>SplicerCurrentGene</Key>
+      <Value>Текущий ген: &lt;color=green&gt;{LOCAL:Gene}&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>SplicerNextGene</Key>
+      <Value>Изменить ген на: {LOCAL:Gene}</Value>
+    </Record>
+    <Record>
+      <Key>SplicerDeviceIsOpen</Key>
+      <Value>Закройте устройство перед началом сварки</Value>
+    </Record>
+    <Record>
+      <Key>SplicerNeedSourceAndTargetPlant</Key>
+      <Value>Нужны исходная и целевая установки одного типа для начала сплайсинга.</Value>
+    </Record>
+    <Record>
+      <Key>SplicerStartSplice</Key>
+      <Value>Начать сращивание</Value>
+    </Record>
+    <Record>
+      <Key>SplicerChangeGene</Key>
+      <Value>Изменить ген</Value>
+    </Record>
+    <Record>
+      <Key>SplicerPreviewSplice</Key>
+      <Value>Будет сращиваться &lt;color=green&gt;{LOCAL:Gene}&lt;/color&gt; из {LOCAL:SourcePlant} в {LOCAL:TargetPlant}</Value>
+    </Record>
+    <Record>
+      <Key>SplicerBusy</Key>
+      <Value>В настоящее время сращивание &lt;color=green&gt;{LOCAL:PercentComplete}%&lt;/color&gt; завершено</Value>
+    </Record>
+    <Record>
+      <Key>SplicerAddOneToSlot</Key>
+      <Value>Добавьте {LOCAL:Plant} в ячейку</Value>
+    </Record>
+    <Record>
+      <Key>GasMixture</Key>
+      <Value>Газовая смесь</Value>
+    </Record>
+    <Record>
+      <Key>ItemTransactionClientError</Key>
+      <Value>Транзакция элемента должна вызываться только на сервере</Value>
+    </Record>
+    <Record>
+      <Key>TransactionAtmosError</Key>
+      <Value>Атмосфера посадочной площадки не найдена</Value>
+    </Record>
+    <Record>
+      <Key>TransactionTradableError</Key>
+      <Value>[Ошибка сделки] Торговец породил что-то, что не является ITradable</Value>
+    </Record>
+    <Record>
+      <Key>TransactionFailRequired</Key>
+      <Value>Не удается завершить сделку. Вы пытаетесь продать больше, чем хочет торговец.</Value>
+    </Record>
+    <Record>
+      <Key>TransactionFailCreditCard</Key>
+      <Value>Не удается завершить сделку. Не найдена кредитная карта. Кредитная карта должна быть в руке или в ячейке для кредитной карты в вашей униформе.</Value>
+    </Record>
+    <Record>
+      <Key>TransactionFailInsufficientAvailable</Key>
+      <Value>Не удается завершить сделку. Вы пытаетесь продать больше, чем у вас есть.</Value>
+    </Record>
+    <Record>
+      <Key>TransactionErrorNonTradable</Key>
+      <Value>Неторгуемый предмет в инвентаре:</Value>
+    </Record>
+    <Record>
+      <Key>TransactionFailStorage</Key>
+      <Value>У вас недостаточно места для хранения, чтобы купить все предметы.</Value>
+    </Record>
+    <Record>
+      <Key>TransactionFailVendingMachine</Key>
+      <Value>Не удается завершить транзакцию. Торговый автомат не найден.</Value>
+    </Record>
+    <Record>
+      <Key>TransactionFailInsufficientStock</Key>
+      <Value>У трейдера недостаточно запасов для завершения этой сделки.</Value>
+    </Record>
+    <Record>
+      <Key>TransactionFailInsufficientFunds</Key>
+      <Value>У вас недостаточно денег, чтобы завершить эту сделку.</Value>
+    </Record>
+    <Record>
+      <Key>TransactionErrorTradableCast</Key>
+      <Value>Невозможно передать предмет для обмена на вещь</Value>
+    </Record>
+    <Record>
+      <Key>TradingToolTipNoInfo</Key>
+      <Value>Нет дополнительной информации</Value>
+    </Record>
+    <Record>
+      <Key>TradingToolTipNoRequirements</Key>
+      <Value>Нет дополнительных требований</Value>
+    </Record>
+    <Record>
+      <Key>DegreesCelcius</Key>
+      <Value>°C</Value>
+    </Record>
+    <Record>
+      <Key>DegreesKelvin</Key>
+      <Value>°K</Value>
+    </Record>
+    <Record>
+      <Key>Moles</Key>
+      <Value>Молей</Value>
+    </Record>
+    <Record>
+      <Key>Quantity</Key>
+      <Value>Количество</Value>
+    </Record>
+    <Record>
+      <Key>Gene</Key>
+      <Value>Ген</Value>
+    </Record>
+    <Record>
+      <Key>OperatorAny</Key>
+      <Value>Любой</Value>
+    </Record>
+    <Record>
+      <Key>OperatorNone</Key>
+      <Value>Никто</Value>
+    </Record>
+    <Record>
+      <Key>OperatorAll</Key>
+      <Value>Все</Value>
+    </Record>
+    <Record>
+      <Key>CompareLessThan</Key>
+      <Value>меньше, чемn</Value>
+    </Record>
+    <Record>
+      <Key>CompareEqualOrLess</Key>
+      <Value>меньше или равно</Value>
+    </Record>
+    <Record>
+      <Key>CompareEqual</Key>
+      <Value>равно</Value>
+    </Record>
+    <Record>
+      <Key>CompareEqualOrGreater</Key>
+      <Value>больше или равно</Value>
+    </Record>
+    <Record>
+      <Key>CompareGreater</Key>
+      <Value>больше чем</Value>
+    </Record>
+    <Record>
+      <Key>EnergyRatio</Key>
+      <Value>Коэффициент энергии</Value>
+    </Record>
+    <Record>
+      <Key>ChildItem</Key>
+      <Value>Имеет дочерний элемент</Value>
+    </Record>
+    <Record>
+      <Key>TemperatureBetween</Key>
+      <Value>Температура между</Value>
+    </Record>
+    <Record>
+      <Key>TradingWith</Key>
+      <Value>Торговля с</Value>
+    </Record>
+    <Record>
+      <Key>Buy</Key>
+      <Value>Покупать</Value>
+    </Record>
+    <Record>
+      <Key>Sell</Key>
+      <Value>Продавать</Value>
+    </Record>
+    <Record>
+      <Key>Available</Key>
+      <Value>Доступные</Value>
+    </Record>
+    <Record>
+      <Key>Wants</Key>
+      <Value>Желаемый</Value>
+    </Record>
+    <Record>
+      <Key>SoldOut</Key>
+      <Value>Распродан</Value>
+    </Record>
+    <Record>
+      <Key>StockFull</Key>
+      <Value>Запас полон</Value>
+    </Record>
+    <Record>
+      <Key>EnvironmentRequirementFail</Key>
+      <Value>Торговец не выйдет из шаттла, пока атмосфера не станет безопасной для дыхания..</Value>
+    </Record>
+    <Record>
+      <Key>CycleWaypointHeight</Key>
+      <Value>Высота цикла</Value>
+    </Record>
+    <Record>
+      <Key>CycleWaypoint</Key>
+      <Value>Цикл путевой точки</Value>
+    </Record>
+    <Record>
+      <Key>CurrentWaypoint</Key>
+      <Value>Следующая путевая точка: {LOCAL:NextWaypoint}</Value>
+    </Record>
+    <Record>
+      <Key>CurrentHeight</Key>
+      <Value>Текущая высота {LOCAL:Height}</Value>
+    </Record>
+  </GameStrings>
   <GameTip />
 </Language>
