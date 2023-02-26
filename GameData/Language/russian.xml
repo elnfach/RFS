@@ -7604,8 +7604,8 @@ When closed, has the heat transfer characteristics of a basic wall. Requires pow
     </RecordThing>
     <RecordThing>
       <Key>StructureChuteFlipFlopSplitter</Key>
-      <Value>Развлетлителем с резким поворотом</Value>
-      <Description>A chute that toggles between two outputs</Description>
+      <Value>Развлетлитель с резким поворотом</Value>
+      <Description>Желоб, который переключается между двумя выходами</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureChuteValve</Key>
