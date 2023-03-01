@@ -7718,7 +7718,7 @@ When closed, has the heat transfer characteristics of a basic wall. Requires pow
     </RecordThing>
     <RecordThing>
       <Key>Landingpad_DataConnectionPiece</Key>
-      <Value>Подключение для передачи данных</Value>
+      <Value>Энергоснабжение посадочной площадки</Value>
       <Description>Обеспечивает питание посадочной площадки. Порт данных должен быть подключен к порту данных компьютера с коммуникационной материнской платой, чтобы трейдер мог быть вызван на посадку.</Description>
     </RecordThing>
     <RecordThing>
