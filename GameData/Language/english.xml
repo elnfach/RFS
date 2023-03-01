@@ -7369,6 +7369,31 @@ To begin splicing, place a plant or seed bag in the left slot (source) and place
       <Value>Landingpad Taxi Straight</Value>
       <Description />
     </RecordThing>
+    <RecordThing>
+      <Key>Landingpad_TaxiPieceLeft</Key>
+      <Value>Landingpad Taxi Left</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>Landingpad_TaxiPieceRight</Key>
+      <Value>Landingpad Taxi Right</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitLandingPadBasic</Key>
+      <Value>Kit (Landing Pad Basic)</Value>
+      <Description>The basic pieces required to build a functional landing pad.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitLandingPadAtmos</Key>
+      <Value>Kit (Landing Pad Atmospherics)</Value>
+      <Description>Gas and liquid Input/output and storage pieces for the landing pad. These allow the trading of gasses and liquids.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitLandingPadWaypoint</Key>
+      <Value>Kit (Landing Pad Runway)</Value>
+      <Description>Pieces that allow control of the trader's approach to the landing pad and allow for the building of runways.</Description>
+    </RecordThing>
   </Things>
   <Slots>
     <Record>

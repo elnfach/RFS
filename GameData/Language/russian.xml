@@ -5127,12 +5127,12 @@ On - &lt;1 - выключить устройство, &gt;=1 - включить
     <RecordThing>
       <Key>StructureSDBSilo</Key>
       <Value>SDB Хранилище</Value>
-      <Description>The majestic silo holds large quantities of almost anything. While it is doing that, it cannot be deconstructed. Note also, that any food you put into a silo is likely to {LINK:DecayPage;decay} extremely rapidly. The silo can hold up to 600 stacks.</Description>
+      <Description>Величественный силос содержит большое количество практически всего. Пока это делает это, это не может быть деконструировано. Обратите внимание, что любая еда, которую вы вкладываете в силос, вероятно, будет очень быстро. Силос может удерживать до 600 стеков.</Description>
     </RecordThing>
     <RecordThing>
       <Key>KitSDBSilo</Key>
       <Value>SDB Хранилище</Value>
-      <Description>This kit creates a {THING:StructureSDBSilo}.</Description>
+      <Description>Этот набор содержит {THING:StructureSDBSilo}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureTankSmallInsulated</Key>
@@ -5889,8 +5889,8 @@ On - &lt;1 - выключить устройство, &gt;=1 - включить
     <RecordThing>
       <Key>Rover_MkI</Key>
       <Value>Планетоход MkI</Value>
-      <Description>A distant cousin of the jeep, the Mk I {{LINK:Sinotai;Sinotai} electric rover is one of the most simple and durable light vehicles in the known universe. Able to carry two passengers and cargo such as the {THING:DynamicGasCanisterAir} or {THING:Crate}, it is powered by up to three batteries, accepting everything including {THING:ItemBatteryCellNuclear}.
-A quad-array of hub-mounted electric engines propels the reinforced aluminium frame over most terrain and modest obstacles. While the Mk I is designed for stability in low-horizontality circumstances, if it rolls, try using your {THING:ItemCrowbar} to put it right way up.</Description>
+      <Description>Дальний родственник джипа, электрический планетоход Mk I {{LINK:Sinotai;Sinotai} — один из самых простых и надежных легких транспортных средств в известной вселенной. Способный перевозить двух пассажиров и груз, такой как {THING:DynamicGasCanisterAir} или {THING:Crate}, он питается от трех аккумуляторов и вмещает все, включая {THING:ItemBatteryCellNuclear}.
+Счетверённый ряд электродвигателей, установленных на ступицах, продвигает усиленную алюминиевую раму по большей части местности и небольшим препятствиям. Хотя Mk I разработан для устойчивости в условиях низкой горизонтальности, если он катится, попробуйте использовать {THING:ItemCrowbar}, чтобы поставить его правильно.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureSpawnPoint</Key>
@@ -5900,7 +5900,7 @@ A quad-array of hub-mounted electric engines propels the reinforced aluminium fr
     <RecordThing>
       <Key>RespawnPoint</Key>
       <Value>Место возрождения</Value>
-      <Description>Place a respawn point to set a player entry point to your base when loading in, or returning from the dead.</Description>
+      <Description>Разместите точку возрождения, чтобы установить точку входа игрока на вашу базу при загрузке или возвращении из мертвых...</Description>
     </RecordThing>
     <RecordThing>
       <Key>RespawnPointWallMounted</Key>
@@ -5919,22 +5919,22 @@ A quad-array of hub-mounted electric engines propels the reinforced aluminium fr
     </RecordThing>
     <RecordThing>
       <Key>Flag_ODA_10m</Key>
-      <Value>Флаг ODA 10m</Value>
+      <Value>Флаг ODA 10м</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>Flag_ODA_8m</Key>
-      <Value>Флаг ODA 8m</Value>
+      <Value>Флаг ODA 8м</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>Flag_ODA_6m</Key>
-      <Value>Флаг ODA 6m</Value>
+      <Value>Флаг ODA 6м</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>Flag_ODA_4m</Key>
-      <Value>Флаг ODA 4m</Value>
+      <Value>Флаг ODA 4м</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -5990,12 +5990,12 @@ A quad-array of hub-mounted electric engines propels the reinforced aluminium fr
     <RecordThing>
       <Key>StructureGrowLight</Key>
       <Value>Фитолампа</Value>
-      <Description>{LINK:Agrizero;Agrizero's} leading hydroponic lighting system, the GrowUp UV light supplements sunshine in low light or sun-distant conditions. The unit adds growability over the space of a grid, so requires proximate placement to work. </Description>
+      <Description>{LINK:Agrizero;Agrizero} ведущая система гидропонного освещения, УФ-свет дополняет солнечный свет в условиях слабого или далекого солнца. Блок добавляет возможность роста в пространстве сетки, поэтому для работы требуется близкое размещение.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitGrowLight</Key>
       <Value>Фитолампа</Value>
-      <Description>This kit produces an {LINK:Agrizero;Agrizero} {THING:StructureGrowLight}.</Description>
+      <Description>Этот набор содержит {LINK:Agrizero;Agrizero} {THING:StructureGrowLight}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureWeatherStation</Key>
@@ -6010,23 +6010,23 @@ A quad-array of hub-mounted electric engines propels the reinforced aluminium fr
     <RecordThing>
       <Key>ItemKitUprightWindTurbine</Key>
       <Value>Вертикальная ветряная турбина</Value>
-      <Description>This kit produces a {THING:StructureUprightWindTurbine}.</Description>
+      <Description>Этот набор содержит {THING:StructureUprightWindTurbine}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureUprightWindTurbine</Key>
       <Value>Вертикальная ветряная турбина</Value>
-      <Description>Norsec's basic wind turbine is an easily fabricated, rapidly deployed design that is strong enough to withstand the worst that environments can throw at it. 
-While the wind turbine is optimized to produce power even on low atmosphere worlds (up to 200W), it performs best in denser environments. Output varies with wind speed, and during storms, may increase dramatically (up to 800W), so be careful to design your power networks with that in mind.</Description>
+      <Description>Базовая ветряная турбина Norsec представляет собой легко изготавливаемую, быстро развертываемую конструкцию, которая достаточно прочна, чтобы выдерживать самые неблагоприятные условия окружающей среды.
+Хотя ветряная турбина оптимизирована для производства энергии даже в мирах с низким уровнем атмосферы (до 200 Вт), она лучше всего работает в более плотных средах. Выходная мощность зависит от скорости ветра, а во время штормов может резко увеличиться (до 800 Вт), поэтому будьте осторожны при проектировании своих сетей с учетом этого.</Description>
     </RecordThing>
     <RecordThing>
       <Key>CrateMkII</Key>
       <Value>Ящик Mk II</Value>
-      <Description>A more heavily reinforced version of the iconic {THING:DynamicCrate}, the Crate Mk II is resistant to incredibly high pressures and temperatures. Short of disposing of it in a black hole, the Mk II is about as safe as luggage gets.</Description>
+      <Description>Более усиленная версия культового {THING:DynamicCrate}, Crate Mk II устойчива к невероятно высоким давлениям и температурам. За исключением того, что его выбросили в черную дыру, Mk II настолько же безопасен, как и багаж..</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitCrateMkII</Key>
       <Value>Ящик Mk II</Value>
-      <Description>This kit produces a {THING:CrateMkII}.</Description>
+      <Description>Этот набор содержит {THING:CrateMkII}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemEmptyCan</Key>
@@ -6067,32 +6067,32 @@ While the wind turbine is optimized to produce power even on low atmosphere worl
     <RecordThing>
       <Key>ItemKitSolarPanelReinforced</Key>
       <Value>Усиленная солнечная панель</Value>
-      <Description>This kit produces heavy duty solar panels that are resistant to storm damage.</Description>
+      <Description>Этот набор содержит усиленные солнечные панели, устойчивые к штормовым повреждениям.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitSolarPanelBasicReinforced</Key>
       <Value>Базовая усиленная солнечная панель</Value>
-      <Description>This solar panel is resistant to storm damage.</Description>
+      <Description>Эта солнечная панель устойчива к штормовым повреждениям.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureSolarPanel45Reinforced</Key>
       <Value>Усиленная солнечная панель (Тип 2)</Value>
-      <Description>This solar panel is resistant to storm damage.</Description>
+      <Description>Эта солнечная панель устойчива к штормовым повреждениям.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureSolarPanelDualReinforced</Key>
       <Value>Усиленная солнечная панель (Тип 1)</Value>
-      <Description>This solar panel is resistant to storm damage.</Description>
+      <Description>Эта солнечная панель устойчива к штормовым повреждениям.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureSolarPanelFlatReinforced</Key>
       <Value>Усиленная солнечная панель (Тип 1)</Value>
-      <Description>This solar panel is resistant to storm damage.</Description>
+      <Description>Эта солнечная панель устойчива к штормовым повреждениям.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureSolarPanelReinforced</Key>
       <Value>Усиленная солнечная панель (Тип 2)</Value>
-      <Description>This solar panel is resistant to storm damage.</Description>
+      <Description>Эта солнечная панель устойчива к штормовым повреждениям.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemAstroloySheets</Key>
@@ -6102,13 +6102,13 @@ While the wind turbine is optimized to produce power even on low atmosphere worl
     <RecordThing>
       <Key>ItemMiningBeltAdvanced</Key>
       <Value>Улучшенный пояс шахтера</Value>
-      <Description>The Mk II mining belt is similar to the {THING:ItemMiningBelt}, but has 13 slots instead of the basic 8, to increase the length of your mining trips. It also has space for two tools.</Description>
+      <Description>Шахтерский пояс Mk II похож на {THING:ItemMiningBelt}, но имеет 13 слотов вместо базовых 8, чтобы увеличить продолжительность ваших майнинговых походов. В нем также есть место для двух инструментов.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureWindTurbine</Key>
       <Value>Ветрогенератор</Value>
-      <Description>The Stationeers wind turbine was first designed by Norsec atmospheric engineers, looking to create a wind-driven power generation system that would operate even on exceedingly low atmosphere worlds. The ultra-light blades respond to exceedingly low atmospheric densities, while being strong enough to function even under huge strain in much more demanding environments.
-While the wind turbine is optimized to produce power (up to 500W) even on low atmosphere worlds, it performs best in denser environments. Output varies with wind speed and, during storms, may increase dramatically (up to 10,000W), so be careful to design your power networks with that in mind.</Description>
+      <Description>Ветряная турбина Stationeers была впервые разработана инженерами-атмосферниками Norsec, стремившимися создать систему выработки энергии с помощью ветра, которая могла бы работать даже на мирах с чрезвычайно низким уровнем атмосферы. Сверхлегкие лопасти реагируют на чрезвычайно низкую плотность атмосферы, но при этом достаточно прочны, чтобы работать даже при огромных нагрузках в гораздо более сложных условиях.
+Хотя ветряная турбина оптимизирована для производства энергии (до 500 Вт) даже в мирах с низким уровнем атмосферы, она лучше всего работает в более плотных средах. Выходная мощность зависит от скорости ветра и во время штормов может резко возрастать (до 10 000 Вт), поэтому будьте осторожны при проектировании своих электрических сетей с учетом этого..</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitWindTurbine</Key>
@@ -6123,42 +6123,42 @@ While the wind turbine is optimized to produce power (up to 500W) even on low at
     <RecordThing>
       <Key>StructurePipeLiquidCrossJunction</Key>
       <Value>Труба (Тип 4)</Value>
-      <Description>It's all in the title - liquid pipes create pipe networks for the storage and transport of matter's second state: liquid.</Description>
+      <Description>Все дело в названии - жидкостные трубы создают трубопроводные сети для хранения и транспортировки второго состояния материи: жидкости.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructurePipeLiquidStraight</Key>
       <Value>Труба (Тип 1)</Value>
-      <Description>It's all in the title - liquid pipes create pipe networks for the storage and transport of matter's second state: liquid.</Description>
+      <Description>Все дело в названии - жидкостные трубы создают трубопроводные сети для хранения и транспортировки второго состояния материи: жидкости.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructurePipeLiquidCorner</Key>
       <Value>Труба (Тип 2)</Value>
-      <Description>It's all in the title - liquid pipes create pipe networks for the storage and transport of matter's second state: liquid.</Description>
+      <Description>Все дело в названии - жидкостные трубы создают трубопроводные сети для хранения и транспортировки второго состояния материи: жидкости.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructurePipeLiquidCrossJunction3</Key>
       <Value>Труба (Тип 7)</Value>
-      <Description>It's all in the title - liquid pipes create pipe networks for the storage and transport of matter's second state: liquid.</Description>
+      <Description>Все дело в названии - жидкостные трубы создают трубопроводные сети для хранения и транспортировки второго состояния материи: жидкости.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructurePipeLiquidCrossJunction4</Key>
       <Value>Труба (Тип 8)</Value>
-      <Description>It's all in the title - liquid pipes create pipe networks for the storage and transport of matter's second state: liquid.</Description>
+      <Description>Все дело в названии - жидкостные трубы создают трубопроводные сети для хранения и транспортировки второго состояния материи: жидкости.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructurePipeLiquidCrossJunction5</Key>
       <Value>Труба (Тип 5)</Value>
-      <Description>It's all in the title - liquid pipes create pipe networks for the storage and transport of matter's second state: liquid.</Description>
+      <Description>Все дело в названии - жидкостные трубы создают трубопроводные сети для хранения и транспортировки второго состояния материи: жидкости.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructurePipeLiquidCrossJunction6</Key>
       <Value>Труба (Тип 6)</Value>
-      <Description>It's all in the title - liquid pipes create pipe networks for the storage and transport of matter's second state: liquid.</Description>
+      <Description>Все дело в названии - жидкостные трубы создают трубопроводные сети для хранения и транспортировки второго состояния материи: жидкости.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructurePipeLiquidTJunction</Key>
       <Value>Труба (Тип 3)</Value>
-      <Description>It's all in the title - liquid pipes create pipe networks for the storage and transport of matter's second state: liquid.</Description>
+      <Description>Все дело в названии - жидкостные трубы создают трубопроводные сети для хранения и транспортировки второго состояния материи: жидкости.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageWindTurbine001</Key>
@@ -6316,22 +6316,22 @@ While the wind turbine is optimized to produce power (up to 500W) even on low at
     <RecordThing>
       <Key>ItemLiquidCanisterSmart</Key>
       <Value>Умный баллон</Value>
-      <Description />
+      <Description>Это умный баллон. Он отображает какое давление в нем на дисплей</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemMKIIScrewdriver</Key>
       <Value>Отвертка Mk II</Value>
-      <Description>This standard issue frictional adherence adjustor is a top of the line, bi-rotational model with a columnated uni-grip. It's definitely not just a screwdriver. Use it for construction and deconstruction of certain kits, and setting values on {LINK:LogicUnitPage;logic} units. The MK II is more resistant to temperature and pressure.</Description>
+      <Description>Этот стандартный регулятор сцепления с трением представляет собой первоклассную двувращательную модель с унитарной рукояткой в виде колонны. Это точно не просто отвертка. Используйте его для создания и разборки определенных комплектов и установки {LINK:LogicUnitPage;логических} значений в единицах. MK II более устойчив к температуре и давлению..</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemMKIIAngleGrinder</Key>
       <Value>Болгарка Mk II</Value>
-      <Description>Angles-be-gone with the trusty angle grinder. The MK II is more resistant to temperature and pressure.</Description>
+      <Description>Углы исчезнут с надежной угловой шлифовальной машиной. MK II более устойчив к температуре и давлению.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemMKIICrowbar</Key>
       <Value>Лом Mk II</Value>
-      <Description>{LINK:Recurso;Recurso's} entry-level crowbar is useful in a variety of everyday {LINK:Stationeers;Stationeer} settings, from opening {THING:StructureAreaPowerControl}s and unpowered {THING:StructureAirlock}s, to splatting pan-dimensional headcrabs, should the need arise. The MK II is more resistant to temperature and pressure.</Description>
+      <Description>Лом начального уровня {LINK:Recurso;Recurso} полезен в различных повседневных {LINK:Stationeers;Stationeer} настройках: от открывания {THING:StructureAreaPowerControl} и отключения {THING:StructureAirlock} до разбрызгивания многомерных хедкрабов. , если возникнет необходимость. MK II более устойчив к температуре и давлению.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemMKIIArcWelder</Key>
@@ -6341,28 +6341,30 @@ While the wind turbine is optimized to produce power (up to 500W) even on low at
     <RecordThing>
       <Key>ItemMKIIDrill</Key>
       <Value>Дрель Mk II</Value>
-      <Description>The {LINK:ExMin;ExMin} Off-whirled Hand Drill has been a companion to {LINK:Stationeers;Stationeers} for decades. Essential for assembling and deconstructing various items and structures, regardless of gravity, pressure or temperature.</Description>
+      <Description>Ручная дрель {LINK:ExMin;ExMin} без вращения была помощником {LINK:Stationeers;Stationeers} на протяжении десятилетий. Незаменима для сборки и разборки различных предметов и конструкций вне зависимости от гравитации, давления или температуры.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemMKIIMiningDrill</Key>
       <Value>Бур Mk II</Value>
-      <Description>The handheld 'Topo' tri-cone rotary mining drill was made for one thing: quick digging. Modeled on a classic {LINK:Recurso;Recurso} zero-g design, it functions equally well in vacuum and atmosphere, with cemented carbide bits to increase resilience and bearing life, and reduce spalling. As Jenk Murtons once said, 'The Topo don't stopo.' The MK II is more resistant to temperature and pressure.</Description>
+      <Description>Ручной трехконусный роторный бур для добычи полезных ископаемых Topo был создан для одной цели: быстрого копания. Созданный по образцу классической {LINK:Recurso;Recurso} конструкции с невесомостью, он одинаково хорошо работает в вакууме и в атмосфере, а его твердосплавные насадки повышают устойчивость и срок службы подшипников, а также уменьшают растрескивание. Как однажды сказал Дженк Мертонс: "Топо не останавливается". MK II более устойчив к температуре и давлению.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemMKIIWireCutters</Key>
       <Value>Кусачки Mk II</Value>
-      <Description>Wirecutters allow you to deconstruct various {LINK:StructurePage;structures}, as well as cross-lay cables when held in your non-active hand, and defuse explosives as needed. Wirecutters are stored in the {THING:ItemToolBelt}, along with other essential {LINK:ToolPage;tools}.</Description>
+      <Description>Кусачки позволяют вам деконструировать различные {Link: StructurePage; структуры}, а также межслойные кабели, когда удерживаются в вашей неактивной руке, и по мере необходимости обезврежьте взрывчатые вещества. Кусачки 
+хранятся в {THING: ItemToolBelt} вместе с другими основными {LINK:ToolPage;инструментами}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemMKIIWrench</Key>
       <Value>Гаечный ключ Mk II</Value>
-      <Description>One of humanity's enduring contributions to the cosmos, the wrench represents the essence of our species. A simple, effective and spiritually barren tool, use it to build and deconstruct a variety of {LINK:StructurePage;structures} The MK II is more resistant to temperature and pressure.</Description>
+      <Description>Один из непреходящих вкладов человечества в космос, гаечный ключ представляет сущность нашего вида. Простой, эффективный и духовно бесплодный инструмент, используйте его для создания и разрушения различных {LINK:StructurePage;конструкций}. MK II более устойчив к температуре и давлению.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemMKIIDuctTape</Key>
       <Value>Клейкая лента Mk II</Value>
-      <Description>In the distant past, one of Earth's great champions taught a generation of 'Fix-It People' that duct tape was the answer to any problem. {LINK:Stationeers;Stationeers} have demonstrated that this is truth holds strong, so long as the problem is a damaged {THING:ItemEvaSuit}, {THING:ItemJetpackBasic}, {THING:ItemSpaceHelmet}, or even a {THING:StructureSolarPanel}.
-To use on yourself: put duct tape in your active hand, hold RIGHT MOUSE BUTTON to automatically repair damage.</Description>
+      <Description>В отдаленном прошлом один из великих умов Земли научил поколение людей "Чинить" и лента стала ответом на любую проблему. {LINK:Stationeers;Stationeers} 
+продемонстрировали это на поврежденном {THING: ItemEvaSuit}, {THING: ItemJetpackBasic}, {THING: ItemSpaceHelmet} или даже на {THING: StructureSolarPanel}.
+Чтобы использовать на себе: положите клейкую ленту в свою активную руку, удерживайте правую кнопку мыши, чтобы отремонтировать.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitWaterBottleFiller</Key>
@@ -6588,7 +6590,7 @@ To use on yourself: put duct tape in your active hand, hold RIGHT MOUSE BUTTON t
     <RecordThing>
       <Key>ItemKitHeatExchanger</Key>
       <Value>Теплообменник</Value>
-      <Description>This kit creates a {THING:StructureHeatExchangeLiquidtoGas}, {THING:StructureHeatExchangerLiquidtoLiquid} and {THING:StructureHeatExchangerGastoGas}.</Description>
+      <Description>Этот набор содержит {THING:StructureHeatExchangeLiquidtoGas}, {THING:StructureHeatExchangerLiquidtoLiquid} and {THING:StructureHeatExchangerGastoGas}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureHeatExchangerLiquidtoLiquid</Key>
@@ -6830,28 +6832,25 @@ OmniKool также имеет встроенный {THING:StructureStacker}, п
     <RecordThing>
       <Key>Fertilizer</Key>
       <Value>Удобрение</Value>
-      <Description>Fertilizer alters plant growth processes, and is created by the basic composter and the {THING:StructureAdvancedComposter} using {LINK:OrganicPage;organic} matter.
-Fertilizer's affects depend on its ingredients:
+      <Description>Удобрение изменяет процессы роста растений и создается базовым компостером и {THING:StructureAdvancedComposter} с использованием {LINK:OrganicPage;органических} веществ.
+Воздействие удобрения зависит от его ингредиентов:
 
-- {LINK:OrganicPage;Food} increases PLANT YIELD up to two times
-- {THING:DecayedFood} increases plant GROWTH SPEED up to two times
-- {THING:ItemBiomass} increases the NUMBER OF GROWTH CYCLES the fertilizer lasts for
-
-The effect of these ingredients depends on their respective proportions in the composter when processing is activated. </Description>
+- {LINK:OrganicPage;Еда} увеличивает УРОЖАЙНОСТЬ РАСТЕНИЙ до двух раз
+- {THING:DecayedFood} увеличивает СКОРОСТЬ РОСТА растения до двух раз
+- {THING:ItemBiomass} увеличивает КОЛИЧЕСТВО ЦИКЛОВ РОСТА, в течение которых удобрение длится</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureAdvancedComposter</Key>
       <Value>Продвинутый компостер</Value>
-      <Description>The advanced composter creates {THING:Fertilizer} out of organic matter. It accepts {LINK:OrganicPage;food}, {THING:DecayedFood} or {THING:ItemBiomass}. It requires {GAS:Water} and power to operate, accelerating the natural composting process.
-When processing, it releases nitrogen and volatiles, as well a small amount of heat. 
+      <Description>Продвинутый компостер создает {THING: Fertilizer} из органического вещества. Он принимает {LINK: OrganicPage; еду}, {THING:DecayedFood} или {THING: ItemBiomass}. Требуется {GAS: Water} и энергию для работы, ускоряя естественный процесс компостирования.
+При обработке он выпускает азот и летучие вещества, а также небольшое количество тепла.
 
-{HEADER:Compost composition}
-Fertilizer is produced at a 1:3 ratio of fertilizer to ingredients. The fertilizer's effects on plants will vary depending on the respective proportions of its ingredients.
+{HEADER: Компост компоста}
+Удобрение производится при соотношении 1 к 3 удобрения к ингредиентам. Влияние удобрений на растения будет варьироваться в зависимости от соответствующих пропорций его ингредиентов.
 
-- {LINK:OrganicPage;Food} increases PLANT YIELD up to two times
-- {THING:DecayedFood} increases plant GROWTH SPEED up to two times
-- {THING:ItemBiomass} increases the NUMBER OF GROWTH CYCLES the fertilizer lasts for up to five times
-</Description>
+- {LINK: OrganicPage; Еда} увеличивает доходность растения до двух раз
+- {THING: DecayedFood} увеличивает скорость роста растений до двух раз
+- {THING: ItemBiomass} увеличивает количество циклов роста, которое длится удобрения до пяти раз</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitAdvancedComposter</Key>
@@ -6876,15 +6875,15 @@ Fertilizer is produced at a 1:3 ratio of fertilizer to ingredients. The fertiliz
     <RecordThing>
       <Key>PortableComposter</Key>
       <Value>Переносной компостер</Value>
-      <Description>A simple composting device, the basic composter creates {THING:Fertilizer} out of organic matter. It accepts {LINK:OrganicPage;food}, {THING:DecayedFood} or {THING:ItemBiomass}. It requires a full {THING:ItemLiquidCanisterEmpty} and a battery to operate, accelerating the natural composting process.
-When processing, it releases nitrogen and volatiles, as well a small amount of heat.
+      <Description>Простое устройство для компостирования, базовый компостер создает {THING:Fertilizer} из органических веществ. Он принимает {LINK:OrganicPage;еду}, {THING:DecayedFood} или {THING:ItemBiomass}. Для работы требуется полный {THING:ItemLiquidCanisterEmpty} и батарея, что ускоряет естественный процесс компостирования.
+При переработке выделяет азот и летучие вещества, а также небольшое количество тепла.
 
-{HEADER:Compost composition}
-Fertilizer is produced at a 1:3 ratio of fertilizer to ingredients. The fertilizer's effects on plants will vary depending on the respective proportions of its ingredients.
+{HEADER:Компост компоста}
+Удобрение производится при соотношении удобрения к ингредиентам 1 к 3. Воздействие удобрения на растения будет варьироваться в зависимости от соответствующих пропорций его ингредиентов.
 
-- {LINK:OrganicPage;food} increases PLANT YIELD up to two times
-- {THING:DecayedFood} increases plant GROWTH SPEED up to two times
-- {THING:ItemBiomass} increases the NUMBER OF GROWTH CYCLES the fertilizer lasts for</Description>
+- {LINK:OrganicPage;Еда} увеличивает УРОЖАЙНОСТЬ РАСТЕНИЙ до двух раз
+- {THING:DecayedFood} увеличивает СКОРОСТЬ РОСТА растения до двух раз
+- {THING:ItemBiomass} увеличивает КОЛИЧЕСТВО ЦИКЛОВ РОСТА, в течение которых длится удобрение</Description>
     </RecordThing>
     <RecordThing>
       <Key>AppliancePackagingMachine</Key>
@@ -7141,17 +7140,17 @@ Fertilizer is produced at a 1:3 ratio of fertilizer to ingredients. The fertiliz
     <RecordThing>
       <Key>ItemPipeHeater</Key>
       <Value>Нагреватель труб</Value>
-      <Description>Содержит {THING:StructurePipeHeater}.</Description>
+      <Description>Этот набор содержит {THING:StructurePipeHeater}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWaterPipeHeater</Key>
       <Value>Нагреватель труб</Value>
-      <Description>Содержит {THING:StructureLiquidPipeHeater}.</Description>
+      <Description>Этот набор содержит {THING:StructureLiquidPipeHeater}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemLiquidPipeHeater</Key>
       <Value>Нагреватель труб</Value>
-      <Description>Содержит {THING:StructureLiquidPipeHeater}.</Description>
+      <Description>Этот набор содержит {THING:StructureLiquidPipeHeater}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureLiquidPipeHeater</Key>
@@ -7166,7 +7165,7 @@ Fertilizer is produced at a 1:3 ratio of fertilizer to ingredients. The fertiliz
     <RecordThing>
       <Key>ItemKitTurboVolumePump</Key>
       <Value>Турбонасос</Value>
-      <Description>Creates a {THING:StructureTurboVolumePump}.</Description>
+      <Description>Этот набор содержит {THING:StructureTurboVolumePump}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureLiquidTurboVolumePump</Key>
@@ -7176,7 +7175,7 @@ Fertilizer is produced at a 1:3 ratio of fertilizer to ingredients. The fertiliz
     <RecordThing>
       <Key>ItemKitLiquidTurboVolumePump</Key>
       <Value>Турбонасос</Value>
-      <Description>Creates a {THING:StructureLiquidTurboVolumePump}.</Description>
+      <Description>Этот набор содержит {THING:StructureLiquidTurboVolumePump}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemMkIIToolbelt</Key>
@@ -7427,7 +7426,7 @@ When closed, has the heat transfer characteristics of a basic wall. Requires pow
     <RecordThing>
       <Key>ItemKitLargeExtendableRadiator</Key>
       <Value>Большой выдвижной радиатор</Value>
-      <Description>Creates {THING:StructureLargeExtendableRadiator}.</Description>
+      <Description>Этот набор содержит {THING:StructureLargeExtendableRadiator}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureLargeExtendableRadiator</Key>
@@ -7545,12 +7544,12 @@ When closed, has the heat transfer characteristics of a basic wall. Requires pow
     <RecordThing>
       <Key>ItemKitPipeRadiator</Key>
       <Value>Трубный радиатор</Value>
-      <Description>This kit creates a {THING:StructurePipeRadiatorFlat} и {THING:StructurePipeRadiator}.</Description>
+      <Description>Этот набор содержит {THING:StructurePipeRadiatorFlat} и {THING:StructurePipeRadiator}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitPipeRadiatorLiquid</Key>
       <Value>Радиатор жидкостной трубы</Value>
-      <Description>This kit creates a {THING:StructurePipeRadiatorFlatLiquid} и {THING:StructureLiquidPipeRadiator}.</Description>
+      <Description>Этот набор содержит {THING:StructurePipeRadiatorFlatLiquid} и {THING:StructureLiquidPipeRadiator}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureCryoTubeVertical</Key>
@@ -7605,7 +7604,7 @@ When closed, has the heat transfer characteristics of a basic wall. Requires pow
     <RecordThing>
       <Key>StructureChuteFlipFlopSplitter</Key>
       <Value>Развлетлитель с резким поворотом</Value>
-      <Description>Желоб, который переключается между двумя выходами</Description>
+      <Description>Транспортная труба, которая переключается между двумя выходами</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureChuteValve</Key>
@@ -7632,17 +7631,17 @@ When closed, has the heat transfer characteristics of a basic wall. Requires pow
     <RecordThing>
       <Key>StructureChuteDigitalValveLeft</Key>
       <Value>Заслонка слева</Value>
-      <Description>The Digital Chute Valve will stop the flow of materials when set to closed and when set to open, will act like a straight chute. The valve will automatically close after a certain number of items have passed through. This threshold can be set using the dial.</Description>
+      <Description>Цифровой клапан желоба останавливает поток материалов, когда он закрыт, а когда он открыт, он будет действовать как прямой желоб. Клапан автоматически закрывается после прохождения определенного количества предметов. Этот порог можно установить с помощью циферблата.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureChuteDigitalValveRight</Key>
-      <Value>Заслонка справо</Value>
-      <Description>The Digital Chute Valve will stop the flow of materials when set to closed and when set to open, will act like a straight chute. The valve will automatically close after a certain number of items have passed through. This threshold can be set using the dial.</Description>
+      <Value>Заслонка справа</Value>
+      <Description>Цифровой клапан желоба останавливает поток материалов, когда он закрыт, а когда он открыт, он будет действовать как прямой желоб. Клапан автоматически закрывается после прохождения определенного количества предметов. Этот порог можно установить с помощью циферблата.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureChuteDigitalFlipFlopSplitterLeft</Key>
       <Value>Разветвитель с резким поворотом влево</Value>
-      <Description>The digital flip flop will toggle between two outputs using a specified ratio (n:1). For example, setting the dial to 2 would allow two items to pass through the primary output before flipping to the secondary output.</Description>
+      <Description>Цифровой триггер будет переключаться между двумя выходами с заданным соотношением (n:1). Например, установка циферблата на 2 позволит двум элементам пройти через первичный выход, прежде чем переключиться на вторичный выход..</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureChuteDigitalFlipFlopSplitterRight</Key>
@@ -7704,22 +7703,22 @@ When closed, has the heat transfer characteristics of a basic wall. Requires pow
     </RecordThing>
     <RecordThing>
       <Key>Landingpad_StraightPiece01</Key>
-      <Value>Полоса посадочной площадки</Value>
+      <Value>Взлетно-посадочная полоса</Value>
       <Description>Увеличивает размер области приземления. Базовому торговому шаттлу требуется свободная посадочная площадка размером 3x3.</Description>
     </RecordThing>
     <RecordThing>
       <Key>Landingpad_DiagonalPiece01</Key>
-      <Value>Диагональная полоса посадочной площадки</Value>
+      <Value>Взлетно-посадочная полоса</Value>
       <Description>Увеличивает размер области приземления. Базовому торговому шаттлу требуется свободная посадочная площадка размером 3x3.</Description>
     </RecordThing>
     <RecordThing>
       <Key>Landingpad_CrossPiece</Key>
-      <Value>Крестовая полоса посадочной площадки</Value>
+      <Value>Взлетно-посадочная полоса</Value>
       <Description>Увеличивает размер области приземления. Базовому торговому шаттлу требуется свободная посадочная площадка размером 3x3.</Description>
     </RecordThing>
     <RecordThing>
       <Key>Landingpad_DataConnectionPiece</Key>
-      <Value>Посадочная площадка логики и питания</Value>
+      <Value>Энергоснабжение посадочной площадки</Value>
       <Description>Обеспечивает питание посадочной площадки. Порт данных должен быть подключен к порту данных компьютера с коммуникационной материнской платой, чтобы трейдер мог быть вызван на посадку.</Description>
     </RecordThing>
     <RecordThing>
@@ -7740,16 +7739,16 @@ When closed, has the heat transfer characteristics of a basic wall. Requires pow
     <RecordThing>
       <Key>Landingpad_GasCylinderTankPiece</Key>
       <Value>Хранилище с газом</Value>
-      <Description>Increases the volume of the landing pads gas storage capacity. This volume is used for buying and selling gas to traders.</Description>
+      <Description>Увеличивает объем газохранилища посадочных площадок. Этот объем используется для покупки и продажи газа трейдерам.</Description>
     </RecordThing>
     <RecordThing>
       <Key>Landingpad_GasConnectorOutwardPiece</Key>
-      <Value>Выход газа на посадочной площадке</Value>
+      <Value>Устройство выкачки газа</Value>
       <Description>Выкачивает купленный у торговца бензин с посадочной площадки. Вы можете увеличить вместимость хранилища газа на посадочной площадке, добавив больше {THING:Landingpad_GasCylinderTankPiece} на посадочную площадку.</Description>
     </RecordThing>
     <RecordThing>
       <Key>Landingpad_LiquidConnectorOutwardPiece</Key>
-      <Value>Выход жидкости на посадочной площадке</Value>
+      <Value>Устройство выкачки жидкости</Value>
       <Description>Выкачивает купленную у торговца жидкость с посадочной площадки. Вы можете увеличить емкость посадочной площадки для хранения жидкости, добавив больше {THING:Landingpad_GasCylinderTankPiece} на посадочную площадку.</Description>
     </RecordThing>
     <RecordThing>
@@ -7779,13 +7778,13 @@ When closed, has the heat transfer characteristics of a basic wall. Requires pow
     </RecordThing>
 	<RecordThing>
       <Key>Landingpad_GasConnectorInwardPiece</Key>
-	  <Value>Подача газа на посадочную площадку</Value>
-	  <Description />
+	  <Value>Устройство подачи газа</Value>
+	  <Description>Качает проданную торговцу газ на посадочную площадку. Вы можете увеличить емкость посадочной площадки для хранения жидкости, добавив больше {THING:Landingpad_GasCylinderTankPiece} на посадочную площадку</Description>
 	</RecordThing>
 	<RecordThing>
 	  <Key>Landingpad_LiquidConnectorInwardPiece</Key>
-	  <Value>Ввод жидкости на посадочную площадку</Value>
-	  <Description />
+	  <Value>Устройство подачи жидкости</Value>
+	  <Description>Качает проданную торговцу жидкость на посадочную площадку. Вы можете увеличить емкость посадочной площадки для хранения жидкости, добавив больше {THING:Landingpad_GasCylinderTankPiece} на посадочную площадку</Description>
 	</RecordThing>
 	<RecordThing>
 	  <Key>Landingpad_2x2CenterPiece01</Key>
@@ -7799,7 +7798,7 @@ When closed, has the heat transfer characteristics of a basic wall. Requires pow
 	</RecordThing>
 	<RecordThing>
       <Key>Landingpad_ThreshholdPiece</Key>
-      <Value>Предел посадочной площадки</Value>
+      <Value>Конец взлетно-посадочной полосы</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -7809,8 +7808,33 @@ When closed, has the heat transfer characteristics of a basic wall. Requires pow
     </RecordThing>
     <RecordThing>
       <Key>Landingpad_TaxiPieceStraight</Key>
-      <Value>Прямое такси на посадочной площадки</Value>
+      <Value>Взлетно-посадочная полоса для такси</Value>
       <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>Landingpad_TaxiPieceLeft</Key>
+      <Value>Взлетно-посадочная полоса для такси</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>Landingpad_TaxiPieceRight</Key>
+      <Value>Взлетно-посадочная полоса для такси</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitLandingPadBasic</Key>
+      <Value>Базовая посадочная площадка</Value>
+      <Description>Основные элементы, необходимые для создания функциональной посадочной площадки.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitLandingPadAtmos</Key>
+      <Value>Склад посадочной площадки</Value>
+      <Description>Газовый и жидкостный вход/вывод и предметы хранения для посадочной площадки. Это позволяет торговать газами и жидкостями.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitLandingPadWaypoint</Key>
+      <Value>Взлетно-посадочная площадка</Value>
+      <Description>Части, которые позволяют контролировать подход торговца к посадочной площадке и позволяют строить взлетно-посадочные полосы.</Description>
     </RecordThing>
   </Things>
   <Slots>
