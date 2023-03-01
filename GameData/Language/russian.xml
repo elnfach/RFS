@@ -7703,22 +7703,22 @@ When closed, has the heat transfer characteristics of a basic wall. Requires pow
     </RecordThing>
     <RecordThing>
       <Key>Landingpad_StraightPiece01</Key>
-      <Value>Полоса посадочной площадки</Value>
+      <Value>Взлетно-посадочная полоса</Value>
       <Description>Увеличивает размер области приземления. Базовому торговому шаттлу требуется свободная посадочная площадка размером 3x3.</Description>
     </RecordThing>
     <RecordThing>
       <Key>Landingpad_DiagonalPiece01</Key>
-      <Value>Диагональная полоса посадочной площадки</Value>
+      <Value>Взлетно-посадочная полоса</Value>
       <Description>Увеличивает размер области приземления. Базовому торговому шаттлу требуется свободная посадочная площадка размером 3x3.</Description>
     </RecordThing>
     <RecordThing>
       <Key>Landingpad_CrossPiece</Key>
-      <Value>Крестовая полоса посадочной площадки</Value>
+      <Value>Взлетно-посадочная полоса</Value>
       <Description>Увеличивает размер области приземления. Базовому торговому шаттлу требуется свободная посадочная площадка размером 3x3.</Description>
     </RecordThing>
     <RecordThing>
       <Key>Landingpad_DataConnectionPiece</Key>
-      <Value>Посадочная площадка логики и питания</Value>
+      <Value>Подключение для передачи данных</Value>
       <Description>Обеспечивает питание посадочной площадки. Порт данных должен быть подключен к порту данных компьютера с коммуникационной материнской платой, чтобы трейдер мог быть вызван на посадку.</Description>
     </RecordThing>
     <RecordThing>
@@ -7743,12 +7743,12 @@ When closed, has the heat transfer characteristics of a basic wall. Requires pow
     </RecordThing>
     <RecordThing>
       <Key>Landingpad_GasConnectorOutwardPiece</Key>
-      <Value>Выход газа на посадочной площадке</Value>
+      <Value>Устройство выкачки газа</Value>
       <Description>Выкачивает купленный у торговца бензин с посадочной площадки. Вы можете увеличить вместимость хранилища газа на посадочной площадке, добавив больше {THING:Landingpad_GasCylinderTankPiece} на посадочную площадку.</Description>
     </RecordThing>
     <RecordThing>
       <Key>Landingpad_LiquidConnectorOutwardPiece</Key>
-      <Value>Выход жидкости на посадочной площадке</Value>
+      <Value>Устройство выкачки жидкости</Value>
       <Description>Выкачивает купленную у торговца жидкость с посадочной площадки. Вы можете увеличить емкость посадочной площадки для хранения жидкости, добавив больше {THING:Landingpad_GasCylinderTankPiece} на посадочную площадку.</Description>
     </RecordThing>
     <RecordThing>
@@ -7778,13 +7778,13 @@ When closed, has the heat transfer characteristics of a basic wall. Requires pow
     </RecordThing>
 	<RecordThing>
       <Key>Landingpad_GasConnectorInwardPiece</Key>
-	  <Value>Подача газа на посадочную площадку</Value>
-	  <Description />
+	  <Value>Устройство подачи газа</Value>
+	  <Description>Качает проданную торговцу газ на посадочную площадку. Вы можете увеличить емкость посадочной площадки для хранения жидкости, добавив больше {THING:Landingpad_GasCylinderTankPiece} на посадочную площадку</Description>
 	</RecordThing>
 	<RecordThing>
 	  <Key>Landingpad_LiquidConnectorInwardPiece</Key>
-	  <Value>Ввод жидкости на посадочную площадку</Value>
-	  <Description />
+	  <Value>Устройство подачи жидкости</Value>
+	  <Description>Качает проданную торговцу жидкость на посадочную площадку. Вы можете увеличить емкость посадочной площадки для хранения жидкости, добавив больше {THING:Landingpad_GasCylinderTankPiece} на посадочную площадку</Description>
 	</RecordThing>
 	<RecordThing>
 	  <Key>Landingpad_2x2CenterPiece01</Key>
@@ -7798,7 +7798,7 @@ When closed, has the heat transfer characteristics of a basic wall. Requires pow
 	</RecordThing>
 	<RecordThing>
       <Key>Landingpad_ThreshholdPiece</Key>
-      <Value>Предел посадочной площадки</Value>
+      <Value>Конец взлетно-посадочной полосы</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -7808,17 +7808,17 @@ When closed, has the heat transfer characteristics of a basic wall. Requires pow
     </RecordThing>
     <RecordThing>
       <Key>Landingpad_TaxiPieceStraight</Key>
-      <Value>Прямое такси на посадочной площадки</Value>
+      <Value>Взлетно-посадочная полоса для такси</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>Landingpad_TaxiPieceLeft</Key>
-      <Value>Такси слева на посадочной площадке</Value>
+      <Value>Взлетно-посадочная полоса для такси</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>Landingpad_TaxiPieceRight</Key>
-      <Value>Такси справа на посадочной площадке</Value>
+      <Value>Взлетно-посадочная полоса для такси</Value>
       <Description />
     </RecordThing>
     <RecordThing>
